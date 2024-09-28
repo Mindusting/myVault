@@ -1,0 +1,11 @@
+{
+  "accentColor": "",
+  "baseFontSize": 16,
+  "theme": "obsidian",
+  "interfaceFontFamily": "Cascadia Mono,Noto Sans Mono,Consolas",
+  "textFontFamily": "Cascadia Mono,Noto Sans Mono,Consolas",
+  "monospaceFontFamily": "Cascadia Mono,Noto Sans Mono,Consolas",
+  "enabledCssSnippets": [
+    "mindusting_style"
+  ]
+}

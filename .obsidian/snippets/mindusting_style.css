@@ -1,0 +1,305 @@
+/*
+    autor: Mindusting
+    creation-date: 2024-08-04
+    modification-date: 2024-09-15
+*/
+
+:root {
+    --text-size: 16px;
+    --new-text-size: 15.2px;
+    
+    --grey: #888;
+    
+    --comment-color:   #7a4;
+    --variable-color:  #9cf;
+    --const-color:     #4cf;
+    --number-color:    #ad8;
+    --string-color:    #fa6;
+    --flow-word-color: #d8d;
+    --key-word-color:  #59f;
+    --function-color:  #ff7;
+    --class-color:     #4c9;
+
+    --dumbbell: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dumbbell"><path d="M14.4 14.4 9.6 9.6"/><path d="M18.657 21.485a2 2 0 1 1-2.829-2.828l-1.767 1.768a2 2 0 1 1-2.829-2.829l6.364-6.364a2 2 0 1 1 2.829 2.829l-1.768 1.767a2 2 0 1 1 2.828 2.829z"/><path d="m21.5 21.5-1.4-1.4"/><path d="M3.9 3.9 2.5 2.5"/><path d="M6.404 12.768a2 2 0 1 1-2.829-2.829l1.768-1.767a2 2 0 1 1-2.828-2.829l2.828-2.828a2 2 0 1 1 2.829 2.828l1.767-1.768a2 2 0 1 1 2.829 2.829z"/></svg>';
+/**
+    --h1-color: #fbb;
+    --h2-color: #feb;
+    --h3-color: #bfb;
+    --h4-color: #bef;
+    --h5-color: #bbf;
+    --h6-color: #ebf;
+/**/
+}
+
+.comment-color   {color: var(--comment-color);}
+.variable-color  {color: var(--variable-color);}
+.const-color     {color: var(--const-color);}
+.number-color    {color: var(--number-color);}
+.string-color    {color: var(--string-color);}
+.flow-word-color {color: var(--flow-word-color);}
+.key-word-color  {color: var(--key-word-color);}
+.function-color  {color: var(--function-color);}
+.class-color     {color: var(--class-color);}
+
+.italic {font-style:italic;}
+.transparency {opacity: 0.2;}
+.invisible {opacity: 0;}
+.grey {color: var(--grey);}
+
+
+/**********/
+/* HEADER */
+/**********/
+/*
+.cm-header-1 {color: var(--h1-color);}
+.cm-header-2 {color: var(--h2-color);}
+.cm-header-3 {color: var(--h3-color);}
+.cm-header-4 {color: var(--h4-color);}
+.cm-header-5 {color: var(--h5-color);}
+.cm-header-6 {color: var(--h6-color);}
+
+h1[data-heading="1"] {color: var(--h1-color);}
+h2[data-heading="2"] {color: var(--h2-color);}
+h3[data-heading="3"] {color: var(--h3-color);}
+h4[data-heading="4"] {color: var(--h4-color);}
+h5[data-heading="5"] {color: var(--h5-color);}
+h6[data-heading="6"] {color: var(--h6-color);}
+*/
+
+/**********/
+/* IMAGES */
+/**********/
+
+/* LOGO */
+
+div[alt*="#logo"] {
+    display: block;
+}
+
+div[class*="#logo"] {
+    display: block;
+}
+
+img[alt*="#logo"] {
+    image-rendering: pixelated;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5%;
+}
+
+img[class*="#logo"] {
+    image-rendering: pixelated;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5%;
+}
+
+
+/* CENTER */
+
+div[alt*="#center"] {
+    text-align: center;
+}
+
+div[class*="#center"] {
+    text-align: center;
+}
+
+
+/* LEFT */
+
+div[class*="#left"] {
+    text-align: left;
+}
+
+div[alt*="#left"] {
+    text-align: left;
+}
+
+
+/* RIGHT */
+
+div[alt*="#right"] {
+    text-align: right;
+}
+
+div[class*="#right"] {
+    text-align: right;
+}
+
+
+/* PIXEL */
+
+img[alt*="#pixel-art"] {
+    image-rendering: pixelated;
+}
+
+img[class*="#pixel-art"] {
+    image-rendering: pixelated;
+}
+
+
+/* FILL ALL */
+
+img[alt*="#fillall"] {
+    width: 100%;
+}
+
+img[class*="#fillall"] {
+    width: 100%;
+}
+
+/**************************/
+/* EXPLORADOR DE ARCHIVOS */
+/**************************/
+
+/* FOLDERS */
+
+.nav-folder .nav-folder-title-content:before {
+    content: "📂 ";
+}
+
+.nav-folder.is-collapsed .nav-folder-title-content:before {
+    content: "📁 ";
+}
+
+/* MARKDOWN */
+
+div[data-path$=".md"] > .nav-file-title-content::before {
+    content: "📝 ";
+}
+
+/* IMAGE */
+
+div[data-path$=".avif"] > .nav-file-title-content::before,
+div[data-path$=".bmp"]  > .nav-file-title-content::before,
+div[data-path$=".gif"]  > .nav-file-title-content::before,
+div[data-path$=".jpeg"] > .nav-file-title-content::before,
+div[data-path$=".jpg"]  > .nav-file-title-content::before,
+div[data-path$=".png"]  > .nav-file-title-content::before,
+div[data-path$=".svg"]  > .nav-file-title-content::before,
+div[data-path$=".webp"] > .nav-file-title-content::before {
+    content: "📷 ";
+}
+
+/* AUDIO */
+
+div[data-path$=".flac"] > .nav-file-title-content::before,
+div[data-path$=".m4a"]  > .nav-file-title-content::before,
+div[data-path$=".mp3"]  > .nav-file-title-content::before,
+div[data-path$=".ogg"]  > .nav-file-title-content::before,
+div[data-path$=".wav"]  > .nav-file-title-content::before,
+div[data-path$=".3gp"]  > .nav-file-title-content::before {
+    content: "🎧 ";
+}
+
+/* VIDEO */
+
+div[data-path$=".mkv"]  > .nav-file-title-content::before,
+div[data-path$=".mov"]  > .nav-file-title-content::before,
+div[data-path$=".mp4"]  > .nav-file-title-content::before,
+div[data-path$=".ogv"]  > .nav-file-title-content::before,
+div[data-path$=".webm"] > .nav-file-title-content::before {
+    content: "📼 ";
+}
+
+/* PDF */
+
+div[data-path$=".pdf"] > .nav-file-title-content::before {
+    content: "📕 ";
+}
+
+/* DEFAUL FILES */
+
+.nav-file-title-content::before {
+    content: "📄 ";
+}
+
+
+/***********/
+/* CALLOUT */
+/***********/
+
+.callout[data-callout="exercise"] {
+    --callout-color: 127, 127, 127;
+    --callout-icon: var(--dumbbell);
+}
+
+.callout[data-callout="idea"] {
+    --callout-color: 204, 204, 0;
+    --callout-icon: lightbulb;
+}
+
+
+/***************/
+/* CODE BLOCKS */
+/***************/
+
+.cm-s-obsidian .HyperMD-codeblock {
+    font-size: var(--new-text-size);
+}
+
+.markdown-preview-view code {
+    /*font-size: var(--new-text-size);*/
+    font-size: var(--text-size);
+}
+
+.markdown-rendered pre code {
+    /*font-size: var(--new-text-size);*/
+    font-size: var(--text-size);
+}
+
+.markdown-preview-view code {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.cm-s-obsidian .cm-inline-code.cm-formatting {
+    font-size: var(--new-text-size);
+    padding: 0px;
+    margin: 0px;
+}
+
+.cm-s-obsidian .cm-inline-code.cm-formatting ~ .cm-inline-code:not(.cm-formatting) {
+    font-size: var(--new-text-size);
+    padding: 0px;
+    margin: 0px;
+}
+
+/***********/
+/* MERMAID */
+/***********/
+
+/* Entity Relationship Diagrams */
+
+.attributeBoxOdd {
+    fill: none !important;
+}
+
+.attributeBoxEven {
+    fill: none !important;
+}
+
+/* Quadrant Chart*/
+
+.quadrant rect {
+    fill: none !important;
+}
+
+g[class="main"] g[class="border"] line {
+    stroke: rgb(128, 128, 128, 0.2) !important;
+}
+
+/* XY Chart */
+
+.main rect[class="background"] {
+    fill: none !important;
+}
+
+.main g[class="plot"] g[class="bar-plot-0"] rect {
+    fill: rgb(128, 128, 128, 0.2) !important;
+}
