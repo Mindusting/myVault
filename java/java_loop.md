@@ -6,10 +6,6 @@ tags:
 title: Bucles en Java
 ---
 
-<h1 align="center">BUBLES EN JAVA</h1>
-
----
-
 # BUCLES
 
 - [¿Qué son lo bucles en la programación?](../pc/pc_loop.md)

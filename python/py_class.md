@@ -6,18 +6,14 @@ tags:
 title: Clases y Ojetos en Python
 ---
 
-<h1 style="text-align:center;">CLASES EN PYTHON</h1>
+# CLASES Y OBJETOS
 
----
+> [!help] REFERENCIAS WEB
+> YouTube:
+> - [pildorasinformaticas (1)](https://youtu.be/5Ohme4A2Weg?list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS)
+> - [pildorasinformaticas (2)](https://youtu.be/2UNrSiKEI8w?list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS)
 
 [¿Qué son las clases y objetos en programación?](../pc/pc_class.md)
-
-# VÍDEOS
-
-- [Curso de Python. POO I. Vídeo 24](https://youtu.be/5Ohme4A2Weg?list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS)
-- [Curso de Python. POO II. Vídeo 25](https://youtu.be/2UNrSiKEI8w?list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS)
-
-# CLASES Y OBJETOS 📦
 
 Para crear una clase en Python se usa la palabra clave `class` siguiendo la siguiente sintaxis.
 

@@ -6,15 +6,11 @@ tags:
 title: Contar tankes
 ---
 
-<h1 style="text-align:center;">CONTAR TANQUES</h1>
-
----
-
-# VÍDEOS
-
-- [Numberphile](https://youtu.be/WLCwMRJBhuI)
-
 # CONTAR TANQUES
+
+> [!help] REFERENCIAS WEB
+> YouTube:
+> - [Numberphile](https://youtu.be/WLCwMRJBhuI)
 
 Este archivo explica una forma de aproximar cuántos elementos hay en una lista numerada conociendo únicamente unos pocos elementos de la lista.
 
@@ -28,11 +24,7 @@ Cuando obtenemos varios de estos objetos y revisamos sus números sabremos que p
 
 Como hemos visto en el ejemplo anterior el resultado que obtenemos tiene un margen de error de `30%`, ahora si usamos la siguiente fórmula podremos tener una aproximación más precisa, para ello necesitaremos dos datos, el identificador más grande que hayamos obtenido (*Siguiendo con el ejemplo este será `7`*) en forma de variable llamada `MAX` y el número de objetos identificados que hayamos obtenido (*Siguiendo con el ejemplo este serán `2`*) en forma de variable llamada `k` y aplicaremos la siguiente fórmula, donde `N` es la aproximación de objetos que hay en total:
 
-<br>
-
 $$N = MAX + \frac{MAX - k}{k}$$
-
-<br>
 
 También podemos transformar esta fórmula en una función (*En este caso en [Python](../python/py.md)*) para obtener la aproximación:
 
@@ -47,7 +39,7 @@ Aplicando esta fórmula a al ejemplo anterior obtenemos que el número aproximad
 
 ---
 
-Ahora veremos un ejemplo de cómo se puede usar esta fórmula en [py](../python/py.md), ten en cuenta que si ejecutas este ejemplo el número de tanques creado es `3000` mientras que el número de tanques a los que hemos podido acceder a sus identificadores son `10` por lo que vamos a deducir el número de tanques que hay en base al `0.33%` de los tanques, es muy poca información por lo que la aproximación puede ser distante, si quieres puedes probar a ir cambiando los valores para ver cómo de precisa es la aproximación en base a la cantidad de información que le otorgamos a la fórmula:
+Ahora veremos un ejemplo de cómo se puede usar esta fórmula en [python](../python/py.md), ten en cuenta que si ejecutas este ejemplo el número de tanques creado es `3000` mientras que el número de tanques a los que hemos podido acceder a sus identificadores son `10` por lo que vamos a deducir el número de tanques que hay en base al `0.33%` de los tanques, es muy poca información por lo que la aproximación puede ser distante, si quieres puedes probar a ir cambiando los valores para ver cómo de precisa es la aproximación en base a la cantidad de información que le otorgamos a la fórmula:
 
 
 ```py

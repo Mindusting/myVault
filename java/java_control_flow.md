@@ -6,10 +6,17 @@ tags:
 title: Control de flujo en Java
 ---
 
-<h1 align="center">CONTROL DE FLUJO EN JAVA</h1>
-
-![#logo de control de flujo]()
-
----
-
 # CONTROL DE FLUJO
+
+> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+
+## CONDICIONALES
+
+> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+
+![](java_operators.md#^comparison-operators-table)
+![](java_operators.md#^logical-operators-table)
+
+## SWITCH
+
+> [!fail] ESTE APARTADO ESTÁ INCOMPLETO

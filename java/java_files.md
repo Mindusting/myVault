@@ -6,12 +6,6 @@ tags:
 title: Archivos de Java
 ---
 
-<h1 align="center">ARCHIVOS DE JAVA</h1>
-
-![#logo](../img/file.png)
-
----
-
 # ARCHIVOS DE JAVA
 
 Los archivos de Java son en esencia archivos de texto, con extensión `.java`, estos tienen una convención a la hora de darles un nombre, este consiste en escribir el nombre con las palabras capitalizadas y sin separación, no pueden tener números no tildes (*únicamente letras*) ahora veremos unos ejemplos:

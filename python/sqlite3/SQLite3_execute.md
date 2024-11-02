@@ -58,7 +58,7 @@ cursor.close()
 connection.close()
 ```
 
-Como se puede ver en este ejemplo, antes de ejecutar la sentencia creamos una [tupla](../collections/Collections_tuple.md) (también se puede hacer con una [lista](../collections/py_list.md)), dentro de esta guardamos los datos (ordenados) que queremos insertar en la tabla, después de esto ejecutamos el [`INSERT`](../../sql/SQLite3/SQLite3_insert.md) con unos interrogantes, estos indican en donde van a ir los valores que se van a insertar a través del segundo argumento.
+Como se puede ver en este ejemplo, antes de ejecutar la sentencia creamos una [tupla](../collections/Collections_tuple.md) (también se puede hacer con una [lista](../py_list.md)), dentro de esta guardamos los datos (ordenados) que queremos insertar en la tabla, después de esto ejecutamos el [`INSERT`](../../sql/SQLite3/SQLite3_insert.md) con unos interrogantes, estos indican en donde van a ir los valores que se van a insertar a través del segundo argumento.
 
 # EJECUTA MÚLTIPLES SENTENCIAS EN UNA
 

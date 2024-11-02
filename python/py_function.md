@@ -134,7 +134,7 @@ def mi_proce(x):
 mi_proce(["Mindusting", 32, 3.141592, False])
 ```
 
-También existe la posibilidad de hacerlo de forma que en vez de una [tupla](collections/Collections_tuple.md) como es el caso del primer ejemplo anterior en el que se hacía uso del asterisco (`*`), se cree un [diccionario](collections/py_dict.md), para ello simplemente se debe escribir dos asteriscos (`*`).
+También existe la posibilidad de hacerlo de forma que en vez de una [tupla](collections/Collections_tuple.md) como es el caso del primer ejemplo anterior en el que se hacía uso del asterisco (`*`), se cree un [diccionario](py_dict.md), para ello simplemente se debe escribir dos asteriscos (`*`).
 
 ```py
 # Mi método

@@ -6,8 +6,10 @@ tags:
 title: Módulo Random en Python
 ---
 
-<h1 align="center">MÓDULO RANDOM IN PYTHON</h1>
+# RANDOM
 
----
+> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
 
-# RANDOM 🎲
+> [!help] REFERENCIAS WEB
+> - [Python doc (Random)](https://docs.python.org/es/3/library/random.html)
+> - [W3 (Random)](https://www.w3schools.com/python/module_random.asp)

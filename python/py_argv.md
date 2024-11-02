@@ -19,7 +19,7 @@ import sys
 print(sys.argv)
 ```
 
-En el ejemplo que se encuentra encima, se muestra como se importa el módulo `sys` y luego se imprime la [lista](collections/py_list.md) `argv`, siendo el elemento `0` el nombre del archivo que hemos ejecutado.
+En el ejemplo que se encuentra encima, se muestra como se importa el módulo `sys` y luego se imprime la [lista](py_list.md) `argv`, siendo el elemento `0` el nombre del archivo que hemos ejecutado.
 
 Un ejemplo simple del uso que se le puede dar sería la suma entre dos números:
 

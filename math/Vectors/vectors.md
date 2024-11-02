@@ -102,3 +102,7 @@ def point_to(
 ## TRANSFORMACIÓN
 
 ![dibujo_tranformacion_de_vectores](dibujo_tranformacion_de_vectores.md)
+
+## DOT PRODUCT
+
+`Ax*Bx + Ay*By`

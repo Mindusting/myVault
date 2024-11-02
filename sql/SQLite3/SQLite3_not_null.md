@@ -1,5 +1,5 @@
 ---
-autihor: Mindusting
+author: Mindusting
 corrected: false
 tags:
   - Programming/SQL

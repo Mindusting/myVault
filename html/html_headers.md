@@ -6,18 +6,10 @@ tags:
 title: Encabezados de HTML5
 ---
 
-<h1 style="text-align:center;">ENCABEZADOS</h1>
-
----
-
-# REFERENCIAS WEB
-
-- [W3](https://www.w3schools.com/tags/tag_hn.asp)
-
 # ENCABEZADOS
 
 > [!help] REFERENCIAS WEB
-> - [W3 (h1 ot h6 tag)](https://www.w3schools.com/tags/tag_hn.asp)
+> - [W3](https://www.w3schools.com/tags/tag_hn.asp)
 
 Los encabezados no son más que un texto con un formato distintivo para poder identificar donde comienza y terminan los apartados en nuestra página web.
 

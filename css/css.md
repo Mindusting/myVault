@@ -12,18 +12,76 @@ title: CSS3
 
 ---
 
-# VARIABLES
+%%
+# APUNTES
 
+CSS: Cascading StyleSheets.
+
+reglas
+selector estilo
+
+```css
+h1, h2, h3, h4, h5, h6 {} /* Todos los headers */
+#myId {} /* El que contenga ID */
+.myClass {} /* Los qu etengan class */
+h2.myClass {} /* Los h2 con esa class */
+p small {} /* Los small dentro del un p */
+```
+
+## UNIDADES
+
+Existen dos tipos:
+- Absolutas (*fijas*):
+    - `in`
+    - `cm`
+    - `mm`
+    - `pt`
+    - `px`
+- Relativas (*variables*):
+    - `%`
+    - `em`
+    - `rem`
+    - `ex`
+    - `vw` (*viewport width*)
+    - `vh` (*viewport height*)
+
+## COLORES
+
+RGB:
+`rgb(255, 0, 0)`
+`rgb(100%, 0%, 0%)`
+
+RGB (Con trasparencia):
+`rgba(255, 0, 0, 127)`
+`rgb(100%, 0%, 0%, 50%)`
+
+HSL:
+
+HSL (Con trasparencia):
+
+## FLEX BOX
+
+> [!help] REFERENCIAS WEB
+> - [W3 (flex-box)](https://www.w3schools.com/css/css3_flexbox.asp)
+%%
 
 # CSS3
 
 > [!help] REFERENCIAS WEB
 > - [Mozilla](https://developer.mozilla.org/es/docs/Web/CSS/Using_CSS_custom_properties)
+> - [W3](https://www.w3schools.com/css/)
 >
 > YouTube:
 > - [Web Dev Simplified](https://youtu.be/l1mER1bV0N0)
 
-- [BootsTrap](css_bootstrap.md)
+%%
+SINTAXIS
+
+\[selector] {\[property]:\[value];}
+%%
+
+> [!abstract] SINTAXIS
+> <span class="italic function-color">[selector]</span> <span class="function-color">{</span><span class="italic variable-color">[property]</span>:<span class="italic string-color">[value]</span>;<span class="function-color">}</span>
 
 %%
 Para aplicar variables globales se hace desde `:root`:

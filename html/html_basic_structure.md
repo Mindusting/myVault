@@ -6,11 +6,7 @@ tags:
 title: Estructura básica de HTML5
 ---
 
-<h1 align="center">ESTRUCTURA BÁSICA DE HTML</h1>
-
----
-
-# ESTRUCTURA BÁSICA DE HTML
+# ESTRUCTURA BÁSICA
 
 ## TIPO DE DOCUMENTO
 

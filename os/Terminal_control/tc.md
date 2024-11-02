@@ -11,6 +11,9 @@ title: Control del terminal
 [HOWTO](https://tldp.org/HOWTO/Bash-Prompt-HOWTO/index.html)
 [stack overflow](https://stackoverflow.com/questions/4842424/list-of-ansi-color-escape-sequences)
 
+> [!todo]
+> - [ ] [Chequear en enlace](https://fusesource.github.io/jansi/)
+
 # PÓLOGO
 
 > [!warning] WARNING
@@ -106,7 +109,9 @@ Para cambiar el color del fondo se usan los siguientes valores, son los mismos q
 > \033[103m
 > ```
 
-## [COLOR RGB](tc_rgb_color.md)
+## COLOR RGB
+
+![](tc_rgb_color.md)
 
 # CONTROL CURSOR
 

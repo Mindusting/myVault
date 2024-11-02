@@ -6,8 +6,6 @@ tags:
 title: Clases en Java
 ---
 
-<h1 align="center">CLASES EN JAVA</h1>
+# CLASES Y OBJETOS
 
----
-
-# CLASES Y OBJETOS 📦
+> [!fail] ESTE APARTADO ESTÁ INCOMPLETO

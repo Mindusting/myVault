@@ -58,3 +58,8 @@ title: Operadores en Java
 |   \|\|   |   OR   |
 |    !     |  NOT   |
 ^logical-operators-table
+
+| OPERADOR | NOMBRE |
+|:--------:|:------:|
+|    &     |  AND   |
+|    \|    |   OR   |

@@ -6,10 +6,6 @@ tags:
 title: C
 ---
 
-<h1 style="text-align:center;">PUNTEROS EN C</h1>
-
----
-
 # VÍDEOS
 
 - [Bro Code](https://youtu.be/DplxIq0mc_Y?list=PLZPZq0r_RZOOzY_vR4zJM32SqsSInGMwe)

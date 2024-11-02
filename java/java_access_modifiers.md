@@ -6,10 +6,6 @@ tags:
 title: Modificadores de acceso en Java
 ---
 
-<h1 align="center">MODIFICADORES DE ACCESO EN JAVA</h1>
-
----
-
 # MODIFICADORES DE ACCESO
 
 | MODIFICADOR   | CLASE | PAQUETE | SUBCLASES | MUNDO |

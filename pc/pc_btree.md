@@ -6,13 +6,13 @@ tags:
 title: Árbol binario en programación
 ---
 
+# B-TREE
+
 > [!fail] ESTE APARTADO ESTÁ INCOMPLETO
 
-# VÍDEO TUTORIALES
-
-[Spanning Tree](https://youtu.be/K1a2Bk8NrYQ)
-
-# B-TREE
+> [!help] REFERENCIAS WEB
+> YouTube:
+> - [Spanning Tree](https://youtu.be/K1a2Bk8NrYQ)
 
 Un árbol binario es similar a las [listas](pc_list.md) en el sentido de que sirven para guardar valores, pero su comportamiento cambia bastante.
 

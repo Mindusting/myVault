@@ -21,9 +21,6 @@ Si eres un nuevo programador esta es tu documentación.
 # ÍNDICE
 
 - [COMENTARIOS](pc_comment.md)
-
----
-
 - [VARIABLES](pc_variable.md)
     - [CONSTANTES](pc_constant.md)
 - [OPERADORES](pc_operator.md)
@@ -37,3 +34,4 @@ Si eres un nuevo programador esta es tu documentación.
 - [POINTERS](pc_pointer.md)
 - [FUNCIONES](pc_function.md)
 - [OBJETOS](pc_object.md)
+- [ESTRUCTURAS DE DATOS](pc_data_structures.md)

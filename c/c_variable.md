@@ -6,15 +6,11 @@ tags:
 title: Variables en C
 ---
 
-<h1 style="text-align:center;">VARIABLES EN C</h1>
-
----
-
-# VÍDEOS
-
-- [Bro Code](https://youtu.be/aIQk1O08zpg)
-
 # VARIABLES EN C
+
+> [!help] REFERENCIAS WEB
+> YouTube:
+> - [Bro Code](https://youtu.be/aIQk1O08zpg)
 
 [¿Qué son las variables en programación?](../pc/pc_variable.md)
 

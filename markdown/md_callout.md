@@ -6,9 +6,7 @@ tags:
 title: Anoraciones en Markdown
 ---
 
-<h1 style="text-align:center;">ANOTACIONES EN MARKDOWN</h1>
-
----
+# ANOTACIONES EN MARKDOWN
 
 [Documentación oficial](<https://help.obsidian.md/Editing+and+formatting/Callouts>)
 

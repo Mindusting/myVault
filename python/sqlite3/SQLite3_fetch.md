@@ -6,7 +6,7 @@ tags:
 title: Obtención de datos en Python con SQLite3
 ---
 
-Si alguna vez habéis ejecutado un [`SELECT`](../../sql/SQLite3/SQLite3_select.md) con el [módulo](../py_module.md) [SQLite3](../py_sqlite3.md) os habréis dado cuenta que no obtenéis los datos, esto es por que cuando ejecutamos un [`SELECT`](../../sql/SQLite3/SQLite3_select.md), el resultado que nos devuelve se guarda dentro del objeto [`cursor`](../py_sqlite3.md) en forma de [lista](../collections/py_list.md) con [tuplas](../collections/Collections_tuple.md) por cada registro devuelto.
+Si alguna vez habéis ejecutado un [`SELECT`](../../sql/SQLite3/SQLite3_select.md) con el [módulo](../py_module.md) [SQLite3](../py_sqlite3.md) os habréis dado cuenta que no obtenéis los datos, esto es por que cuando ejecutamos un [`SELECT`](../../sql/SQLite3/SQLite3_select.md), el resultado que nos devuelve se guarda dentro del objeto [`cursor`](../py_sqlite3.md) en forma de [lista](../py_list.md) con [tuplas](../collections/Collections_tuple.md) por cada registro devuelto.
 
 Para poder acceder a esta información se pueden usar tres [métodos](../py_module.md):
 
@@ -20,7 +20,7 @@ Para poder acceder a esta información se pueden usar tres [métodos](../py_modu
     Este devuelve el primer registro de la consulta.
 
 > [!warning] WARNING
-> Es importante saber que cuando consultamos información de esta [lista](../collections/py_list.md), todas las [tuplas](../collections/Collections_tuple.md) que recibamos se borrarán de la [lista](../collections/py_list.md), por lo que si por ejemplo usamos el [método](../classes/py_method.md) `fetchone` dos veces, en el segundo caso, nos devolverá el segundo registro.
+> Es importante saber que cuando consultamos información de esta [lista](../py_list.md), todas las [tuplas](../collections/Collections_tuple.md) que recibamos se borrarán de la [lista](../py_list.md), por lo que si por ejemplo usamos el [método](../classes/py_method.md) `fetchone` dos veces, en el segundo caso, nos devolverá el segundo registro.
 
 ```py
 import sqlite3

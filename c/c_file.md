@@ -6,10 +6,6 @@ tags:
 title: Archivos de C
 ---
 
-<h1 style="text-align:center;">Archivos de C</h1>
-
----
-
 # ARCHIVOS DE C
 
 Compilar nuestro programa permite ejecutarlo, por lo que hasta que no escribas nada en un archivo "`.c`" no le vas a poder dar mucha utilidad a este apartado, por lo que si quieres salta al apartado =="OUTPUT"== y cuando hayas seguido los ejemplos de ese apartado y quieras compilar el archivo, vuelves a este apartado.

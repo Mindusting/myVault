@@ -6,10 +6,6 @@ tags:
 title: Variables en Java
 ---
 
-<h1 align="center">VARIABLES EN JAVA</h1>
-
----
-
 # VAIRABLES
 
 Una variable permite almacenar información para poder usarla en el futuro, en Java, las variables tienen diferentes **tipos** estos dependerán del contenido que queramos guardar en ella.
@@ -50,7 +46,7 @@ https://youtu.be/xk4_1vDrzzo?t=7158
 | Less memory                  | More memory                  |
 | Fast                         | Slower                       |
 
-> [!faq] PREGUNTAS FRECUENTES
+> [!faq] FAQ
 > - [¿Qué diferencia hay entre `float` y `double`?](https://www.javatpoint.com/float-vs-double-java)
 
 ### PRIMITIVO

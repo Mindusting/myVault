@@ -6,10 +6,6 @@ tags:
 title: Clases en Java
 ---
 
-<h1 align="center">CLASE MATH EN JAVA</h1>
+# CLASE MATH
 
----
-
-# MATEMÁTICAS EN JAVA 🧮
-
-
+> [!fail] ESTE APARTADO ESTÁ INCOMPLETO

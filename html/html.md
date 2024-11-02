@@ -48,6 +48,7 @@ SINTAXIS
 - [TABLAS](html_table.md)
 - [LINKS](html_hyperlink.md)
 - [IMÁGENES](html_img.md)
+- [FORMULARIOS](html_form.md)
 
 > [!todo] TODO
 > - [ ] [MAP](https://www.w3schools.com/html/html_images_imagemap.asp)
@@ -63,10 +64,4 @@ SINTAXIS
 ```
 
 protocolo servidor ruta archivo
-
-# VÍDEO
-
-```
-
-```
 %%

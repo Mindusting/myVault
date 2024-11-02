@@ -6,10 +6,6 @@ tags:
 title: Números enteros en Python
 ---
 
-<h1 style="text-align:center;">NÚMEROS ENTEROS EN PYTHON</h1>
-
----
-
 # NÚMEROS ENTEROS EN PYTHON
 
 [¿Qué son los número enteros en programación?](../../pc/pc_variable.md#ENTEROS)

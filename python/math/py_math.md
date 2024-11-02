@@ -6,17 +6,10 @@ tags:
 title: Módulo Math en Python
 ---
 
-<h1 align="center">MÓDULO MATH IN PYTHON</h1>
+# MATH
 
----
-
-# REFERENCIAS WEB
-
-- [Python Math doc](https://docs.python.org/3/library/math.html)
-
-# MATH 🧮
-
-# MÓDULO MATH IN PYTHON
+> [!help] REFERENCIAS WEB
+> - [Python doc (math)](https://docs.python.org/3/library/math.html)
 
 ## FUNCIONES
 

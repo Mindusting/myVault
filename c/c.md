@@ -12,35 +12,20 @@ title: C
 
 ---
 
-# VÍDEO TUTORIALES
+> [!help] REFERENCIAS WEB
+> YouTube:
+> - [Bro Code](https://youtube.com/playlist?list=PLZPZq0r_RZOOzY_vR4zJM32SqsSInGMwe&si=pHjRGW8tcjLduB9E)
 
-- [Bro Code](https://youtube.com/playlist?list=PLZPZq0r_RZOOzY_vR4zJM32SqsSInGMwe&si=pHjRGW8tcjLduB9E)
-
-# EL LENGUAJE DE PROGRAMACIÓN C
-
-# ÍNDICE
+## ÍNDICE
 
 - [ARCHIVOS DE C](c_file.md)
 - [COMENTARIOS](c_comment.md)
-- [FUNCIÓN MAIN](c_main_func.md)
+- [ESTRUCTURA BÁSICA](c_basic_structure.md)
 - [VARIABLES](c_variable.md)
 - [ARRAYS](c_array.md)
 - [POINTERS](c_pointer.md)
 
-# IMPORTAR MÉTODOS DE ENTRADA Y SALIDA DE DATOS
-
-```c
-// STaDarInputOutput.Header
-#include <stdio.h>
-```
-
-# ARRAY
-
-```c
-char str[] = "Hola mundo!";
-```
-
-# USO DE VARIBLES Y FORMATERO DE STRING
+## USO DE VARIBLES Y FORMATERO DE STRING
 
 ```c
 #include <stdio.h>
@@ -61,7 +46,7 @@ int main()
 }
 ```
 
-# TIPOS DE VARIBLES
+## TIPOS DE VARIBLES
 
 Una variable puede ser `const`.
 
@@ -82,7 +67,7 @@ Los valores decimales son `float` (`%f`).
 
 Los valores decimales son `double` (`%lf`).
 
-# PRINT FORMAT
+### PRINT FORMAT
 
 - <https://youtu.be/iLZOL-hmr7M?list=PLZPZq0r_RZOOzY_vR4zJM32SqsSInGMwe>
 

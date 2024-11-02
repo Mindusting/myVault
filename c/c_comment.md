@@ -6,10 +6,6 @@ tags:
 title: Comentarios en C
 ---
 
-<h1 style="text-align:center;">COMENTARIOS EN C</h1>
-
----
-
 # COMENTARIOS EN C
 
 [¿Qué es un comentario en programación?](../pc/pc_comment.md)

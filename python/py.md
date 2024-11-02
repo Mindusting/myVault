@@ -14,12 +14,11 @@ title: Python
 
 ---
 
-# REFERENCIAS WEB
-
-- [Python doc](https://docs.python.org/es/3/)
-- [JavaTPoint - Python](https://www.javatpoint.com/python-tutorial)
-
 # PYTHON
+
+> [!help] REFERENCIAS WEB
+> - [Python doc](https://docs.python.org/es/3/)
+> - [JavaTPoint (Python)](https://www.javatpoint.com/python-tutorial)
 
 > [!tip] TIP
 > Si es la primera vez que programas, te recomiendo que compagines la lectura de esta documentación con la de [conceptos de la programación](../pc/pc.md) ya que ay ciertas cosas que se explican mucho más a fondo en esa documentación, ya que está orientada a ello, a diferencia de esta que está más orientada al aprendizaje de la sintaxis de Python.
@@ -42,13 +41,12 @@ title: Python
 - [CONTROL DE FLUJO 🚦](py_flow_control.md)
 - [BUCLES ➰](py_loop.md)
 - [FUNCIONES 📞](py_function.md)
+- [BREAKPOINT 🔴](py_breakpoint.md)
 - [CLASES 📦](py_class.md)
 - [EXCEPCIONES ⚠️](py_exception.md)
 - [MÓDULOS 🛄](py_module.md)
 - [ARCHIVOS EXTERNOS](py_file_manager.md)
 - [GUI 🖼](gui/py_gui.md)
-<br>
-- [BREAKPOINT 🔴](py_breakpoint.md)
 
 # MÓDULOS
 
@@ -62,8 +60,9 @@ title: Python
 - [RE](re/py_re.md)
 - [SYS](sys/py_sys.md)
     - [ARGV](py_argv.md)
+- [STRUCT](py_struct.md)
 - [TIME ⌛](time/py_time.md)
-- [JSON 🗃](json/py_json.md)
+- [JSON 🗃](py_json.md)
 - [NUMPY 🧮](numpy/py_numpy.md)
 - [EXCEL 🍫](openpyxl/py_openpyxl.md)
 - [PANDAS 📈](py_pandas.md)
@@ -71,8 +70,8 @@ title: Python
 - [PORTA PAPELES 📋](py_clipboard.md)
 - [PASSWORD 🔑](py_getpass.md)
 - [QR 🔗](py_qr.md)
-- [OPENSIMPLEX](opensimplex/py_opensimplex.md)
-- [PYAUTOGUI 🖱️](pyautogui/py_pyautogui.md)
+- [OPENSIMPLEX](py_opensimplex.md)
+- [PYAUTOGUI 🖱️](py_pyautogui.md)
 - [PYGAME 🕹️](pygame/py_pygame.md)
 
 # CLASES EXTRA

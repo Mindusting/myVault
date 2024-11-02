@@ -6,9 +6,12 @@ tags:
 title: Estructuras de datos en Python
 ---
 
+# ESTRUCTURAS DE DATOS
+
 >[!fail] ESTE APARTADO ESTÁ INCOMPLETO
 
-- [LISTAS](collections/py_list.md)
-- [TUPLAS](collections/Collections_tuple.md)
-- [SET](collections/py_set.md)
-- [DICCIONARIOS](collections/py_dict.md)
+Python tiene cuatro estructuras de datos por defecto:
+- [LISTAS](py_list.md)
+- [TUPLAS](py_tuple.md)
+- [SET](py_set.md)
+- [DICCIONARIOS](py_dict.md)
