@@ -109,7 +109,7 @@ print(cal_dis(3, 4))
 
 [\*Args and \*\*Kwargs in Python](https://youtu.be/4jBJhCaNrWU)
 
-Si quisiéramos que se pudiera poner en la llamada todos los valores que queramos, como argumento se puede poner un (\*\[nom. argumento\]), provocando que convierta todos los valores introducidos en la llamada en una [tupla](collections/Collections_tuple.md), en cualquier caso, también se puede poner un solo argumento y en la llamada indicar múltiples valores en forma de [collection](py_data_structure.md).
+Si quisiéramos que se pudiera poner en la llamada todos los valores que queramos, como argumento se puede poner un (\*\[nom. argumento\]), provocando que convierta todos los valores introducidos en la llamada en una [tupla](py_tuple.md), en cualquier caso, también se puede poner un solo argumento y en la llamada indicar múltiples valores en forma de [collection](py_data_structure.md).
 
 **Ej. 1:**
 ```py
@@ -134,7 +134,7 @@ def mi_proce(x):
 mi_proce(["Mindusting", 32, 3.141592, False])
 ```
 
-También existe la posibilidad de hacerlo de forma que en vez de una [tupla](collections/Collections_tuple.md) como es el caso del primer ejemplo anterior en el que se hacía uso del asterisco (`*`), se cree un [diccionario](py_dict.md), para ello simplemente se debe escribir dos asteriscos (`*`).
+También existe la posibilidad de hacerlo de forma que en vez de una [tupla](py_tuple.md) como es el caso del primer ejemplo anterior en el que se hacía uso del asterisco (`*`), se cree un [diccionario](py_dict.md), para ello simplemente se debe escribir dos asteriscos (`*`).
 
 ```py
 # Mi método

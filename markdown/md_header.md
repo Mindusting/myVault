@@ -6,9 +6,7 @@ tags:
 title: Encabezados en Markdown
 ---
 
-<h1 align="center">ENCABEZADOS EN MARKDOWN</h1>
-
----
+# ENCABEZADOS
 
 > [!help] REFERENCIAS WEB
 > - [Obsidian](<https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Headings>)

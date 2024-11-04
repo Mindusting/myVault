@@ -15,6 +15,7 @@ title: Java
 # JAVA
 
 > [!help] REFERENCIAS WEB
+> - [W3](https://www.w3schools.com/java/default.asp)
 > - [CODERANCH](https://coderanch.com/)
 > - [REFACTORING · GURU](https://refactoring.guru/es/design-patterns/java)
 > - [JAVATPOINT](https://www.javatpoint.com/java-tutorial)
@@ -46,6 +47,8 @@ title: Java
 - [MODIFICADORES DE ACCESO](java_access_modifiers.md)
 - [HILOS 🧵](java_threads.md)
 - [Hash-Hap 🗺️](java_hash_map.md)
+- [Hash-Set](java_hash_set.md)
+- [Función lambda](java_lambda.md)
 
 ## TODO
 > [!todo]

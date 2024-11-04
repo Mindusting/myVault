@@ -83,3 +83,4 @@ Si quieres más información o documentación más antigua hecha en google docum
 - [SVG](svg/SVG.md)
 - [XML](xml/xml.md)
 - [Expresiones regulares](regex/regex.md)
+- [Algoritmos para ordenar datos](sorting/sort.md)

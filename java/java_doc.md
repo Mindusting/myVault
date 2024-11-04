@@ -30,6 +30,7 @@ public class MyJavaDoc {
      * @param x This is the description of variable x.
      * @param y This is the description of variable y.
      * @return This is the description of the return.
+     * @author Mindusting
      */
     public static int add(int x, int y) {
         return x + y;
@@ -46,10 +47,10 @@ En este caso podemos ver como la [función](java_method.md) `add`, tiene su prop
 ## ETIQUETAS
 
 - `param`: Permite indicar la descripción de los parámetros de una función.
-- `return`: Permite indicar la descripción del return de la función.
+- `return`: Permite indicar la descripción del `return` de la función.
 - `throws`: Permite indicar la descripción de las excepciones que puede lanzar al función.
-- `deprecated`:
-- `author`: Permite indicar el autor de la función.
-- `see`:
+- `deprecated`: Se usa para indicar que el [método](java_method.md) va a ser borrado ene le futuro y por tanto se suele recomendar otro [método](java_method.md) como sustituto.
+- `author`: Permite indicar el autor de la función (*Se suele indicar al final*).
+- `see`: Se usa para hacer referencia a otros [métodos](java_method.md), funciona como un link.
 - Referencia a funciones:
 - Etiquetas [HTML](../HTML/html.md):

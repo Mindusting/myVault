@@ -35,3 +35,5 @@ Si eres un nuevo programador esta es tu documentación.
 - [FUNCIONES](pc_function.md)
 - [OBJETOS](pc_object.md)
 - [ESTRUCTURAS DE DATOS](pc_data_structures.md)
+    - [HASH-MAP](pc_hash_map.md)
+- [THREAD 🧵](pc_thread.md)

@@ -2,10 +2,10 @@
 author: Mindusting
 corrected: false
 tags:
-  - Programming/Java
-title: Java
+  - Programming/Sort
+title: Algoritmo bobble sort.
 ---
 
-# LAMBDA
+# BOBBLE SORT
 
 > [!fail] ESTE APARTADO ESTÁ INCOMPLETO

@@ -149,14 +149,14 @@ Dependiendo del número que queramos almacenar tendremos que usar un tipo u otro
 
 Dependiendo de la precisión que queramos tener tendremos que usar un tipo u otro, tendremos que tener en cuenta que cuanta más precisión queramos más espacio ocupará.
 
->[!warning]
->>[!fail] HAY QUE AÑADIR EL ENLACE AL APARTADO EN EL QUE SE EXPLICA CÓMO SE ALMACENA EL BINARIO DECIMAL
+> [!warning]
+> > [!fail] HAY QUE AÑADIR EL ENLACE AL APARTADO EN EL QUE SE EXPLICA CÓMO SE ALMACENA EL BINARIO DECIMAL
 >
->Los número decimales tienen un pequemos margen de error, el porqué de esto se explica más a fondo en la [documentación del funcionamiento del binario](), por lo que siempre recomiendo que a la hora de comparar dos número decimales y queremos saber si son iguales, deberemos redondear los decínales a una cifra que sea segura.
+> Los número decimales tienen un pequemos margen de error, el porqué de esto se explica más a fondo en la [documentación del funcionamiento del binario](), por lo que siempre recomiendo que a la hora de comparar dos número decimales y queremos saber si son iguales, deberemos redondear los decínales a una cifra que sea segura.
 
 ### SOLUCIONAR PROBLEMA DE PRECISIÓN
 
->[!fail] AÑADIR LINK A LOS OPERADORES
+> [!fail] AÑADIR LINK A LOS OPERADORES
 
 A la hora de comparar dos números decimales con los [operadores](), el margen de error nos puede pasar malas jugadas por lo qué recomiendo redondear los números antes de hacer la comparación, en el caso de ser de tipo `float` recomiendo redondear al decimal seis mientras que los `doubles` al quince.
 

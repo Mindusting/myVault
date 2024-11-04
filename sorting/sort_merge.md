@@ -2,10 +2,12 @@
 author: Mindusting
 corrected: false
 tags:
-  - Programming/Java
-title: Java
+  - Programming/Sort
+title: Algoritmo merge sort.
 ---
 
-# LAMBDA
+# MERGE SORT
 
 > [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+
+https://youtu.be/Uym4-KhP3Lc

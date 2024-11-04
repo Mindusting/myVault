@@ -61,11 +61,11 @@ print(*words, sep='-')
 ```
 
 > [!info] INFO
-> En este ejemplo se hace uso de las [tuplas](collections/Collections_tuple.md) y su desempaquetamiento.
+> En este ejemplo se hace uso de las [tuplas](py_tuple.md) y su desempaquetamiento.
 
 # FIN
 
-El atributo `end` (*`fin` e[](collections/Collections_tuple.md)l final de la impresión de los  que hayamos indicado en el argumento `values`, por defecto el valor es `'\n'` (*un salto de línea*), pero podemos cambiarlo al [`string`](variables/py_str.md) que queramos:
+El atributo `end` (*`fin` el final de la impresión de los  que hayamos indicado en el argumento `values`, por defecto el valor es `'\n'` (*un salto de línea*), pero podemos cambiarlo al [`string`](variables/py_str.md) que queramos:
 
 ```py
 print('Hola mundo!!!', end='')

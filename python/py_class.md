@@ -102,7 +102,7 @@ Una vez has aprendido lo básico sobre las clases y objetos, puedes empezar con 
 > print(isinstance(3.14, float))
 > ```
 >
-> Como se puede ver en este ejemplo, el primer argumento debe ser el objeto, mientras que el segundo debe ser la clase con la que queremos compararlo, también existe la posibilidad de pasar como segundo argumento una [tupla](collections/Collections_tuple.md) con las clases con las que queremos hacer la comparación:
+> Como se puede ver en este ejemplo, el primer argumento debe ser el objeto, mientras que el segundo debe ser la clase con la que queremos compararlo, también existe la posibilidad de pasar como segundo argumento una [tupla](py_tuple.md) con las clases con las que queremos hacer la comparación:
 >
 > ```py
 > print(isinstance(3.14, (int, str, bool)))

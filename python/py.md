@@ -56,10 +56,10 @@ title: Python
 
 - [MATH 🧮](math/py_math.md)
 - [RANDOM 🎲](random/py_random.md)
-- [OS](os/py_os.md)
+- [OS](py_os.md)
 - [RE](re/py_re.md)
 - [SYS](sys/py_sys.md)
-    - [ARGV](py_argv.md)
+- [PSTIL](py_psutil.md)
 - [STRUCT](py_struct.md)
 - [TIME ⌛](time/py_time.md)
 - [JSON 🗃](py_json.md)

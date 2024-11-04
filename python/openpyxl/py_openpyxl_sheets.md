@@ -248,7 +248,7 @@ Si abres el *EXCEL* podrás ver que entre el número `10` y el `20` hay `0` colu
 
 ## CELDAS
 
-Las celdas son los [objetos](../py_class.md) que guardan los valores del [excel](../../office/EXCEL/excel.md), para acceder a ello se hace de la siguiente forma:
+Las celdas son los [objetos](../py_class.md) que guardan los valores del *EXCEL*), para acceder a ello se hace de la siguiente forma:
 
 ```py
 from openpyxl import Workbook
@@ -274,7 +274,7 @@ wb.save("main.xlsx")
 wb.close()
 ```
 
-También se puede recibir una matriz hecha de [tuplas](../collections/Collections_tuple.md) con los [objetos](../py_class.md) de celda en cada elemento, para obtener los valores de cada celda he usado la [clase map](../py_map.md), he guardado los datos en una matriz de [py_numpy](../numpy/py_numpy.md) y he impreso los datos con [Pandas](../py_pandas.md).
+También se puede recibir una matriz hecha de [tuplas](py_tuple.md) con los [objetos](../py_class.md) de celda en cada elemento, para obtener los valores de cada celda he usado la [clase map](../py_map.md), he guardado los datos en una matriz de [py_numpy](../numpy/py_numpy.md) y he impreso los datos con [Pandas](../py_pandas.md).
 
 ```py
 from openpyxl import Workbook

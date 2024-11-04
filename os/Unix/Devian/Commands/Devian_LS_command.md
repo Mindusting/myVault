@@ -6,6 +6,5 @@ El comando `ls` (***LiSt***) permite listar el contenido de un directorio.
 >[!quote] PARAMETERS:
 >- `-a` o `--all`:
 >Muestra también los **archivos ocultos** en el `path` indicado.
-%%><br>%%
 >- `-A`:
 >Funciona de la fima forma que el parámetro `-a`, con la diferencia que este no muestra los archivos

@@ -6,13 +6,9 @@ tags:
 title: Clases en Java
 ---
 
-<h1 align="center">ARCHIVOS DE TEXTO EN JAVA</h1>
+# CONTROL DE ARCHIVOS DE TEXTO
 
-![#logo](../img/file_text.png)
-
----
-
-# CONTROL DE ARCHIVOS DE TEXTO 📄
+> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
 
 ## LECTURA DE ARCHIVOS
 

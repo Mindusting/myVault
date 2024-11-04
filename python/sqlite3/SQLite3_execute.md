@@ -58,7 +58,7 @@ cursor.close()
 connection.close()
 ```
 
-Como se puede ver en este ejemplo, antes de ejecutar la sentencia creamos una [tupla](../collections/Collections_tuple.md) (también se puede hacer con una [lista](../py_list.md)), dentro de esta guardamos los datos (ordenados) que queremos insertar en la tabla, después de esto ejecutamos el [`INSERT`](../../sql/SQLite3/SQLite3_insert.md) con unos interrogantes, estos indican en donde van a ir los valores que se van a insertar a través del segundo argumento.
+Como se puede ver en este ejemplo, antes de ejecutar la sentencia creamos una [tupla](py_tuple.md) (también se puede hacer con una [lista](../py_list.md)), dentro de esta guardamos los datos (ordenados) que queremos insertar en la tabla, después de esto ejecutamos el [`INSERT`](../../sql/SQLite3/SQLite3_insert.md) con unos interrogantes, estos indican en donde van a ir los valores que se van a insertar a través del segundo argumento.
 
 # EJECUTA MÚLTIPLES SENTENCIAS EN UNA
 
@@ -89,7 +89,7 @@ cursor.close()
 connection.close()
 ```
 
-El [`INSERT`](../../sql/SQLite3/SQLite3_insert.md) que se ve en el ejemplo se ejecutará tres veces ya que es el número de elementos que tiene la [tupla](../collections/Collections_tuple.md) `data`, este [método](../classes/py_method.md) sería el equivalente a hacer un [bucle for-each](../loops/py_for_each.md):
+El [`INSERT`](../../sql/SQLite3/SQLite3_insert.md) que se ve en el ejemplo se ejecutará tres veces ya que es el número de elementos que tiene la [tupla](py_tuple.md) `data`, este [método](../classes/py_method.md) sería el equivalente a hacer un [bucle for-each](../loops/py_for_each.md):
 
 ```py
 import sqlite3

@@ -63,7 +63,7 @@ print(int(num_in_bin, 2))
 
 # REPRESENTACIÓN EN FORMA DE FRACCIÓN
 
-Se puede convertir un número entero en una fracción representada con una [tupla](../collections/Collections_tuple.md), la cual contendrá el **dividendo** (`numerator`) y el **divisor** (`denominator`), para ello deberemos hacer uso de la función `as_integer_ratio`.
+Se puede convertir un número entero en una fracción representada con una [tupla](py_tuple.md), la cual contendrá el **dividendo** (`numerator`) y el **divisor** (`denominator`), para ello deberemos hacer uso de la función `as_integer_ratio`.
 
 ```py
 int_ratio: tuple = int.as_integer_ratio(3)
@@ -73,7 +73,7 @@ print(int_ratio)
 # (3, 1)
 ```
 
-En este ejemplo podemos ver cómo se obtiene la [tupla](../collections/Collections_tuple.md) con el **dividendo** (`numerator`) y **divisor** (`denominator`) del números entero.
+En este ejemplo podemos ver cómo se obtiene la [tupla](py_tuple.md) con el **dividendo** (`numerator`) y **divisor** (`denominator`) del números entero.
 
 En el caso de los número enteros, por sí solos, este método no tiene mucho sentido, es cuando se combina este método con el de los valores [float](py_float.md) cueando podemos darle un mejor uso.
 

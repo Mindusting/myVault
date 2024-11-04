@@ -6,10 +6,6 @@ tags:
 title: Mindusting
 ---
 
-<h1 align="center">MARK DOWN</h1>
-
----
-
 # MARK DOWN
 
 > [!help] REFERENCIAS WEB
@@ -27,7 +23,7 @@ En MarkDown existe al posibilidad de usar sintaxis de [HTML](../html/html.md).
 - [CITAS](md_quotes.md)
 - [ANOTACIONES](md_callout.md)
 - [ENLACES](md_link.md)
-- [PÁGINAS INCRUSTADAS](md_iframe.md)
+- [NOTAS INCRUSTADAS](md_iframe.md)
 - [TABLAS](md_table.md)
 - [CÓDIGO](md_code.md)
 - [CARACTERES ESPECIALES](md_special_characters.md)

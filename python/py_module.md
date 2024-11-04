@@ -6,15 +6,13 @@ tags:
 title: Módulos de Python
 ---
 
-# REFERENCIAS WEB
-
-- [W3](https://www.w3schools.com/python/python_modules.asp)
-
-# VÍDEO TUTORIALES
-
-- [pildorasinformaticas (modulos)](https://youtu.be/t93x-vnFvP4)
-
 # MODULES
+
+> [!help] REFERENCIAS WEB
+> - [W3 (modules)](https://www.w3schools.com/python/python_modules.asp)
+>
+> YouTube:
+> - [pildorasinformaticas (modulos)](https://youtu.be/t93x-vnFvP4)
 
 Un módulo podemos entenderlo como un archivo que contiene código, pero este no tiene por qué ejecutarse expresamente por sí solo, sino que puede ser usado como una utilidad para otro archivo, para poder entenderlo mejor, podemos ver el ejemplo del [módulo math](https://docs.python.org/3/library/math.html), el cual forma parte de Python, para poder hacer uso del [módulo math](https://docs.python.org/3/library/math.html) este debe ser importado a nuestro proyecto, para ello usaremos la palabra clave `import` seguida del módulo a importar.
 

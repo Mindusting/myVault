@@ -7,16 +7,13 @@ tags:
 title: Módulo JSON en Python
 ---
 
-<h1 style="text-align:center;">JSON</h1>
 
----
 
-# VÍDEOS
+# JSON
 
-- [Tech With Tim](https://www.youtube.com/@TechWithTim)
-    - [How To Use JSON In Python](https://youtu.be/-51jxlQaxyA)
-
-# IMPORTAR EL MÓDULO JSON
+> [!help] REFERENCIAS WEB
+> - [Tech With Tim](https://www.youtube.com/@TechWithTim)
+>     - [How To Use JSON In Python](https://youtu.be/-51jxlQaxyA)
 
 Para poder manejar archivos [json](../../json/json.md) en Python se hace uso del módulo `json`.
 
@@ -80,7 +77,7 @@ En el caso de indicar un [`int`](../variables/py_int.md), este indicará el núm
 
 ### SEPARADORES
 
-En el caso de que quieras comprimir al máximo el contenido de los archivos [json](../../json/json.md), existe al posibilidad de usar el parámetro `separators`, este contiene una [tupla](../collections/Collections_tuple.md) con dos separadores, por defecto son `(", ", ": ")`, si te fijas, hay un espacio después del la coma y los dos puntos, estos también ocupan espacio a la hora de guardar el contenido, para ahorrarnos esos espacios podemos cambiar el valor de este parámetro para quitarle los espacios.
+En el caso de que quieras comprimir al máximo el contenido de los archivos [json](../../json/json.md), existe al posibilidad de usar el parámetro `separators`, este contiene una [tupla](py_tuple.md) con dos separadores, por defecto son `(", ", ": ")`, si te fijas, hay un espacio después del la coma y los dos puntos, estos también ocupan espacio a la hora de guardar el contenido, para ahorrarnos esos espacios podemos cambiar el valor de este parámetro para quitarle los espacios.
 
 ```py
 data: dict = {

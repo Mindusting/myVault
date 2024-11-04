@@ -6,14 +6,6 @@ tags:
 title: Imágenes en HTML5
 ---
 
-<h1 style="text-align:center;">IMÁGENES EN HTML5</h1>
-
----
-
-# REFERENCIAS WEB
-
-- [W3](https://www.w3schools.com/html/html_images.asp)
-
 # IMÁGENES
 
 > [!help] REFERENCIAS WEB

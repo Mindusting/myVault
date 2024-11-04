@@ -6,10 +6,6 @@ tags:
 title: Etiqueta meta en HTML5
 ---
 
-<h1 align="center">ETIQUETA META EN HTML5</h1>
-
----
-
 # META
 
 La etiqueta `meta` permite implementar meta-datos a nuestra página web, veamos unos ejemplos:

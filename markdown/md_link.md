@@ -6,23 +6,19 @@ tags:
 title: Links en Markdown
 ---
 
-<h1 style="text-align:center;">LINKS EN MARKDOWN</h1>
+# ENLACES
 
----
-
-[Obsidian doc](<https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#External+links>)
+> [!help] REFERENCIAS WEB
+> - [Obsidian doc (link)](<https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#External+links>)
 
 Para asociar texto con un enlace este tiene que estar escrito entre corchetes y al final de estos tiene que haber unos paréntesis, dentro de estos paréntesis es donde se indicará el enlace del texto.
 
 > [!abstract] SINTAXIS
 > \[***\[text\]***\](***\[link\]***)
 
-> [!example] Ej. de texto linkado con la sintaxis de MD:
-> ```md
-> [Mindusting Drive](https://drive.google.com/drive/folders/1swnODIsjZXUugHT9RhZvriEoluiGSe8E)
-> ```
-> > [!quote] Así es como se ve:
-> > [Mindusting Drive](https://drive.google.com/drive/folders/1swnODIsjZXUugHT9RhZvriEoluiGSe8E)
+```md
+[Spider Dance](https://www.youtube.com/watch?v=O0kixUv-yjg)
+```
 
 > [!info] INFO
 > También se puede poner la ruta y nombre de un archivo, de esta forma, el link nos llevará al archivo en vez de a una página web.
@@ -34,10 +30,10 @@ La forma de hacer enlaces es abriendo dos corchetes, escribimos el link y cerram
 
 ## ENLACES INTERNOS
 
-> [!error] ESTE APARTADO ESTÁ SIN TERMINAR
-> - [ ] El ejemplo de este apartado no funciona.
+> [!error] ESTE APARTADO ESTÁ INCOMPLETO
 
-[Documentación oficial](<https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Internal+links>)
+> [!help] REFERENCIAS WEB
+> - [Obsidian doc](<https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Internal+links>)
 
 %%
 Los enlaces internos funcionan de la misma forma que los enlaces normales, con la diferencia, que estos se hacen a través de los [encabezados](md_header.md), esto se hace escribiendo entre los paréntesis el nombre del encabezado (*Poniendo por delante una almohadilla*).
