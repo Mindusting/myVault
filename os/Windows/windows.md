@@ -8,7 +8,7 @@ title: Windows
 
 <h1 style="text-align:center;">WINDOWS</h1>
 
-![#logo](Windows.png)
+![#logo](../../img/windows_logo.png)
 
 ---
 

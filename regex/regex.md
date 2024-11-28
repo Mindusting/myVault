@@ -7,10 +7,6 @@ tags:
 title: Regular Expression
 ---
 
-<h1 align="center">REGULAR EXPRESION</h1>
-
----
-
 # EXPRESIÓN REGULAR
 
 > [!help] REFERENCIAS WEB

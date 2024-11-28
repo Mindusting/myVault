@@ -25,7 +25,7 @@ Los árboles binarios tienen las siguientes características:
 
 ---
 
-```py
+```python
 from time import time
 
 def find(value, set_lits):

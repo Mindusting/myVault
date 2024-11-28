@@ -14,9 +14,9 @@ El termino **LIFO** viene del inglés (*Last In, Firs Out*), que significa, el �
 
 ![#center](pc_diagram_lifo.md)
 
-Este tipo de estructuras las podemos encontrar por ejemplo en [Python](../Python/py.md):
+Este tipo de estructuras las podemos encontrar por ejemplo en [Python](../py/py.md):
 
-```py
+```python
 numbers: list = list()
 
 numbers.append(3)
@@ -38,9 +38,9 @@ El término **FIFO** viene del inglés (*First In, First Out*), que significa, e
 
 ![#center](pc_diagram_fifo.md)
 
-Este tipo de estructuras las podemos encontrar por ejemplo en [Python](../Python/py.md):
+Este tipo de estructuras las podemos encontrar por ejemplo en [Python](../py/py.md):
 
-```py
+```python
 numbers: list = list()
 
 numbers.append(3)

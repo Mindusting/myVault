@@ -8,7 +8,7 @@ title: Mindusting
 
 <h1 style="text-align:center;color:#e9b;">MINDUSTING</h1>
 
-![#logo](mindusting.png)
+![#logo](img/mindusting.png)
 
 ---
 
@@ -40,19 +40,20 @@ Si quieres más información o documentación más antigua hecha en google docum
 
 ### DOCUMENTACIÓN
 
-- [MarkDown](markdown/md.md)
+- [MarkDown](md/md.md)
 - [Mermaid](mermaid/mermaid.md)
 - [VIM](vim/vim.md)
 
 ### PROGRAMACIÓN
 
 - [Conceptos de la programación](pc/pc.md)
-- [Binario](binary/bin.md)
-- [Python](python/py.md)
+- [GIT 🐈‍⬛](git/git.md)
+- [Binario](bin/bin.md)
+- [Python 🐍](py/py.md)
 - [C](c/c.md)
 - [C++](cpp/cpp.md)
 - [C#](cs/cs.md)
-- [Java](java/java.md)
+- [Java ☕](java/java.md)
 
 #### REFERENCIAS WEB
 
@@ -64,23 +65,25 @@ Si quieres más información o documentación más antigua hecha en google docum
 
 ### BASES DE DATOS
 
-- [SQL](sql/SQL.md)
+- [SQL 🛢](sql/sql.md)
 
 ### SISTEMAS OPERATIVOS
 
 - [OS](os/os.md)
-- [BASH](os/Unix/Bash_Script/BS.md)
+- [BASH](os/Unix/Bash_Script/bs.md)
 - [BATCH](os/Windows/BATCH/BATCH.md)
 
 ### COMUNICACIÓN
 
-- [Codigo Morse internacional](dump/Codigo_morse_internacional.md)
+- [Codigo Morse internacional](dump/codigo_morse_internacional.md)
 
 ### OTROS
 
 - [Matemáticas](math/math.md)
+- [Desarrollo de entornos](ed/ed.md)
 - [QR](qr/qr.md)
 - [SVG](svg/SVG.md)
 - [XML](xml/xml.md)
+- [YAML](dump/yaml.md)
 - [Expresiones regulares](regex/regex.md)
-- [Algoritmos para ordenar datos](sorting/sort.md)
+- [Algoritmos para ordenar datos](sort/sort.md)

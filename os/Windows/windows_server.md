@@ -8,7 +8,7 @@ title: Servidor Windows
 
 <h1 style="text-align:center;">WINDOWS SERVER</h1>
 
-![#logo](Windows.png)
+![#logo](../../img/windows_logo.png)
 
 ---
 

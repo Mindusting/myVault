@@ -8,7 +8,7 @@ title: C++
 
 <h1 style="text-align:center;color:#58f;">C++</h1>
 
-![#logo](cpp.png)
+![#logo](../img/cpp_logo.png)
 
 ---
 

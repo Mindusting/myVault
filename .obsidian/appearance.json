@@ -7,5 +7,6 @@
   "monospaceFontFamily": "Cascadia Mono,Noto Sans Mono,Consolas",
   "enabledCssSnippets": [
     "mindusting_style"
-  ]
+  ],
+  "cssTheme": ""
 }

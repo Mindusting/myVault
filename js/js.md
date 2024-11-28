@@ -8,7 +8,7 @@ title: Java Script
 
 <h1 style="text-align:center;color:#ff4;">Java Script</h1>
 
-![#logo](js.png)
+![#logo](../img/js_logo.png)
 
 ---
 

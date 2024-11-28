@@ -20,6 +20,7 @@ import java.io.IOException
 public class ReadFiles {
     public static void main(String[] args) {
         String fileName = "myTextFile.txt";
+        
         try {
             FileReader fr = new FileReader(fileName);
             BufferedReader br = new BufferedReader(fr);
@@ -28,13 +29,26 @@ public class ReadFiles {
                 System.out.println(fileLine);
                 fileLine = br.readLine();
             }
-            fr.close();
-            br.close();
         } catch (IOException ex) {
             System.out.printf(
                 "No se ha encontrado el archivo %s.\n",
                 fileName
             );
+        } final { // Siempre cierra.
+            try {
+                if (null != br) {
+                    br.close();
+                }
+            } catch (Exception es) {
+                // No importa.
+            }
+            try {
+                if (null != fr) {
+                    fr.close();
+                }
+            } catch (Exception es) {
+                // No importa.
+            }
         }
     }
 }

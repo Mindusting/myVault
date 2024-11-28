@@ -148,7 +148,7 @@ CREATE TABLE "notes" (
     "id" de la tabla "users".
     */
 
-    "id_user" INTEGER FROREIGN KEY REFERENCES "users"("id"),
+    "id_user" INTEGER FOREIGN KEY REFERENCES "users"("id"),
     "note" TEXT
 );
 ```
@@ -159,7 +159,7 @@ CREATE TABLE "notes" (
 
 ---
 
-Para crear una [tablas](../SQL_tables.md) básica en SQLite con la que podremos guardar datos de usuarios, podremos seguir el siguiente ejemplo.
+Para crear una [tablas](../sql_table.md) básica en SQLite con la que podremos guardar datos de usuarios, podremos seguir el siguiente ejemplo.
 
 ```sql
 CREATE TABLE "users" (
@@ -170,7 +170,7 @@ CREATE TABLE "users" (
 
 Como se puede ver en el ejemplo, esta tabla tendrá dos columnas (`id` y `first_name`), con sus respectivos [tipos de datos](SQLite3_data_types.md).
 
-Un cambio que podemos hacerle a este diseño de tabla sería hacer que el identificador del registro no se pueda repetir, sea [único](SQLite3_unique.md) y [clave primaria](../SQL_primary_key.md) auto [incremental](SQLite3_autoincrement.md), y ya de paso, que el nombre [no pueda ser `null`](SQLite3_not_null.md), ya que queremos que cada usuario tenga su propio nombre.
+Un cambio que podemos hacerle a este diseño de tabla sería hacer que el identificador del registro no se pueda repetir, sea [único](SQLite3_unique.md) y clave primaria auto [incremental](SQLite3_autoincrement.md), y ya de paso, que el nombre [no pueda ser `null`](SQLite3_not_null.md), ya que queremos que cada usuario tenga su propio nombre.
 
 ```sql
 CREATE TABLE "users" (

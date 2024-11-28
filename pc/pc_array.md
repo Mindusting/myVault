@@ -59,7 +59,7 @@ $$
 ^array-formula
 
 > [!example] Ejemplo
-> Imaginemos que tenemos un array de tipo `shor` (*dos [bytes](pc_byte.md)*), este sería un [`pointer`](pc_pointer.md) el cual por ejemplo puede tener la dirección `102`, si queremos acceder al tercer (*índice `2`*) elemento del array, tendríamos que seguir la [fórmula](#^array-formula) de antes, obteniendo así el resultado $106 = 102 + 2 * 2$, y ya que es de tipo `shor`, tendremos que leer los dos [bytes](pc_byte.md), empezando por el resultado de la [fórmula](#^array-formula).
+> Imaginemos que tenemos un array de tipo `short` (*dos [bytes](pc_byte.md)*), este sería un [`pointer`](pc_pointer.md) el cual por ejemplo puede tener la dirección `102`, si queremos acceder al tercer (*índice `2`*) elemento del array, tendríamos que seguir la [fórmula](#^array-formula) de antes, obteniendo así el resultado $106 = 102 + 2 * 2$, y ya que es de tipo `short`, tendremos que leer los dos [bytes](pc_byte.md), empezando por el resultado de la [fórmula](#^array-formula).
 > $$
 > \begin{bmatrix}
 > 100 & 101 & \begin{bmatrix}102\end{bmatrix} & 103 & 104 & 105 & \begin{bmatrix}106 & 107\end{bmatrix}
@@ -67,3 +67,14 @@ $$
 > $$
 
 Es debido a esta formula que los arrays tienen tienen una complejidad de tiempo [`O(1)`](pc_big_o.md), ya que da igual la longitud del array, la formula siempre será la misa y por tanto siempre se tardará lo mismo en calcularla.
+
+---
+
+> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+
+|  RAM   | 00  | 01  | 10  | 11  |
+|:------:|:---:|:---:|:---:|:---:|
+| **00** |  N  |  2  |  8  |  3  |
+| **01** |  F  |  D  |  E  |  C  |
+| **10** |  B  |  6  |  A  |  4  |
+| **11** |  7  |  5  |  9  |  1  |

@@ -8,7 +8,7 @@ title: C#
 
 <h1 style="text-align:center;color:#74f;">C#</h1>
 
-![#logo](cs.png)
+![#logo](../img/cs_logo.png)
 
 ---
 

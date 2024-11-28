@@ -1,0 +1,10 @@
+{
+  "items": [
+    {
+      "type": "search",
+      "ctime": 1727047059083,
+      "query": "/\\[.+\\]\\(\\)/",
+      "title": "Enlaces sin dirección"
+    }
+  ]
+}

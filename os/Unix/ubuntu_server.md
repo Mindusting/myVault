@@ -8,7 +8,7 @@ title: Servidor Ubuntu
 
 <h1 style="text-align:center;">UBUNTU SERVER</h1>
 
-![#logo](Ubuntu.png)
+![#logo](../../img/ubuntu_logo.png)
 
 ---
 

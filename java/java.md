@@ -8,7 +8,7 @@ title: Java
 
 <h1 align="center" style="color:#f81;">JAVA</h1>
 
-![#logo](Java.png)
+![#logo](../img/java_logo.png)
 
 ---
 
@@ -37,6 +37,7 @@ title: Java
 - [MÉTODOS 📞](java_method.md)
 - [CLASES 📦](java_class.md)
 - [JAVADOC 📙](java_doc.md)
+- [RECOLECTOR DE BASURA 🗑](java_garbage_collector.md)
 - [CLASE MATH](java_math.md)
 - [ARCHIVOS DE TEXTO](java_text_files.md)
 - [GUI 🖼](java_gui.md)
@@ -46,11 +47,13 @@ title: Java
 - [OPERADORES](java_operators.md)
 - [MODIFICADORES DE ACCESO](java_access_modifiers.md)
 - [HILOS 🧵](java_threads.md)
-- [Hash-Hap 🗺️](java_hash_map.md)
-- [Hash-Set](java_hash_set.md)
-- [Función lambda](java_lambda.md)
+- [HASH-HAP 🗺️](java_hash_map.md)
+- [HASH-SET](java_hash_set.md)
+- [FUNCIÓN LAMBDA](java_lambda.md)
+- [JSON](java_json.md)
 
 ## TODO
+
 > [!todo]
 > - [java ejecución dinámica de funciones](http://delphiaccess.com/foros/index.php/articulos/java/855-ejecutar-de-forma-din%C3%A1mica-un-m%C3%A9todo-de-un-objeto-dado)
 > - [Factory method](https://refactoring.guru/es/design-patterns/factory-method/java/example)

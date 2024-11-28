@@ -8,7 +8,7 @@ title: C
 
 <h1 style="text-align:center;color:#888;">EL LENGUAJE DE PROGRAMACIÓN C</h1>
 
-![#logo](c.png)
+![#logo](../img/c_logo.png)
 
 ---
 

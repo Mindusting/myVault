@@ -6,4 +6,4 @@ tags:
 title: Comandos de Linux
 ---
 
-[BS](Bash_Script/BS.md)
+[bs](Bash_Script/bs.md)

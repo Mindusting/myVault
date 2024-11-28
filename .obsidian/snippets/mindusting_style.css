@@ -58,12 +58,12 @@
 .cm-header-5 {color: var(--h5-color);}
 .cm-header-6 {color: var(--h6-color);}
 
-h1[data-heading="1"] {color: var(--h1-color);}
-h2[data-heading="2"] {color: var(--h2-color);}
-h3[data-heading="3"] {color: var(--h3-color);}
-h4[data-heading="4"] {color: var(--h4-color);}
-h5[data-heading="5"] {color: var(--h5-color);}
-h6[data-heading="6"] {color: var(--h6-color);}
+h1 {color: var(--h1-color);}
+h2 {color: var(--h2-color);}
+h3 {color: var(--h3-color);}
+h4 {color: var(--h4-color);}
+h5 {color: var(--h5-color);}
+h6 {color: var(--h6-color);}
 */
 
 /**********/
@@ -303,3 +303,4 @@ g[class="main"] g[class="border"] line {
 .main g[class="plot"] g[class="bar-plot-0"] rect {
     fill: rgb(128, 128, 128, 0.2) !important;
 }
+

@@ -6,14 +6,7 @@ tags:
 title: Convección de nombres en SQL
 ---
 
-<h1 style="text-align:center;">CONVECCIÓN DE NOMBRES</h1>
-
----
-
-%%
-> [!todo]
-> - [ ] Poner más ejemplos explicativos.
-%%
+# CONVECCIÓN DE NOMBRES
 
 La convección de nombres en SQL es escribir el nombre en minúsculas y en el caso de que esté compuesto, las palabras deben estar separadas por guion bajo (`_`).
 

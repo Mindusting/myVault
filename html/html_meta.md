@@ -41,14 +41,14 @@ Si queremos darle a nuestra página una descripción, podremos hacerlo de la sig
 
 ## PALABRAS CLAVE
 
-Añadir palabras clave a nuestra página web permite que las personas cuando busquen a trabes de internet información, su buscador priorizará las páginas con las etiquetas que más se adecuen a lo que está buscando, por tanto es importante hacer uso de esta herramienta, ahora, no es recomendable poner más de cinco palabras clave, ya que esto hace que la página se califique como de poca calidad, esto es debido a que si no la gente podría en sus páginas todas las etiquetas posibles para que aparezca su página siempre que busque sin importar lo que sea.
+Añadir **palabras clave** (*separadas por comas*) a nuestra página web permite que las personas cuando busquen a trabes de internet información, su buscador priorizará las páginas con las etiquetas que más se adecuen a lo que está buscando, por tanto es importante hacer uso de esta herramienta, ahora, no es recomendable poner más de cinco **palabras clave**, ya que esto hace que la página se califique como de poca calidad, esto es debido a que si no la gente podría en sus páginas todas las etiquetas posibles para que aparezca su página siempre que busque sin importar lo que sea.
 
 ```html
 <!DOCTYPE html>
 <html>
     <head>
         <meta name="keywords"
-            content="programación html"/>
+            content="programación, html"/>
     </head>
 </html>
 ```

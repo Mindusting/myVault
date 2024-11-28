@@ -20,7 +20,7 @@ title: Control del terminal
 > Si pretendes usar estos comando en Windows, primero debes ejecutar el comando `cls`, por alguna razón, después de esto sí funciona.
 > 
 > En el caso de Python, se puede ejecutar de la siguiente forma:
-> ```py
+> ```python
 > import os
 >
 > clear = lambda: os.system("cls" if "nt" == os.name else "clear")
@@ -181,7 +181,7 @@ Una vez hayamos guardado la posición del cursor, podros devolverlo a esa posici
 %%
 - <https://askubuntu.com/questions/831971/what-type-of-sequences-are-escape-sequences-starting-with-033>
 
-```py
+```python
 # Cambia el tamapo del terminal
 
 # Opción 1
@@ -432,7 +432,7 @@ Some terminals support local printing:
     46	Cyan
     47	White
 
-```py
+```python
 t_format = {
     # DEFAULT
     "df":            "\033[0m",

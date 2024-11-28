@@ -8,7 +8,7 @@ title: HTML5
 
 <h1 align="center" style="color:#f50;">HTML5</h1>
 
-![#logo](html.png)
+![#logo](../img/html_logo.png)
 
 ---
 
@@ -17,6 +17,10 @@ title: HTML5
 > [!help] REFERENCIAS WEB
 > - [Mocilla](https://developer.mozilla.org/en-US/docs/Web/HTML)
 > - [W3](https://www.w3schools.com/html/default.asp)
+>
+> YouTube:
+> - [Bro Code (HTML)](https://www.youtube.com/playlist?list=PLZPZq0r_RZOPoNttk9beDhO_Bu5DA-xwP)
+> - [Bro Code (HTML & CSS)](https://www.youtube.com/playlist?list=PLZPZq0r_RZOOxqHgOzPyCzIl4AJjXbCYt)
 
 HTML viene de `HyperText Markup Language` esto significa que es un lenguaje de "[marcas](https://www.w3schools.com/tags/)" (Ahora veremos a que se refiere con esto), el cual es interpretado por los buscadores de internet para dar formato al contenido de la página web que queremos visualizar.
 

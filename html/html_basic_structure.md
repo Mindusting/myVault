@@ -106,4 +106,4 @@ La etiqueta `body` permite indicar que queremos que se muestre en nuestra págin
 </html>
 ```
 
-En este caso he puesto como ejemplo un simple texto (*Aun que para añadir textos no es así como se debería hacer, si no con un [párrafo](html_text_format.md)*), pero también podremos poner por ejemplo [títulos](html_headers.md), [imágenes](html_img.md), [vídeos](html_videos.md) y [tablas](html_tables.md) entre otras cosas.
+En este caso he puesto como ejemplo un simple texto (*Aun que para añadir textos no es así como se debería hacer, si no con un [párrafo](html_text_format.md)*), pero también podremos poner por ejemplo [títulos](html_headers.md), [imágenes](html_img.md), [vídeos](html_videos.md) y [tablas](html_table.md) entre otras cosas.

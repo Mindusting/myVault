@@ -6,11 +6,9 @@ tags:
 title: Conceptos de la programación
 ---
 
-<h1 style="text-align:center;">CONCEPTOS DE LA PROGRAMACIÓN</h1>
+# CONCEPTOS DE LA PROGRAMACIÓN
 
----
-
-# PRÓLOGO
+## PRÓLOGO
 
 Es posible que hayas llegado a esta documentación a través del link de otra documentación a cerca de un lenguaje en concreto.
 
@@ -18,8 +16,9 @@ Si eres nuevo en el mundillo de la programación y has hablado con cualquier pro
 
 Si eres un nuevo programador esta es tu documentación.
 
-# ÍNDICE
+## ÍNDICE
 
+- [LENGUAJE MÁQUINA](pc_machine_language.md)
 - [COMENTARIOS](pc_comment.md)
 - [VARIABLES](pc_variable.md)
     - [CONSTANTES](pc_constant.md)

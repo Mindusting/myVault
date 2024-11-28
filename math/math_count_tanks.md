@@ -26,9 +26,9 @@ Como hemos visto en el ejemplo anterior el resultado que obtenemos tiene un marg
 
 $$N = MAX + \frac{MAX - k}{k}$$
 
-También podemos transformar esta fórmula en una función (*En este caso en [Python](../python/py.md)*) para obtener la aproximación:
+También podemos transformar esta fórmula en una función (*En este caso en [Python](../py/py.md)*) para obtener la aproximación:
 
-```py
+```python
 def count_tanks(tanks_found: list[int]) -> float:
     k:   int = len(tanks_found)
     MAX: int = max(tanks_found)
@@ -39,10 +39,10 @@ Aplicando esta fórmula a al ejemplo anterior obtenemos que el número aproximad
 
 ---
 
-Ahora veremos un ejemplo de cómo se puede usar esta fórmula en [python](../python/py.md), ten en cuenta que si ejecutas este ejemplo el número de tanques creado es `3000` mientras que el número de tanques a los que hemos podido acceder a sus identificadores son `10` por lo que vamos a deducir el número de tanques que hay en base al `0.33%` de los tanques, es muy poca información por lo que la aproximación puede ser distante, si quieres puedes probar a ir cambiando los valores para ver cómo de precisa es la aproximación en base a la cantidad de información que le otorgamos a la fórmula:
+Ahora veremos un ejemplo de cómo se puede usar esta fórmula en [python](../py/py.md), ten en cuenta que si ejecutas este ejemplo el número de tanques creado es `3000` mientras que el número de tanques a los que hemos podido acceder a sus identificadores son `10` por lo que vamos a deducir el número de tanques que hay en base al `0.33%` de los tanques, es muy poca información por lo que la aproximación puede ser distante, si quieres puedes probar a ir cambiando los valores para ver cómo de precisa es la aproximación en base a la cantidad de información que le otorgamos a la fórmula:
 
 
-```py
+```python
 from random import random
 
 def count_tanks(tanks_found: list[int]) -> float:

@@ -51,7 +51,7 @@ A - B = C
 |:------------------:|
 | `sqrt(x^2 + y^2)` |
 
-```py
+```python
 import math
 
 def calculate_dis(x: float, y: float) -> float:
@@ -64,7 +64,7 @@ def calculate_dis(x: float, y: float) -> float:
 |:------------------------:|
 | `sqrt(x^2 + y^2 + z^2)` |
 
-```py
+```python
 import math
 
 def calculate_dis(x: float, y: float, z: float) -> float:
@@ -77,7 +77,7 @@ def calculate_dis(x: float, y: float, z: float) -> float:
 |:------------------:|
 |   `atan(y / x)`   |
 
-```py
+```python
 import math
 
 def calculate_dir(x: float, y: float) -> float:
@@ -87,7 +87,7 @@ def calculate_dir(x: float, y: float) -> float:
         return math.atan(y / x)
 ```
 
-```py
+```python
 def point_to(
     self,
     coordenates: tuple[float, float] | list[float, float] | np.ndarray[np.float64]

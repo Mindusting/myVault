@@ -65,7 +65,7 @@ Esta clase de operadores se realizan bit a bit.
 >
 > En el caso de los shift resulta que se desplaza a la izquierda o a la derecha el número que se encuentra a la izquierda, se desplaza en binario el número de bits que indique el número que se encuentre a la derecha en la dirección que apunte el operador.
 
-```py
+```python
 x = 16
 y = 2
 l = x << y
@@ -88,7 +88,7 @@ print(f"{bin(r)[2:]:>08} = right")
 
 El operador de identidad compara el contenido de dos variables, si el contenido de estos es el mismo objeto, el resultado será `true`.
 
-```py
+```python
 x = [3, 2, 7]
 y = x
 z = [3, 2, 7]
@@ -104,7 +104,7 @@ x is z = False
 
 También existe la posibilidad de usa el operador `not`, invirtiendo el resultado de este.
 
-```py
+```python
 x = [3, 2, 7]
 y = x
 
@@ -139,7 +139,7 @@ Ten en cuenta que dos valores, cuando son iguales, no implica necesariamente que
 
 El operador de membresía indica si un valor u objeto se encuentra dentro de un iterable, como se puede ver en el próximo ejemplo, se usa este operador para comprobar si el valor `2` se encuentra dentro de la lista.
 
-```py
+```python
 x = [3, 2, 7]
 y = 2
 
@@ -152,7 +152,7 @@ y in x = True
 
 También existe la posibilidad de usa el operador `not`, invirtiendo el resultado de este.
 
-```py
+```python
 x = [3, 2, 7]
 y = 2
 

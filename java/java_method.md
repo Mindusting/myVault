@@ -57,7 +57,7 @@ public class MyProgram {
 > [!example] Ejemplo
 > Este caso es un ejemplo didáctico, realmente los métodos no se usan para hacer cosa como esta en la que solo se hace una suma, se usan generalmente para cosas más complejas, de esta forma tenemos el código troceado en partes más pequeñas y manejables, además de no tener que escribir le mismo código una y otra vez, ya que podemos utilizar el mismo método una y otra vez.
 >
-> En este ejemplo, el [`type_return`](#TIPO%20DE%20RETORNO) es de un número de tipo [`int`](java_variable.md#INT), esto indica que en donde nosotros llamemos al método, este al terminar de ejecutarse devolverá un valor del tipo especificado, esto se explica más a fondo en el apartado de [retorno](#RETORNO)
+> En este ejemplo, el [`type_return`](#TIPO%20DE%20RETORNO) es de un número de tipo [`int`](java_variable.md#INT), esto indica que en donde nosotros llamemos al método, este al terminar de ejecutarse devolverá un valor del tipo especificado, esto se explica más a fondo en el apartado de [retorno](#RETORNO).
 
 ## MODIFICADORES DE ACCESO
 

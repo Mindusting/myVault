@@ -6,10 +6,6 @@ tags:
 title: Notación de intervalos
 ---
 
-<h1 align="center">NOTACIÓN DE INTERVALOS</h1>
-
----
-
 # NOTACIÓN DE INTERVALOS
 
 > [!help] REFERENCIAS WEB

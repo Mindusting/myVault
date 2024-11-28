@@ -8,6 +8,9 @@ title: Javadoc
 
 # JAVADOC
 
+> [!help] REFERENCIAS WEB
+> - [Oracle](https://www.oracle.com/es/technical-resources/articles/java/javadoc-tool.html)
+
 Javadoc es una utilidad de Oracle para la generación de documentación automática en [HTML](../HTML/html.md) del funcionamiento del código de [Java](java.md), esta documentación se crea a partir de ciertos comentarios que se encuentran en el código fuente.
 
 Para crear esta documentación se utilizan las **etiquetas** (*tags*), las **etiquetas** se indican con una **arroba** (*@*) seguido de una **palabra clave**.
@@ -20,7 +23,7 @@ Para crear esta documentación se utilizan las **etiquetas** (*tags*), las **eti
 
 ---
 
-Para crear la documentación, tenemos que crear un [comentario multilínea](java_comments.md) encima de las [funciones](java_method.md) o [clases](java_class.md):
+Para crear la documentación, tenemos que crear un [comentario multilínea](java_comments.md) encima de las [funciones/métodos](java_method.md) o [clases](java_class.md):
 
 ```java
 public class MyJavaDoc {

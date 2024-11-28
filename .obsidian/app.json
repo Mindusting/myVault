@@ -1,5 +1,24 @@
 {
-  "defaultViewMode": "preview",
   "livePreview": false,
-  "focusNewTab": false
+  "showLineNumber": true,
+  "showIndentGuide": true,
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "strictLineBreaks": false,
+  "readableLineLength": true,
+  "defaultViewMode": "preview",
+  "useTab": false,
+  "vimMode": true,
+  "trashOption": "local",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "focusNewTab": true,
+  "showInlineTitle": true
 }

@@ -8,10 +8,12 @@ title: SQLite3
 
 <h1 style="text-align:center;">SQLite3</h1>
 
+![#logo](../../img/db.png)
+
 ---
 
 > [!note] NOTA
-> En el caso de qué sea tu primera vez con SQL, te recomiendo que primero veas la [documentación general](../SQL.md).
+> En el caso de qué sea tu primera vez con SQL, te recomiendo que primero veas la [documentación general](../sql.md).
 
 # ABRIR EL ENTORNO DE SQLITE3
 

@@ -38,8 +38,8 @@ Para crear una tabla en **HTML** se usa la etiqueta `table`, dentro de esta usar
 
 > [!faq]
 > - [¿Por qué la tabla no se ve?](#^why-table-not-visible)
-> - [¿Qué significa `tr`?](#ETIQUETA%20TR)
-> - [¿Qué diferencia hay entre `th` y `td`?](#ETIQUETAS%20TH%20Y%20TD)
+> - [¿Qué significa `tr`?](#ENCABEZADOS)
+> - [¿Qué diferencia hay entre `th` y `td`?](#LÍNEAS%20Y%20COLUMNAS)
 > - [¿Como puedo ponerle un título a la tabla?](#ENCABEZADO%20Y%20CUERPO)
 
 > [!note]
@@ -55,11 +55,11 @@ Para crear una tabla en **HTML** se usa la etiqueta `table`, dentro de esta usar
 >```
 ^why-table-not-visible
 
-## ETIQUETA TR
+## ENCABEZADOS
 
-La etiqueta `tr` (*Talbe Row*), representa las lineas de la tabla, por tanto todos los [`th` y `td`](#ETIQUETAS%20TH%20Y%20TD) que introduzca dentro de un mismo `tr`, se situarán en una línea horizontal.
+La etiqueta `tr` (*Talbe Row*), representa las lineas de la tabla, por tanto todos los [`th` y `td`](#LÍNEAS%20Y%20COLUMNAS) que introduzca dentro de un mismo `tr`, se situarán en una línea horizontal.
 
-## ETIQUETAS TH Y TD
+## LÍNEAS Y COLUMNAS
 
 > [!help] REFERENCIAS WEB
 > - [W3 (Encabezados en tablas)](https://www.w3schools.com/html/html_table_headers.asp)
@@ -83,6 +83,8 @@ Si quieres saber mas a cerca de estas celdas, te recomiendo leer los apartados d
 
 > [!help] REFERENCIAS WEB
 > - [W3 (Etiquetas `colspan` y `rowspan`)](https://www.w3schools.com/html/html_table_colspan_rowspan.asp)
+
+
 
 ## TROCEA LA TABLA
 
@@ -120,3 +122,35 @@ Para añadirle un título ha nuestra tabla, se usa la etiqueta `caption`:
 
 > [!help] REFERENCIAS WEB
 > - [W3 (Grupos de columnas)](https://www.w3schools.com/tags/tag_colgroup.asp)
+
+## CABEZA, CUERPO Y PIE
+
+> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+
+```html
+<table>
+    <caption>Mi tabla</caption>
+    <thead>
+        <th>H1</th>
+        <th>H2</th>
+        <th>H3</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>D1</td>
+            <td>D2</td>
+            <td>D3</td>
+        </tr>
+        <tr>
+            <td>D4</td>
+            <td>D5</td>
+            <td>D6</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <td>F1</td>
+        <td>F2</td>
+        <td>F3</td>
+    </tfoot>
+</table>
+```
