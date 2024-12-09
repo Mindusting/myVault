@@ -6,7 +6,7 @@ tags:
 title: Conseguir el código fuente de un módulo
 ---
 
->[!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
 
 Para guardar el código fuente de un [módulo](../py_module.md) en un archivo que podamos consultar de forma fácil, podemos seguir el siguiente ejemplo:
 
@@ -18,7 +18,7 @@ with open("info_random.py", "w") as FILE:
     FILE.write(src)
 ```
 
-El ver el código fuente de un [módulo](../py_module.md) permite por ejemplo, ver como funciona internamente la generación de números aleatorios, he copiado el mínimo código necesario para generar [números decimales](../variables/py_float.md) aleatorios y lo he metido en una [función](../py_function.md):
+El ver el código fuente de un [módulo](../py_module.md) permite por ejemplo, ver como funciona internamente la generación de números aleatorios, he copiado el mínimo código necesario para generar [números decimales](../py_float.md) aleatorios y lo he metido en una [función](../py_function.md):
 
 ```python
 import os

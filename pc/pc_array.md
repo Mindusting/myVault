@@ -8,73 +8,59 @@ title: Array(s) en la programación
 
 # ARRAYS
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
-
 > [!help] REFERENCIAS WEB
+> - [¿Qué son los punteros en programación?](pc_pointer.md)
+> YouTube:
 > - [Code Dumped](https://youtu.be/xFMXIgvlgcY)
 
-## BASICO
+## BÁSICO
 
-> Un array es muy similar a las [variables](pc_variable.md) con la diferencia de que estos son capaces de almacenar múltiples valores en secuencia, una forma de entenderlo sería como si tuviéramos una caja con una etiqueta con el nombre de nuestros array y dentro de esta tuviéramos una secuencia de cajas con su propia etiqueta, estás etiquetas indican el número de la caja (*el cual no se puede repetir*) y dentro de estas jamás es donde se guardan los valores.
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Terminar de explicar lo básico de los arrays.
+> > - [ ] Poner ejemplo de array.
+
+> Un **array** es muy similar a las [variables](pc_variable.md) con la diferencia de que estos son capaces de almacenar múltiples valores en secuencia, una forma de entenderlo sería como si tuviéramos una caja con una etiqueta con el nombre de nuestros array y dentro de esta tuviéramos una secuencia de cajas con su propia etiqueta, estás etiquetas indican el número de la caja (*el cual no se puede repetir*) y dentro de estas jamás es donde se guardan los valores.
 
 Un array es un conjunto de valores del mismo tipo, siendo parecidos a las [variables](pc_variable.md), debido a que estos tienen la capacidad de almacenar múltiples valores, para diferenciar cada uno de ellos se usa un "*índice*", este es un número
 
-%%
-| IDX | VAL |
-|:---:|:---:|
-|  0  |  5  |
-|  1  |  2  |
-|  2  |  7  |
-
-```txt
-╔═╦╗
-║ ║║
-╠═╬╣
-╚═╩╝
-
-┌─┬┐
-│ ││
-├─┼┤
-└─┴┘
-```
-%%
-
-```txt
-╔═══╦═══╦═══╦═══╦═══╗
-║ 0 ║ 1 ║ 2 ║ 3 ║ 4 ║
-╠═══╬═══╬═══╬═══╬═══╣
-│ 3 │ 2 │ 5 │ 4 │ 9 │
-└───┴───┴───┴───┴───┘
-```
-
 ## AVANZADO
+
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Explicar que pasa si te sales del rango de array.
 
 En esencia, cuando declaramos un array lo que estamos haciendo es usar un [`pointer`](pc_pointer.md) con la dirección de memoria del primer [`byte`](pc_byte.md) de la secuencia de [`bytes`](pc_byte.md) reservados para el array.
 
-Por lo que cuando queremos acceder a un elemento del array la formula que sigue es la siguiente:
+Por lo que cuando queremos acceder a un elemento del **array** la formula que sigue es la siguiente:
 
 $$
-newPtr = ptr + index * typeSize
+ptr + index * typeSize = newPtr
 $$
 ^array-formula
 
-> [!example] Ejemplo
-> Imaginemos que tenemos un array de tipo `short` (*dos [bytes](pc_byte.md)*), este sería un [`pointer`](pc_pointer.md) el cual por ejemplo puede tener la dirección `102`, si queremos acceder al tercer (*índice `2`*) elemento del array, tendríamos que seguir la [fórmula](#^array-formula) de antes, obteniendo así el resultado $106 = 102 + 2 * 2$, y ya que es de tipo `short`, tendremos que leer los dos [bytes](pc_byte.md), empezando por el resultado de la [fórmula](#^array-formula).
-> $$
-> \begin{bmatrix}
-> 100 & 101 & \begin{bmatrix}102\end{bmatrix} & 103 & 104 & 105 & \begin{bmatrix}106 & 107\end{bmatrix}
-> \end{bmatrix}
-> $$
-
 Es debido a esta formula que los arrays tienen tienen una complejidad de tiempo [`O(1)`](pc_big_o.md), ya que da igual la longitud del array, la formula siempre será la misa y por tanto siempre se tardará lo mismo en calcularla.
 
----
+## ACTIVIDADES
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+![](pc_pointer#^random-table)
 
-|  RAM   | 00  | 01  | 10  | 11  |
-|:------:|:---:|:---:|:---:|:---:|
-| **00** |  N  |  2  |  8  |  3  |
-| **01** |  F  |  D  |  E  |  C  |
-| **10** |  B  |  6  |  A  |  4  |
-| **11** |  7  |  5  |  9  |  1  |
+> [!example] Ejemplo
+> Si nuestro [**puntero**](pc_pointer.md) tiene la **dirección** `47` (*`70` en decimal*), cada elemento del **array** ocupa 4 [`bytes`](pc_byte.md) y queremos acceder al elemento 5, haríamos el siguiente cálculo con la [formula de los **array**](#^array-formula):
+>
+> $$70 + 5 * 4 = 90$$
+>
+> El resultado es `90` (*`5A` en [hexadecimal](pc_number_system.md#HEXADECIMAL)*), por lo que deberemos obtener su **valor** y la de los tres siguientes [`bytes`](pc_byte.md) para obtener los cuatro del elemento en cuestión, interpretando los como un solo **valor** el resultado es `4045627429`.
+>
+> ---
+>
+> Así es como he calculado el **valor** de los cuatro [`bytes`](pc_byte.md) como un único número:
+> ```python
+> print(int("F1236025", 16))
+> # SALIDA:
+> # 4045627429
+> ```
+
+> [!exercise] Ejercicios
+> 1. Obtén el **valor** del elemento 3 del [**puntero**](pc_pointer.md) con **dirección** `B8` (*`184` en decimal*) teniendo en cuanta que cada elemento ocupa 8 [`bytes`](pc_byte.md).
+> 2. Obtén el **valor** del elemento 9 del [**puntero**](pc_pointer.md) con **dirección** `16` (*`22` en decimal*) teniendo en cuanta que cada elemento ocupa 2 [`bytes`](pc_byte.md).

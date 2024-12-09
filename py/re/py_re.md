@@ -10,18 +10,18 @@ tags:
 title: Módolo RE en Python
 ---
 
-# REFERENCIAS WEB
-
-- [Python RE Doc](https://docs.python.org/es/3/library/re.html)
-- [W3 scools](https://www.w3schools.com/python/python_regex.asp)
-
-# VÍDEOS
-
-- [Corey Schafer](https://youtu.be/K8L6KVGG-7o)
-- [FRIKIdelTO](https://youtu.be/7QUmK6cW_Rg)
-- [NeuralNine](https://youtu.be/wnuBwl2ekmo)
-
 # RE
+
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+
+> [!help] REFERENCIAS WEB
+> - [Python RE Doc](https://docs.python.org/es/3/library/re.html)
+> - [W3 scools](https://www.w3schools.com/python/python_regex.asp)
+>
+> YouTube:
+> - [Corey Schafer](https://youtu.be/K8L6KVGG-7o)
+> - [FRIKIdelTO](https://youtu.be/7QUmK6cW_Rg)
+> - [NeuralNine](https://youtu.be/wnuBwl2ekmo)
 
 ## FUNCIONES
 

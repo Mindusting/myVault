@@ -89,7 +89,7 @@ cursor.close()
 connection.close()
 ```
 
-El [`INSERT`](../../sql/sqlite3/SQLite3_insert.md) que se ve en el ejemplo se ejecutará tres veces ya que es el número de elementos que tiene la [tupla](../py_tuple.md) `data`, este [método](../classes/py_method.md) sería el equivalente a hacer un [bucle for-each](../loops/py_for_each.md):
+El [`INSERT`](../../sql/sqlite3/SQLite3_insert.md) que se ve en el ejemplo se ejecutará tres veces ya que es el número de elementos que tiene la [tupla](../py_tuple.md) `data`, este [método](../classes/py_method.md) sería el equivalente a hacer un [bucle for-each](../py_loop.md#FOR-EACH):
 
 ```python
 import sqlite3

@@ -4,12 +4,10 @@ corrected: false
 tags:
   - Programming/Python/Module
   - Programming/Python/SQLite3
-title: Módulo SQLite3 en Python
+title: SQLite3 en Python
 ---
 
-<h1 style="text-align:center;">SQLITE3 EN PYTHON</h1>
-
----
+# SQLITE3 IN PYTHON
 
 > [!warning] WARNING
 > Para poder hacer uso de este [módulo](py_module.md) se requieren conocimientos mínimos de funcionamiento de bases de datos, si no sabes de bases de datos puedes consultar la [documentación correspondiente](../sql/sql.md), si sí sabes, pero no conoces [sqlite3](../sql/sqlite3/sqlite3.md), también tienes [documentación](../sql/sqlite3/sqlite3.md).

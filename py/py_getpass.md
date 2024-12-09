@@ -1,6 +1,8 @@
 ---
+aliases:
+  - Obtener contraseña en Python
 author: Mindusting
-corrected: false
+corrected: true
 tags:
   - Programming/Python/Module
   - Programming/Python/GetPass
@@ -19,7 +21,7 @@ import getpass
 
 ## CONTRASEÑA
 
-Para poder obtener una contraseña se hace uso del método `getpass`, este puede ejecutarse sin argumento, o se le puede indicar un [string](variables/py_str.md) para que sea este mensaje el que se imprima a la hora de obtener la contraseña.
+Para poder obtener una contraseña se hace uso del método `getpass`, este puede ejecutarse sin argumento, o se le puede indicar un [string](py_str.md) para que sea este mensaje el que se imprima a la hora de obtener la contraseña.
 
 ```python
 import getpass
@@ -28,7 +30,7 @@ password = getpass.getpass("Contraseña: ")
 print(password)
 ```
 
-## NOMBRE DE USUSARIO
+## NOMBRE DE USUARIO
 
 Si queremos obtener el nombre del usuario del sistema podemos usar el método `getuser`.
 

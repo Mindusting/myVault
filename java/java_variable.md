@@ -20,12 +20,17 @@ SINTAXIS
 %%
 
 > [!abstract] SINTAXIS
-> 
+> ***\[accessModifier] \[final] \[dataType] \[name]*** = ***\[value]***;
 
 ## TIPOS DE VARIABLES
 
-https://youtu.be/xk4_1vDrzzo?t=7158
+> [!faq] FAQ
+> - [¿Qué diferencia hay entre `float` y `double`?](https://www.javatpoint.com/float-vs-double-java)
+> - [¿Qué es la anotación de rango?](../math/math_range_notation.md)
 
+Las variables más comunes son las siguientes:
+
+%%
 | TIPO    | ESPACIO        | PRIM/REFE  | RANGO DE VALORES                 |
 | ------- | -------------- | ---------- | -------------------------------- |
 | boolean | 1 byte (1 bit) | Primitivo  | true o false                     |
@@ -37,6 +42,19 @@ https://youtu.be/xk4_1vDrzzo?t=7158
 | double  | 8 bytes        | Primitivo  | Núm. frac. de 16 díg. decimales  |
 | char    | 2 bytes        | Primitivo  | Un carácter de unicode           |
 | String  | 2 bytes * char | Referencia | Una cadena de caracteres         |
+%%
+
+| TIPO    | ESPACIO        | PRIM/REFE  | RANGO DE VALORES                |
+| ------- | -------------- | ---------- | ------------------------------- |
+| boolean | 1 byte (1 bit) | Primitivo  | true o false                    |
+| byte    | 1 byte         | Primitivo  | \[-2^7 a 2^7-1]                 |
+| short   | 2 bytes        | Primitivo  | \[-2^15 a 2^15-1]               |
+| int     | 4 bytes        | Primitivo  | \[-2^31 a 2^31-1]               |
+| long    | 8 bytes        | Primitivo  | \[-2^63 a 2^63-1]               |
+| float   | 4 bytes        | Primitivo  | Núm. frac. de 7 díg. decimales  |
+| double  | 8 bytes        | Primitivo  | Núm. frac. de 16 díg. decimales |
+| char    | 2 bytes        | Primitivo  | Un carácter de unicode          |
+| String  | 2 bytes * char | Referencia | Una cadena de caracteres        |
 
 | PRIMITIVO                    | REFERENCIA                   |
 | ---------------------------- | ---------------------------- |
@@ -45,9 +63,6 @@ https://youtu.be/xk4_1vDrzzo?t=7158
 | Can only hold 1 value        | Could hold more than 1 value |
 | Less memory                  | More memory                  |
 | Fast                         | Slower                       |
-
-> [!faq] FAQ
-> - [¿Qué diferencia hay entre `float` y `double`?](https://www.javatpoint.com/float-vs-double-java)
 
 ### PRIMITIVO
 

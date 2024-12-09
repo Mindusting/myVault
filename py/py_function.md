@@ -6,11 +6,11 @@ tags:
 title: Funciones de Python
 ---
 
+# FUNCIONES
+
 > [!fail] ESTE APARTADO ESTÁ INCOMPLETO
 
 [Functions_Decorators](functions/Functions_Decorators.md)
-
-# FUNCIONES 📞
 
 Una función `encapsula` el código que se encuentra en su sangría, haciendo que este solo se ejecute cuando llamemos a la función en cuestión.
 

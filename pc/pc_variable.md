@@ -1,6 +1,4 @@
 ---
-aliases:
-  - Pointers in programing
 author: Mindusting
 corrected: false
 tags:

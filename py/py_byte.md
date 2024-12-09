@@ -6,14 +6,11 @@ tags:
 title: Bytes en Python
 ---
 
-- [Bytearray](py_bytearray.md)
-- [memoryview](py_memoryview.md)
+# BYTES
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
-
-> [!todo]
-> ### TEMPORALES
-> - [ ] Depurar código, hacer ejemplos y documentarlos.
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Depurar código, hacer ejemplos y documentarlos.
 
 ```python
 bs = bytes("Adiós", "UTF-8")
@@ -43,3 +40,11 @@ print(f"{int.from_bytes(rand_bytes):_}")
 
 print(int.to_bytes(65))
 ```
+
+## BYTEARRAY
+
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+
+## MEMORYVIEW
+
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO

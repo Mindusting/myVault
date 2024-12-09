@@ -4,10 +4,10 @@ corrected: false
 tags:
   - Programming/Python/Module
   - Programming/Python/PyGame
-title: Módulo PyGame en Python
+title: PyGame en Python
 ---
 
-# PYGAME 🕹️
+# PYGAME
 
 > [!fail] ESTE APARTADO ESTÁ INCOMPLETO
 > - [Real Python - PyGame](<https://realpython.com/pygame-a-primer/>)

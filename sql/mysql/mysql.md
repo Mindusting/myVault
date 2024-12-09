@@ -24,6 +24,7 @@ title: MySQL
 - [BASES DE DATOS](mysql_db.md)
 - [TIPOS DE DATOS](mysql_data_types.md)
 - [TABLAS](mysql_table.md)
+- [CRUD](mysql_crud.md)
 
 ---
 ---

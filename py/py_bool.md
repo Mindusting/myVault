@@ -2,8 +2,10 @@
 author: Mindusting
 corrected: false
 tags:
-  - Programming/Python/Loop
-title: Romper los bucles de Python
+  - Programming/Python/Variable/Bool
+title: Booleanos en Python
 ---
+
+# BOOL
 
 > [!fail] ESTE APARTADO ESTÁ INCOMPLETO

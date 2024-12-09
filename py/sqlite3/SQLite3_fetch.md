@@ -14,7 +14,7 @@ Para poder acceder a esta información se pueden usar tres [métodos](../py_modu
     Este devuelve la lista por completo.
 <br>
 - `fetchmany`:
-    Este devuelve una lista con el [número](../variables/py_int.md) de registros que nosotros indiquemos como argumento.
+    Este devuelve una lista con el [número](../py_int.md) de registros que nosotros indiquemos como argumento.
 <br>
 - `fetchone`:
     Este devuelve el primer registro de la consulta.

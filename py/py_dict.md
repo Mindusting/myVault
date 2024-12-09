@@ -12,14 +12,15 @@ title: Diccionarios en Python
 > - [W3 (dict)](https://www.w3schools.com/python/python_dictionaries.asp)
 > - [W3 (dict methods)](https://www.w3schools.com/python/python_ref_dictionary.asp)
 
-[¿Qué es un diccionario en programación?](../../pc/pc_dictionary.md)
+> [!faq] FAQ
+> - [¿Qué es un diccionario en programación?](../../pc/pc_dictionary.md)
 
 Los **diccionarios** son similares a las [listas](py_list.md) con la diferencias que estos en vez de tener un *índice* asociado a cada *valor*, tiene una *valor* llamado `key` asociado a cada `value` y cada par de estos se llama `item`.
 
 > [!info] INFO
 > - Cabe resaltar que las `key` no se pueden repetir ya que es lo que se utiliza para referenciar los valores guardados, si intentamos guardar otro valor con la misma `key` simplemente se sobrescribirá.
 > <br>
-> - Otro apunte es que se puede usar cualquier cosa tanto como `key` como `value`, esto pueden ser [`int`](variables/py_int.md), [`float`](variables/py_float.md), [`string`](variables/py_str.md), [`objetos`](py_class.md)... cualquier cosa.
+> - Otro apunte es que se puede usar cualquier cosa tanto como `key` como `value`, esto pueden ser [`int`](py_int.md), [`float`](py_float.md), [`string`](py_str.md), [`objetos`](py_class.md)... cualquier cosa.
 
 Para crear un **diccionario** vacío podemos hacerlo de las siguientes formas:
 

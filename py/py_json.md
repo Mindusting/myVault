@@ -69,11 +69,11 @@ with open("data.json", "w") as file:
     json.dump(data, file, indent=4)
 ```
 
-El parámetro `indent` (sangría) indica la sangría que queremos que tenga el archivo [json](../../json/json.md), este parámetro puede ser tanto un [`str`](variables/py_str.md) como un [`int`](variables/py_int.md).
+El parámetro `indent` (sangría) indica la sangría que queremos que tenga el archivo [json](../../json/json.md), este parámetro puede ser tanto un [`str`](py_str.md) como un [`int`](py_int.md).
 
-En el caso de indicar un [`str`](variables/py_str.md), por lo general, este suele ser `"\t"` para que la sangría se haga con una tabulación.
+En el caso de indicar un [`str`](py_str.md), por lo general, este suele ser `"\t"` para que la sangría se haga con una tabulación.
 
-En el caso de indicar un [`int`](variables/py_int.md), este indicará el número de espacios que queremos que tenga la sangría.
+En el caso de indicar un [`int`](py_int.md), este indicará el número de espacios que queremos que tenga la sangría.
 
 ### SEPARADORES
 
@@ -99,7 +99,7 @@ Si te fijas en el antes y después, el espacio que ocupa el archivo cambia, ten 
 
 ### ORDENAR EL CONTENIDO
 
-Para ordenar alfabéticamente el contenido dentro del archivo se usa el parámetro `sort_keys`, este es de tipo [`bool`](variables/py_bool.md), si lo indicamos con el valor de `True`, el contenido estará ordenado, si es `False`, lo guardará como en el orden en el que esté.
+Para ordenar alfabéticamente el contenido dentro del archivo se usa el parámetro `sort_keys`, este es de tipo [`bool`](py_bool.md), si lo indicamos con el valor de `True`, el contenido estará ordenado, si es `False`, lo guardará como en el orden en el que esté.
 
 ```python
 data: dict = {
@@ -132,11 +132,11 @@ print(data)
 
 # COMBERSIÓN A STRING
 
-Los métodos que se muestran en los próximos apartados son para transformar contenido de [json](../../json/json.md) en [`str`](variables/py_str.md) y viceversa.
+Los métodos que se muestran en los próximos apartados son para transformar contenido de [json](../../json/json.md) en [`str`](py_str.md) y viceversa.
 
 ## DE STRING A JSON
 
-Para transformar contenido [json](../../json/json.md) en [`str`](variables/py_str.md) se usa la [función](py_function.md) `dumps`:
+Para transformar contenido [json](../../json/json.md) en [`str`](py_str.md) se usa la [función](py_function.md) `dumps`:
 
 ```python
 with open("data.json", "r") as file:
@@ -158,7 +158,7 @@ str_json: str = json.dumps(data, indent=2)
 
 ## DE JSON A STRING
 
-Para transformar contenido [`str`](variables/py_str.md), [`bytes`](variables/py_byte.md) o [`bytearray`](variables/py_bytearray.md) en contenido [json](../../json/json.md) se usa la [función](py_function.md) `loads`:
+Para transformar contenido [`str`](py_str.md) o [`bytes`](py_byte.md) en contenido [json](../../json/json.md) se usa la [función](py_function.md) `loads`:
 
 ```python
 str_data: str = '{"name": "Mindusting", "age": 18}'

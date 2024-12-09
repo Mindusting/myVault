@@ -40,7 +40,7 @@ Cuando empecemos a crear *elementos* (`widget`) para nuestra ventana, estos se d
 
 ### GEOMERÍA DE LA VENTANA
 
-Para cambiar el **tamaño** de la ventana se usa al [método](../../classes/py_method.md) `geometry`, esta recibe un argumento de tipo [str](../../variables/py_str.md) con las medidas y la posición de la ventana:
+Para cambiar el **tamaño** de la ventana se usa al [método](../../classes/py_method.md) `geometry`, esta recibe un argumento de tipo [str](../../py_str.md) con las medidas y la posición de la ventana:
 
 ```py import tkinter as tk root: tk.Tk = tk.Tk() # Indicamos que queremos que la ventana # tenga unas dimensiones de 360 píxeles # de ancho por 240 píxeles de alto. root.geometry("360x240")
 
@@ -71,7 +71,7 @@ root.mainloop()
 
 ---
 
-Esto también se puede hacer mediante el [`f-str`](../../variables/py_fstr.md) para no tener un valor predeterminado, si no que podemos modificarlo mediante una variable o un calculo previo a la creación de la ventana:
+Esto también se puede hacer mediante el [`f-str`](py_str.md#F-STRING) para no tener un valor predeterminado, si no que podemos modificarlo mediante una variable o un calculo previo a la creación de la ventana:
 
 ```python
 import tkinter as tk
@@ -97,7 +97,7 @@ root.mainloop()
 
 ### REDIMENSIONABLE
 
-De forma predeterminada, las ventanas de `tkinter` son redimensionables, esto quiere decir que el usuario puede cambiar el tamaño de esta manteniendo el clic y arrastrando en uno de sus bordes, si queremos que esto no sea posible tendremos que usar el [método](../../classes/py_method.md) `resizable`, este recibe dos argumentos de tipo [`bool`](../../variables/py_bool.md) siendo el primero para el eje en `x` y el segundo en `y`, si el valor que indicamos es igual a `False`, ese eje no se podrá redimensionar, si es igual a `True` si se podrá.
+De forma predeterminada, las ventanas de `tkinter` son redimensionables, esto quiere decir que el usuario puede cambiar el tamaño de esta manteniendo el clic y arrastrando en uno de sus bordes, si queremos que esto no sea posible tendremos que usar el [método](../../classes/py_method.md) `resizable`, este recibe dos argumentos de tipo [`bool`](../../py_bool.md) siendo el primero para el eje en `x` y el segundo en `y`, si el valor que indicamos es igual a `False`, ese eje no se podrá redimensionar, si es igual a `True` si se podrá.
 
 ```python
 import tkinter as tk

@@ -9,8 +9,9 @@ title: Módulo OpenPyXL en Python
 
 # OPENPYXL
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
-> - [ ] Tengo que reorganizar todo el contenido.
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Tengo que reorganizar todo el contenido.
 
 > [!help] REFERENCIAS WEB
 > - [OPENPYXL Doc](https://openpyxl.readthedocs.io/en/stable/)
@@ -236,7 +237,7 @@ Esta [función](../py_function.md) requiere de un argumento obligatorio, este es
 
 ## LETRA DE COLUMNA
 
-Para convertir el número de la columna en la letra que corresponde se puede usar el la [función](../py_function.md) `get_column_letter`, esta recibe un valor de tipo [int](../variables/py_int.md) como argumento:
+Para convertir el número de la columna en la letra que corresponde se puede usar el la [función](../py_function.md) `get_column_letter`, esta recibe un valor de tipo [int](../py_int.md) como argumento:
 
 ```python
 from openpyxl import utils

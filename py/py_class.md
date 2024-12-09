@@ -26,8 +26,8 @@ class [class_name]:
 ```
 %%
 
->[!abstract] SINTAXIS
-><span class="key-word-color">class</span> <span class="italic class-color">[class_name]</span>:<br><span class="transparency">····</span><span class="italic grey">[class_code]</span>
+> [!abstract] SINTAXIS
+> <span class="key-word-color">class</span> <span class="italic class-color">[class_name]</span>:<br><span class="transparency">····</span><span class="italic grey">[class_code]</span>
 
 Para empezar podemos crear una clase llamada `Numeros` y esta tendrá tres **propiedades** (`PI`, `E` y `AUREO`), después de declararla accedemos a sus **propiedades** mediante la metodología del punto, para imprimir los valores de estos:
 

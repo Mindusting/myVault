@@ -8,7 +8,12 @@ title: Tipos de datos en MySQL
 
 # TIPOS DE DATOS
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Documentar numéricos.
+> > - [ ] Documentar fechas.
+> > - [ ] Documentar cadenas de caracteres.
+> > - [ ] Corregir faltas de ortografía.
 
 ## NUMÉRICOS
 
@@ -38,8 +43,8 @@ title: Tipos de datos en MySQL
 
 > [!fail] ESTE APARTADO ESTÁ INCOMPLETO
 
-- `NUMERIC`
-- `DECIMAL`
+- `NUMERIC([tdig], [dec])`: 
+- `DECIMAL([tdig], [dec])`: 
 
 ## FECHA Y HORA
 
@@ -55,15 +60,15 @@ title: Tipos de datos en MySQL
 
 > [!fail] ESTE APARTADO ESTÁ INCOMPLETO
 
-- `CHAR`
-- `VARCHAR`
-- `BLOB`
-- `TINYBLOB`
-- `MEDIUMBLOB`
-- `LONGBLOB`
-- `TEXT`
-- `TINYTEXT`
-- `MEDIUMTEXT`
-- `LONGTEXT`
-- `ENUM`
-- `SET`
+- `CHAR([length])`: Cadena de caracteres con longitud concreta, sino se alcanza al longitud, se rellena de espacios en blanco, teniendo un máximo de 255 bytes como longitud.
+- `VARCHAR([length])`: Cadena de caracteres con longitud máxima variable, teniendo un máximo de 65.535 bytes de longitud.
+- `BLOB([length])`: Almacena objetos binarios de longitud variable, teniendo una longitud máxima de 65.535 bytes, no puede tener valor por defecto.
+- `TINYBLOB([length])`: Es lo mismo que el `BLOB` pero la longitud máxima es de (*1 Byte*) 255 bytes.
+- `MEDIUMBLOB([length])`: Es lo mismo que el `BLOB` pero la longitud máxima es de (*16 MiB*) 16.777.215 bytes.
+- `LONGBLOB([length])`: Es lo mismo que el `BLOB` pero la longitud máxima es de (*4 GiB*) 4.294.967.295 bytes.
+- `TEXT([length])`: Almacena texto, pudiendo especificar una longitud máxima, teniendo esta el límite de 65.535 caracteres.
+- `TINYTEXT([length])`: Es lo mismo que el `TEXT` pero con un máximo de 255 caracteres.
+- `MEDIUMTEXT([length])`: Es lo mismo que el `TEXT` pero con un máximo de 16.77.215 caracteres.
+- `LONGTEXT([length])`: Es lo mismo que el `TEXT` pero con un máximo de 4.294.967.295 caracteres.
+- `ENUM('[v1]', '[v2]', ...)`: Almacena únicamente uno de los valores especificados, se pueden indicar asta 65.535 opciones.
+- `SET('[v1]', '[v2]', ...)`: Almacena uno o varios valores que de los especificados, se puede indicar asta 64 opciones.

@@ -1,10 +1,10 @@
 ---
+alias: Flow chart
 author: Mindusting
 corrected: false
 tags:
   - Programming/ED
 title: Diagrama de flujo
-alias: Flow chart
 ---
 
 # DIAGRAMA DE FLUJO

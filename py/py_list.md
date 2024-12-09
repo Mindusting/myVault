@@ -13,7 +13,8 @@ title: Listas en Python
 > - [Python doc (List)](https://docs.python.org/3/tutorial/datastructures.html)
 > - [W3 (List)](https://www.w3schools.com/python/python_lists.asp)
 
-- [¿Qué es una lista en programación?](../../pc/pc_list.md)
+> [!faq] FAQ
+> - [¿Qué es una lista en programación?](../../pc/pc_list.md)
 
 Para declarar una [**lista**](../../pc/pc_list.md) en Python se puede hacer de las siguientes formas:
 

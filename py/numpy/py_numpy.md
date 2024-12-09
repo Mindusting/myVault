@@ -4,21 +4,22 @@ corrected: false
 tags:
   - Programming/Python/Module
   - Programming/Python/NumPy
-title: Módulo NumPy en Python
+title: NumPy en Python
 ---
-
-<h1 style="text-align:center;">NUMPY</h1>
-
----
-
-# DOCUMENTACIÓN WEB
-
-- [Documentación oficial de NumPy](https://numpy.org/doc/stable/reference/arrays.html)
-- [NumPy en W3](https://www.w3schools.com/python/numpy/default.asp)
 
 # NUMPY
 
-El [módulo](../py_module.md)
+> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+
+> [!help] REFERENCIAS WEB
+> - [Documentación oficial de NumPy](https://numpy.org/doc/stable/reference/arrays.html)
+> - [NumPy en W3](https://www.w3schools.com/python/numpy/default.asp)
+
+Para poder trabajar con el [módulo](../py_module.md) primero tendremos que importarlo, generalmente se le cambia el nombre a `np` por abreviar:
+
+```python
+import numpy as np
+```
 
 ```python
 import numpy as np

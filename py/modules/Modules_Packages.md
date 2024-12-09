@@ -15,14 +15,14 @@ Un paquete en Python no es más que un directorio (Carpeta) con módulos en su i
 En este caso tenemos en el directorio activo el archivo `main.py` y el directorio (Carpeta) `modules`, dentro de esta nos encontramos los archivos `__init__.py`, `ask.py` y `console.py`, los cuales serán los módulos que importaremos desde el archivo `main.py`.
 
 > [!quote] ESTRUCTURA DE DIRECTORIO
-```txt
-.
-├─ main.py
-└─/modules
-  ├─ __init__.py
-  ├─ ask.py
-  └─ console.py
-```
+> ```txt
+> ./
+>  ├─ main.py
+>  └─/modules
+>    ├─ __init__.py
+>    ├─ ask.py
+>    └─ console.py
+> ```
 
 Contenido del archivo: `main.py`
 ```python

@@ -14,7 +14,7 @@ title: Módulo Struct en Python
 > YouTube:
 > - [NeuralNine](https://youtu.be/gViM3ZuDQrw)
 
-Este módulo es usado para transformar los valores de Python en [`byte`](variables/py_byte.md) y viceversa, permitiendo así guardar información de forma compacta en archivos
+Este módulo es usado para transformar los valores de Python en [`byte`](py_byte.md) y viceversa, permitiendo así guardar información de forma compacta en archivos
 
 ## STRING DE FORMATO
 

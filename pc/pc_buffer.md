@@ -2,8 +2,10 @@
 author: Mindusting
 corrected: false
 tags:
-  - Programming/Python/Loop
-title: Bucle FOR-EACH en Python
+  - Programming/Concept
+title: Qué es un buffer
 ---
+
+# BUFFER
 
 > [!fail] ESTE APARTADO ESTÁ INCOMPLETO

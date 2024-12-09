@@ -4,9 +4,16 @@ corrected: false
 tags:
   - Programming/Python/Module
   - Programming/Python/SYS
-title: Python ARGV
+title: Módulo SYS en Python
 ---
 
+# REFERENCIAS WEB
+
+- [Python SYS Doc](https://docs.python.org/3.11/library/sys.html)
+
+# SYS
+
+> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
 
 > [!fail] ESTE APARTADO ESTÁ INCOMPLETO
 > Hay que cambiarlo ya que tiene que formar parte de la documentación del módulo `SYS` por lo que se debe quitar información redundante que vaya a haber entre los dos apartados.

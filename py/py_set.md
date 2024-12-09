@@ -12,7 +12,8 @@ title: Los conjuntos en Python
 > - [W3 (set)](https://www.w3schools.com/python/python_sets.asp)
 > - [W3 (set methods)](https://www.w3schools.com/python/python_sets_methods.asp)
 
-- [¿Qué es un set o B-Tree en programación?](../../pc/pc_btree.md)
+> [!faq] FAQ
+> - [¿Qué es un set o B-Tree en programación?](../../pc/pc_btree.md)
 
 Para declarar un [**set**](../../pc/pc_btree.md) en Python se puede hacer de las siguientes formas:
 
@@ -37,7 +38,7 @@ print(my_set)
 ```
 
 > [!info] INFO
-> Los elemento que se encuentren dentro del set no tienen por qué estar ordenados.
+> Los elementos que se encuentren dentro del set no tienen porqué estar ordenados.
 
 Como los set no pueden almacenar varias veces el mismo valor, al haber dos `"a"` dentro de la lista, en el set solo hay una, esto mismo se aplica a los valores `True` con el `1` y el `False` con el `0`.
 
@@ -61,39 +62,39 @@ print(my_set)
 Para añadir un elemento nuevo a un ser se usa el [método](classes/py_method.md) `add`:
 
 ```python
-my_set: set = {"Manzana", "Naranja", "Platano"}
+my_set: set = {"Manzana", "Naranja", "Plátano"}
 my_set.add("Pera")
 
 print(my_set)
 # SALIDA:
-# {'Manzana', 'Pera', 'Naranja', 'Platano'}
+# {'Manzana', 'Pera', 'Naranja', 'Plátano'}
 ```
 
-En caso de que el elemento ya exista dentro del set, teste no sufrirá ningún cambio.
+En caso de que el elemento ya exista dentro del **set**, este no sufrirá ningún cambio.
 
 ### UPDATE
 
 Para añadir múltiples elementos a un set se usa el [método](classes/py_method.md) `update`:
 
 ```python
-my_set: set = {"Manzana", "Naranja", "Platano"}
-my_set.update({"Pera", "Arándano", "Berengena"})
+my_set: set = {"Manzana", "Naranja", "Plátano"}
+my_set.update({"Pera", "Arándano", "Berenjena"})
 
 print(my_set)
 # SALIDA:
-# {'Naranja', 'Manzana', 'Pera', 'Berengena', 'Arándano', 'Platano'}
+# {'Naranja', 'Manzana', 'Pera', 'Berenjena', 'Arándano', 'Plátano'}
 ```
 
 > [!note]
-> En este caso se añade los elementos de un set al otro, pero, también hay que tener en cuenta que también funciona con una [lista](py_list.md), una [tupla](py_tuple.md) o con un [string](variables/py_str.md) (En este caso lo que haría sería guardar en el set todos los caracteres que tenga).
+> En este caso se añade los elementos de un set al otro, pero, también hay que tener en cuenta que también funciona con una [lista](py_list.md), una [tupla](py_tuple.md) o con un [string](py_str.md) (En este caso lo que haría sería guardar en el set todos los caracteres que tenga).
 
 ### REMOVE
 
-Si queremos que borrar un elemento del set y queremos que al intentar borrarlo, en caso de que no exista ese elemento [lanzaría una excepción](exceptions/Exceptions_Raise.md), se hace con el [método](classes/py_method.md) `remove`:
+Si queremos que borrar un elemento del set y queremos que al intentar borrarlo, en caso de que no exista ese elemento [lanzaría una excepción](py_exception.md#LANZAMIENTO), se hace con el [método](classes/py_method.md) `remove`:
 
 ```python
-my_set: set = {"Manzana", "Naranja", "Platano"}
-my_set.remove("Platano")
+my_set: set = {"Manzana", "Naranja", "Plátano"}
+my_set.remove("Plátano")
 
 print(my_set)
 # SALIDA:
@@ -102,11 +103,11 @@ print(my_set)
 
 ### DISCARD
 
-Para borra un elemento del set sin que [lance una excepción](exceptions/Exceptions_Raise.md) en el caso de que este elemento no exista, se usa el [método](classes/py_method.md) `discard`:
+Para borrar un elemento del set sin que [lance una excepción](py_exception.md#LANZAMIENTO) en el caso de que este elemento no exista, se usa el [método](classes/py_method.md) `discard`:
 
 ```python
-my_set: set = {"Manzana", "Naranja", "Platano"}
-my_set.discard("Platano")
+my_set: set = {"Manzana", "Naranja", "Plátano"}
+my_set.discard("Plátano")
 
 print(my_set)
 # SALIDA:
@@ -118,14 +119,14 @@ print(my_set)
 En el caso de qué queramos borrar el último elemento del set se puede usar el [método](classes/py_method.md) `pop`, este también devuelve el último valor, por lo que, como se puede ver en el ejemplo, se puede guardar el valor guardado:
 
 ```python
-my_set: set = {"Manzana", "Naranja", "Platano"}
+my_set: set = {"Manzana", "Naranja", "Plátano"}
 last_element: str = my_set.pop()
 
 print(my_set)
 print(last_element)
 # SALIDA:
 # {'Naranja', 'Manzana'}
-# Platano
+# Plátano
 ```
 
 > [!warning]
@@ -136,7 +137,7 @@ print(last_element)
 Para borrar todos los elementos del set se puede usar el [método](classes/py_method.md) `clear`:
 
 ```python
-my_set: set = {"Manzana", "Naranja", "Platano"}
+my_set: set = {"Manzana", "Naranja", "Plátano"}
 my_set.clear()
 
 print(my_set)
@@ -146,35 +147,35 @@ print(my_set)
 
 ### UNION
 
-El [método](classes/py_method.md) `union` funciona de forma similar al [`update`](#UPDATE), con la diferencia que este no cambia ninguno de los dos sets, si no qué devuelve un nuevo set cono todos los elementos de los sets unidos.
+El [método](classes/py_method.md) `union` funciona de forma similar al [`update`](#UPDATE), con la diferencia que este no cambia ninguno de los dos sets, si no qué devuelve un nuevo **set** como todos los elementos de los sets unidos.
 
 ```python
-set_1: set = {"Manzana", "Naranja", "Platano"}
-set_2: set = {"Pera", "Arándano", "Berengena"}
+set_1: set = {"Manzana", "Naranja", "Plátano"}
+set_2: set = {"Pera", "Arándano", "Berenjena"}
 
 print(set_1.union(set_2))
 # SALIDA:
-# {'Pera', 'Platano', 'Arándano', 'Berengena', 'Manzana', 'Naranja'}
+# {'Pera', 'Plátano', 'Arándano', 'Berenjena', 'Manzana', 'Naranja'}
 ```
 
 > [!note]
-> Al igual que con el [método](classes/py_method.md) [`update`](#UPDATE), es posible sustituir el `set_2` por una [lista](py_list.md), una [tupla](py_tuple.md) o un [string](variables/py_str.md).
+> Al igual que con el [método](classes/py_method.md) [`update`](#UPDATE), es posible sustituir el `set_2` por una [lista](py_list.md), una [tupla](py_tuple.md) o un [string](py_str.md).
 
 ---
 
-Otra forma de hacer esto mismo es a trabes de una sintaxis más simple haciendo uso del carácter `|`:
+Otra forma de hacer esto mismo es a través de una sintaxis más simple haciendo uso del carácter `|`:
 
 ```python
-set_1: set = {"Manzana", "Naranja", "Platano"}
-set_2: set = {"Pera", "Arándano", "Berengena"}
+set_1: set = {"Manzana", "Naranja", "Plátano"}
+set_2: set = {"Pera", "Arándano", "Berenjena"}
 
 print(set_1 | set_2)
 # SALIDA:
-# {'Pera', 'Platano', 'Arándano', 'Berengena', 'Manzana', 'Naranja'}
+# {'Pera', 'Plátano', 'Arándano', 'Berenjena', 'Manzana', 'Naranja'}
 ```
 
 > [!warning]
-> Esta forma reducida solo soporta set con set.
+> Esta forma reducida solo soporta set con **set**.
 
 ---
 
@@ -182,14 +183,14 @@ En cualquiera de estas dos opciones se puede especificar más set a combinar:
 
 ```python
 set_1: set = {"Manzana", "Naranja"}
-set_2: set = {"Platano", "Pera"}
-set_3: set = {"Arándano", "Berengena"}
+set_2: set = {"Plátano", "Pera"}
+set_3: set = {"Arándano", "Berenjena"}
 
 print(set_1.union(set_2, set_3))
 print(set_1 | set_2 | set_3)
 # SALIDA:
-# {'Berengena', 'Naranja', 'Manzana', 'Arándano', 'Pera', 'Platano'}
-# {'Berengena', 'Naranja', 'Manzana', 'Arándano', 'Pera', 'Platano'}
+# {'Berenjena', 'Naranja', 'Manzana', 'Arándano', 'Pera', 'Plátano'}
+# {'Berenjena', 'Naranja', 'Manzana', 'Arándano', 'Pera', 'Plátano'}
 ```
 
 ### INTERSECTION
@@ -197,7 +198,7 @@ print(set_1 | set_2 | set_3)
 El [método](classes/py_method.md) `intersection` funciona de forma similar al [`union`](#UNION), con la diferencia que este devuelve un set con los elementos que coincidan en los dos sets.
 
 ```python
-set_1: set = {"Manzana", "Naranja", "Platano"}
+set_1: set = {"Manzana", "Naranja", "Plátano"}
 set_2: set = {"Pera", "Naranja", "Manzana"}
 
 print(set_1.intersection(set_2))
@@ -206,14 +207,14 @@ print(set_1.intersection(set_2))
 ```
 
 > [!note]
-> Al igual que con el [método](classes/py_method.md) [`union`](#UNION), es posible sustituir el `set_2` por una [lista](py_list.md), una [tupla](py_tuple.md) o un [string](variables/py_str.md).
+> Al igual que con el [método](classes/py_method.md) [`union`](#UNION), es posible sustituir el `set_2` por una [lista](py_list.md), una [tupla](py_tuple.md) o un [string](py_str.md).
 
 ---
 
-Otra forma de hacer esto mismo es a trabes de una sintaxis más simple haciendo uso del carácter `&`:
+Otra forma de hacer esto mismo es a través de una sintaxis más simple haciendo uso del carácter `&`:
 
 ```python
-set_1: set = {"Manzana", "Naranja", "Platano"}
+set_1: set = {"Manzana", "Naranja", "Plátano"}
 set_2: set = {"Pera", "Naranja", "Manzana"}
 
 print(set_1 & set_2)
@@ -231,7 +232,7 @@ En cualquiera de estas dos opciones se puede especificar más set a combinar:
 ```python
 set_1: set = {"Manzana", "Naranja"}
 set_2: set = {"Naranja", "Manzana"}
-set_3: set = {"Manzana", "Platano"}
+set_3: set = {"Manzana", "Plátano"}
 
 print(set_1.intersection(set_2, set_3))
 print(set_1 & set_2 & set_3)
@@ -245,7 +246,7 @@ print(set_1 & set_2 & set_3)
 El [método](classes/py_method.md) `intersection_update` es una combinación entre los [método](classes/py_method.md) [`update`](#UPDATE) e [`intersection`](#INTERSECTION) modificando el primer set, haciendo que solo tenga los elementos qué coincidan en el segundo set.
 
 ```python
-set_1: set = {"Manzana", "Naranja", "Platano"}
+set_1: set = {"Manzana", "Naranja", "Plátano"}
 set_2: set = {"Pera", "Naranja", "Manzana"}
 
 set_1.intersection_update(set_2)
@@ -260,28 +261,28 @@ print(set_1)
 El [método](classes/py_method.md) `difference` devuelve un set con los elementos del primer set que no estén en el segundo:
 
 ```python
-set_1: set = {"Manzana", "Naranja", "Platano"}
+set_1: set = {"Manzana", "Naranja", "Plátano"}
 set_2: set = {"Pera", "Naranja", "Manzana"}
 
 print(set_1.difference(set_2))
 # SALIDA:
-# {'Platano'}
+# {'Plátano'}
 ```
 
 > [!note]
-> Al igual que con el [método](classes/py_method.md) [`union`](#UNION), es posible sustituir el `set_2` por una [lista](py_list.md), una [tupla](py_tuple.md) o un [string](variables/py_str.md).
+> Al igual que con el [método](classes/py_method.md) [`union`](#UNION), es posible sustituir el `set_2` por una [lista](py_list.md), una [tupla](py_tuple.md) o un [string](py_str.md).
 
 ---
 
-Otra forma de hacer esto mismo es a trabes de una sintaxis más simple haciendo uso del carácter `-`:
+Otra forma de hacer esto mismo es a través de una sintaxis más simple haciendo uso del carácter `-`:
 
 ```python
-set_1: set = {"Manzana", "Naranja", "Platano"}
+set_1: set = {"Manzana", "Naranja", "Plátano"}
 set_2: set = {"Pera", "Naranja", "Manzana"}
 
 print(set_1 - set_2)
 # SALIDA:
-# {'Platano'}
+# {'Plátano'}
 ```
 
 > [!warning]
@@ -294,7 +295,7 @@ En cualquiera de estas dos opciones se puede especificar más set a combinar:
 ```python
 set_1: set = {"Manzana", "Naranja"}
 set_2: set = {"Pera", "Manzana"}
-set_3: set = {"Manzana", "Platano"}
+set_3: set = {"Manzana", "Plátano"}
 
 print(set_1.difference(set_2, set_3))
 print(set_1 - set_2 - set_3)
@@ -308,14 +309,14 @@ print(set_1 - set_2 - set_3)
 El [método](classes/py_method.md) `difference_update` es una combinación entre los [método](classes/py_method.md) [`update`](#UPDATE) e [`difference`](#DIFFERENCE) modificando el primer set, haciendo que solo tenga los elementos qué coincidan en el segundo set.
 
 ```python
-set_1: set = {"Manzana", "Naranja", "Platano"}
+set_1: set = {"Manzana", "Naranja", "Plátano"}
 set_2: set = {"Pera", "Naranja", "Manzana"}
 
 set_1.difference_update(set_2)
 
 print(set_1)
 # SALIDA:
-# {'Platano'}
+# {'Plátano'}
 ```
 
 ### SYMMETRIC DIFFERENCE
@@ -323,28 +324,28 @@ print(set_1)
 El [método](classes/py_method.md) `symmetric_difference` es similar al [método](classes/py_method.md) [difference](#DIFFERENCE), con la diferencia que este devuelve un set con los elementos que no coincidan en ambos sets:
 
 ```python
-set_1: set = {"Manzana", "Naranja", "Platano"}
+set_1: set = {"Manzana", "Naranja", "Plátano"}
 set_2: set = {"Pera", "Naranja", "Manzana"}
 
 print(set_1.symmetric_difference(set_2))
 # SALIDA:
-# {'Pera', 'Platano'}
+# {'Pera', 'Plátano'}
 ```
 
 > [!note]
-> Al igual que con el [método](classes/py_method.md) [`union`](#UNION), es posible sustituir el `set_2` por una [lista](py_list.md), una [tupla](py_tuple.md) o un [string](variables/py_str.md).
+> Al igual que con el [método](classes/py_method.md) [`union`](#UNION), es posible sustituir el `set_2` por una [lista](py_list.md), una [tupla](py_tuple.md) o un [string](py_str.md).
 
 ---
 
-Otra forma de hacer esto mismo es a trabes de una sintaxis más simple haciendo uso del carácter `^`:
+Otra forma de hacer esto mismo es a través de una sintaxis más simple haciendo uso del carácter `^`:
 
 ```python
-set_1: set = {"Manzana", "Naranja", "Platano"}
+set_1: set = {"Manzana", "Naranja", "Plátano"}
 set_2: set = {"Pera", "Naranja", "Manzana"}
 
 print(set_1 ^ set_2)
 # SALIDA:
-# {'Pera', 'Platano'}
+# {'Pera', 'Plátano'}
 ```
 
 > [!warning]
@@ -357,11 +358,11 @@ Si queremos hacer este proceso con múltiples sets simultáneamente, estaremos o
 ```python
 set_1: set = {"Manzana", "Naranja"}
 set_2: set = {"Naranja", "Manzana"}
-set_3: set = {"Manzana", "Platano"}
+set_3: set = {"Manzana", "Plátano"}
 
 print(set_1 ^ set_2 ^ set_3)
 # SALIDA:
-# {'Platano', 'Manzana'}
+# {'Plátano', 'Manzana'}
 ```
 
 ### SYMMETRIC DIFERENCE UPDATE
@@ -369,32 +370,32 @@ print(set_1 ^ set_2 ^ set_3)
 El [método](classes/py_method.md) `symmetric_difference_update` es una combinación entre los [método](classes/py_method.md) [`update`](#UPDATE) e [`symmetric_difference`](#SYMMETRIC%20DIFFERENCE) modificando el primer set, haciendo que tenga los elementos de los dos set que no coincidieran en los dos:
 
 ```python
-set_1: set = {"Manzana", "Naranja", "Platano"}
+set_1: set = {"Manzana", "Naranja", "Plátano"}
 set_2: set = {"Pera", "Naranja", "Manzana"}
 
 set_1.symmetric_difference_update(set_2)
 
 print(set_1)
 # SALIDA:
-# {'Pera', 'Platano'}
+# {'Pera', 'Plátano'}
 ```
 
 ## BUCLES
 
-Se puede usar el set en un [bucle for](loops/py_for.md) al estilo de [for-each](loops/py_for_each.md):
+Se puede usar el set en un [bucle for](py_loop.md#FOR) al estilo de [for-each](py_loop.md#FOR-EACH):
 
 ```python
-my_set: set = {"Manzana", "Naranja", "Platano"}
+my_set: set = {"Manzana", "Naranja", "Plátano"}
 
 print(my_set)
 
 for element in my_set:
     print(element)
 # SALIDA:
-# {'Naranja', 'Manzana', 'Platano'}
+# {'Naranja', 'Manzana', 'Plátano'}
 # Naranja
 # Manzana
-# Platano
+# Plátano
 ```
 
 > [!note] NOTE
@@ -405,29 +406,29 @@ for element in my_set:
 Para poder saber si existe un elemento en concreto dentro del set se usa la palabra clave `in`:
 
 ```python
-my_set: set = {"Manzana", "Naranja", "Platano"}
+my_set: set = {"Manzana", "Naranja", "Plátano"}
 
-print("Platano" in my_set)
+print("Plátano" in my_set)
 # SALIDA:
 # True
 ```
 
-Como se puede ver este nos devolverá un valor [booleano](variables/py_bool.md) indicando si existe o no dentro del set.
+Como se puede ver este nos devolverá un valor [booleano](py_bool.md) indicando si existe o no dentro del set.
 
 ## VARIABLE INMUTABLE
 
 Existe una variante del set la cual es inmutable, esto quiere decir que una vez es declarado, no se puede cambiar, para ello se usa la [clase](py_class.md) `frozenset` (Set congelado):
 
 ```python
-my_set: set = {"Manzana", "Naranja", "Platano"}
+my_set: set = {"Manzana", "Naranja", "Plátano"}
 my_frozenset: frozenset = frozenset(my_set)
 
 print(my_frozenset)
 # SALIDA:
-# frozenset({'Platano', 'Naranja', 'Manzana'})
+# frozenset({'Plátano', 'Naranja', 'Manzana'})
 ```
 
-Este tipo de set funcionará igual que un set normal, con la diferencia que si intentamos modificarlo ocurrirá un error, ya que está pesado para que no sea modificado, se podría decir que es la versión [`contant`](../../pc/pc_constant.md) del set.
+Este tipo de set funcionará igual que un set normal, con la diferencia que si intentamos modificarlo ocurrirá un error, ya que está pensado para que no sea modificado, se podría decir que es la versión [`contant`](../../pc/pc_constant.md) del set.
 
 %%
 ## MÉTODOS

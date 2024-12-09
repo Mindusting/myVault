@@ -48,7 +48,7 @@ Otra cosa que podemos ver en este anterior ejemplo es el **argumento** `end`, es
 
 # SEPARACIÓN
 
-El atributo `sep` (*abreviación de `separación` en inglés*) indica la separación que tendrán los elementos que hayamos indicado en el argumento `values`, por defecto el valor es `' '` (*un espacio*), pero podemos cambiarlo al [`string`](variables/py_str.md) que queramos:
+El atributo `sep` (*abreviación de `separación` en inglés*) indica la separación que tendrán los elementos que hayamos indicado en el argumento `values`, por defecto el valor es `' '` (*un espacio*), pero podemos cambiarlo al [`string`](py_str.md) que queramos:
 
 ```python
 words: tuple[str] = ('Hola', 'mundo!!!')
@@ -65,7 +65,7 @@ print(*words, sep='-')
 
 # FIN
 
-El atributo `end` (*`fin` el final de la impresión de los  que hayamos indicado en el argumento `values`, por defecto el valor es `'\n'` (*un salto de línea*), pero podemos cambiarlo al [`string`](variables/py_str.md) que queramos:
+El atributo `end` (*`fin` el final de la impresión de los  que hayamos indicado en el argumento `values`, por defecto el valor es `'\n'` (*un salto de línea*), pero podemos cambiarlo al [`string`](py_str.md) que queramos:
 
 ```python
 print('Hola mundo!!!', end='')

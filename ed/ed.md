@@ -1,10 +1,10 @@
 ---
+alias: Environment development
 author: Mindusting
 corrected: false
 tags:
   - Programming/ED
 title: Desarrollo de entornos
-alias: Environment development
 ---
 
 # DESARROLLO DE ENTORNOS

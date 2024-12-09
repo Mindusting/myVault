@@ -8,6 +8,11 @@ title: DB en MySQL
 
 # DB EN MYSQL
 
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> - [ ] Escribir una explicación en la creación de la DB.
+> - [ ] Escribir una explicación en el apartado de renombrar la DB.
+> - [ ] Escribir una explicación en la modificación de la DB.
+
 > [!faq] FAQ
 > - [¿Qué es una DB?](../sql_db.md)
 
@@ -18,6 +23,29 @@ title: DB en MySQL
 
 ```sql
 CREATE DATABASE my_db;
+```
+
+> [!note]
+> También es posible usar `SCHEMA` en sustitución a `DATABASE`.
+
+### CONJUNTO DE CARACTERES
+
+Establecer un conjunto de caracteres correcto para la DB permite que esta sea capaz de interpretas correctamente el texto que se quiere almacenar en ella.
+
+Para poder ver los conjuntos de caracteres permitidos se puede usar la siguiente instrucción:
+
+> [!abstract] SINTAXIS
+> SHOW CHARACTER SET;
+
+Una vez hemos elegido un conjunto de datos, para crear una DB con ese conjunto de caracteres específico, tendremos que seguir la siguiente sintaxis:
+
+> [!abstract] SINTAXIS
+> CREATE DATABASE ***\[db\_name]***
+> COLLATE ***\[character_set]***;
+
+```sql
+CREATE DATABASE my_db
+COLLATE utf8mb4_spanish_ci;
 ```
 
 ## LISTAR DDBB
@@ -50,6 +78,20 @@ USE my_db;
 ```sql
 RENAME DATABASE my_db TO test_db;
 ```
+
+## MODIFICAR DB
+
+> [!abstract] SINTAXIS
+> ALTER DATABASE ***\[db\_name\]***
+> ***\[modification]***;
+
+```sql
+ALTER DATABASE my_db
+CHARACTER SET latin1;
+```
+
+> [!note]
+> También es posible usar `SCHEMA` en sustitución a `DATABASE`.
 
 ## BORRA DB
 

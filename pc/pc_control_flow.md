@@ -2,8 +2,10 @@
 author: Mindusting
 corrected: false
 tags:
-  - Programming/Python/Variable/Bool
-title: Valores Booleanos en Python
+  - Programming/Concept
+title: Control de flujo en programación
 ---
+
+# CONTROL DE FLUJO
 
 > [!fail] ESTE APARTADO ESTÁ INCOMPLETO

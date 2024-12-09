@@ -28,7 +28,7 @@ pip install PyYAML
 
 ## DE YAML A PYTHON
 
-Para transformar un [`str`](variables/py_str.md) con información en formato `YAML` en un [diccionario](py_dict.md) y/o [lista](py_list.md), tendremos que hacer uso de la [función](py_function.md) `safe_load.
+Para transformar un [`str`](py_str.md) con información en formato `YAML` en un [diccionario](py_dict.md) y/o [lista](py_list.md), tendremos que hacer uso de la [función](py_function.md) `safe_load.
 
 ```python
 import yaml
@@ -50,7 +50,7 @@ print(data)
 
 ---
 
-En el siguiente ejemplo veremos como hacer lo mismo que en el anterior con la diferencia que en este no usamos un [`str`](variables/py_str.md) sino un archivo.
+En el siguiente ejemplo veremos como hacer lo mismo que en el anterior con la diferencia que en este no usamos un [`str`](py_str.md) sino un archivo.
 
 ***data.yml***:
 ```yaml
@@ -74,7 +74,7 @@ print(data)
 
 ## DE PYTHON A YAML
 
-Para transformar un [diccionario](py_dict.md) y/o [lista](py_list.md) en un [`str`](variables/py_str.md) con información en formato `YAML`, tendremos que hacer uso de la [función](py_function.md) `dump.
+Para transformar un [diccionario](py_dict.md) y/o [lista](py_list.md) en un [`str`](py_str.md) con información en formato `YAML`, tendremos que hacer uso de la [función](py_function.md) `dump.
 
 ```python
 import yaml
@@ -101,7 +101,7 @@ print(text)
 
 ---
 
-En el siguiente ejemplo veremos como hacer lo mismo que en el anterior con la diferencia que en este no usamos un [`str`](variables/py_str.md) sino un archivo.
+En el siguiente ejemplo veremos como hacer lo mismo que en el anterior con la diferencia que en este no usamos un [`str`](py_str.md) sino un archivo.
 
 ```python
 import yaml

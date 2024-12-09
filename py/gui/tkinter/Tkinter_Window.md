@@ -20,7 +20,7 @@ Cuando empecemos a crear *elementos* (`widget`) para nuestra ventana, estos se d
 
 # GEOMERÍA DE LA VENTANA
 
-Para cambiar el tamaño de la ventana se usa al [método](../../classes/py_method.md) `geometry`, esta recibe un argumento de tipo [str](../../variables/py_str.md) con las medidas y la posición de la ventana.
+Para cambiar el tamaño de la ventana se usa al [método](../../classes/py_method.md) `geometry`, esta recibe un argumento de tipo [str](../../py_str.md) con las medidas y la posición de la ventana.
 
 ```python
 root: tk.Tk = tk.Tk()
@@ -63,7 +63,7 @@ root.mainloop()
 
 # REDIMENSIONABLE
 
-De forma predeterminada, las ventanas de `Tkinter` son redimensionables, esto quiere decir que el usuario puede cambiar el tamaño de esta manteniendo el clic y arrastrando en uno de sus bordes, si queremos que esto no sea posible tendremos que usar el [método](../../classes/py_method.md) `resizable`, este recibe dos argumentos de tipo [booleano](../../variables/py_bool.md) siendo el primero para el eje en `x` y el segundo en `y`, si el valor que indicamos es `False`, ese eje no se podrá redimensionar, si es `True` si se podrá.
+De forma predeterminada, las ventanas de `Tkinter` son redimensionables, esto quiere decir que el usuario puede cambiar el tamaño de esta manteniendo el clic y arrastrando en uno de sus bordes, si queremos que esto no sea posible tendremos que usar el [método](../../classes/py_method.md) `resizable`, este recibe dos argumentos de tipo [booleano](../../py_bool.md) siendo el primero para el eje en `x` y el segundo en `y`, si el valor que indicamos es `False`, ese eje no se podrá redimensionar, si es `True` si se podrá.
 
 ```python
 root: tk.Tk = tk.Tk()

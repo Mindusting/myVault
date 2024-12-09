@@ -6,11 +6,7 @@ tags:
 title: Archivos de Python
 ---
 
-<h1 style="text-align:center;">ARCHIVOS DE PYTHON</h1>
-
----
-
-# ARCHIVOS DE PYTHON 📄
+# ARCHIVOS DE PYTHON
 
 Para poder programar algo en **Python** tenemos que guardar las instrucciones de nuestro programa en un archivo con extensión "`.py`" por lo que para empezar puedes crear una carpeta llamada "***Python***" donde guardarás los diferentes archivos, puedes crear un archivo para cada apartado (Recuerda que deben tener nombres distintos y acabar en "`.py`"), eso ya dependerá de cómo quieras organizarte tú, a medida que vayas aprendiendo a programar irás sabiendo mejor cómo organizar los archivos, pero ahora es momento de trastear e ir probando las cosas a ver que pasa y por qué pasan, no tengas miedo a equivocarte, que salgan errores o que no funcione como quieres las cosas, es el proceso de aprendizaje, si hay algo que no sepas búscalo en internet, no te quedes parado y no pierdas la motivación.
 
@@ -39,7 +35,7 @@ Imaginemos que tenemos el archivo `main.py`, si quisiéramos ejecutarlo tendría
 python3 main.py
 ```
 
-En el caso en el que nuestro archivo `main.py` requiriera de por ejemplo dos [argumentos](py_argv.md), podremos indicarlo como se muestra en el siguiente ejemplo:
+En el caso en el que nuestro archivo `main.py` requiriera de por ejemplo dos *argumentos*, podremos indicarlo como se muestra en el siguiente ejemplo:
 
 ```shell
 python3 main.py 3 2

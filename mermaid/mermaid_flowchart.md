@@ -1,10 +1,10 @@
 ---
+alias: Flowchart in Mermaid
 author: Mindusting
 corrected: false
 tags:
   - Mermaid
 title: Diagrama de flujo en Mermaid
-alias: Flowchart in Mermaid
 ---
 
 # DIAGRAMA DE FLUJO EN MERMAID

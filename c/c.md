@@ -4,6 +4,7 @@ corrected: false
 tags:
   - Programming/C
 title: C
+alias: EL LENGUAJE DE PROGRAMACIÓN C
 ---
 
 <h1 style="text-align:center;color:#888;">EL LENGUAJE DE PROGRAMACIÓN C</h1>
@@ -11,6 +12,10 @@ title: C
 ![#logo](../img/c_logo.png)
 
 ---
+
+# C
+
+> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
 
 > [!help] REFERENCIAS WEB
 > YouTube:

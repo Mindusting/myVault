@@ -68,7 +68,7 @@ La puerta lógica **NOT** está compuesta por una entrada y una salida.
 
 ### XOR
 
-![](img/xor.png)
+![](../img/logic_gate_xor.png)
 
 >[!note]
 >Si el número de inputs es par, las reglas son las siguientes:

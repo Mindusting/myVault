@@ -28,7 +28,7 @@ title: Python
 > [!note] NOTE
 > Es importante especificar que esta documentación está basada en Python3 por lo que si usas otra versión de Python puedes encontrarte con la posibilidad de qué no funcione lo que estás programando.
 
-# ÍNDICE
+## ÍNDICE
 
 - [AGRADECIMIENTOS 🎉](py_thanks_to.md)
 - [PRÓLOGO 🧭](py_prologue.md)
@@ -36,34 +36,34 @@ title: Python
 - [COMENTARIOS 💬](py_comments.md)
 - [OUTPUT POR CONSOLA 🖥️](py_print.md)
 - [VARIABLES 💾](py_variable.md)
+- [SLICES 📏](py_slice.md)
 - [INPUT POR CONSOLA ⌨️](py_input.md)
 - [ESTRUCTURAS DE DATOS](py_data_structure.md)
 - [CONTROL DE FLUJO 🚦](py_flow_control.md)
 - [BUCLES ➰](py_loop.md)
 - [FUNCIONES 📞](py_function.md)
+- [MAP 🗺](py_map.md)
 - [BREAKPOINT 🔴](py_breakpoint.md)
 - [CLASES 📦](py_class.md)
 - [EXCEPCIONES ⚠️](py_exception.md)
 - [MÓDULOS 🛄](py_module.md)
+- [COMANDO PIP](py_pip.md)
 - [ARCHIVOS EXTERNOS](py_file_manager.md)
 - [GUI 🖼](gui/py_gui.md)
 
-# MÓDULOS
-
-- [COMANDO PIP](py_pip.md)
-
----
+## MÓDULOS
 
 - [MATH 🧮](math/py_math.md)
-- [RANDOM 🎲](random/py_random.md)
+- [RANDOM 🎲](py_random.md)
 - [OS](py_os.md)
 - [RE](re/py_re.md)
-- [SYS](sys/py_sys.md)
+- [SYS](py_sys.md)
 - [PSTIL](py_psutil.md)
 - [STRUCT](py_struct.md)
-- [TIME ⌛](time/py_time.md)
+- [TIME ⌛](py_time.md)
 - [JSON 🗃](py_json.md)
 - [YAML](py_yaml.md)
+- [HILOS 🧵](py_threading.md)
 - [NUMPY 🧮](numpy/py_numpy.md)
 - [EXCEL 🍫](openpyxl/py_openpyxl.md)
 - [PANDAS 📈](py_pandas.md)
@@ -75,13 +75,11 @@ title: Python
 - [PYAUTOGUI 🖱️](py_pyautogui.md)
 - [PYGAME 🕹️](pygame/py_pygame.md)
 
-# CLASES EXTRA
+## TODO
 
-- [MAP 🗺](py_map.md)
-- [SLICES 📏](py_slice.md)
-
-%%
-# TEMP
+> [!todo] TODO
+> - [ ] Documentar las [variables](py_variable.md).
+> - [ ] Documentar el [control de flujo](py_flow_control.md).
 
 ```python
 import os
@@ -106,7 +104,7 @@ print(platform.platform()) # OS version
 print(platform.system()) # OS
 ```
 
-# GLOVAL
+### GLOVAL
 
 https://youtu.be/QYUbLevwgDQ
 https://youtu.be/38uGbVYICwg
@@ -127,12 +125,10 @@ py_compile.compile("EXCEL_Worker.py")
 
 ---
 
-# EJECUTAR FUNCIONES DE C EN PYTHON
+### EJECUTAR FUNCIONES DE C EN PYTHON
 
 - [stack overflow](https://stackoverflow.com/questions/16647186/calling-c-functions-in-python)
 
-# VER VÍDEOS
+### VER VÍDEOS
 
 - [ ] [Control de red local](https://youtu.be/DFTwB2nAexs)
-
-%%
