@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "53995e7fe1ab4a1f",
+        "id": "849fe0e1d1d7e11c",
         "type": "tabs",
         "children": [
           {
-            "id": "a3f6f55f7a9f00a7",
+            "id": "08e1ca11ce48bf24",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
+    "width": 280.5,
     "collapsed": true
   },
   "right": {
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sql/mysql/mysql_table.md",
+                "file": "java/java_file_manager.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for mysql_table"
+              "title": "Backlinks for java_file_manager"
             }
           },
           {
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "java/java_file_manager.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from java_file_manager"
             }
           },
           {
@@ -141,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "sql/mysql/mysql_table.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of mysql_table"
             }
           },
           {
@@ -205,35 +205,39 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a3f6f55f7a9f00a7",
+  "active": "08e1ca11ce48bf24",
   "lastOpenFiles": [
-    "pc/pc_variable.md",
-    "README.md",
     "sql/sql.md",
-    "sql/mysql/mysql.md",
-    "sql/sql_server/sql_server.md",
+    "sql/mysql/mysql_data_types.md",
     "sql/mysql/mysql_table.md",
-    "sql/sql_table.md",
-    "sql/sqlite3/SQLite3_data_types.md",
-    "sql/sqlite3/operators/SQLite_or.md",
-    "sql/sqlite3/operators",
-    "sql/sqlite3/SQLite3_not_null.md",
-    "sql/sqlite3/SQLite3_tables.md",
-    "sql/sqlite3/SQLite3_insert.md",
-    "sql/sqlite3/SQLite3_select.md",
-    "sql/sqlite3/SQLite3_sqlite_master.md",
-    "sql/sqlite3/SQLite3_read_sql_files.md",
-    "sql/sqlite3/SQLite3_autoincrement.md",
-    "sql/sqlite3/SQLite3_delete.md",
-    "sql/sqlite3/SQLite3_primary_key.md",
-    "sql/sqlite3/SQLite3_operators.md",
-    "sql/sqlite3/SQLite3_list_tables.md",
-    "sql/sqlite3/SQLite3_output_formats.md",
-    "sql/sqlite3/SQLite3_open_db.md",
-    "sql/sqlite3/SQLite3_memory_ddbb.md",
-    "sql/sqlite3/SQLite3_foreign_key.md",
+    "sql/mysql/mysql_db.md",
     "sql/sqlite3/SQLite3.md",
-    "sql/sqlite3/SQLite3_table_info.md",
+    "sql/mysql/mysql.md",
+    "pc/pc.md",
+    "java/java_file_manager.md",
+    "java/java_exceptions.md",
+    "java/java.md",
+    "sql/sql_crud.md",
+    "sql/mysql/mysql_crud.md",
+    "README.md",
+    "py/py_yaml.md",
+    "pc/pc_pointer.md",
+    "pc/pc_array.md",
+    "regex/regex.md",
+    "py/re/py_re.md",
+    "dump/yaml.md",
+    "md/md.md",
+    "mermaid/mermaid_flowchart.md",
+    "ed/ed_flowchart.md",
+    "html/html.md",
+    "css/css.md",
+    "js/js.md",
+    "js/js_file.md",
+    "img/img_fade.png",
+    "py/variables/Int",
+    "py/variables",
+    "img/transistor.png",
+    "sql/sqlite3/operators",
     "sql/sqlite3",
     "sql/SQLite3/operators",
     "sql/SQLite3",
@@ -241,18 +245,14 @@
     "sql/sqlite3",
     "ed",
     "sql/mysql",
-    "math/img_fade.png",
     "img/cat_cat.png",
-    "pc/img",
     "img/java_logo.png",
     "img/retro_monitor.png",
     "img/file_text.png",
     "img/file_encripted.png",
     "img/file.png",
     "img/obsidian.png",
-    "a/os/Windows/BATCH/temp.bat",
     "a/os/Windows/Windows.png",
-    "a/os/Unix/Ubuntu.png",
     "Sin título.canvas",
     "Untitled.canvas"
   ]

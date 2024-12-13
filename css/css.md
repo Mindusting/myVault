@@ -14,7 +14,9 @@ title: CSS3
 
 # CSS3
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Documentar at-rules.
 
 > [!help] REFERENCIAS WEB
 > - [Mozilla](https://developer.mozilla.org/es/docs/Web/CSS/Using_CSS_custom_properties)
@@ -27,7 +29,7 @@ title: CSS3
 %%
 SINTAXIS
 
-\[selector] {\[property]:\[value];}
+[selector] {[property]:[value];}
 %%
 
 > [!abstract] SINTAXIS
@@ -37,6 +39,7 @@ SINTAXIS
 ## ÍNDICE
 
 - [SELECTORES](css_selectors.md)
+- [AT-RULES](css_at_rules.md)
 - [BOOTSRAP](css_bootstrap.md)
 
 ## APUNTES RÁPIDOS

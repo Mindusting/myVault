@@ -7,9 +7,7 @@ tags:
 title: Módulo QRCode en Python
 ---
 
-<h1 style="text-align:center;">QR</h1>
-
----
+# QR EN PYTHON
 
 Este [módulo](py_module.md) permite crear una imagen de un `QR`, albergando este un texto, enlace o imagen que queramos.
 

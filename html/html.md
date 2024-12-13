@@ -14,6 +14,19 @@ title: HTML5
 
 # HTML5
 
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] TODO
+> > - [ ] Documentar [MAP](https://www.w3schools.com/html/html_images_imagemap.asp) (*imagen*).
+> > - [ ] Documentar [canvas](https://www.w3schools.com/html/html5_canvas.asp).
+>
+> ```html
+> <audio controls>
+>     <source src="audio.ogg" type="audio/mpeg"/>
+> </audio>
+> ```
+> 
+> protocolo servidor ruta archivo
+
 > [!help] REFERENCIAS WEB
 > - [Mocilla](https://developer.mozilla.org/en-US/docs/Web/HTML)
 > - [W3](https://www.w3schools.com/html/default.asp)
@@ -53,19 +66,3 @@ SINTAXIS
 - [LINKS](html_hyperlink.md)
 - [IMÁGENES](html_img.md)
 - [FORMULARIOS](html_form.md)
-
-> [!todo] TODO
-> - [ ] [MAP](https://www.w3schools.com/html/html_images_imagemap.asp)
-> - [ ] Camvas
-
-%%
-# AUDIO
-
-```html
-<audio controls>
-    <source src="audio.ogg" type="audio/mpeg"/>
-</audio
-```
-
-protocolo servidor ruta archivo
-%%

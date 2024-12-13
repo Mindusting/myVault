@@ -28,6 +28,14 @@ title: Tablas en MySQL
 > > - [ ] Valor por defecto.
 > > - [ ] Repasar todo para comprobar que falta y si debo cambiar el texto.
 > > - [ ] Comprobar faltas de ortografía.
+> > - [ ] Explicar como cambiar el set de caracteres de una tabla.
+> > - [ ] Explicar que es `ENGINE` de la tabla.
+> > - [ ] Explicar que es el `MAX_ROWS` de la tabla.
+> > - [ ] Explicar el `COMMENT` de la tabla.
+> > - [ ] Explicar el `CHARACTER SET` de la tabla.
+> > - [ ] Explicar el `COLLATE` de la tabla.
+> > - [ ] Explicar `ON UPDATE`.
+> > - [ ] Explicar `ON DELETE`.
 
 > [!faq] FAQ
 > - [¿Qué son las tablas en SQL?](../sql_table.md)
@@ -36,8 +44,10 @@ Una tabla nos permite almacenar información de forma ordenada dentro de nuestra
 
 ## CREAR TABLA
 
+Para crear una tabla tendremos que seguir la siguiente sintaxis:
+
 > [!abstract] SINTAXIS
-> CREATE TABLE ***\[table\_name\]*** (***\[field\_name\]***);
+> CREATE TABLE ***\[table\_name\]*** ([***\[col\_def\]***](#DEFINICIÓN%20DE%20COLUMNA));
 
 ```sql
 -- Indicamos que la DB en la que queremos trabajar es "my_db".
@@ -51,69 +61,62 @@ CREATE TABLE users (
 );
 ```
 
-Una tabla requiere de al menos un campo en el que se pueda guardar información, el campo indicado en este ejemplo es "*id*", este almacenará un valor entero y se usará para identificar cada [registro](#^Crear-registros)[^registro] (*Por así decirlo, es una matrícula para cada [registro](#^Crear-registros)*), dando le un valor distinto a cada uno, pero tal y como está ahora, diferentes [registro](#^Crear-registros) pueden tener el mismo valor en este capo, para evitar esto hay que [modificarlo](#^Modificar-una-tabla) para convertirlo en un valor *key*.
+> [!warning]
+> Si ya existe una **tabla** con el mismo nombre nos dará un error.
 
-[^registro]: Un registro es un objeto donde se guardan los datos de por ejemplo un cliente, si creamos una tabla llamada "*clientes*", dentro de estas se guardarán los *registros* "*cliente*", a su vez, cada uno de estos almacenará el \[nombre, apellidos, DNI, email, ...\] del cliente por cada registro (*Objeto "cliente"*).
+### DEFINICIÓN DE COLUMNA
 
-## LISTAR TABLAS
-
-%%
-> [!abstract] SINTAXIS
-> SHOW FULL TABLES FROM ***\[db_name\]***;
-%%
-
-> [!abstract] SINTAXIS
-> SHOW TABLES;
-
-```sql
-SHOW TABLES;
-```
-
-## RENOMBRAR TABLA
-
-Renombrar una tabla nos permite corregir un erro que hayamos cometido a la hora de crear la tabla.
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Hay que poner una explicación más extensa.
+> > - [ ] Hay que poner un ejemplo de uso.
 
 > [!abstract] SINTAXIS
-> RENAME TABLE ***\[table\_name]*** TO ***\[new\_table\_name]***;
+> ***\[col\_name\] [\[data\_type\]](mysql_data_types.md) [\{modifier\}](#MODIFICADORES) [\{NULL|NOT NULL\}](#NULL%20Y%20NOT%20NULL) [\{DEFAULT \[value\]\}](#DEFAULT) [\{AUTO\_INCREMENT\}](#AUTO%20INCREMENTO) [\{COMMENT '\[comment\]'\}](#COMENTARIO%20DE%20COLUMNA) [\{COLLATE \[character_set\]\}](#SET%20DE%20CARACTERES)***
 
-```sql
-RENAME TABLE users TO my_users;
-```
+#### MODIFICADORES
 
-No es recomendable tener nombres tan poco descriptivos, simplemente es un ejemplo de como se puede hacer.
+Los [tipos de datos](mysql_data_types.md) pueden tener modificadores para cambiar su comportamiento:
 
-## MODIFICAR TABLA
+- `UNSIGNED`: solo se puede aplicar a modificadores numéricos enteros, sirve para que no se puedan almacenar números negativos y no es aplicable a los [tipos de datos](mysql_data_types.md) `FLOAT`, `DOUBLE`, `NUMERIC` y `DECIMAL`.
+- `ZEROFILL`: rellena los espacios en blanco a la izquierda de un [tipo de dato](mysql_data_types.md) numérico con ceros, este modificador es obsoleto, no es recomendable usarlo.
+- `BINARY`: se aplica a los [tipos de datos](mysql_data_types.md) `CHAR`, `VARCHAR`, `TINYTEXT`, `TEXT`, `MEDIUMTEXT` y `LONGTEXT`, sirve para que **MySQL** distinga entre mayúsculas y minúsculas (*por defecto no lo hace*), este modificador está obsoleto, por lo que no es recomendable usarlo.
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+### NULL Y NOT NULL
 
-Modificar un capo de una tabla nos puede servir para cambiar las propiedades de estos en sado de que nos hayamos equivocado o queramos darle otro uso.
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Hay que poner una explicación más extensa.
+> > - [ ] Hay que poner un ejemplo de uso.
 
-[^1]: Nota al pie.
+- `NULL`: indica que el campo no es requerido.
+- `NOT NULL`: indica que el campo es requerido.
+
+### DEFAULT
+
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Hay que poner un ejemplo de uso.
+
+Permite indicar el valor por defecto que recibe el campo en caso de hacerse una inserción sin especificar el valor del campo en cuestión, por defecto es `NULL`.
 
 > [!abstract] SINTAXIS
-> ALTER TABLE ***\[table\_name]***
-> MODIFY COLUMN ***\[field\_name] \[type] \[propeties]***;
+> ***\[DEFAUTL\] \[value\]***
 
-## CAMPOS OBLIGATORIO
+- Si la columna es de tipo numérico, se indica tal cual el número.
+- Si se trata de una cadena de caracteres, se especifica el valor por defecto entre comillas simples.
+- Si se trata de una fecha u hora, se indica el valor entre comillas simples, siguiendo el formato `'YYYY-MM-DD'` o `'hh:mm:ss'`.
+- Si se trata de un campo enumerado (*`enum`*), hay que indicar un de los disponibles o `NULL`.
 
-Tener un capo obligatorio implica que a la hora de crear un nuevo registro este no puede quedar vacío,  esto nos puede servir por ejemplo si queremos que para crear un usuario este debe tener un correo electrónico asociado de forma obligatoria.
+### AUTO INCREMENTO
 
-> [!abstract] SINTAXIS
-> ***\[field_name] \[type]*** NOT NULL
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Hay que poner un ejemplo de uso.
 
-```sql
--- Indicamos que la DB en la que queremos trabajar es "my_db".
-USE my_database;
+Que una campo sea `AUTO_INCREMENT` quiere decir que `MySQL` se encargará de darle un valor automático que incrementa por cada registro.
 
--- Indicamos la creación de la DB.
-CREATE TABLE users (
-    -- La DB tendrá un solo campo, sinedo este "id".
-    id INT NOT NULL
-    -- Este campo no puede ser igual a null.
-);
-```
-
-## DATOS AUTO INCREMENTALES
+---
 
 Tener un capo **auto incremental** en una tabla permite tener un campo que no se va a repetir, esto se suele usar para asignar *ids*, un ejemplo de esto puede ser que creemos dos registro de dos usuarios distintos y estos dos tengan el mismo nombre, sino tivieramos un *id* exclusivo para cada usuario internamente no podríamos diferenciar a los dos usuarios.
 
@@ -132,30 +135,68 @@ CREATE TABLE users (
 );
 ```
 
-## LLAVES
+### COMENTARIO DE COLUMNA
 
-En las tablas de *SQL* existen lo que se conoce como **llaves**, estos son campos campos que lo que tienen de especial es que no se pueden repetir, ya que por lo general son **auto incrementales**, existen dos tipos de **llaves**, las **primarias** y las **extranjeras**.
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Hay que poner un ejemplo de uso.
 
-### PRIMARIAS
+Los comentarios de columna se usan simplemente para añadir una descripción o nota a cerda de para qué está pensada la columna.
 
->[!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!abstract] SINTAXIS
+> COMMENT '***\[comment\]***'
+
+### SET DE CARACTERES
+
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Hay que poner un ejemplo de uso.
+
+Sirve para cuando queremos darle un [set de caracteres](mysql_db.md#CONJUNTO%21DE%20CARACTERES) concreto y distinto al de la **tabla**.
+
+> [!abstract] SINTAXIS
+> COLLATE ***[\[character_set\]](mysql_db.md#CONJUNTO%20DE%20CARACTERES)***
+
+### RESTRICCIONES
+
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+
+#### CLAVES
+
+En las tablas de *SQL* existen lo que se conoce como **clave**, estos son campos campos que lo que tienen de especial es que no se pueden repetir, ya que por lo general son **auto incrementales**, existen dos tipos de **claves**, las [**primarias**](#CLAVE%20PRIMARIA) y las [**extranjeras**](#CLAVE%20EXTRANJERA).
+
+##### CLAVE PRIMARIA
+
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Poner un ejemplo.
+
+Indica que el atributo o conjunto de atributos son únicos para poder identificar de forma inequívoca cada una de las tuplas.
+
+> [!abstract] SINTAXIS
+> PRIMARY KEY (***\[col\_name\] \{, \[col\_name\] ...\}***)
+
+---
+
+> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
 
 Para indicar que un **atributo** del registro tiene que ser una **llave primaria** se usa la **palabra clave** "**primary**" seguido de la **palabra clave** "**key**" y unos paréntesis, dentro de estos deberemos escribir el nombre de **atributo** que queramos que sea la **llave primaria** de nuestra tabla.
 
 ```sql
 CREATE TABLE users (
-    id    INT NOT NULL AUTO_INCREMENT
-    name  VARCHAR(16) NOT NULL,
-    edad  INT NOT NULL,
+    id    INT          NOT NULL,
+    name  VARCHAR(16)  NOT NULL,
+    edad  INT          NOT NULL,
     email VARCHAR(128) NOT NULL,
 
     PRIMARY KEY(id);
 );
 ```
 
-En este ejemplo se puede ver como al final de la creación de la tabla, se indica que el atributo "`id`" el cual es de tipo "`AUTO_INCREMENT`" será la llave primaria de esta tabla.
+> [!error] COMPROBAR ESTE TEXTO YA QUE ESTÁ DESACTUALIZADO DEBIDO AQUE ES DE UNA BERSIÓN MAS ANTIGUA DE ESTE DOCUMENTO
+> En este ejemplo se puede ver como al final de la creación de la tabla, se indica que el atributo "`id`" el cual es de tipo "`AUTO_INCREMENT`" será la llave primaria de esta tabla.
 
-### EXTRANJERAS
+##### CLAVE EXTRANJERA
 
 >[!fail] ESTE APARTADO ESTÁ INCOMPLETO
 
@@ -163,10 +204,10 @@ Una llave de tipo "`FOREIGN`" (**Del Inglés "Extranjero"**) es un atributo dond
 
 ```sql
 CREATE TABLE products (
-    id         INT NOT NULL AUTO_INCREMENT,
+    id         INT         NOT NULL,
     name       VARCHAR(16) NOT NULL,
-    created_by INT NOT NULL,
-    marca      varchar(64) not NOT NULL,
+    created_by INT         NOT NULL,
+    marca      varchar(64) NOT NULL,
 
     PRIMARY KEY(id),
     FOREIGN KEY(created_by) REFERENCES users(id)
@@ -174,6 +215,143 @@ CREATE TABLE products (
 ```
 
 En este ejemplo se puede ver como en al final de la creación de esta de esta tabla se  indica que el atributo "*created_by*" contendrá una **llave extranjera**, seguido de la **palabra clave** `reference` (**Del Inglés "Referencia"**) seguido por el nombre de la tabla a la cual queramos que esté vinculada junto con unos paréntesis, indicando entre estos el atributo que se va a usar como **llave extranjera**.
+
+#### ÚNICO
+
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Poner un ejemplo.
+> > - [ ] Poner sintaxis.
+
+Sirve para indicar que la columna no puede tener valores repetidos, esto se puede emplear como medida de seguridad (*como puede ser el DNI, que no debe repetirse entre personas*) y como creación de claves alternativas, pudiendo identificar de forma única a cada tupla.
+
+---
+
+Tener un capo obligatorio implica que a la hora de crear un nuevo registro este no puede quedar vacío,  esto nos puede servir por ejemplo si queremos que para crear un usuario este debe tener un correo electrónico asociado de forma obligatoria.
+
+> [!abstract] SINTAXIS
+> ***\[field_name] \[type]*** NOT NULL
+
+```sql
+-- Indicamos que la DB en la que queremos trabajar es "my_db".
+USE my_database;
+
+-- Indicamos la creación de la DB.
+CREATE TABLE users (
+    -- La DB tendrá un solo campo, sinedo este "id".
+    id INT NOT NULL
+    -- Este campo no puede ser igual a null.
+);
+```
+
+#### NOMBRAR RESTRICCIONES
+
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Poner un ejemplo.
+
+Nombrar a las restricciones permite que después podamos buscarlas de forma más sencilla, cabe recalcar que las restricciones no tienen por qué tener nombre.
+
+> [!abstract] SINTAXIS
+> CONSTRAINT ***\[constraint\_name\] \[constraint\]***
+
+#### CHEQUEO
+
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Poner un ejemplo.
+> > - [ ] Poner una explicación de `expresion`.
+> >     - [ ] Between.
+> >     - [ ] And.
+> >     - [ ] In.
+
+> [!abstract] SINTAXIS
+> CHECK (***\[expresion\]***) ***[\{\{NOT\} ENFORCED\}](#CUMPLIR%20CHEQUEO)***
+
+##### CUMPLIR CHEQUEO
+
+Indicar al final de un [`CHECK`](#CHEQUEO) que es `ENFORCED`, `NOT ENFORCED` especifica el comportamiento de este:
+
+- `ENFORCED`: comprueba que el [`CHECK`](#CHEQUEO) se cumple y no deja introducir datos que no cumplan el [`CHECK`](#CHEQUEO).
+- `NOT ENFORCED`: crea el [`CHECK`](#CHEQUEO) pero este no es comprobado a la hora de introducir los datos, por lo que podremos introducirlos aunque no se cumplan.
+
+## LISTAR TABLAS
+
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Poner una explicación más extensa.
+> > - [ ] Poner un ejemplo.
+
+%%
+> [!abstract] SINTAXIS
+> SHOW FULL TABLES FROM ***\[db\_name\]***;
+%%
+
+> [!abstract] SINTAXIS
+> SHOW TABLES;
+
+```sql
+SHOW TABLES;
+```
+
+## DESCRIBIR TABLA
+
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Poner una explicación más extensa.
+> > - [ ] Poner un ejemplo.
+
+Para poder ver como está compuesta una tabla podemos usar la instrucción `DESC` (*abreviación de descripción en inglés*).
+
+> [!abstract] SINTAXIS
+> DESC ***\[table\_name\]***;
+
+```sql
+CREATE TABLE users (
+    id       INTEGER     PRIMARY KEY,
+    name     VARCHAR(16) NOT NULL,
+    lastName VARCHAR(16),
+    dni      CHAR(9)     NOT NULL UNIQUE
+    CHECK (LENGTH(dni) = 9)
+);
+
+DESC users;
+```
+
+> [!quote] Resultado de la descripción de `users`:
+| Field    | Type        | Null | Key | Default | Extra |
+|:-------- |:----------- |:---- |:--- |:------- |:----- |
+| id       | INTEGER     | NO   | PRI | NULL    |       |
+| name     | VARCHAR(16) | NO   |     | NULL    |       |
+| lastName | VARCHAR(16) | YES  |     | NULL    |       |
+| dni      | CHAR(9)     | NO   |     | NULL    |       |
+
+## RENOMBRAR TABLA
+
+Renombrar una tabla nos permite corregir un erro que hayamos cometido a la hora de crear la tabla.
+
+> [!abstract] SINTAXIS
+> RENAME TABLE ***\[table\_name]*** TO ***\[new\_table\_name]***;
+
+```sql
+RENAME TABLE users TO my_users;
+```
+
+No es recomendable tener nombres tan poco descriptivos, simplemente es un ejemplo de como se puede hacer.
+
+## MODIFICAR TABLA
+
+> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Como borrar columna.
+> > - [ ] Como modificar columna.
+> > - [ ] Como añadir columna.
+
+Modificar un capo de una tabla nos puede servir para cambiar las propiedades de estos en sado de que nos hayamos equivocado o queramos darle otro uso.
+
+> [!abstract] SINTAXIS
+> ALTER TABLE ***\[table\_name]***
+> MODIFY COLUMN ***\[field\_name] \[type] \[propeties]***;
 
 ## BORRAR TABLAS
 

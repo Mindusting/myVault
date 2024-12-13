@@ -6,7 +6,7 @@ tags:
 title: MySQL
 ---
 
-<h1 align="center">MYSQL</h1>
+<h1 align="center">MySQL</h1>
 
 ![#logo](../../img/db.png)
 
@@ -18,6 +18,10 @@ title: MySQL
 
 > [!help] REFERENCIAS WEB
 > - [MySQL Doc](https://dev.mysql.com/doc/)
+> 
+> YouTube:
+> - [Bro Code](https://youtu.be/5OdVJbNCSso)
+> - [HolaMundo](https://youtu.be/uUdKAYl-F7g)
 
 ## ÍNDICE
 
@@ -29,25 +33,6 @@ title: MySQL
 ---
 ---
 ---
-
-## DESCRIPCIÓN DE TABLA
-
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
-
-```sql
-DESC users;
-```
-
-| Field | Type         | Null | Key | Default | Extra |
-| ----- | ------------ | ---- | --- | ------- | ----- |
-| id    | int unsigned | NO   | PRI | `Null`  |       |
-| name  | varchar(32)  | NO   |     | `Null`  |       |
-
-# CONSTRAINT
-
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
-
-El `CONSTRAINT` sirve para darle nombre a las restricciones.
 
 ## BORRAR ATRIBUTOS DE UNA TABLA
 

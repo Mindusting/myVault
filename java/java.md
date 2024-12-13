@@ -39,7 +39,7 @@ title: Java
 - [JAVADOC 📙](java_doc.md)
 - [RECOLECTOR DE BASURA 🗑](java_garbage_collector.md)
 - [CLASE MATH](java_math.md)
-- [ARCHIVOS DE TEXTO](java_text_files.md)
+- [ARCHIVOS EXTERNOS](java_file_manager.md)
 - [GUI 🖼](java_gui.md)
 
 ## OTROS

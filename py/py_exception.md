@@ -8,7 +8,9 @@ title: Excepciones en Python
 
 # EXCEPCIONES
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Documentar como crear tus propias excepciones.
 
 Una excepción es un error que ocurre mientras se está ejecutando nuestro programa, un ejemplo de esto sería cuando hacemos una división entre cero.
 

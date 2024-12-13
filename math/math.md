@@ -15,6 +15,7 @@ title: Matemáticas
 - [Contar tanques](math_count_tanks.md)
 - [Notación de intervalo](math_range_notation.md)
 - [Logaritmo](math_log.md)
+- [FACTORIAL](math_factorial.md)
 
 ## INTERPOLATION
 
@@ -37,7 +38,7 @@ def fade(t: float) -> float:
 def fade(t: float) -> float:
     if t < 0:   return 0
     elif t > 1: return 1
-   return t*t*t*(t*(t*6-15)+10)
+    return t*t*t*(t*(t*6-15)+10)
 ```
 
-![#center](img_fade.png)
+![#center](../img/img_fade.png)

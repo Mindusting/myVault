@@ -12,7 +12,9 @@ title: Matemáticas en Markdown
 
 > [!error] ESTE APARTADO ESTÁ SIN TERMINAR
 
-[Obsidian doc](<https://help.obsidian.md/Editing+and+formatting/Advanced+formatting+syntax#Math>)
+> [!help] REFERENCIAS WEB
+> - [Obsidian doc](<https://help.obsidian.md/Editing+and+formatting/Advanced+formatting+syntax#Math>)
+> - [LaTeX](https://es.wikipedia.org/wiki/Ayuda:Uso_de_LaTeX)
 
 $$
 \begin{vmatrix}a & b\\

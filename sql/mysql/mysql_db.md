@@ -19,7 +19,7 @@ title: DB en MySQL
 ## CREAR UNA DB
 
 > [!abstract] SINTAXIS
-> CREATE DATABASE ***\[db\_name]***;
+> CREATE DATABASE ***\[db\_name\]***;
 
 ```sql
 CREATE DATABASE my_db;
@@ -40,8 +40,8 @@ Para poder ver los conjuntos de caracteres permitidos se puede usar la siguiente
 Una vez hemos elegido un conjunto de datos, para crear una DB con ese conjunto de caracteres específico, tendremos que seguir la siguiente sintaxis:
 
 > [!abstract] SINTAXIS
-> CREATE DATABASE ***\[db\_name]***
-> COLLATE ***\[character_set]***;
+> CREATE DATABASE ***\[db\_name\]***
+> COLLATE ***\[character_set\]***;
 
 ```sql
 CREATE DATABASE my_db
@@ -83,7 +83,7 @@ RENAME DATABASE my_db TO test_db;
 
 > [!abstract] SINTAXIS
 > ALTER DATABASE ***\[db\_name\]***
-> ***\[modification]***;
+> ***\[modification\]***;
 
 ```sql
 ALTER DATABASE my_db

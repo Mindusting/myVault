@@ -8,6 +8,10 @@ title: Conceptos de la programación
 
 # CONCEPTOS DE LA PROGRAMACIÓN
 
+> [!help] REFERENCIAS WEB
+> YouTube:
+> - [Inside code](https://www.youtube.com/@insidecode)
+
 ## PRÓLOGO
 
 Es posible que hayas llegado a esta documentación a través del link de otra documentación a cerca de un lenguaje en concreto.

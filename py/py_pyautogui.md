@@ -7,9 +7,10 @@ tags:
 title: Módulo PyAutoGUI en Python
 ---
 
-# CONTROL DEL TECLADO Y RATÓN 🖱️
+# CONTROL DEL TECLADO Y RATÓN
 
-[Documentación oficial de PyAutGUI](<https://pyautogui.readthedocs.io/en/latest/>)
+> [!help] REFERENCIAS WEB
+> - [Documentación oficial de PyAutGUI](<https://pyautogui.readthedocs.io/en/latest/>)
 
 Este módulo nos permite controlar el tecla y el ratón, como puede ser, pulsar tecla, mover el cursor, hacer clic, tanto izquierdo como dereche, para ello, primero deberemos importar el módulo, y tenemos que tener en cuenta que este es dependiendo de otros mósulos como `tkinter` (*Entre otros*), por lo que si queremos usar ciertas funciones necesitaremos instalar en nuestro equipo los módulos a los cuales es dependiente.
 

@@ -9,7 +9,8 @@ title: Selectores en CSS3
 # SELECTORES
 
 > [!help] REFERENCIAS WEB
-> - [W3](https://www.w3schools.com/cssref/css_selectors.php)
+> - [W3 (Selectores)](https://www.w3schools.com/cssref/css_selectors.php)
+> - [W3 (Combinadores)](https://www.w3schools.com/cssref/css_ref_combinators.php)
 
 Los **selectores**, como su nombre indica, nos permite seleccionar a que elementos queremos aplicarle el formato que especifiquemos.
 

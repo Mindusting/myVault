@@ -17,8 +17,6 @@ title: Tipos de datos en MySQL
 
 ## NUMÉRICOS
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
-
 > [!help] EN ESTE APARTADO SE HACE USO DE LOS SIGUIENTES RECURSOS
 > - [Anotación de rango](../../math/math_range_notation.md).
 
@@ -41,24 +39,22 @@ title: Tipos de datos en MySQL
 
 ### OTROS NUMÉRICOS
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Explicar como se almacena internamente los números de tipo `NUMERIC`.
 
-- `NUMERIC([tdig], [dec])`: 
-- `DECIMAL([tdig], [dec])`: 
+- `NUMERIC([tdig], [dec])`: Es un estándar de SQL que permite almacenar número exactos.
+- `DECIMAL([tdig], [dec])`: Es lo mismo que `NUMERIC`.
 
 ## FECHA Y HORA
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
-
 - `DATE`: Almacena fecha desde `1000-01-01` asta `9999-12-31`.
-- `DATETIME`
-- `TIMESTAMP`
-- `TIME`
-- `YEAR`
+- `DATETIME`: Almacena fecha y hora desde `1000-01-01 00:00:00` a `9999-12-31 23:59:59`, a este campo se le puede dar como [valor por defecto](mysql_table.md#DEFAULT) `CURRENT_TIMESTAMP` (*fecha y hora del sistema*).
+- `TIMESTAMP`: Almacena fecha y hora desde `1970-01-01 00:00:01` a `2038-01-19 03:14:07`, a este campo se le puede dar como [valor por defecto](mysql_table.md#DEFAULT) `CURRENT_TIMESTAMP` (*fecha y hora del sistema*).
+- `TIME`: Almacena una hora desde `-838:59:59` a `838:59:59`.
+- `YEAR[(4)]`: Almacena un año entre `1901` y `2155`, incluyendo `0000`.
 
 ## CADENA DE CARACTERES
-
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
 
 - `CHAR([length])`: Cadena de caracteres con longitud concreta, sino se alcanza al longitud, se rellena de espacios en blanco, teniendo un máximo de 255 bytes como longitud.
 - `VARCHAR([length])`: Cadena de caracteres con longitud máxima variable, teniendo un máximo de 65.535 bytes de longitud.

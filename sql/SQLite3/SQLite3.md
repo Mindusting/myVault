@@ -12,10 +12,14 @@ title: SQLite3
 
 ---
 
-> [!note] NOTA
-> En el caso de qué sea tu primera vez con SQL, te recomiendo que primero veas la [documentación general](../sql.md).
+# SQLITE3
 
-# ABRIR EL ENTORNO DE SQLITE3
+> [!help] REFERENCIAS WEB
+> YouTube:
+> - [CS50](https://youtu.be/1RCMYG8RUSE)
+
+> [!faq] FAQ
+> - [¿Qué es SQL?](../sql.md)
 
 Para poder abrir el entorno de sqlite3 se debe escribir el comando `sqlite3`, tras esto entrarás en el entorno, pudiendo escribir comandos que afectarán a bases de datos.
 

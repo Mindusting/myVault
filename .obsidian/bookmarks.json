@@ -5,6 +5,12 @@
       "ctime": 1727047059083,
       "query": "/\\[.+\\]\\(\\)/",
       "title": "Enlaces sin dirección"
+    },
+    {
+      "type": "search",
+      "ctime": 1733698560063,
+      "query": "/>\\s?\\[!fail\\]-?/",
+      "title": "Apartados incompletos"
     }
   ]
 }

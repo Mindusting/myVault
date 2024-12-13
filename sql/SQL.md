@@ -14,6 +14,11 @@ title: SQL
 
 # SQL
 
+> [!help] REFERENCIAS WEB
+> YouTube:
+> - [ByteByteGo](https://youtu.be/yMqldbY2AAg)
+> - [Decomplexify](https://www.youtube.com/@decomplexify)
+
 SQL (`Structured Query Language`) es un estándar para gestionar bases de datos, existen diferentes tipos de SQL, teniendo cada uno sus pros y sus contras, pero todos siguen la misma estructura pese a las diferencias que tienen entre ellos.
 
 Se suele decir que aprender SQL es como andar en bicicleta una vez aprendes, al cambiar de bicicleta no tienes que empezar desde cero, solamente acostumbrarte a los pequeños detalles que cambian.

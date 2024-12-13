@@ -9,7 +9,12 @@ title: Diagrama de flujo
 
 # DIAGRAMA DE FLUJO
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Documentar terminales.
+> > - [ ] Documentar instrucciones.
+> > - [ ] Documentar IO.
+> > - [ ] Documentar condicionales/bucles.
 
 > [!faq] FAQ
 > - [¿Como puede hacer diagramas de flujo en Mermad/Obsidian?](../mermaid/mermaid_flowchart.md)
