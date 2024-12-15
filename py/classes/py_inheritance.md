@@ -6,7 +6,7 @@ tags:
 title: Herencia de clases en Python
 ---
 
-## HERENCIA 🧓
+## HERENCIA
 
 ATENCIÓN: Este apartado está incompleto, intentaremos completarlo lo antes posible, disculpen las molestias.
 

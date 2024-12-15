@@ -1,12 +1,12 @@
 ---
 author: Mindusting
-corrected: false
+corrected: true
 tags:
   - Programming/Python
 title: Python Agradecimientos
 ---
 
-# AGRADECIMIENTOS 🎉
+# AGRADECIMIENTOS
 
 - Agradecimientos a [Bro Code](https://www.youtube.com/c/BroCodez/featured) por ser la fuente de conocimientos para este documento, concretamente su lista de reproducción de [Python](https://www.youtube.com/playlist?list=PLZPZq0r_RZOOkUQbat8LyQii36cJf2SWT).
 <br>

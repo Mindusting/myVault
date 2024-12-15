@@ -1,13 +1,11 @@
 ---
 author: Mindusting
-corrected: false
+corrected: true
 tags:
   - Programming/Python/Module
   - Programming/Python/JSON
 title: Módulo JSON en Python
 ---
-
-
 
 # JSON
 
@@ -23,11 +21,11 @@ import json
 
 # LEER Y ESCRIBIR ARCHIVOS
 
-Para poder [leer y escribir archivos](py_file_manager.md) de [json](../../json/json.md), primero debes saber como [leer y escribir archivos](py_file_manager.md) en general.
+Para poder [leer y escribir archivos](py_file_manager.md) de [json](../../json/json.md), primero debes saber cómo [leer y escribir archivos](py_file_manager.md) en general.
 
 ## ESCRIBIR ARCHIVOS JSON
 
-Para poder escribir en un archivo de [json](../../json/json.md), primero deberemos [abrir o crear un archivo](py_file_manager.md), para luego poder trabajar sobre el como un archivo [json](../../json/json.md).
+Para poder escribir en un archivo de [json](../../json/json.md), primero deberemos [abrir o crear un archivo](py_file_manager.md), para luego poder trabajar sobre él como un archivo [json](../../json/json.md).
 
 Para poder guardar datos en un archivo [json](../../json/json.md) tendremos que hacer uso de la [función](py_function.md) `dump` (vertedero).
 
@@ -47,7 +45,7 @@ with open("data.json", "w") as file:
     json.dump(data, file)
 ```
 
-Tras ejecutar el ejemplo anterior, se crea el archivo `data.json` y se guarda en él el contenido del [dictionario](py_dict.md) `data`.
+Tras ejecutar el ejemplo anterior, se crea el archivo `data.json` y se guarda en él el contenido del [diccionario](py_dict.md) `data`.
 
 ### SANGRÍA EN LOS ARCHIVOS
 
@@ -130,7 +128,7 @@ print(data)
 # {'users': [{'name': 'Mindusting', 'age': 18}, {'name': 'Adelio', 'age': 32}], 'products': [{'name': 'Apple', 'price': 3.5}, {'name': 'Banana', 'price': 5}]}
 ```
 
-# COMBERSIÓN A STRING
+# CONVERSIÓN A STRING
 
 Los métodos que se muestran en los próximos apartados son para transformar contenido de [json](../../json/json.md) en [`str`](py_str.md) y viceversa.
 
@@ -148,7 +146,7 @@ print(str_json)
 print(type(str_json))
 ```
 
-El texto estará escrito en una sola línea al igual que pasa de forma predeterminada al [escribir el contenido en un archivo](<## ESCRIBIR ARCHIVOS JSON>), y al igual que este, también podemos usar los mismos parámetros para formatear el texto.
+El texto estará escrito en una sola línea al igual que pasa de forma predeterminada al [escribir el contenido en un archivo](#ESCRIBIR%20ARCHIVOS%20JSON), y al igual que este, también podemos usar los mismos parámetros para formatear el texto.
 
 Gracias a esto último si sustituimos la línea en la hacemos la conversión por la siguiente, podremos imprimir el contenido de una forma más visual:
 

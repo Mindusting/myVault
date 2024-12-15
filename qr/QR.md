@@ -11,6 +11,8 @@ title: QR
 > [!fail] ESTE APARADO ESTÁ INCOMPLETO
 
 > [!help] REFERENCIAS WEB
+> - [Thonky](https://www.thonky.com/qr-code-tutorial/)
+> 
 > YouTube:
 > - [Jaimes Explains (QR)](https://youtu.be/142TGhaTMtI)
 > - [UWCS - University of Warwick Computing Society (QR)](https://youtu.be/7J5kaEkVRow)

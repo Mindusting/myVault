@@ -7,12 +7,13 @@ tags:
 title: Output por consola en Python
 ---
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
-
-> [!todo] TODO
-> - [ ] Hay que cambiar el estado de la primera impresión, ya que está todo metido en una anotación.
-> - [ ] Buscar apara qué sirve el argumento `file`.
-> - [ ] Buscar apara qué sirve el argumento `flush`.
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] TODO
+> > - [ ] Hay que cambiar el estado de la primera impresión, ya que está todo metido en una anotación.
+> > - [ ] Buscar apara qué sirve el argumento `file`.
+> >     Sirve para indicar donde queremos que escriba el contendido, por defecto es `stdio`, se puede sustituir por un archivo en modo escritura.
+> > - [ ] Buscar apara qué sirve el argumento `flush`.
+> >     Sirve para indicar de forma booleana si queremos que el contenido del buffer se escriba en el `file`, aunque se indique como `false`, todo lo del buffer se escribirá si este está lleno.
 
 Para poder aportar información al usuario, la forma más básica es a trabes de texto por consola, para poder hacer esto se usa la [función](py_function.md) `print` seguida de dos paréntesis, entre estos se indica que es lo que se quiere imprimir.
 

@@ -8,6 +8,10 @@ title: Módulo Math en Python
 
 # MATH
 
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Rehacer toda la documentación para que sea más fácil de leer (*y de escribir*)...
+
 > [!help] REFERENCIAS WEB
 > - [Python doc (math)](https://docs.python.org/3/library/math.html)
 

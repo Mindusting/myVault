@@ -1,6 +1,6 @@
 ---
 author: Mindusting
-corrected: false
+corrected: true
 tags:
   - Programming/Python/DataStructure
 title: Los conjuntos en Python
@@ -365,7 +365,7 @@ print(set_1 ^ set_2 ^ set_3)
 # {'Plátano', 'Manzana'}
 ```
 
-### SYMMETRIC DIFERENCE UPDATE
+### SYMMETRIC DIFFERENCE UPDATE
 
 El [método](classes/py_method.md) `symmetric_difference_update` es una combinación entre los [método](classes/py_method.md) [`update`](#UPDATE) e [`symmetric_difference`](#SYMMETRIC%20DIFFERENCE) modificando el primer set, haciendo que tenga los elementos de los dos set que no coincidieran en los dos:
 

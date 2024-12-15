@@ -38,6 +38,7 @@ title: Java Script
 
 - [ARCHIVOS DE JS](js_file.md)
 - [COMENTARIOS](js_comment.md)
+- [CONSOLA](js_console.md)
 - [VARIABLES](js_variables.md)
 - [CONTROL DE FLUJO](js_control_flow.md)
 - [BUCLES](js_loops.md)

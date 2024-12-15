@@ -72,7 +72,7 @@ CREATE TABLE users (
 > > - [ ] Hay que poner un ejemplo de uso.
 
 > [!abstract] SINTAXIS
-> ***\[col\_name\] [\[data\_type\]](mysql_data_types.md) [\{modifier\}](#MODIFICADORES) [\{NULL|NOT NULL\}](#NULL%20Y%20NOT%20NULL) [\{DEFAULT \[value\]\}](#DEFAULT) [\{AUTO\_INCREMENT\}](#AUTO%20INCREMENTO) [\{COMMENT '\[comment\]'\}](#COMENTARIO%20DE%20COLUMNA) [\{COLLATE \[character_set\]\}](#SET%20DE%20CARACTERES)***
+> ***\[col\_name\] [\[data\_type\]](mysql_data_types.md) [\{modifier\}](#MODIFICADORES) [\{NULL|NOT NULL\}](#NULL%20Y%20NOT%20NULL) [\{DEFAULT \[value\]\}](#DEFAULT) [\{AUTO\_INCREMENT\}](#AUTO%20INCREMENTO) [\{COMMENT '\[comment\]'\}](#COMENTARIO%20DE%20COLUMNA) [\{COLLATE \[character_set\]\}](#SET%20DE%20CARACTERES) [\{ON UPDATE\} \{ON DELETE\}](#EN%20ACTUALIZADO%20Y%20BORRADO)***
 
 #### MODIFICADORES
 
@@ -275,6 +275,30 @@ Indicar al final de un [`CHECK`](#CHEQUEO) que es `ENFORCED`, `NOT ENFORCED` esp
 - `ENFORCED`: comprueba que el [`CHECK`](#CHEQUEO) se cumple y no deja introducir datos que no cumplan el [`CHECK`](#CHEQUEO).
 - `NOT ENFORCED`: crea el [`CHECK`](#CHEQUEO) pero este no es comprobado a la hora de introducir los datos, por lo que podremos introducirlos aunque no se cumplan.
 
+### EN ACTUALIZADO Y BORRADO
+
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo]
+> > - [ ] Poner una mejor explicación.
+> > - [ ] Poner algún ejemplo.
+
+El objetivo de estas instrucciones es que el gestos de la **DB**, antes de borrar o modificar una tupla (*padre*), comprueba si hay otras relacionadas a esta (*hija*), en caso de entrar alguna, aplicará las instrucciones indicadas.
+
+> [!abstract] SINTAXIS
+> ON DELETE ***\[action\]***
+> ON UPDATE ***\[action\]***
+
+- **Padre**: son las tuplas que tiene **hijos** en dependencia a través de las relaciones entre **tablas**.
+- **Hijo**: son las tuplas que son dependientes de **padres** través de las relaciones entre **tablas**.
+
+---
+
+- `RESTRICT`: no se permite borra **padres** que tengan **hijos** (*es el valor por defecto*).
+- `CASCADE`: borra o modifica los **hijos** cuyos **padres** hayan sido borrados o modificados.
+- `SET NULL`: si un **padre** es borrado o modificado, las [claves ajenas](#CLAVE%20EXTRANJERA) del **hijo** se establecerán a `NULL`.
+- `NO ACTION`: es equivalente a `RESTRICTA`.
+- `SET DEFAULT`: es similar a `SET NULL` con la diferencia de que en este se indica el valor por defecto queremos que se le de en vez de `NULL`.
+
 ## LISTAR TABLAS
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
@@ -341,7 +365,7 @@ No es recomendable tener nombres tan poco descriptivos, simplemente es un ejempl
 
 ## MODIFICAR TABLA
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 > > [!todo]
 > > - [ ] Como borrar columna.
 > > - [ ] Como modificar columna.

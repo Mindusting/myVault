@@ -1,6 +1,6 @@
 ---
 author: Mindusting
-corrected: false
+corrected: true
 tags:
   - Programming/Python/File
 title: Archivos de Python
