@@ -16,7 +16,7 @@ title: Array(s) en la programación
 ## BÁSICO
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Terminar de explicar lo básico de los arrays.
 > > - [ ] Poner ejemplo de array.
 
@@ -27,7 +27,7 @@ Un array es un conjunto de valores del mismo tipo, siendo parecidos a las [varia
 ## AVANZADO
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Explicar que pasa si te sales del rango de array.
 
 En esencia, cuando declaramos un array lo que estamos haciendo es usar un [`pointer`](pc_pointer.md) con la dirección de memoria del primer [`byte`](pc_byte.md) de la secuencia de [`bytes`](pc_byte.md) reservados para el array.

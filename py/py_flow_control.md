@@ -129,7 +129,7 @@ Un **IF-Ternario** se lo mismo que un `if`, `else` con la diferencia de que este
 ## MATCH
 
 > [!fail] ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Hay que cambiar esto, ya que no es un switch como tal.
 
 Los switch en Python usan dos palabras clave, `match` (*coincidir*) y `case` (*caso*).

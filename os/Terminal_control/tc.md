@@ -11,7 +11,7 @@ title: Control del terminal
 [HOWTO](https://tldp.org/HOWTO/Bash-Prompt-HOWTO/index.html)
 [stack overflow](https://stackoverflow.com/questions/4842424/list-of-ansi-color-escape-sequences)
 
-> [!todo]
+> [!todo] #TODO
 > - [ ] [Chequear en enlace](https://fusesource.github.io/jansi/)
 
 # PÓLOGO

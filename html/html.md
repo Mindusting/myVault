@@ -15,7 +15,7 @@ title: HTML5
 # HTML5
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo] TODO
+> > [!todo] #TODO
 > > - [ ] Documentar [MAP](https://www.w3schools.com/html/html_images_imagemap.asp) (*imagen*).
 > > - [ ] Documentar [canvas](https://www.w3schools.com/html/html5_canvas.asp).
 >

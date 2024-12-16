@@ -9,7 +9,7 @@ title: Tablas en MySQL
 # TABLA
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Documentar la creación de una tabla.
 > > - [ ] Documentar listado de tablas.
 > > - [ ] Documentar `CHECK`.
@@ -67,7 +67,7 @@ CREATE TABLE users (
 ### DEFINICIÓN DE COLUMNA
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Hay que poner una explicación más extensa.
 > > - [ ] Hay que poner un ejemplo de uso.
 
@@ -85,7 +85,7 @@ Los [tipos de datos](mysql_data_types.md) pueden tener modificadores para cambia
 ### NULL Y NOT NULL
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Hay que poner una explicación más extensa.
 > > - [ ] Hay que poner un ejemplo de uso.
 
@@ -95,7 +95,7 @@ Los [tipos de datos](mysql_data_types.md) pueden tener modificadores para cambia
 ### DEFAULT
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Hay que poner un ejemplo de uso.
 
 Permite indicar el valor por defecto que recibe el campo en caso de hacerse una inserción sin especificar el valor del campo en cuestión, por defecto es `NULL`.
@@ -111,7 +111,7 @@ Permite indicar el valor por defecto que recibe el campo en caso de hacerse una 
 ### AUTO INCREMENTO
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Hay que poner un ejemplo de uso.
 
 Que una campo sea `AUTO_INCREMENT` quiere decir que `MySQL` se encargará de darle un valor automático que incrementa por cada registro.
@@ -138,7 +138,7 @@ CREATE TABLE users (
 ### COMENTARIO DE COLUMNA
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Hay que poner un ejemplo de uso.
 
 Los comentarios de columna se usan simplemente para añadir una descripción o nota a cerda de para qué está pensada la columna.
@@ -149,7 +149,7 @@ Los comentarios de columna se usan simplemente para añadir una descripción o n
 ### SET DE CARACTERES
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Hay que poner un ejemplo de uso.
 
 Sirve para cuando queremos darle un [set de caracteres](mysql_db.md#CONJUNTO%21DE%20CARACTERES) concreto y distinto al de la **tabla**.
@@ -168,7 +168,7 @@ En las tablas de *SQL* existen lo que se conoce como **clave**, estos son campos
 ##### CLAVE PRIMARIA
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Poner un ejemplo.
 
 Indica que el atributo o conjunto de atributos son únicos para poder identificar de forma inequívoca cada una de las tuplas.
@@ -219,7 +219,7 @@ En este ejemplo se puede ver como en al final de la creación de esta de esta ta
 #### ÚNICO
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Poner un ejemplo.
 > > - [ ] Poner sintaxis.
 
@@ -247,7 +247,7 @@ CREATE TABLE users (
 #### NOMBRAR RESTRICCIONES
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Poner un ejemplo.
 
 Nombrar a las restricciones permite que después podamos buscarlas de forma más sencilla, cabe recalcar que las restricciones no tienen por qué tener nombre.
@@ -258,7 +258,7 @@ Nombrar a las restricciones permite que después podamos buscarlas de forma más
 #### CHEQUEO
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Poner un ejemplo.
 > > - [ ] Poner una explicación de `expresion`.
 > >     - [ ] Between.
@@ -278,7 +278,7 @@ Indicar al final de un [`CHECK`](#CHEQUEO) que es `ENFORCED`, `NOT ENFORCED` esp
 ### EN ACTUALIZADO Y BORRADO
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Poner una mejor explicación.
 > > - [ ] Poner algún ejemplo.
 
@@ -302,7 +302,7 @@ El objetivo de estas instrucciones es que el gestos de la **DB**, antes de borra
 ## LISTAR TABLAS
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Poner una explicación más extensa.
 > > - [ ] Poner un ejemplo.
 
@@ -321,7 +321,7 @@ SHOW TABLES;
 ## DESCRIBIR TABLA
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Poner una explicación más extensa.
 > > - [ ] Poner un ejemplo.
 
@@ -366,7 +366,7 @@ No es recomendable tener nombres tan poco descriptivos, simplemente es un ejempl
 ## MODIFICAR TABLA
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Como borrar columna.
 > > - [ ] Como modificar columna.
 > > - [ ] Como añadir columna.

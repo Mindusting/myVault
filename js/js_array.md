@@ -9,7 +9,7 @@ title: Array en JS
 # ARRAYS EN JS
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Documentar como crear un array.
 > > - [ ] Documentar las funciones del array.
 

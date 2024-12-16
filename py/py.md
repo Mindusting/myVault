@@ -77,7 +77,7 @@ title: Python
 
 ## TODO
 
-> [!todo] TODO
+> [!todo] #TODO
 > - [ ] Documentar las [variables](py_variable.md).
 > - [ ] Documentar el [control de flujo](py_flow_control.md).
 

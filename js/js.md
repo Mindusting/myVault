@@ -15,7 +15,7 @@ title: Java Script
 # JAVA SCRIPT
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Documentar las variables.
 > > - [ ] Documentar el control de flujo.
 > > - [ ] Documentar los bucles.

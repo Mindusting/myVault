@@ -54,7 +54,7 @@ title: Java
 
 ## TODO
 
-> [!todo]
+> [!todo] #TODO
 > - [java ejecución dinámica de funciones](http://delphiaccess.com/foros/index.php/articulos/java/855-ejecutar-de-forma-din%C3%A1mica-un-m%C3%A9todo-de-un-objeto-dado)
 > - [Factory method](https://refactoring.guru/es/design-patterns/factory-method/java/example)
 > - [Singleton](https://refactoring.guru/es/design-patterns/singleton)

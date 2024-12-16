@@ -54,8 +54,9 @@ print(my_set)
 
 ## MÉTODOS
 
-> [!todo] TODO:
-> - [ ] Copiar todo el contenido de los métodos del set y ponerlos aquí.
+> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+> > - [ ] Copiar todo el contenido de los métodos del set y ponerlos aquí.
 
 ### SET
 

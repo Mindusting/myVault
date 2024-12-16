@@ -9,7 +9,7 @@ title: Clases en Java
 # CLASES Y OBJETOS
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Hacer una explicación a cerca de la estructura del primer ejemplo (*Los paquetes*).
 > > - [ ] Explicar qué son los `POJO`.
 

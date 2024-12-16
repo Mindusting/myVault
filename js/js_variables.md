@@ -9,7 +9,7 @@ title: Variables en JS
 # VARIABLES IN JS
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Documentar `var`.
 > > - [ ] Documentar `const`.
 

@@ -9,7 +9,7 @@ title: Bytes en Python
 # BYTES
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Depurar código, hacer ejemplos y documentarlos.
 
 ```python

@@ -9,7 +9,7 @@ title: Sistemas numéricos
 # SISTEMAS NUMÉRICOS
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Documentar el decimal.
 > > - [ ] Documentar el binario.
 > > - [ ] Documentar el hexadecimal.

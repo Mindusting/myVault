@@ -9,7 +9,7 @@ title: Variables en Python
 # INT
 
 >[!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Releer la documentación del `int` para ver que se podría mejorar.
 
 Un ejemplo de la declaración de variables de números enteros sería el siguiente:
@@ -104,7 +104,7 @@ print(num.denominator)
 ## INT BIT
 
 >[!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Revisar toda la documentación y ver que se puede mejorar.
 > > - [ ] Reparar los enlaces rotos.
 
@@ -215,7 +215,7 @@ print(f"bit_length({num}) = {num.bit_length()}")
 ## INT BYTES
 
 >[!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Revisar toda la documentación y ver que se puede mejorar.
 > > - [ ] Reparar los enlaces rotos.
 

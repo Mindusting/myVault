@@ -9,7 +9,7 @@ title: Tipos de datos en MySQL
 # TIPOS DE DATOS
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Documentar numéricos.
 > > - [ ] Documentar fechas.
 > > - [ ] Documentar cadenas de caracteres.
@@ -40,7 +40,7 @@ title: Tipos de datos en MySQL
 ### OTROS NUMÉRICOS
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Explicar como se almacena internamente los números de tipo `NUMERIC`.
 
 - `NUMERIC([tdig], [dec])`: Es un estándar de SQL que permite almacenar número exactos.

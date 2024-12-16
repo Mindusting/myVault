@@ -9,7 +9,7 @@ title: Strings en Python
 # STRING
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Depurar el código de este apartado para separarlo en diferentes ejemplos y documentarlos.
 > > - [ ] Explicar que un string es un iterable de caracteres.
 

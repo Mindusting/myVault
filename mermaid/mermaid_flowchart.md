@@ -10,7 +10,7 @@ title: Diagrama de flujo en Mermaid
 # DIAGRAMA DE FLUJO EN MERMAID
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Documentar terminales.
 > > - [ ] Documentar instrucciones.
 > > - [ ] Documentar IO.

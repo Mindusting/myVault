@@ -8,7 +8,7 @@ title: Matemáticas
 
 # MATEMÁTICAS
 
-- [Vectors](Vectors/vectors.md)
+- [Vectors](math_vectors.md)
 - [Geometry](Trigonometry/trigonometry.md)
 - [Matrix](Matrix/matrix.md)
 - [Pitagoras](math_pitagoras.md)

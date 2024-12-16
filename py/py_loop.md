@@ -9,7 +9,7 @@ title: Bucles en Python
 # BUCLES
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #todo
 > > - [ ] Rehacer la documentación del `while`.
 > > - [ ] Documentar el `for`.
 > > - [ ] Documentar el `do-while`.

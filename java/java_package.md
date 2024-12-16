@@ -9,7 +9,7 @@ title: Paquetes en Java
 # PAQUETES EN JAVA
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Hacer una explicación a cerca de los paquetes y para qué sirven.
 
 > [!help] REFERENCIAS WEB

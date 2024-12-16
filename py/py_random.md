@@ -9,7 +9,7 @@ title: Random en Python
 # RANDOM
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Explicar qué son los números pseudoaleatorios.
 > > - [ ] Explicar qué son los las semillas.
 

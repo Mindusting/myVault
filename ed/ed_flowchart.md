@@ -10,7 +10,7 @@ title: Diagrama de flujo
 # DIAGRAMA DE FLUJO
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Documentar terminales.
 > > - [ ] Documentar instrucciones.
 > > - [ ] Documentar IO.

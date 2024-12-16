@@ -9,7 +9,7 @@ title: Variables en Python
 # VARIABLES EN PYTHON
 
 >[!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 > > - [ ] Documentar las variables `gloval` y `nongloval`.
 > > - [ ] Documentar como se puede indicar el tipo de una variable (`x: int`).
 > > - [ ] Documentar el valor `None`.
@@ -41,13 +41,13 @@ Aquí podrás encontrar documentación sobre múltiples tipos de datos, pero hay
 ## BINARY
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo] TODO
+> > [!todo] #TODO
 > > - [ ] Documentar los números en binario (`0b10`).
 
 ## OCTAL
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo] TODO
+> > [!todo] #TODO
 > > - [ ] Documentar los número en octal (`010`).
 
 ## HEX
