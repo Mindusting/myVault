@@ -49,14 +49,14 @@ title: Python
 - [MÓDULOS 🛄](py_module.md)
 - [COMANDO PIP](py_pip.md)
 - [ARCHIVOS EXTERNOS](py_file_manager.md)
-- [GUI 🖼](gui/py_gui.md)
+- [GUI 🖼](py_gui.md)
 
 ## MÓDULOS
 
 - [MATH 🧮](math/py_math.md)
 - [RANDOM 🎲](py_random.md)
 - [OS](py_os.md)
-- [RE](re/py_re.md)
+- [RE](py_re.md)
 - [SYS](py_sys.md)
 - [PSTIL](py_psutil.md)
 - [STRUCT](py_struct.md)
@@ -67,7 +67,8 @@ title: Python
 - [NUMPY 🧮](numpy/py_numpy.md)
 - [EXCEL 🍫](openpyxl/py_openpyxl.md)
 - [PANDAS 📈](py_pandas.md)
-- [SQLITE3 🛢](py_sqlite3.md)
+- [SQLITE3 🛢](sqlite3/py_sqlite3.md)
+- [ZIPFILE 🗄️](py_zipfile.md)
 - [PORTA PAPELES 📋](py_clipboard.md)
 - [PASSWORD 🔑](py_getpass.md)
 - [QR 🔗](py_qr.md)

@@ -14,14 +14,21 @@ title: Java
 
 # JAVA
 
-> [!help] REFERENCIAS WEB
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+> > - [ ] Explicar que es Java.
+> > - [ ] [java ejecución dinámica de funciones](http://delphiaccess.com/foros/index.php/articulos/java/855-ejecutar-de-forma-din%C3%A1mica-un-m%C3%A9todo-de-un-objeto-dado)
+> > - [ ] [Factory method](https://refactoring.guru/es/design-patterns/factory-method/java/example)
+> > - [ ] [Singleton](https://refactoring.guru/es/design-patterns/singleton)
+
+> [!help]- REFERENCIAS WEB
 > - [W3](https://www.w3schools.com/java/default.asp)
 > - [CODERANCH](https://coderanch.com/)
 > - [REFACTORING · GURU](https://refactoring.guru/es/design-patterns/java)
 > - [JAVATPOINT](https://www.javatpoint.com/java-tutorial)
 >
 > YouTube:
-> - [Bro Code (Java)](https://youtube.com/playlist?list=PLZPZq0r_RZOMhCAyywfnYLlrjiVOkdAI1&feature=shared)
+> - [Bro Code (Java)](https://youtube.com/playlist?list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&si=HzSVPbetNwKpTka9)
 > - [pildorasinformaticas (Java)](https://youtube.com/playlist?list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk&feature=shared)
 
 ## ÍNDICE
@@ -36,6 +43,7 @@ title: Java
 - [ARRAY](java_array.md)
 - [MÉTODOS 📞](java_method.md)
 - [CLASES 📦](java_class.md)
+- [EXCEPCIONES ⚠️](java_exceptions.md)
 - [JAVADOC 📙](java_doc.md)
 - [RECOLECTOR DE BASURA 🗑](java_garbage_collector.md)
 - [CLASE MATH](java_math.md)
@@ -51,10 +59,4 @@ title: Java
 - [HASH-SET](java_hash_set.md)
 - [FUNCIÓN LAMBDA](java_lambda.md)
 - [JSON](java_json.md)
-
-## TODO
-
-> [!todo] #TODO
-> - [java ejecución dinámica de funciones](http://delphiaccess.com/foros/index.php/articulos/java/855-ejecutar-de-forma-din%C3%A1mica-un-m%C3%A9todo-de-un-objeto-dado)
-> - [Factory method](https://refactoring.guru/es/design-patterns/factory-method/java/example)
-> - [Singleton](https://refactoring.guru/es/design-patterns/singleton)
+- [MySQL 🛢](java_mysql.md)

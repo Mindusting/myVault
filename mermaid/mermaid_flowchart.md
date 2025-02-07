@@ -20,3 +20,11 @@ title: Diagrama de flujo en Mermaid
 
 > [!faq] FAQ
 > - [¿Qué es un diagrama de flujo?](../ed/ed_flowchart.md)
+
+```txt
+---
+title: Node
+---
+flowchart LR
+    id
+```

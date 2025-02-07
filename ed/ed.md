@@ -9,7 +9,11 @@ title: Desarrollo de entornos
 
 # DESARROLLO DE ENTORNOS
 
-> [!fail] ESTE APARTADOS ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADOS ESTÁ INCOMPLETO
+> > [!todo] #TODO
+> > - [ ] Documentar diagrama de flujo.
+> > - [ ] Documentar caja negra.
+> > - [ ] Documentar caja blanca.
 
 ## DIAGRAMAS
 

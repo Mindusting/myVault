@@ -15,9 +15,12 @@ title: Binary
 
 # BINARIO
 
-> [!help] REFERENCIAS WEB
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+
+> [!help]- REFERENCIAS WEB
 > YouTube:
-> - [Code Dumped](https://youtu.be/HjneAhCy2N4)
+> - [Core Dumped](https://youtu.be/HjneAhCy2N4)
 > - [Josh's Channel](https://youtu.be/PMpNhbMjDj0)
 
 El binario no es más que sistema de enumeración.

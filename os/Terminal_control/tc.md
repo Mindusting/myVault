@@ -75,7 +75,7 @@ Para cambiar el color del texto se usan los siguientes valores.
 
 | COLOR  | ARG | LIGHT COLOR  | ARG |
 |:-------|----:|:-------------|----:|
-| Black  |  30 | Light black  |  93 |
+| Black  |  30 | Light black  |  90 |
 | Red    |  31 | Light red    |  91 |
 | Green  |  32 | Light gree   |  92 |
 | Yellow |  33 | Light yellow |  93 |
@@ -95,7 +95,7 @@ Para cambiar el color del fondo se usan los siguientes valores, son los mismos q
 
 | COLOR  | ARG | LIGHT COLOR  | ARG |
 |:-------|----:|:-------------|----:|
-| Black  |  40 | Light black  | 103 |
+| Black  |  40 | Light black  | 100 |
 | Red    |  41 | Light red    | 101 |
 | Green  |  42 | Light gree   | 102 |
 | Yellow |  43 | Light yellow | 103 |

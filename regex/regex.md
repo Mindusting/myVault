@@ -12,9 +12,11 @@ title: Regular Expression
 > [!help] REFERENCIAS WEB
 > - [Wikipedia](https://es.wikipedia.org/wiki/Expresi%C3%B3n_regular)
 > - [Microsoft](https://learn.microsoft.com/es-es/dotnet/standard/base-types/regular-expression-language-quick-reference)
+> - [rexegg](https://www.rexegg.com/regex-quickstart.php)
 >
 > YouTube:
 > - [MoureDev by Brais Moure](https://youtu.be/MRKpVxn5fqI)
+> - [Stand-up Maths](https://youtu.be/5vbk0TwkokM)
 
 ## TABLAS
 
@@ -72,6 +74,8 @@ title: Regular Expression
 ### BÚSQUEDA DE FECHAS
 
 Si queremos buscar fechas, podemos usar la siguiente expresión regular:
+
+`\d{4}(?:(?:/|-)\d{2}){2}(?: |T)\d\d(?::\d\d){2}`
 
 `(\d{4}-\d{2}-\d{2}(\s|T)\d{2}:\d{2}:\d{2}|\d{4}-\d{2}-\d{2})`
 

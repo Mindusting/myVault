@@ -18,7 +18,7 @@ title: JSON en Java
 > - [Code With Z](https://www.youtube.com/playlist?list=PLllOizrde1zKgv8JGADBTLIdPgncEzA7f)
 
 > [!faq] FAQ
-> - [¿Qué son los archivos JSON?](../json/json.md)
+> - [¿Qué son los archivos JSON?](../dump/json.md)
 
 | JSON       | Java              |
 |:---------- |:----------------- |

@@ -8,4 +8,5 @@ title: Recolector de basura de Java
 
 # RECOLECTOR DE BASURA
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> #TODO

@@ -6,6 +6,6 @@ tags:
 title: Operadores en SQLite
 ---
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 
 [SQLite_or](operators/SQLite_or.md)

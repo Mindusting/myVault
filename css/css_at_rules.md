@@ -14,3 +14,17 @@ title: At-Rules en CSS3
 
 > [!help] REFERENCIAS WEB
 > - [W3 (At-Rules)](https://www.w3schools.com/cssref/css_ref_atrules.php)
+
+## MEDIA
+
+```css
+body {
+    background-color: red;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: blue;
+    }
+}
+```

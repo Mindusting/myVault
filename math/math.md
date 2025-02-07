@@ -9,7 +9,7 @@ title: Matemáticas
 # MATEMÁTICAS
 
 - [Vectors](math_vectors.md)
-- [Geometry](Trigonometry/trigonometry.md)
+- [Trigonometry](Trigonometry/trigonometry.md)
 - [Matrix](Matrix/matrix.md)
 - [Pitagoras](math_pitagoras.md)
 - [Contar tanques](math_count_tanks.md)
@@ -41,4 +41,4 @@ def fade(t: float) -> float:
     return t*t*t*(t*(t*6-15)+10)
 ```
 
-![#center](../img/img_fade.png)
+![](../img/img_fade.png)

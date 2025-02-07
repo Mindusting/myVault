@@ -1,12 +1,15 @@
 ---
 author: Mindusting
-corrected: true
+corrected: false
 tags:
   - Programming/JS
 title: Consola en JS
 ---
 
 # CONSOLA EN JS
+
+> [!warning] AVISO
+> Para poder ver el resultado de todas las operaciones que hagamos con la consola, tendremos que abrir nuestra pagina en un buscador, y pulsar `F12` o click derecho e `Inspeccionar`.
 
 Existen cuatro tipos de impresión por consola, para poder acceder a ellos se debe llamar al objeto `console`, seguido de un punto para poder acceder a uno de sus métodos.
 
@@ -33,19 +36,21 @@ console.clear();
 
 ## GRUPOS
 
-Para poder hacer grupos de mensajes en la consola, se hace uso de los métodos `group` y `guoupEnd`, indicando estos el inicio y el final de cada uno de ellos.
+Para poder hacer grupos de mensajes en la consola, se hace uso de los métodos `group`, `groupCollapsed` y `guoupEnd`, indicando estos el inicio y el final de cada uno de ellos.
 
 ```js
-console.group("Primer grupo:");
+console.group("Grupo normal:");
 console.log("Hola");
 console.log("mundo!!!");
 console.groupEnd();
 
-console.group("Segundo grupo:");
+console.groupCollapsed("Grupo colapsado:");
 console.log("Adiós");
 console.log("mundo!!!");
 console.groupEnd();
 ```
+
+Como se puede ver en el ejemplo, tanto el método `group` como `groupCollapsed`, permite indicar un nombre que es el que se le dará al grupo.
 
 ---
 
@@ -71,4 +76,13 @@ for (let idxGrupo = 0; idxGrupo < 3; idxGrupo++) {
     console.groupEnd();
 }
 console.groupEnd();
+```
+
+## TIEMPOS
+
+Para poder cronometrar cuanto tiempo tarda un proceso en hacerse podemos usar los métodos `time` y `timeEnd`,
+
+```js
+console.time();
+console.timeEnd();
 ```

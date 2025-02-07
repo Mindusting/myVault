@@ -1,16 +1,128 @@
 {
   "items": [
     {
-      "type": "search",
-      "ctime": 1727047059083,
-      "query": "/\\[.+\\]\\(\\)/",
-      "title": "Enlaces sin dirección"
+      "type": "group",
+      "ctime": 1736191783710,
+      "items": [
+        {
+          "type": "search",
+          "ctime": 1733698560063,
+          "query": "/>\\s?\\[!fail\\]-?/",
+          "title": "Apartados incompletos"
+        },
+        {
+          "type": "search",
+          "ctime": 1727047059083,
+          "query": "/\\[.+\\]\\(\\)/",
+          "title": "Enlaces sin dirección"
+        }
+      ],
+      "title": "FM"
     },
     {
-      "type": "search",
-      "ctime": 1733698560063,
-      "query": "/>\\s?\\[!fail\\]-?/",
-      "title": "Apartados incompletos"
+      "type": "group",
+      "ctime": 1736191770917,
+      "items": [
+        {
+          "type": "graph",
+          "ctime": 1736191703234,
+          "title": "WEB",
+          "options": {
+            "collapse-filter": false,
+            "search": "tag:Programming/HTML OR tag:Programming/CSS OR tag:Programming/JS",
+            "showTags": false,
+            "showAttachments": false,
+            "hideUnresolved": false,
+            "showOrphans": true,
+            "collapse-color-groups": true,
+            "colorGroups": [
+              {
+                "query": "tag:#Programming/Python",
+                "color": {
+                  "a": 1,
+                  "rgb": 515872
+                }
+              },
+              {
+                "query": "tag:#Programming/Java",
+                "color": {
+                  "a": 1,
+                  "rgb": 16753664
+                }
+              },
+              {
+                "query": "tag:#Markdown",
+                "color": {
+                  "a": 1,
+                  "rgb": 8421504
+                }
+              },
+              {
+                "query": "tag:#Mermaid",
+                "color": {
+                  "a": 1,
+                  "rgb": 16711808
+                }
+              },
+              {
+                "query": "tag:#Programming/HTML",
+                "color": {
+                  "a": 1,
+                  "rgb": 16734464
+                }
+              },
+              {
+                "query": "tag:#Programming/CSS",
+                "color": {
+                  "a": 1,
+                  "rgb": 255
+                }
+              },
+              {
+                "query": "tag:#Programming/JS",
+                "color": {
+                  "a": 1,
+                  "rgb": 16776960
+                }
+              },
+              {
+                "query": "tag:#Programming/SQL",
+                "color": {
+                  "a": 1,
+                  "rgb": 9017836
+                }
+              },
+              {
+                "query": "tag:#Programming/C",
+                "color": {
+                  "a": 1,
+                  "rgb": 8421504
+                }
+              },
+              {
+                "query": "tag:#Programming/CPP",
+                "color": {
+                  "a": 1,
+                  "rgb": 25343
+                }
+              }
+            ],
+            "collapse-display": true,
+            "showArrow": true,
+            "textFadeMultiplier": 0,
+            "nodeSizeMultiplier": 1.00155925155925,
+            "lineSizeMultiplier": 1.00155925155925,
+            "collapse-forces": true,
+            "centerStrength": 0.5,
+            "repelStrength": 10,
+            "linkStrength": 1,
+            "linkDistance": 250,
+            "scale": 0.4314979476323076,
+            "close": false
+          }
+        }
+      ],
+      "title": "GV"
     }
   ]
 }

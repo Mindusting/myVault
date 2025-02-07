@@ -13,7 +13,8 @@ title: Clases y Ojetos en Python
 > - [pildorasinformaticas (1)](https://youtu.be/5Ohme4A2Weg?list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS)
 > - [pildorasinformaticas (2)](https://youtu.be/2UNrSiKEI8w?list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS)
 
-[¿Qué son las clases y objetos en programación?](../pc/pc_class.md)
+> [!faq] FAQ
+> - [¿Qué son las clases y objetos en programación?](../pc/pc_class.md)
 
 Para crear una clase en Python se usa la palabra clave `class` siguiendo la siguiente sintaxis.
 
@@ -48,7 +49,7 @@ print(Numeros.AUREO)
 # 1.618033988749895
 ```
 
-Ahora, estos atributos no pueden ser modificados (*En este caso no interesa ya que son constantes, pero si se podrían modificar, no obstante, más adelante veremos como evitar que se puedan modificar*) ya que forman parte de la clase, si queremos poder modificar los valores tendremos que **instanciar** la clase para crear un **objeto**, esto lo veremos con el ejemplo de un [vector](../math/Vectors/vectors.md):
+Ahora, estos atributos no pueden ser modificados (*En este caso no interesa ya que son constantes, pero si se podrían modificar, no obstante, más adelante veremos como evitar que se puedan modificar*) ya que forman parte de la clase, si queremos poder modificar los valores tendremos que **instanciar** la clase para crear un **objeto**, esto lo veremos con el ejemplo de un [vector](../math/math_vectors.md):
 
 ```python
 # Declaración de la clase
@@ -87,10 +88,10 @@ En este ejemplo podemos ver como se declara la clase y se instancia, para ello s
 
 Una vez has aprendido lo básico sobre las clases y objetos, puedes empezar con los siguientes apartados:
 
-- [MÉTODOS 📞](classes/py_method.md)
-    - [CONSTRUCTOR 👷](classes/Magic_Methods/py_constructor.md)
-- [ENCAPSULACIÓN 💊](classes/py_encapsulation.md)
-- [HERENCIA 🧓](classes/py_inheritance.md)
+- [MÉTODOS 📞](class/py_method.md)
+    - [CONSTRUCTOR 👷](class/Magic_Methods/py_constructor.md)
+- [ENCAPSULACIÓN 💊](class/py_encapsulation.md)
+- [HERENCIA 🧓](class/py_inheritance.md)
 
 >[!warning] ESTE APARTADO ES TEMPORAL, EL CONTENIDO DE ESTE SE MOVERÁ A UN SITIO MÁS INDICADO EN EL FUTURO
 >

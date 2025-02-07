@@ -27,7 +27,7 @@ title: HTML5
 > 
 > protocolo servidor ruta archivo
 
-> [!help] REFERENCIAS WEB
+> [!help]- REFERENCIAS WEB
 > - [Mocilla](https://developer.mozilla.org/en-US/docs/Web/HTML)
 > - [W3](https://www.w3schools.com/html/default.asp)
 >
@@ -61,8 +61,9 @@ SINTAXIS
 - [ENCABEZADOS](html_headers.md)
 - [META DATOS](html_meta.md)
 - [FORMATO DE TEXTO](html_text_format.md)
-- [LISTAS](html_list.md)
-- [TABLAS](html_table.md)
-- [LINKS](html_hyperlink.md)
-- [IMÁGENES](html_img.md)
+- [LISTAS 📃](html_list.md)
+- [TABLAS 🍫](html_table.md)
+- [LINKS 🔗](html_hyperlink.md)
+- [IMÁGENES 📷](html_img.md)
+- [VÍDEOS 📼](html_videos.md)
 - [FORMULARIOS](html_form.md)

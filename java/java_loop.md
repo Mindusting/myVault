@@ -8,7 +8,15 @@ title: Bucles en Java
 
 # BUCLES
 
-[¿Qué son lo bucles en la programación?](../pc/pc_loop.md)
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+> > - [ ] Explicar que es el [ámbito](../pc/pc_scope.md) y referenciarlo.
+> > - [ ] Documentar el bucle for.
+> > - [ ] Documentar el bucle do-while.
+> > - [ ] Documentar el bucle for-each.
+
+> [!help] REFERENCIAS WEB
+> - [¿Qué son lo bucles en la programación?](../pc/pc_loop.md)
 
 ## WHILE
 

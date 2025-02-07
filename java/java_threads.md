@@ -15,7 +15,8 @@ title: Hilos en Java
 > - [Bro Code](https://youtu.be/J09TLPgwd0Y)
 > - [Coding with John](https://youtu.be/r_MbozD32eo)
 
-[¿Qué son los hilos en programación?](../pc_thread.md)
+> [!faq] FAQ
+> - [¿Qué son los hilos en programación?](../pc_thread.md)
 
 ## EJEMPLO
 

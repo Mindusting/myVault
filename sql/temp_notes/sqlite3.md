@@ -20,5 +20,5 @@ Este comando nos permite también crear o abrir una base de datos, para ello seg
 - [Formato de salida de datos](sqlite3_output_formats.md)
 - [Llave primaria](sqlite3_primary_key.md)
 - [Llave extrangera](sqlite3_foreign_key.md)
-- [Ejecutar archivos SQL sobre la base de datos](sqlite3_read_sql_files.md)
+- [Ejecutar archivos SQL sobre la base de datos](../sqlite3/sqlite3_read_sql_files.md)
 

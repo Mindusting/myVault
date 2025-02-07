@@ -11,17 +11,13 @@ title: Tablas en MySQL
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 > > [!todo] #TODO
 > > - [ ] Documentar la creación de una tabla.
-> > - [ ] Documentar listado de tablas.
+> > - [x] Documentar listado de tablas.
 > > - [ ] Documentar `CHECK`.
 > >     - [ ] Documentar rango de valores.
 > > - [ ] Documentar claves.
 > >     - [ ] Clave primaria.
 > >     - [ ] Clave foránea.
 > > - [ ] Documentar restricciones (`CONSTRAINT`).
-> > - [ ] Documentar tipos de datos.
-> >     - [ ] Tipo de dato `TIMESTAMP`.
-> >     - [ ] Tipo de dato `ENUM`.
-> >     - [ ] Tipo de dato `SET`.
 > > - [ ] Actualización en borrado.
 > > - [ ] Actualización en edición.
 > > - [ ] Documentar comentarios de columna (`COMMENT`).
@@ -37,6 +33,9 @@ title: Tablas en MySQL
 > > - [ ] Explicar `ON UPDATE`.
 > > - [ ] Explicar `ON DELETE`.
 
+> [!help] REFERENCIAS WEB
+> - [W3 (ALTER TABLE)](https://www.w3schools.com/mysql/mysql_alter.asp)
+
 > [!faq] FAQ
 > - [¿Qué son las tablas en SQL?](../sql_table.md)
 
@@ -51,7 +50,7 @@ Para crear una tabla tendremos que seguir la siguiente sintaxis:
 
 ```sql
 -- Indicamos que la DB en la que queremos trabajar es "my_db".
-use my_db;
+USE my_db;
 
 -- Indicamos la creación de la DB.
 CREATE TABLE users (
@@ -63,6 +62,13 @@ CREATE TABLE users (
 
 > [!warning]
 > Si ya existe una **tabla** con el mismo nombre nos dará un error.
+> Para evitarlo podemos usar la sentencia `IF NOT EXISTS`:
+> ```sql
+> CREATE TABLE users IF NOT EXISTS (
+>     id   INTEGER PRIMARY KEY,
+>     name VARCHAR(16)
+> );
+> ```
 
 ### DEFINICIÓN DE COLUMNA
 
@@ -101,7 +107,7 @@ Los [tipos de datos](mysql_data_types.md) pueden tener modificadores para cambia
 Permite indicar el valor por defecto que recibe el campo en caso de hacerse una inserción sin especificar el valor del campo en cuestión, por defecto es `NULL`.
 
 > [!abstract] SINTAXIS
-> ***\[DEFAUTL\] \[value\]***
+> DEFAUTL ***\[value\]***
 
 - Si la columna es de tipo numérico, se indica tal cual el número.
 - Si se trata de una cadena de caracteres, se especifica el valor por defecto entre comillas simples.
@@ -216,6 +222,13 @@ CREATE TABLE products (
 
 En este ejemplo se puede ver como en al final de la creación de esta de esta tabla se  indica que el atributo "*created_by*" contendrá una **llave extranjera**, seguido de la **palabra clave** `reference` (**Del Inglés "Referencia"**) seguido por el nombre de la tabla a la cual queramos que esté vinculada junto con unos paréntesis, indicando entre estos el atributo que se va a usar como **llave extranjera**.
 
+###### EN BORRADO
+
+> [!abstract] SINSTAXIS
+> ON DELETE ***\[RESTRICT|CASCADE|SET NULL|NO ACTION|SET DEFAULT\]***;
+
+###### EN ACTUALIZADO
+
 #### ÚNICO
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
@@ -301,15 +314,7 @@ El objetivo de estas instrucciones es que el gestos de la **DB**, antes de borra
 
 ## LISTAR TABLAS
 
-> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo] #TODO
-> > - [ ] Poner una explicación más extensa.
-> > - [ ] Poner un ejemplo.
-
-%%
-> [!abstract] SINTAXIS
-> SHOW FULL TABLES FROM ***\[db\_name\]***;
-%%
+Para listar todas las tablas que tenemos en la **DB** tenemos que usar la instrucción `SHOW TABLES`.
 
 > [!abstract] SINTAXIS
 > SHOW TABLES;
@@ -365,17 +370,63 @@ No es recomendable tener nombres tan poco descriptivos, simplemente es un ejempl
 
 ## MODIFICAR TABLA
 
-> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo] #TODO
-> > - [ ] Como borrar columna.
-> > - [ ] Como modificar columna.
-> > - [ ] Como añadir columna.
-
-Modificar un capo de una tabla nos puede servir para cambiar las propiedades de estos en sado de que nos hayamos equivocado o queramos darle otro uso.
+Modificar un capo de una tabla nos puede servir para cambiar las propiedades de estos en caso de que nos hayamos equivocado o queramos darle otro uso.
 
 > [!abstract] SINTAXIS
 > ALTER TABLE ***\[table\_name]***
-> MODIFY COLUMN ***\[field\_name] \[type] \[propeties]***;
+> ***\[modification\]***;
+
+### AÑADIR COLUMNA
+
+Para añadir una **columna** usaremos la instrucción `ADD`:
+
+> [!abstract] SINTAXIS
+> ALTER TABLE ***\[table\_name\]***
+> ADD ***\[col\_name\] [\[col\_def\]](#DEFINICIÓN%20DE%20COLUMNA)***;
+
+```sql
+ALTER TABLE users
+ADD dni CHAR(9) CHECK (LENGTH(dni) = 9);
+```
+
+### BORRAR COLUMNA
+
+Para borra una **columna** usaremos la instrucción `DROP COLUMN`:
+
+> [!abstract] SINTAXIS
+> ALTER TABLE ***\[table\_name\]***
+> DROP COLUMN ***\[col\_name\]***;
+
+```sql
+ALTER TABLE users
+DROP COLUMN dni;
+```
+
+### MODIFICAR COLUMNA
+
+Para modificar una **columna** usaremos la instrucción `MODIFY`:
+
+> [!abstract] SINTAXIS
+> ALTER TABLE ***\[table\_name\]***
+> MODIFY ***\[col\_name\] [\[col\_def\]](#DEFINICIÓN%20DE%20COLUMNA)***;
+
+```sql
+ALTER TABLE users
+MODIFY dni CHAR(9) NOT NULL CHECK (LENGTH(dni) = 9);
+```
+
+### CAMBIAR COLUMNA
+
+Para cambiar una **columna** usaremos la instrucción `CHANGE`:
+
+> [!abstract] SINTAXIS
+> ALTER TABLE ***\[table\_name\]***
+> CHANGE ***\[old\_col\_name\]*** ***\[new\_col\_name\] [\[col\_def\]](#DEFINICIÓN%20DE%20COLUMNA)***;
+
+```sql
+ALTER TABLE users
+CHANGE name fisrtName VARCHAR(16) NOT NULL;
+```
 
 ## BORRAR TABLAS
 

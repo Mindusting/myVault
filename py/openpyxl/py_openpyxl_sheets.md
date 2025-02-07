@@ -60,7 +60,7 @@ Como se puede ver en el ejemplo, después de cambiarle el nombre a la página, s
 
 ## CREAR PÁGINAS
 
-Para crear nuevas páginas en nuestro archivo de *EXCEL* se usa el [método](../classes/py_method.md) `create_sheet`, este [método](../classes/py_method.md) requiere de un argumento y puede tener dos, el primero (obligatorio) es el nombre de la nueva página, el segundo es el índice de la página, si no indicamos ninguno, será el valor más alto posible, esto es debido a que las páginas se guardan en forma de [lista](../py_list.md).
+Para crear nuevas páginas en nuestro archivo de *EXCEL* se usa el [método](../class/py_method.md) `create_sheet`, este [método](../class/py_method.md) requiere de un argumento y puede tener dos, el primero (obligatorio) es el nombre de la nueva página, el segundo es el índice de la página, si no indicamos ninguno, será el valor más alto posible, esto es debido a que las páginas se guardan en forma de [lista](../py_list.md).
 
 ```python
 from openpyxl import (
@@ -107,7 +107,7 @@ wb.close()
 
 ## ORDENAR PÁGINAS
 
-Para cambiar el orden de las páginas se usa el [método](../classes/py_method.md) `move_sheet`, este recibe dos argumentos, el nombre y el índice de donde lo queremos mover.
+Para cambiar el orden de las páginas se usa el [método](../class/py_method.md) `move_sheet`, este recibe dos argumentos, el nombre y el índice de donde lo queremos mover.
 
 ```python
 from openpyxl import (
@@ -158,7 +158,7 @@ wb.close()
 
 ### INSERTAR LÍNEA
 
-Para insertar una línea en la [página de trabajo](py_openpyxl_sheets.md) se usa el [método](../classes/py_method.md) `insert_rows`, este recibe dos argumentos, el primero indica el índice la línea en la que queremos insertar la línea, el segundo indica el número de líneas que queremos insertar.
+Para insertar una línea en la [página de trabajo](py_openpyxl_sheets.md) se usa el [método](../class/py_method.md) `insert_rows`, este recibe dos argumentos, el primero indica el índice la línea en la que queremos insertar la línea, el segundo indica el número de líneas que queremos insertar.
 
 ```python
 from openpyxl import (
@@ -182,7 +182,7 @@ Si abres el *EXCEL* podrás ver que entre el número `10` y el `20` hay `3` lín
 
 ### ELIMINAR LÍNEA
 
-Para eliminar líneas en la [página de trabajo](py_openpyxl_sheets.md) se usa el [método](../classes/py_method.md) `delete_cols` este recibe dos argumentos, el primero indica el índice la línea que queremos eliminar, el segundo indica el número de líneas que queremos eliminar después de esta.
+Para eliminar líneas en la [página de trabajo](py_openpyxl_sheets.md) se usa el [método](../class/py_method.md) `delete_cols` este recibe dos argumentos, el primero indica el índice la línea que queremos eliminar, el segundo indica el número de líneas que queremos eliminar después de esta.
 
 ```python
 from openpyxl import (
@@ -203,9 +203,9 @@ Si abres el *EXCEL* podrás ver que entre el número `10` y el `20` hay `0` lín
 
 ### INSERTAR COLUMNA
 
-Para insertar una columna en la [página de trabajo](py_openpyxl_sheets.md) se usa el [método](../classes/py_method.md) `insert_cols`, este recibe dos argumentos, el primero indica el índice la columna en la que queremos insertar la columna, el segundo indica el número de columnas que queremos insertar.
+Para insertar una columna en la [página de trabajo](py_openpyxl_sheets.md) se usa el [método](../class/py_method.md) `insert_cols`, este recibe dos argumentos, el primero indica el índice la columna en la que queremos insertar la columna, el segundo indica el número de columnas que queremos insertar.
 
-```
+```python
 from openpyxl import (
     Workbook,
     load_workbook
@@ -227,7 +227,7 @@ Si abres el *EXCEL* podrás ver que entre el número `10` y el `20` hay `3` colu
 
 ### ELIMINAR COLUMNA
 
-Para eliminar columnas en la [página de trabajo](py_openpyxl_sheets.md) se usa el [método](../classes/py_method.md) `delete_cols` este recibe dos argumentos, el primero indica el índice la columna que queremos eliminar, el segundo indica el número de columnas que queremos eliminar después de esta.
+Para eliminar columnas en la [página de trabajo](py_openpyxl_sheets.md) se usa el [método](../class/py_method.md) `delete_cols` este recibe dos argumentos, el primero indica el índice la columna que queremos eliminar, el segundo indica el número de columnas que queremos eliminar después de esta.
 
 ```
 from openpyxl import (

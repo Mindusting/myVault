@@ -106,19 +106,19 @@ Las varibles permiten almacenar un valor, asociandolo a un "alias", este "alias"
 
 Para declarar una variable se usa el comando `set`.
 
->[!abstract] SINTAXIS
->set ***\[var_name\]***=***\[value\]***
+> [!abstract] SINTAXIS
+> set ***\[var_name\]***=***\[value\]***
 
->[!example] Ej. de uso de variables:
->```bat
->@echo off
->set name=Mindusting
->set age=18
->echo Hola, mi nombre es %name% y tengo %age% años.
->pause>nul
->exit
->```
->Como se puede ver en este ejeplo, para hacer referencia al valor de una variable, esta debe estar entre caracteres de porcentage.
+> [!example] Ej. de uso de variables:
+> ```bat
+> @echo off
+> set name=Mindusting
+> set age=18
+> echo Hola, mi nombre es %name% y tengo %age% años.
+> pause>nul
+> exit
+> ```
+> Como se puede ver en este ejeplo, para hacer referencia al valor de una variable, esta debe estar entre caracteres de porcentage.
 
 ## OPERADORES
 

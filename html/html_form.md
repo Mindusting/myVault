@@ -19,7 +19,7 @@ Para crear un formulario usamos la etiqueta `form`, este tiene una etiqueta de a
 - `method`:
     En este atributo indicamos el método que queremos usar para enviar los datos del formulario.
 
-    Los las opciones son las siguientes:
+    Las opciones son las siguientes:
     - `get`:
         Este escribirá la información de los usuarios en la URL de la página, esto hace a este método poco seguro, ya que se podrá ver toda la información y la URL tiene una limitación de 2048 caracteres.
     - `post`:
@@ -60,7 +60,7 @@ La etiqueta `input` sirve para introducir datos en el formulario.
     - `pattern`: Patrón del contenido.
     - `autocomplete`: Auto completa el campo.
 - `password`:
-    Es igual que el `text` pero no se muestra el texto, si no puntos.
+    Es igual que el `text` pero no se muestra el texto, sino puntos.
 - `submit`
 - `reset`
 - `button`

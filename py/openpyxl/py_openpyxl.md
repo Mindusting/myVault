@@ -92,7 +92,7 @@ Como se puede ver en el ejemplo, después de cambiarle el nombre a la página, s
 
 #### CREAR PÁGINAS
 
-Para crear nuevas páginas en nuestro archivo de *EXCEL* se usa el [método](../classes/py_method.md) `create_sheet`, este [método](../classes/py_method.md) requiere de un argumento y puede tener dos, el primero (obligatorio) es el nombre de la nueva página, el segundo es el índice de la página, si no indicamos ninguno, será el valor más alto posible, esto es debido a que las páginas se guardan en forma de [lista](../py_list.md).
+Para crear nuevas páginas en nuestro archivo de *EXCEL* se usa el [método](../class/py_method.md) `create_sheet`, este [método](../class/py_method.md) requiere de un argumento y puede tener dos, el primero (obligatorio) es el nombre de la nueva página, el segundo es el índice de la página, si no indicamos ninguno, será el valor más alto posible, esto es debido a que las páginas se guardan en forma de [lista](../py_list.md).
 
 ```python
 from openpyxl import (
@@ -139,7 +139,7 @@ wb.close()
 
 #### ORDENAR PÁGINAS
 
-Para cambiar el orden de las páginas se usa el [método](../classes/py_method.md) `move_sheet`, este recibe dos argumentos, el nombre y el índice de donde lo queremos mover.
+Para cambiar el orden de las páginas se usa el [método](../class/py_method.md) `move_sheet`, este recibe dos argumentos, el nombre y el índice de donde lo queremos mover.
 
 ```python
 from openpyxl import (
@@ -190,7 +190,7 @@ wb.close()
 
 ### SAVE
 
-Para guardar un [objeto](../py_class.md) `Workbook` se usa el [método](../classes/py_method.md) `save`, este recibe un argumento obligatorio, en este se indica el nombre con el que queremos guardar el archivo.
+Para guardar un [objeto](../py_class.md) `Workbook` se usa el [método](../class/py_method.md) `save`, este recibe un argumento obligatorio, en este se indica el nombre con el que queremos guardar el archivo.
 
 ```python
 from openpyxl import Workbook

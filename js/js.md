@@ -16,6 +16,7 @@ title: Java Script
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 > > [!todo] #TODO
+> > - [ ] Explicar que es JS.
 > > - [ ] Documentar las variables.
 > > - [ ] Documentar el control de flujo.
 > > - [ ] Documentar los bucles.
@@ -25,7 +26,7 @@ title: Java Script
 > > - [ ] Documentar el DOM.
 > > - [ ] Documentar eventos.
 
-> [!help] REFERENCIAS WEB
+> [!help]- REFERENCIAS WEB
 > - [Dibujar con JS](https://developer.mozilla.org/es/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes)
 >
 > YouTube:
@@ -47,3 +48,4 @@ title: Java Script
 - [FUNCIONES](js_functions.md)
 - [DOM](js_dom.md)
 - [EVENTOS](js_events.md)
+- [EXPRESIONES REGULARES](js_regex.md)

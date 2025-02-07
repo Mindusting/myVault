@@ -6,19 +6,20 @@ tags:
 title: Tablas en SQLite3
 ---
 
-<h1 style="text-align:center;">TABLAS EN SQLITE3</h1>
-
----
-
-# REFERENCIAS WEB
-
-- [SQLite3](https://sqlite.org/lang_createtable.html)
-
-# VÍDEOS
-
-- [Aaron Francis](https://youtu.be/sgVpOaJLoG0)
-
 # TABLAS EN SQLITE3
+
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+> > - [ ] Documentar las [DDBB en memoria](https://sqlite.org/inmemorydb.html).
+> > - [ ] Documentar el atributo `UNIQUE`.
+> > - [ ] Documentar el atributo [`AUTOINCREMENT`](https://www.sqlite.org/autoinc.html).
+> > - [ ] Documentar el atributo `DEFAULT`.
+
+> [!help] REFERENCIAS WEB
+> - [SQLite3](https://sqlite.org/lang_createtable.html)
+> 
+> YouTube:
+> - [Aaron Francis](https://youtu.be/sgVpOaJLoG0)
 
 %%
 ESQUEMA DE CREACIÓN DE UNA TABLA
@@ -66,6 +67,24 @@ CREATE TABLE "users" (
 ```
 
 Como se puede ver en el ejemplo, la tabla que hemos creado está hecha para guardar registros de usuarios, de momento solo hemos indicado que se va a guardar el nombre y el apellido, ahora, dos registro podrían coincidir con el mismo nombre y apellido por lo que no podríamos identificar cual es cual a la hora de hacer una búsqueda, o querer relacionar alguna otra información a la persona que a la que hace referencia el registro, para solucionar este problema usaremos otra columna, esta almacenará un número que identifique de forma única a cada registro.
+
+%%
+INFORMACIÓN DE LA TABLA
+#TODO
+
+Para consultar la información de las columnas de una tabla se puede usar la instrucción `PRAGMA table_info();`.
+
+%%
+SINTAXIS
+
+```txt
+PRAGMA table_info([table_name]);
+```
+%%
+
+> [!abstract] SINTAXIS
+> <span class="key-word-color">PRAGMA</span> <span class="flow-word-color">table_info</span>(<span class="italic class-color">[table_name]</span>);
+%%
 
 ### TIPOS DE DATO
 
@@ -159,6 +178,17 @@ CREATE TABLE "notes" (
 
 ---
 
+El atributo `AUTOINCREMENT` es utiliza en las [claves primarias](SQLite3_primary_key.md), este, la especificarlo, cambia ligeramente el comportamiento de la [clave primaria](SQLite3_primary_key.md):
+
+Imaginemos que tenemos una tabla sin ningún registro al meter uno nuevo, este tendrá la clave primaria con el valor `1` y la siguiente con el valor `2`, ahora, si borramos la que tiene la clave primaria `2`.
+
+- SIN `AUTOINCREMENT`:
+    E [insertamos](SQLite3_insert.md) una nueva, esta tendrá de nuevo el valor `2`, ya que simplemente busca el valor más grande que se encuentre en la columna que sea [clave primaria](SQLite3_primary_key.md) y le suma uno.
+- CON `AUTOINCREMENT`:
+    E [insertamos](SQLite3_insert.md) una nueva, esta tendrá el valor `3`, ya que aunque el valor `2` ya no esté en uso, la tabla tiene un contador interno para la [clave primaria](SQLite3_primary_key.md), este contador indica que valor debe obtener el siguiente registro en la [clave primaria](SQLite3_primary_key.md).
+
+---
+
 Para crear una [tablas](../sql_table.md) básica en SQLite con la que podremos guardar datos de usuarios, podremos seguir el siguiente ejemplo.
 
 ```sql
@@ -168,7 +198,7 @@ CREATE TABLE "users" (
 );
 ```
 
-Como se puede ver en el ejemplo, esta tabla tendrá dos columnas (`id` y `first_name`), con sus respectivos [tipos de datos](SQLite3_data_types.md).
+Como se puede ver en el ejemplo, esta tabla tendrá dos columnas (`id` y `first_name`), con sus respectivos [tipos de datos](sqlite3_data_types.md).
 
 Un cambio que podemos hacerle a este diseño de tabla sería hacer que el identificador del registro no se pueda repetir, sea [único](SQLite3_unique.md) y clave primaria auto [incremental](SQLite3_autoincrement.md), y ya de paso, que el nombre [no pueda ser `null`](SQLite3_not_null.md), ya que queremos que cada usuario tenga su propio nombre.
 
@@ -182,11 +212,16 @@ CREATE TABLE "users" (
 
 También podemos dar a cada columna un [valor por defecto](SQLite3_default.md).
 
----
+## DEFAULT
 
-https://youtu.be/sgVpOaJLoG0
+En la creación de una tabla, si indicamos un valor `DEFAULT` este será el que asigne en ese campo cuando creemos un nuevo registro y el valor de este no sea especificado, por defecto el valor es `NULL`, pero podemos cambiarlo de esta forma.
 
+```sql
+CREATE TABLE "users" (
+    "id"         INTEGER NOT NULL UNIQUE,
+    "first_name" TEXT NOT NULL DEFAULT "No-Name",
+    PRIMARY KEY("id" AUTOINCREMENT)
+);
 ```
-STRICT
-ANY
-```
+
+Como se puede ver en este ejemplo, en el caso de que se cree un registro en esta tabla y no se especifique ningún nombre, este obtendrá el valor por defecto, siendo en este caso `"No-Name"`.

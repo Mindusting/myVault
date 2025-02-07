@@ -14,7 +14,7 @@ title: YAML en Python
 > - [GitHub (yaml/pyyaml)](https://msg.pyyaml.org/load)
 
 > [!faq] FAQ
-> - [¿Qué es el formato YAML?](../dump/yaml.md)
+> - [¿Qué es el formato YAML?](../yaml/yaml.md)
 
 Para poder manejar tanto texto como archivos de formato `YAML`, haremos uso del módulo `yaml`.
 

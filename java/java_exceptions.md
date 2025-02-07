@@ -8,7 +8,8 @@ title: Java
 
 # EXCEPCIONES EN JAVA
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
 
 > [!help] REFERENCIAS WEB
 > YouTube:

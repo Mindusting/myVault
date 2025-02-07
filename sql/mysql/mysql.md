@@ -29,6 +29,7 @@ title: MySQL
 - [TIPOS DE DATOS](mysql_data_types.md)
 - [TABLAS](mysql_table.md)
 - [CRUD](mysql_crud.md)
+    - [CONSULTAS](mysql_queries.md)
 
 ---
 ---

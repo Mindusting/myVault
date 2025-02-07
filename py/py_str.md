@@ -148,6 +148,10 @@ print(".".join(my_list))
 
 ## F-STRING
 
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+> > - [ ] Hacer una explicación a cerca de el uso y utilidad que tiene el f-str.
+
 ### ESPACIADO
 
 > [!abstract] SINTAXIS
@@ -368,4 +372,4 @@ Como se puede ver en el ejemplo, en el [`print`](../py_print.md) que hemos usado
 Para este punto ya te habrás dado cuenta gracias al ejemplo, y es que para indicar que queremos que un [`str`](#STRING) se interprete de forma cruda, simplemente tendremos que poner una `r` por delante de las comillas que conformen el [`str`](#STRING).
 
 > [!note] Nota
-> Este tipo de `string` se suele usar en las [expresiones regulares](../re/py_re.md).
+> Este tipo de `string` se suele usar en las [expresiones regulares](py_re.md).

@@ -1,6 +1,6 @@
 ---
 author: Mindusting
-corrected: true
+corrected: false
 tags:
   - Programming/Concept/Comment
 title: Comentarios en la programación
@@ -13,11 +13,11 @@ title: Comentarios en la programación
 
 Un comentarios sirve para dejar anotaciones en el código fuente de nuestro programa, suele tener varios usos:
 
-1. **Comentarios obvios**: Hacer anotaciones cerca de una porción de código cercana para dar una explicación, esta clase de comentarios los hacen generalmente gente que está empezando a programar, además de que para la gente que sí conoce el lenguaje de programación en cuestión, esta clase de comentarios suelen sentirse como el siguiente meme:
+1. **Comentarios obvios**: Hacer anotaciones a cerca de una porción de código cercana para dar una explicación, esta clase de comentarios los hacen generalmente gente que está empezando a programar, además de que para la gente que sí conoce el lenguaje de programación en cuestión, esta clase de comentarios suelen sentirse como el siguiente meme:
     
     ![#logo](../img/cat_cat.png)
     
-    Ya que es obvio que es un gato, no hace falta que le pongas una etiqueta indicandolo, igualmente, no pasa nada por poner comentarios de este tipo (*cuando estamos empezando*) ya que a medida que uno va mejorando deja de poner esta clase de comentarios... *generalmente...*
+    Ya que es obvio que es un gato, no hace falta que le pongas una etiqueta indicandolo, igualmente, no pasa nada por poner comentarios de este tipo (*cuando estamos empezando*) ya que a medida que uno va mejorando, deja de poner esta clase de comentarios... *generalmente...*
     Se suele tender a evitar esta clase de comentarios ya que son redundantes, y por tanto se suele decir que "*manchan*" el código sin aportar información relevante.
 
 2. **Documentación**: En algunos [lenguajes de programación](pc_programming_language.md) existe la posibilidad de hacer documentación directamente en el código fuente, de forma que mediante un editor de texto especializado en la programación, podremos consultar esta el comentarios, generalmente esta clase de comentarios se usan en las [clases](pc_class.md) y [funciones](pc_function.md), estos no deben explicar cómo está programado, si no el uso que tienen, es decir si estamos definiendo el uso de una [funciones](pc_function.md), podremos qué *argumentos* recibe, que *devuelve*, y en caso de lanzar alguna *excepción*, bajo qué condiciones lo hace.

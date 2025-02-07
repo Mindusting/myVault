@@ -6,38 +6,38 @@ tags:
 title: Listas en HTML
 ---
 
-<h1 style="text-align:center;">LISTAS EN HTML5</h1>
-
----
-
-# REFERENCIAS WEB
-
-- [W3](https://www.w3schools.com/html/html_lists.asp)
-    - [W3 (Listas ordenadas)](https://www.w3schools.com/html/html_lists_ordered.asp)
-    - [W3 (Listas desordenadas)](https://www.w3schools.com/html/html_lists_unordered.asp)
-    - [W3 (Listas de definición)](https://www.w3schools.com/html/html_lists_other.asp)
 # LISTAS
+
+> [!help] REFERENCIAS WEB
+> - [W3](https://www.w3schools.com/html/html_lists.asp)
+>     - [W3 (Listas ordenadas)](https://www.w3schools.com/html/html_lists_ordered.asp)
+>     - [W3 (Listas desordenadas)](https://www.w3schools.com/html/html_lists_unordered.asp)
+>     - [W3 (Listas de definición)](https://www.w3schools.com/html/html_lists_other.asp)
 
 ## LISTAS ORDENADAS
 
 Las listas ordenadas se hacen usando la etiqueta `ol` (**Ordered List**), esta se usa poniendo la apertura y el cierra, entre estas etiquetas podremos indicar los diferentes punto que queremos añadir a la lista con la etiqueta `li` (**List Item**), también podemos meter otros elementos como puede ser un párrafo, esto nos puede servir por ejemplo cuando vamos ha poner una serie de preguntas enumeradas y sus respuestas.
 
-> [!fail] HAY QUE CAMBIAR ESTOS EJEMPLOS DE ELEMENTOS INDEXADOS
-
 ```html
 <ol>
-    <li>Primer punto.</li>
-    <p>Este es el texto del primer punto.</p>
-    <li>Segundo punto.</li>
-    <p>Este es el texto del segundo punto.</p>
-    <li>Tercer punto.</li>
-    <p>Este es el texto del tercer punto.</p>
+    <li>
+        Primer punto.
+        <p>Este es el texto del primer punto.</p>
+    </li>
+    <li>
+        Segundo punto.
+        <p>Este es el texto del segundo punto.</p>
+    </li>
+    <li>
+        Tercer punto.
+        <p>Este es el texto del tercer punto.</p>
+    </li>
 </ol>
 ```
 
 ### TIPOS DE LISTAS ORDENADAS
 
-El atributo `type` permite cambiar la forma en la que se van a ordenar los elementos, pudiendo usar números, letras mayúsculas o minúsculas y números romanos en mayúsculas o minúsculas:
+El atributo `type` permite cambiar la forma en la que se van a enumerar los elementos, pudiendo usar números, letras mayúsculas o minúsculas y números romanos en mayúsculas o minúsculas:
 
 | TIPO | DEFINICIÓN                 |
 |:----:|:-------------------------- |
@@ -85,16 +85,24 @@ Las listas desordenadas permite
 
 ```html
 <ul>
-    <li>Primer punto.</li>
-    <p>Este es el texto del primer punto.</p>
-    <li>Segundo punto.</li>
-    <p>Este es el texto del segundo punto.</p>
-    <li>Tercer punto.</li>
-    <p>Este es el texto del tercer punto.</p>
+    <li>
+        Primer punto.
+        <p>Este es el texto del primer punto.</p>
+    </li>
+    <li>
+        Segundo punto.
+        <p>Este es el texto del segundo punto.</p>
+    </li>
+    <li>
+        Tercer punto.
+        <p>Este es el texto del tercer punto.</p>
+    </li>
 </ul>
 ```
 
 ### TIPOS DE LISTAS DESORDENADAS
+
+El atributo `type` permite cambiar la forma en la que se van a marcado los elementos, pudiendo usar discos, círculos, cuadrados:
 
 | TIPO     | DEFINICIÓN |
 |:-------- |:---------- |
@@ -102,6 +110,14 @@ Las listas desordenadas permite
 | `circle` | Círculo.   |
 | `square` | Cuadrado.  |
 | `none`   | Sin icono. |
+
+```html
+<ul type="square">
+    <li>Primer punto.</li>
+    <li>Segundo punto.</li>
+    <li>Tercer punto.</li>
+</ul>
+```
 
 ## LISTAS DE DEFINICIÓN
 
@@ -118,4 +134,23 @@ Las listas de definición se usan como su nombre indica para hacer una lista de 
 
 ## LISTAS ANIDADAS
 
-Las listas anidadas consisten en hacer lo mismo que hemos estado haciendo 
+Las listas anidadas consisten en hacer una lista dentro de otra, esto podría ser usado para hacer por ejemplo un índice.
+
+```html
+<ol>
+    <li>
+        Primer apartado.
+        <ol>
+            <li>Primer sub apartado.</li>
+            <li>Segundo sub apartado.</li>
+        </ol>
+    </li>
+    <li>
+        Segundo apartado.
+        <ol>
+            <li>Primer sub apartado.</li>
+            <li>Segundo sub apartado.</li>
+        </ol>
+    </li>
+</ol>
+```

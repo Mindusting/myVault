@@ -21,10 +21,32 @@ title: Diagrama de flujo
 
 Los **diagramas de flujo** representan los caminos que puede tomar un programa de forma visual.
 
-## TERMINAL
+## SIMBOLOS
+
+```mermaid
+flowchart LR
+    terminal([TERMINAL])
+    process[PROCESS]
+    page_ref((REF. PAG.))
+    if{DECISIÓN}
+    io[/I/O/]
+```
+
+### TERMINAL
+
+El objetivo del terminal 
 
 ```mermaid
 flowchart TB
-    inicio([INICIO])
+    inicio([INICIO]) -->
     fin([FIN])
+```
+
+### OPERACIONES
+
+### REFERENCIA DE PÁGINA
+
+```mermaid
+flowchart TB
+    inicio((INICIO))
 ```

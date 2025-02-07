@@ -6,7 +6,7 @@ tags:
 title: Código Morse internacional
 ---
 
-<h1 style="text-align:center;">CÓDIGO MOUSE INTERNACIONAL</h1>
+<h1 style="text-align:center;">CÓDIGO MORSE INTERNACIONAL</h1>
 
 ---
 

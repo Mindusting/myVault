@@ -14,7 +14,11 @@ title: SQL
 
 # SQL
 
-> [!help] REFERENCIAS WEB
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+> > - [ ] Explicar que es SQL.
+
+> [!help]- REFERENCIAS WEB
 > YouTube:
 > - [ByteByteGo](https://youtu.be/yMqldbY2AAg)
 > - [Decomplexify](https://www.youtube.com/@decomplexify)
@@ -38,7 +42,7 @@ Por ello, he dividido esta documentación en varias partes, en la [primera](#DOC
 
 ## DOCUMENTACIÓN CONCRETA
 
-- [SQLite3](sqlite3/SQLite3.md)
+- [sqlite3](sqlite3/sqlite3.md)
 - [MySQL](mysql/mysql.md)
 - [SQL-Server](sql_server/sql_server.md)
 <br>

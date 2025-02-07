@@ -8,54 +8,40 @@ title: Git
 
 # GIT
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+> > - [ ] Hay que hacerle un logo a esta documentación.
+> > - [ ] Explicar para qué sirve git.
+> > - [ ] Explicar el funcionamiento interno de git.
+> > - [ ] Explicar como instalar git.
+> > - [ ] Explicar el comando `init`.
+> > - [ ] Explicar el comando `status`.
+> > - [ ] Explicar el comando `add`.
+> > - [ ] Explicar el comando `commit`.
+> > - [ ] Explicar el comando `log`.
+> > - [ ] Explicar el comando `reset`.
+> >     git reset --hard ***\[commit_hex_code\]***
 
-> [!help] REFERENCIAS WEB
+> [!help]- REFERENCIAS WEB
 > - [W3](https://www.w3schools.com/git/default.asp?remote=github)
 >
 > YouTube:
 > - [pildorasinformaticas](https://www.youtube.com/playlist?list=PLU8oAlHdN5BlyaPFiNQcV0xDqy0eR35aU)
 
-## VERSIÓN
+## ÍNDICE
 
-> [!abstract] SINTAXIS
-> git version
-
-## CONFIGURACIÓN
-
-Establece el usuario y correo electrónico.
-
-> [!abstract] SINTAXIS
-> git config --gloval user.name "***\[name]***"
-> git config --gloval user.email "***\[email]***"
-
-## CREAR UN ÁREA DE TRABAJO
-
-> [!abstract] SINTAXIS
-> git init
-
-> [!note]
-> Al usar este comando se genera en la carpeta actual una carpeta llamada `.git`, en esta se guardará información a cerca del área de trabajo.
-
-## AÑADIR UN ARCHIVO
-
-> [!abstract] SINTAXIS
-> git add ***\[file/path]***
-
-## ESTADO
-
-> [!abstract] SINTAXIS
-> git status -s
-
-- `??`: No se hace copias.
-- `A`: Está añadido.
-- `M`: Está modificado.
+- [Versión](git_version.md)
+- [Configuración](git_config.md)
+- [Crear repositorios](git_init.md)
+- [Añadir archivos](git_add.md)
+- [Estado de configuración](git_status.md)
+- [Clonar repositorio](git_clone.md)
 
 ## COMMIT
 
 > [!abstract] SINTAXIS
-> git commit -m "***\[comment]***"
-> git commit -am "***\[comment]***"
+> git commit -m "***\[comment\]***"
+> git commit -am "***\[comment\]***"
 > git commit --amend
 
 ## REGISTRO
@@ -66,7 +52,7 @@ Establece el usuario y correo electrónico.
 ## RESTABLECER
 
 > [!abstract] SINTAXIS
-> git reset --hard ***\[code]***
+> git reset --hard ***\[code\]***
 
 ## SUBIR CAMBIOS
 

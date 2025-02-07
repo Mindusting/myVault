@@ -6,7 +6,7 @@ tags:
 title: Clave primaria en SQLite3
 ---
 
-Cada [tabla](SQLite3_tables.md) solo puede tener una clave primaria, esta será una de las columnas y el valor que contenga no se podrá repetir entre los diferentes registros, por lo que tendrá el atributo [`unique`](SQLite3_unique.md) de forma implícita.
+Cada [tabla](sqlite3_tables.md) solo puede tener una clave primaria, esta será una de las columnas y el valor que contenga no se podrá repetir entre los diferentes registros, por lo que tendrá el atributo [`unique`](SQLite3_unique.md) de forma implícita.
 
 ```sql
 CREATE TABLE "users" (

@@ -7,8 +7,10 @@ tags:
 title: Módulo Pandas en Python
 ---
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+# PANDAS
 
-# REFERENCIAS WEB
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
 
-- [W3](https://www.w3schools.com/python/pandas/default.asp)
+> [!help] REFERENCIAS WEB
+> - [W3](https://www.w3schools.com/python/pandas/default.asp)

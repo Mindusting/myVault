@@ -23,15 +23,24 @@ title: Tablas en HTML5
 
 Para crear una tabla en **HTML** se usa la etiqueta `table`, dentro de esta usaremos la etiqueta `tr` para indicar las filas de la tablas, y dentro de esta podremos usar las etiquetas `th` y `td` para las columnas de la tabla.
 
+![#center](img/table/basic_structure.md)
+
 ```html
 <table>
     <tr>
         <th>Celda cabezera 1</th>
         <th>Celda cabezera 2</th>
+        <th>Celda cabezera 3</th>
     </tr>
     <tr>
         <td>Celda de información 1</td>
         <td>Celda de información 2</td>
+        <td>Celda de información 3</td>
+    </tr>
+    <tr>
+        <td>Celda de información 4</td>
+        <td>Celda de información 5</td>
+        <td>Celda de información 6</td>
     </tr>
 </table>
 ```
@@ -79,28 +88,20 @@ Si quieres saber mas a cerca de estas celdas, te recomiendo leer los apartados d
 
 ### TAMAÑO DE LAS CELDAS
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+> > - [ ] Documentar el `colspan`.
+> > - [ ] Documentar el `rowspan`.
 
 > [!help] REFERENCIAS WEB
 > - [W3 (Etiquetas `colspan` y `rowspan`)](https://www.w3schools.com/html/html_table_colspan_rowspan.asp)
-
-
-
-## TROCEA LA TABLA
-
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
-
-> [!help] REFERENCIAS WEB
-> - [W3 (Encabezado de la tabla)](https://www.w3schools.com/tags/tag_thead.asp)
-> - [W3 (Cuerpo de la tabla)](https://www.w3schools.com/tags/tag_tbody.asp)
-> - [W3 (Pie de la tabla)](https://www.w3schools.com/tags/tag_tfoot.asp)
 
 ## SUBTÍTULO
 
 > [!help] REFERENCIAS WEB
 > - [W3 (Subtítulo)](https://www.w3schools.com/tags/tag_caption.asp)
 
-Para añadirle un título ha nuestra tabla, se usa la etiqueta `caption`:
+Para añadirle un subtítulo ha nuestra tabla, se usa la etiqueta `caption`, este título al visualizarse la página se sitúa en cima de la tabla.
 
 ```html
 <table>
@@ -118,22 +119,34 @@ Para añadirle un título ha nuestra tabla, se usa la etiqueta `caption`:
 
 ## GRUPOS DE COLUMNAS
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
 
 > [!help] REFERENCIAS WEB
 > - [W3 (Grupos de columnas)](https://www.w3schools.com/tags/tag_colgroup.asp)
 
 ## CABEZA, CUERPO Y PIE
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+> > - [ ] Hacer explicación.
+
+> [!help] REFERENCIAS WEB
+> - [W3 (Encabezado de la tabla)](https://www.w3schools.com/tags/tag_thead.asp)
+> - [W3 (Cuerpo de la tabla)](https://www.w3schools.com/tags/tag_tbody.asp)
+> - [W3 (Pie de la tabla)](https://www.w3schools.com/tags/tag_tfoot.asp)
+
+![#center](img/table/adbanced_structure.md)
 
 ```html
 <table>
     <caption>Mi tabla</caption>
     <thead>
-        <th>H1</th>
-        <th>H2</th>
-        <th>H3</th>
+        <tr>
+            <th>H1</th>
+            <th>H2</th>
+            <th>H3</th>
+        </tr>
     </thead>
     <tbody>
         <tr>
@@ -148,9 +161,11 @@ Para añadirle un título ha nuestra tabla, se usa la etiqueta `caption`:
         </tr>
     </tbody>
     <tfoot>
-        <td>F1</td>
-        <td>F2</td>
-        <td>F3</td>
+        <tr>
+            <td>F1</td>
+            <td>F2</td>
+            <td>F3</td>
+        </tr>
     </tfoot>
 </table>
 ```

@@ -10,6 +10,13 @@ title: VIM
 
 ---
 
+# VIM
+
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+> > - [ ] Hacer imagen de portada.
+> > - [ ] Explicar que es VIM.
+
 ```vimrc
 syntax on
 

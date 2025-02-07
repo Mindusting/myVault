@@ -11,7 +11,8 @@ title: Random en Python
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 > > [!todo] #TODO
 > > - [ ] Explicar qué son los números pseudoaleatorios.
-> > - [ ] Explicar qué son los las semillas.
+> > - [ ] Explicar qué son las semillas.
+> > - [ ] Explicar por qué no se puede usar este módulo para encriptar.
 
 > [!help] REFERENCIAS WEB
 > - [Python doc (Random)](https://docs.python.org/es/3/library/random.html)
@@ -34,7 +35,7 @@ rng: Random = Random()
 
 ## MÉTODOS DE LA CLASE RANDOM
 
-- `random`: devuelve un [float](py_float.md) aleatorio.
+- `random()`: devuelve un [float](py_float.md) aleatorio dentro del rango de valores [\[0, 1)](../math/math_range_notation.md).
 - `seed([seed])`: establece el valor indicado como nueva semilla del generador de números aleatorios.
 - `choice([iterable])`: se el da como argumento un *iterable* y devuelve un *elemento* aleatorio de este.
 - `shuffle([iterable])`: desordena el *iterable* que se le pasa como argumento.

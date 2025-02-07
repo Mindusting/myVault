@@ -6,8 +6,9 @@ tags:
 title: Links en HTML5
 ---
 
-<h1 align="center">LINKS EN HTML5</h1>
+# LINKS
 
----
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
 
 `Hypertext REFerence`

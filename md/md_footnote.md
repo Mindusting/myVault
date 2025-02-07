@@ -6,13 +6,12 @@ tags:
 title: Notas de pie en Markdown
 ---
 
-<h1 style="text-align:center;">NOTAS DE PIE EN MARKDOWN</h1>
-
----
+# NOTAS DE PIE
 
 > [!error] ESTE APARTADO ESTÁ SIN TERMINAR
 
-[Obsidian doc](<https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Footnotes>)
+> [!help] REFERENCIEAS WEB
+> - [Obsidian doc](<https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Footnotes>)
 
 ```md
 Esta es una referencia [^1].

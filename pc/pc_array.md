@@ -11,7 +11,7 @@ title: Array(s) en la programación
 > [!help] REFERENCIAS WEB
 > - [¿Qué son los punteros en programación?](pc_pointer.md)
 > YouTube:
-> - [Code Dumped](https://youtu.be/xFMXIgvlgcY)
+> - [Core Dumped](https://youtu.be/xFMXIgvlgcY)
 
 ## BÁSICO
 

@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "849fe0e1d1d7e11c",
+        "id": "325694929ca8f608",
         "type": "tabs",
         "children": [
           {
-            "id": "08e1ca11ce48bf24",
+            "id": "0e639b7bf16fc19e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "README.md",
                 "mode": "preview",
-                "backlinks": false,
-                "source": true
+                "source": true,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "README"
@@ -41,10 +41,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -61,7 +62,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Buscar"
             }
           },
           {
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/java_file_manager.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for java_file_manager"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -114,12 +115,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "java/java_file_manager.md",
+                "file": "js/js_dom.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from java_file_manager"
+              "title": "Outgoing links from js_dom"
             }
           },
           {
@@ -129,7 +130,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -141,10 +144,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sql/mysql/mysql_table.md"
+                "file": "js/js_dom.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of mysql_table"
+              "title": "Outline of js_dom"
             }
           },
           {
@@ -153,10 +156,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "sql/mysql/mysql_table.md"
+                "file": "js/js_dom.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for mysql_table"
+              "title": "File properties for js_dom"
             }
           },
           {
@@ -179,12 +182,12 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -193,46 +196,49 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "random-note:Open random note": false,
-      "audio-recorder:Start/stop recording": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "random-note:Abrir nota al azar": false,
+      "audio-recorder:Iniciar/Detener la grabación": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "08e1ca11ce48bf24",
+  "active": "0e639b7bf16fc19e",
   "lastOpenFiles": [
-    "sql/sql.md",
-    "sql/mysql/mysql_data_types.md",
-    "sql/mysql/mysql_table.md",
-    "sql/mysql/mysql_db.md",
-    "sql/sqlite3/SQLite3.md",
-    "sql/mysql/mysql.md",
-    "pc/pc.md",
-    "java/java_file_manager.md",
-    "java/java_exceptions.md",
-    "java/java.md",
-    "sql/sql_crud.md",
-    "sql/mysql/mysql_crud.md",
+    "git/git.md",
     "README.md",
-    "py/py_yaml.md",
-    "pc/pc_pointer.md",
-    "pc/pc_array.md",
-    "regex/regex.md",
-    "py/re/py_re.md",
-    "dump/yaml.md",
-    "md/md.md",
-    "mermaid/mermaid_flowchart.md",
-    "ed/ed_flowchart.md",
     "html/html.md",
     "css/css.md",
-    "js/js.md",
-    "js/js_file.md",
+    "css/css_bootstrap.md",
+    "php/php.md",
+    "sql/sql.md",
+    "pc/pc.md",
+    "bin/bin.md",
+    "java/java.md",
+    "ed/ed.md",
+    "dump/qr.md",
+    "yaml/yaml.md",
+    "yaml/yaml_dict.md",
+    "yaml/yaml_list.md",
+    "yaml/yaml_comment.md",
+    "vim/vim.md",
+    "py/py.md",
+    "py/sqlite3/py_sqlite3.md",
+    "py/sqlite3/py_sqlite3_connection.md",
+    "py/sqlite3/py_sqlite3_cursor.md",
+    "md/md_callout.md",
+    "sql/sqlite3/sqlite3.md",
+    "py/py_module.md",
+    "py/class/py_method.md",
+    "js/js_events.md",
+    "db",
+    "php",
+    "yaml",
     "img/img_fade.png",
     "py/variables/Int",
     "py/variables",
@@ -242,9 +248,6 @@
     "sql/SQLite3/operators",
     "sql/SQLite3",
     "sql/sqlite3/operators",
-    "sql/sqlite3",
-    "ed",
-    "sql/mysql",
     "img/cat_cat.png",
     "img/java_logo.png",
     "img/retro_monitor.png",

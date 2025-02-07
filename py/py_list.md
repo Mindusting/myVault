@@ -6,8 +6,13 @@ tags:
 title: Listas en Python
 ---
 
-
 # LIST
+
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+> > - [ ] Explicar como declarar de forma literal una lista con elementos.
+> > - [ ] Explicar como declarar una lista rellena de forma eficiente (`[None] * 128`).
+> > - [ ] Explicar la compresión de listas (`[2 ** i for i in range(8)]`).
 
 > [!help] REFERENCIAS WEB
 > - [Python doc (List)](https://docs.python.org/3/tutorial/datastructures.html)
@@ -16,7 +21,19 @@ title: Listas en Python
 > [!faq] FAQ
 > - [¿Qué es una lista en programación?](../../pc/pc_list.md)
 
-Para declarar una [**lista**](../../pc/pc_list.md) en Python se puede hacer de las siguientes formas:
+Para declarar una **lista** en Python se puede hacer de dos forma, de forma *literal* o a través de la [clase](py_class.md) `list`.
+
+## DECRARACIÓN LITERAL
+
+```python
+# Se declara la lista de forma literal.
+#               V
+my_list: list = []
+```
+
+---
+
+Para crear una **lista** en Python se puede hacer de las siguientes formas:
 
 ```python
 list1 = []

@@ -28,7 +28,7 @@ Bienvenidos a la galería de notas de **Mindusting**, aquí podrás encontrar lo
 
 ## ADVERTENCIAS
 
-Prácticamente ningún archivo está completo y muchos directamente están vacíos, ya que simplemente los cree para poder hacer la conexión entre los archivos, pero a medida que vaya completando los apuntes iré rellenando los, al mismo tiempo seguirán surgiendo archivos en malas condiciones...
+Prácticamente ningún archivo está completo y muchos directamente están vacíos, ya que simplemente los cree para poder hacer la conexión entre ellos, pero a medida que vaya completando los apuntes iré rellenando los, al mismo tiempo seguirán surgiendo archivos en malas condiciones...
 
 Soy disléxico por lo que las notas están y estarán llenas de errores, procuro corregir todos los que puedo, todas las notas de esta bóveda (*En teoría*) tienen un metadato/propiedad (*Información que sale al principio de cada nota*) con el nombre `corrected`, este es de tipo *checkbox*, indicará si la nota la he pasado por un corrector de texto, pero esto no asegura que pueda seguir habiendo errores, ahora mismo mientras escribo esto (*2024-09-25*) la amplia mayoría de las notas no han sido pasadas por un corrector de texto, la idea es una vez considere que he terminado la nota corregirla, igualmente esto no quiere decir que si pone que está corregida no va a ser modificada en el futuro.
 
@@ -62,12 +62,17 @@ Si quieres más información o documentación más antigua hecha en google docum
 - [HTML5](html/html.md)
 - [CSS3](css/css.md)
     - [Bootstrap](css/css_bootstrap.md)
-- [JavaScript](js/js.md)
-- [JSON](json/json.md)
+- [Java Script](js/js.md)
+- [JSON](dump/json.md)
+- [PHP](php/php.md)
 
 ### BASES DE DATOS
 
+- [Bases de datos](db/db.md)
 - [SQL 🛢](sql/sql.md)
+    - [MySQL](sql/mysql/mysql.md)
+    - [SQL-Server](sql/sql_server/sql_server.md)
+    - [SQLite](sql/sqlite3/sqlite3.md)
 
 ### SISTEMAS OPERATIVOS
 
@@ -83,9 +88,9 @@ Si quieres más información o documentación más antigua hecha en google docum
 
 - [Matemáticas](math/math.md)
 - [Desarrollo de entornos](ed/ed.md)
-- [QR](qr/qr.md)
+- [QR](dump/qr.md)
 - [SVG](svg/SVG.md)
 - [XML](xml/xml.md)
-- [YAML](dump/yaml.md)
+- [YAML](yaml/yaml.md)
 - [Expresiones regulares](regex/regex.md)
 - [Algoritmos para ordenar datos](sort/sort.md)

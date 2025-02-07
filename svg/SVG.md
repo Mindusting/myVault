@@ -8,8 +8,12 @@ title: SVG
 
 # SVG
 
-- [Lucide](https://lucide.dev/)
-- [W3](https://www.w3schools.com/graphics/svg_intro.asp)
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+
+> [!help] REFERENCIAS WEB
+> - [Lucide](https://lucide.dev/)
+> - [W3](https://www.w3schools.com/graphics/svg_intro.asp)
 
 Los archivos `svg` están pensados en principio para uso en web, pero también se pueden usar en otros ámbitos como puede ser **Obsidian**
 

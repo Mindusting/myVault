@@ -6,7 +6,9 @@ tags:
 title: Tipos de datos en SQLite3
 ---
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+> > - [ ] Documentar los distintos tipos de datos y sus usos.
 
 | TYPE    | DEF                 |
 |:--------|:--------------------|

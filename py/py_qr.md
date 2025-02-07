@@ -17,7 +17,7 @@ Primero tendremos qué importar el [módulo](py_module.md) `qrcode`:
 import qrcode
 ```
 
-Luego podemos crear un [objeto](py_class.md) de tipo `qrcode` y guardarlo, para ello se usa la [función](py_function.md) `make`, éste requiere de como mínimo un [`string`](py_str.md) o [`bytes`](py_byte.md) que será la información que se guardará en el `QR`, después este para guardar el [objeto](py_class.md) usamos el [método](classes/py_method.md) `save`, este requiere de un [`string`](py_str.md) o [`bytes`](py_byte.md) que indique la ruta y el nombre del archivo.
+Luego podemos crear un [objeto](py_class.md) de tipo `qrcode` y guardarlo, para ello se usa la [función](py_function.md) `make`, éste requiere de como mínimo un [`string`](py_str.md) o [`bytes`](py_byte.md) que será la información que se guardará en el `QR`, después este para guardar el [objeto](py_class.md) usamos el [método](class/py_method.md) `save`, este requiere de un [`string`](py_str.md) o [`bytes`](py_byte.md) que indique la ruta y el nombre del archivo.
 
 ```python
 import qrcode

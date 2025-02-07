@@ -24,7 +24,7 @@ Los vectores se componen de tres atributos:
 > [!example] Ejemplo de vector:
 > ![#center](excalidraw/math_vector_f10.md)
 > - El *módulo* o *intensidad* de este **vector** ($\vec{V}$) es de 3 unidades.
-> - La *dirección* del **vector** ($\vec{V}$) es la misma *dirección* que la de la recta $AB$.
+> - La *dirección* de un **vector** ($\vec{V}$) es la misma *dirección* que la de la recta $AB$.
 > - El *sentido* del **vector** ($\vec{V}$) es desde $A$ hasta $B$.
 
 > [!note] Un vector se representa de las siguientes formas:

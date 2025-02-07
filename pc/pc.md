@@ -8,7 +8,13 @@ title: Conceptos de la programación
 
 # CONCEPTOS DE LA PROGRAMACIÓN
 
-> [!help] REFERENCIAS WEB
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+> > - [ ] Hacer un apartado explicando el funcionamiento interno de de los números de coma flotante.
+> >     - [ ] Añadir el [vídeo](https://youtu.be/2gIxbTn7GSc).
+> >     - [ ] Añadir el [vídeo](https://youtu.be/8RvnnUuoHTA).
+
+> [!help]- REFERENCIAS WEB
 > YouTube:
 > - [Inside code](https://www.youtube.com/@insidecode)
 
@@ -31,6 +37,7 @@ Si eres un nuevo programador esta es tu documentación.
 - [LISTAS](pc_list.md)
 - [DICCIONARIOS](pc_dictionary.md)
 - [ÁRBOL BINARIO](pc_btree.md)
+- [ÁMBITO](pc_scope.md)
 - [CONTROL DE FLUJO](pc_control_flow.md)
     - [SWITCH](pc_switch.md)
 - [BUCLES](pc_loop.md)
