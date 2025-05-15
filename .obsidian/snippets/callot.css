@@ -1,0 +1,9 @@
+.callout[data-callout="exercise"] {
+    --callout-color: 127, 127, 127;
+    --callout-icon: var(--dumbbell);
+}
+
+.callout[data-callout="idea"] {
+    --callout-color: 204, 204, 0;
+    --callout-icon: lightbulb;
+}

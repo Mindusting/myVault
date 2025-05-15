@@ -8,7 +8,10 @@ title: Notación de intervalos
 
 # NOTACIÓN DE INTERVALOS
 
-> [!help] REFERENCIAS WEB
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+
+> [!help]- REFERENCIAS WEB
 > - [Wikipedia](https://es.wikipedia.org/wiki/Intervalo_(matem%C3%A1tica))
 
 La notación de intervalos permite expresar un rango de números (*Generalmente reales*) de forma sencilla.

@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "1c0999a906d514e8",
+    "id": "ea5900ecf18f0ed6",
     "type": "split",
     "children": [
       {
-        "id": "325694929ca8f608",
+        "id": "26374e0a03ce5620",
         "type": "tabs",
         "children": [
           {
-            "id": "0e639b7bf16fc19e",
+            "id": "c231e52d189562bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -28,15 +28,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "de1db01193bf9888",
+    "id": "82c431d814a94e5b",
     "type": "split",
     "children": [
       {
-        "id": "5885ced0b66a0fdd",
+        "id": "905e2f331853a487",
         "type": "tabs",
         "children": [
           {
-            "id": "194a8b8567c94565",
+            "id": "75b8726caaea2ad0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -45,11 +45,11 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
-            "id": "32abf14404be6efb",
+            "id": "5d242293754f61c1",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -62,11 +62,11 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Buscar"
+              "title": "Search"
             }
           },
           {
-            "id": "89a73d1f1f55826b",
+            "id": "1d1c90434e3bdf57",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -79,24 +79,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5,
+    "width": 283.5,
     "collapsed": true
   },
   "right": {
-    "id": "317bcdb0b0c6e5de",
+    "id": "7c549313c4138016",
     "type": "split",
     "children": [
       {
-        "id": "0ca7e2303e05b29a",
+        "id": "50c3ca9ad450fe2e",
         "type": "tabs",
         "children": [
           {
-            "id": "5856ed8536623b60",
+            "id": "989cbdbe84341229",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "sql/mysql/mysql_users.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,25 +106,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for mysql_users"
             }
           },
           {
-            "id": "74d8bee138556920",
+            "id": "71393e4a6d41af08",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "js/js_dom.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from js_dom"
+              "title": "Enlaces salientes de README"
             }
           },
           {
-            "id": "78e13aed6a962a8b",
+            "id": "a2839437a3e34e65",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -139,31 +139,7 @@
             }
           },
           {
-            "id": "ff248fdd677a6dcb",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "js/js_dom.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of js_dom"
-            }
-          },
-          {
-            "id": "b5acce6cb689a63c",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "js/js_dom.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for js_dom"
-            }
-          },
-          {
-            "id": "6197720056d18001",
+            "id": "010e29d68ca6d765",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -177,86 +153,111 @@
             }
           },
           {
-            "id": "0c485bc11f982213",
+            "id": "3868b417428367b3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of README"
+            }
+          },
+          {
+            "id": "598d28f0b9bc0214",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "computing/css/css_flexbox.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for css_flexbox"
+            }
+          },
+          {
+            "id": "f901f57131cd4876",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 343.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "random-note:Abrir nota al azar": false,
-      "audio-recorder:Iniciar/Detener la grabación": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "audio-recorder:Start/stop recording": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0e639b7bf16fc19e",
+  "active": "c231e52d189562bd",
   "lastOpenFiles": [
-    "git/git.md",
     "README.md",
-    "html/html.md",
-    "css/css.md",
-    "css/css_bootstrap.md",
-    "php/php.md",
-    "sql/sql.md",
-    "pc/pc.md",
-    "bin/bin.md",
-    "java/java.md",
-    "ed/ed.md",
-    "dump/qr.md",
-    "yaml/yaml.md",
-    "yaml/yaml_dict.md",
-    "yaml/yaml_list.md",
-    "yaml/yaml_comment.md",
-    "vim/vim.md",
-    "py/py.md",
-    "py/sqlite3/py_sqlite3.md",
-    "py/sqlite3/py_sqlite3_connection.md",
-    "py/sqlite3/py_sqlite3_cursor.md",
-    "md/md_callout.md",
-    "sql/sqlite3/sqlite3.md",
-    "py/py_module.md",
-    "py/class/py_method.md",
-    "js/js_events.md",
-    "db",
-    "php",
-    "yaml",
-    "img/img_fade.png",
-    "py/variables/Int",
-    "py/variables",
-    "img/transistor.png",
-    "sql/sqlite3/operators",
-    "sql/sqlite3",
-    "sql/SQLite3/operators",
-    "sql/SQLite3",
-    "sql/sqlite3/operators",
+    "computing/db/t2/db_t2.md",
+    "computing/db/db.md",
+    "computing/db/t1/db_t1.md",
+    "computing/db/t3/db_t3.md",
+    "computing/db/t4/db_t4.md",
+    "computing/db/t5/db_t5.md",
+    "computing/db/t2/figuras/DDBB_Tema_2_figura_25.md",
+    "computing/js/js.md",
+    "computing/js/jquiery/jquery.md",
+    "computing/db/t2/figuras/DDBB_Tema_2_figura_24.md",
+    "computing/os/linux/arch/arch_install.md",
+    "computing/os/linux/arch/arch.md",
+    "computing/db/sql/sql_exceptions.md",
+    "computing/db/sql/sql.md",
+    "computing/db/sql/sql_db.md",
+    "computing/os/linux/bash/bash.md",
+    "computing/os/linux/bash/script/bash_script.md",
+    "computing/java/java_exception.md",
+    "computing/css/css_selectors.md",
+    "computing/mermaid/mermaid_pie_chart.md",
+    "computing/py/py_generator.md",
+    "computing/mermaid/mermaid.md",
+    "computing/de/de.md",
+    "computing/os/os.md",
+    "computing/yaml/yaml.md",
+    "computing/js/jquiery",
+    "img/cs_logo.png",
+    "img/cpp_logo.png",
+    "img/cat_cat.jpg",
+    "img/c_logo.png",
+    "img/borra_eso.jpg",
+    "computing/os/linux/bash/script",
+    "Mindusting.zip",
+    "computing/xml/xpath",
+    "memorization",
+    "img/mindusting.png",
+    "computing/db/sql/img",
+    "computing",
+    "sql/main.sql",
+    "Pasted image 20250416235810.png",
+    "computing/java/data_types",
+    "computing/java/util",
     "img/cat_cat.png",
-    "img/java_logo.png",
-    "img/retro_monitor.png",
-    "img/file_text.png",
-    "img/file_encripted.png",
-    "img/file.png",
-    "img/obsidian.png",
-    "a/os/Windows/Windows.png",
-    "Sin título.canvas",
-    "Untitled.canvas"
+    "db/t5/img/img1.png",
+    "computing/db/t4/img/figura7.png"
   ]
 }

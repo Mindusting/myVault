@@ -3,12 +3,12 @@ author: Mindusting
 corrected: false
 tags:
   - Math
-title: Contar tankes
+title: Contar tanques
 ---
 
 # CONTAR TANQUES
 
-> [!help] REFERENCIAS WEB
+> [!help]- REFERENCIAS WEB
 > YouTube:
 > - [Numberphile](https://youtu.be/WLCwMRJBhuI)
 
@@ -26,7 +26,7 @@ Como hemos visto en el ejemplo anterior el resultado que obtenemos tiene un marg
 
 $$N = MAX + \frac{MAX - k}{k}$$
 
-También podemos transformar esta fórmula en una función (*En este caso en [Python](../py/py.md)*) para obtener la aproximación:
+También podemos transformar esta fórmula en una función (*En este caso en [Python](../computing/py/py.md)*) para obtener la aproximación:
 
 ```python
 def count_tanks(tanks_found: list[int]) -> float:
@@ -39,34 +39,76 @@ Aplicando esta fórmula a al ejemplo anterior obtenemos que el número aproximad
 
 ---
 
-Ahora veremos un ejemplo de cómo se puede usar esta fórmula en [python](../py/py.md), ten en cuenta que si ejecutas este ejemplo el número de tanques creado es `3000` mientras que el número de tanques a los que hemos podido acceder a sus identificadores son `10` por lo que vamos a deducir el número de tanques que hay en base al `0.33%` de los tanques, es muy poca información por lo que la aproximación puede ser distante, si quieres puedes probar a ir cambiando los valores para ver cómo de precisa es la aproximación en base a la cantidad de información que le otorgamos a la fórmula:
-
+Ahora veremos un ejemplo de cómo se puede usar esta fórmula en [Python](../computing/py/py.md), ten en cuenta que si ejecutas este ejemplo el número de tanques creado es `3000` mientras que el número de tanques a los que hemos podido acceder a sus identificadores son `10` por lo que vamos a deducir el número de tanques que hay en base al `0.33%` de los tanques, es muy poca información por lo que la aproximación puede ser distante, si quieres puedes probar a ir cambiando los valores para ver cómo de precisa es la aproximación en base a la cantidad de información que le otorgamos a la fórmula:
 
 ```python
-from random import random
+from random import randint
+
+
+def main() -> None:
+    clear_screen()
+
+    # Número de tanques
+    num_of_tanks: int = 3_000
+    # Número de tanques destruidos
+    tanks_demo:   int =    10
+
+    # Esta lista contiene los identificadores
+    # de todos los tanques (Se supone que
+    # nosotros no conocemos el número de tanque
+    # y vamos a sacar una aproximación del
+    # número en base a la información que
+    # obtengamos).
+    tank_ids: list[int] = list(range(num_of_tanks))
+
+    # En esta lista guardaremos los identificadores
+    # de los tanques ya hayamos obtenido.
+    demo_tank_ids: list[int] = list()
+
+    # Este bucle simula que se ha obtenido
+    # los ids de n tanques.
+    for _ in range(tanks_demo):
+
+        # Se elige un tanque aleatorio,
+        # se elimina de la lista de tanques
+        # y se añade a la lista de tanques
+        # destruidos.
+        rand_index: int = randint(0, len(tank_ids)-1)
+        demo_tank_id: int = tank_ids.pop(rand_index)
+        demo_tank_ids.append(demo_tank_id)
+
+    # Se usa la formula para calcular el
+    # aproximado y otras dos apra caulcular
+    # los porcentages de cantidad de información
+    # obtenida y margen de error.
+    estimated_tanks: int = count_tanks(demo_tank_ids)
+    perc_demo_tanks: float = tanks_demo * 100 / num_of_tanks
+    error_perc: float = (num_of_tanks / estimated_tanks - 1) * 100
+
+    # Calculo de espaciado para el f-str.
+    spacing: int = len(str(num_of_tanks))
+
+    # Impresión de datos:
+    # El resultado debería ser aproximadamente
+    # el mismo que el número de tanques.
+    print(f"Número de tanques: {num_of_tanks:>{spacing}}")
+    print(f"Tanques estimados: {estimated_tanks:>{spacing}.0f}")
+    print(f"Tanques avatidos: {perc_demo_tanks:>6.2f}%")
+    print(f"Margen de error:  {abs(error_perc):>6.2f}%")
+
 
 def count_tanks(tanks_found: list[int]) -> float:
     k:   int = len(tanks_found)
     MAX: int = max(tanks_found)
     return MAX + ((MAX - k) / k)
 
-# Esta lista contiene los identificadores
-# de todos los tanques (Se supone que
-# nosotros no conocemos el número de tanque
-# y vamos a sacar una aproximación del
-# número en base a la información que
-# obtengamos).
-tanks: list[int] = list(range(3_000))
 
-# En esta lista guardaremos los identificadores
-# de los tanques ya hayamos obtenido.
-tank_data: list[int] = list()
+def clear_screen() -> None:
+    # Se limpia el terminal.
+    print("\033[2J\033[H", end="")
 
-# Este bucle simula que se ha obtenido
-# la información de 10 tanques.
-for _ in range(10):
-    tank_data.append(tanks.pop(int(random() * len(tanks))))
 
-print(count_tanks(tank_data))
-# El resultado debería ser aproximadamente 3000
+if "__main__" == __name__:
+    main()
+
 ```

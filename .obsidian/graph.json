@@ -76,20 +76,6 @@
         "a": 1,
         "rgb": 25343
       }
-    },
-    {
-      "query": "tag:#Programming/Git",
-      "color": {
-        "a": 1,
-        "rgb": 16727808
-      }
-    },
-    {
-      "query": "tag:#Programming/PHP",
-      "color": {
-        "a": 1,
-        "rgb": 12231909
-      }
     }
   ],
   "collapse-display": true,
@@ -102,6 +88,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.163483705672206,
+  "scale": 0.1916211974358544,
   "close": true
 }

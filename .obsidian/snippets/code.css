@@ -1,0 +1,38 @@
+.cm-inline-code {
+    font-size: var(--new-text-size);
+}
+
+.cm-s-obsidian .HyperMD-codeblock {
+    font-size: var(--new-text-size);
+}
+
+.markdown-preview-view code {
+    /*font-size: var(--new-text-size);*/
+    font-size: var(--text-size);
+}
+
+.markdown-rendered pre code {
+    /*font-size: var(--new-text-size);*/
+    font-size: var(--text-size);
+}
+
+.markdown-preview-view code {
+    p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.cm-s-obsidian .cm-inline-code.cm-formatting {
+    font-size: var(--new-text-size);
+    padding: 0px;
+    margin: 0px;
+}
+
+.cm-s-obsidian .cm-inline-code.cm-formatting ~ .cm-inline-code:not(.cm-formatting) {
+    font-size: var(--new-text-size);
+    padding: 0px;
+    margin: 0px;
+}

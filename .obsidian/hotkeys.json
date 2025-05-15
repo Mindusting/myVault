@@ -7,5 +7,9 @@
       ],
       "key": "C"
     }
-  ]
+  ],
+  "editor:delete-paragraph": [],
+  "editor:save-file": [],
+  "editor:open-search-replace": [],
+  "editor:open-search": []
 }

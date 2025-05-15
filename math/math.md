@@ -8,9 +8,12 @@ title: Matemáticas
 
 # MATEMÁTICAS
 
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+
 - [Vectors](math_vectors.md)
-- [Trigonometry](Trigonometry/trigonometry.md)
-- [Matrix](Matrix/matrix.md)
+- [Trigonometry](trigonometry/trigonometry.md)
+- [Matrix](matrix/matrix.md)
 - [Pitagoras](math_pitagoras.md)
 - [Contar tanques](math_count_tanks.md)
 - [Notación de intervalo](math_range_notation.md)

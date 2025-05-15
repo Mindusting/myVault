@@ -1,0 +1,31 @@
+/* Entity Relationship Diagrams */
+/*
+.attributeBoxOdd {
+    fill: none !important;
+}
+
+.attributeBoxEven {
+    fill: none !important;
+}
+*/
+
+/* Quadrant Chart*/
+/*
+.quadrant rect {
+    fill: none !important;
+}
+
+g[class="main"] g[class="border"] line {
+    stroke: rgb(128, 128, 128, 0.2) !important;
+}
+*/
+/* XY Chart */
+/*
+.main rect[class="background"] {
+    fill: none !important;
+}
+
+.main g[class="plot"] g[class="bar-plot-0"] rect {
+    fill: rgb(128, 128, 128, 0.2) !important;
+}
+*/

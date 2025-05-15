@@ -11,7 +11,7 @@ title: QR
 > [!fail]- ESTE APARADO ESTÁ INCOMPLETO
 > > [!todo] #TODO
 
-> [!help] REFERENCIAS WEB
+> [!help]- REFERENCIAS WEB
 > - [Thonky](https://www.thonky.com/qr-code-tutorial/)
 > 
 > YouTube:

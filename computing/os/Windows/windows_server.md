@@ -1,0 +1,49 @@
+---
+author: Mindusting
+corrected: false
+tags:
+  - OS/Windows
+title: Servidor Windows
+---
+
+<h1 style="text-align:center;">WINDOWS SERVER</h1>
+
+![#logo](../../../img/windows_logo.png)
+
+---
+
+# PRÓLOGO
+
+>[!fail] ESTE APARTADO ESTÁ INCOMPLETO
+
+# DOMAIN NAME SYSTEM (DNS)
+
+>[!fail] ESTE APARTADO ESTÁ INCOMPLETO
+
+# DYNAMIC HOST CONFIGURATION PROTOCOL (DHCP)
+
+>[!fail] ESTE APARTADO ESTÁ INCOMPLETO
+
+# CONTROL REMOTO
+
+>[!fail] ESTE APARTADO ESTÁ INCOMPLETO
+
+# SERVICIO WEB
+
+>[!fail] ESTE APARTADO ESTÁ INCOMPLETO
+
+# INTERNET INFORMATION SERVICE (IIS)
+
+>[!fail] ESTE APARTADO ESTÁ INCOMPLETO
+
+# SERVIDOR WEB MEDIANTE APACHE
+
+>[!fail] ESTE APARTADO ESTÁ INCOMPLETO
+
+# FILE TRANSFER PROTOCOL (FTP)
+
+>[!fail] ESTE APARTADO ESTÁ INCOMPLETO
+
+# FTP MEDIANTE IIS
+
+>[!fail] ESTE APARTADO ESTÁ INCOMPLETO

@@ -6,7 +6,17 @@
   "textFontFamily": "Consolas,Liberation Mono",
   "monospaceFontFamily": "Consolas,Liberation Mono",
   "enabledCssSnippets": [
-    "mindusting_style"
+    "header",
+    "mindusting_style",
+    "root",
+    "callot",
+    "code",
+    "file_emojis",
+    "image",
+    "mermaid",
+    "table",
+    "text",
+    "latex"
   ],
   "cssTheme": ""
 }
