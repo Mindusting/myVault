@@ -10,3 +10,7 @@ title: Hilos en programación
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 > > [!todo] #TODO
+
+> [!help]- REFERENCIAS WEB
+> YouTube:
+> - [Core Dumped (Threads)](https://youtu.be/M9HHWFp84f0)

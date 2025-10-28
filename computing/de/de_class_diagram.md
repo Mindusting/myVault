@@ -5,6 +5,7 @@ corrected: true
 tags:
   - Programming/DE
 title: Diagrama de clases
+rating: 0.75
 ---
 
 # DIAGRAMA DE CLASES

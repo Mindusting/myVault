@@ -6,7 +6,7 @@ tags:
 title: Métodos en Java
 ---
 
-# MÉTODOS
+# MÉTODOS DE JAVA
 
 > [!fail] ESTE APARTADO ESTÁ INCOMPLETO
 

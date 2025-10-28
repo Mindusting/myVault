@@ -8,7 +8,8 @@ title: Logaritmo
 
 # LOGARITMO
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
 
 El logaritmo de un número consistiría en hacer el proceso inverso a la elevación, la fórmula que se utiliza es la siguiente:
 

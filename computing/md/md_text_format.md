@@ -3,7 +3,7 @@ author: Mindusting
 corrected: false
 tags:
   - MarkDown
-title: Mindusting
+title: Formatos de texto en Markdown
 ---
 
 # FORMATO DE TEXTO

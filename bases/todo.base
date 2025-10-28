@@ -1,0 +1,21 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("TODO")
+    order:
+      - title
+      - file.folder
+      - file.name
+      - corrected
+      - rating
+    sort:
+      - property: corrected
+        direction: ASC
+      - property: note.file
+        direction: DESC
+    columnSize:
+      note.title: 230
+      file.folder: 232
+      note.rating: 98

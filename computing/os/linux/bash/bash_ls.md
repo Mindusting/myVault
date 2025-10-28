@@ -12,6 +12,7 @@ title: Comando LS en Linux
 > > [!todo] #TODO
 > > - [ ] Documentar el conjunto de caracteres validos e inválidos en un ultimo apartado.
 > >     `[...]`, `[^...]`, `[!...]`
+> > - [ ] Explicar que con el parámetro `-l`, los directorios son `d`, los archivos son `-`; los siguientes tres bloques son el propietario, el grupo primario y el resto de usuarios.
 
 > [!help]- REFERENCIAS WEB
 > - [geeksforgeeks](https://www.geeksforgeeks.org/ls-command-in-linux/)

@@ -8,6 +8,10 @@ title: SQLite3 en Java
 
 # SQLITE3 EN JAVA
 
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+> > - [ ] Rehacer la documentación para que propague las excepciones.
+
 > [!help]- REFERENCIAS WEB
 > - [SQLITE TUTORILA](https://www.sqlitetutorial.net/sqlite-java/)
 
@@ -212,7 +216,7 @@ public User selectById(int id) {
 ```
 ^selectById-example
 
-Este otro [método](java_method.md) devuelve un [`ArrayList`](util/java_util_arraylist.md) de todos los usuarios que haya en la base de datos.
+Este otro [método](java_method.md) devuelve un [`ArrayList`](packages/java/util/java_util_arraylist.md) de todos los usuarios que haya en la base de datos.
 
 ```java
 public ArrayList<User> selectAll() {

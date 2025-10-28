@@ -17,3 +17,17 @@ title: PRAGMA SQLite3
 > - [SQLite doc](https://sqlite.org/pragma.html)
 
 ## INFORMACIÓN DE LA TABLA
+
+## CLAVES FORÁNEAS
+
+```sql
+PRAGMA foreign_keys = ON;
+PRAGMA foreign_keys = OFF;
+```
+
+## MODIFICACIÓN DE TABLAS ANTIGUA
+
+```sql
+PRAGMA legacy_alter_table = TRUE;
+PRAGMA legacy_alter_table = FALSE;
+```

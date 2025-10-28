@@ -29,4 +29,4 @@ from random import random as rand
 print(rand())
 ```
 
-Como se puede ver en el primer ejemplo, se importa el [módulo random](https://docs.python.org/3/library/random.html) cambiándole el nombre a “rand”, en el segundo ejemplo se le cambia a la [función](../py_function.md) `random` el nombre para pasar a ser “rand”.
+Como se puede ver en el primer ejemplo, se importa el [módulo random](https://docs.python.org/3/library/random.html) cambiándole el nombre a “rand”, en el segundo ejemplo se le cambia a la [función](../py_func.md) `random` el nombre para pasar a ser “rand”.

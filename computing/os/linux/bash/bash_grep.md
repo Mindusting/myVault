@@ -13,3 +13,4 @@ title: Comando GREP en Linux
 
 - `-r`: Recursividad.
 - `-l`: Imprime solo el nombre del archivo.
+

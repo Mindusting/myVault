@@ -55,7 +55,8 @@ Este comando nos permite también crear o abrir una base de datos, para ello seg
 ---
 
 - [BASES DE DATOS](sqlite3_db.md)
-- [CREAR TABLAS](sqlite3_table.md)
+- [TABLAS](sqlite3_table.md)
+    - [TIPOS DE DATOS](sqlite3_datatypes.md)
 - [INSERTAR REGISTROS](sqlite3_insert.md)
     - [REMPLAZAR](sqlite3_replace.md)
 - [LEER REGISTROS](sqlite3_select.md)

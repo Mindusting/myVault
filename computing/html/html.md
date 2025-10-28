@@ -30,10 +30,12 @@ title: HTML5
 > [!help]- REFERENCIAS WEB
 > - [Mocilla](https://developer.mozilla.org/en-US/docs/Web/HTML)
 > - [W3 Schools](https://www.w3schools.com/html/default.asp)
+> - [HTML Online](https://html-online.com)
 >
 > YouTube:
 > - [Bro Code (HTML)](https://www.youtube.com/playlist?list=PLZPZq0r_RZOPoNttk9beDhO_Bu5DA-xwP)
 > - [Bro Code (HTML & CSS)](https://www.youtube.com/playlist?list=PLZPZq0r_RZOOxqHgOzPyCzIl4AJjXbCYt)
+> - [Informatica Live (HTML)](https://youtu.be/6XpjF_Zie2Y)
 
 HTML viene de `HyperText Markup Language` esto significa que es un lenguaje de "[marcas](https://www.w3schools.com/tags/)" (Ahora veremos a que se refiere con esto), el cual es interpretado por los buscadores de internet para dar formato al contenido de la página web que queremos visualizar.
 
@@ -67,6 +69,7 @@ SINTAXIS
 - [LISTAS 📃](html_list.md)
 - [TABLAS 🍫](html_table.md)
 - [LINKS 🔗](html_hyperlink.md)
+- [DIV (CONTENEDOR)](html_div.md)
 - [IMÁGENES 📷](html_img.md)
 - [VÍDEOS 📼](html_videos.md)
 - [FORMULARIOS](html_form.md)

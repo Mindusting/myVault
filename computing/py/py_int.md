@@ -6,11 +6,14 @@ tags:
 title: Variables en Python
 ---
 
-# INT
+# INT EN PYTHON
 
 >[!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 > > [!todo] #TODO
 > > - [ ] Releer la documentación del `int` para ver que se podría mejorar.
+
+> [!help]- REFERENCIAS WEB
+> - [Python doc (int)](https://docs.python.org/3/library/functions.html#int)
 
 Un ejemplo de la declaración de variables de números enteros sería el siguiente:
 

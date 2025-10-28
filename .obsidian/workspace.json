@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "26374e0a03ce5620",
+        "id": "c6d735461ed2725e",
         "type": "tabs",
         "children": [
           {
-            "id": "c231e52d189562bd",
+            "id": "2c79a8975b50b5af",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,7 +49,7 @@
             }
           },
           {
-            "id": "5d242293754f61c1",
+            "id": "41bf197efe80e8ab",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
+    "width": 322.5,
     "collapsed": true
   },
   "right": {
@@ -158,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "computing/mermaid/mermaid_flowchart.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of mermaid_flowchart"
             }
           },
           {
@@ -173,10 +173,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "computing/css/css_flexbox.md"
+                "file": "computing/cs/cs_variable.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for css_flexbox"
+              "title": "File properties for cs_variable"
             }
           },
           {
@@ -185,8 +185,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           }
         ],
@@ -194,11 +194,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 341.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -211,53 +212,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c231e52d189562bd",
+  "active": "2c79a8975b50b5af",
   "lastOpenFiles": [
+    "computing/java/java.md",
     "README.md",
-    "computing/db/t2/db_t2.md",
-    "computing/db/db.md",
-    "computing/db/t1/db_t1.md",
-    "computing/db/t3/db_t3.md",
-    "computing/db/t4/db_t4.md",
-    "computing/db/t5/db_t5.md",
-    "computing/db/t2/figuras/DDBB_Tema_2_figura_25.md",
-    "computing/js/js.md",
-    "computing/js/jquiery/jquery.md",
-    "computing/db/t2/figuras/DDBB_Tema_2_figura_24.md",
-    "computing/os/linux/arch/arch_install.md",
-    "computing/os/linux/arch/arch.md",
-    "computing/db/sql/sql_exceptions.md",
-    "computing/db/sql/sql.md",
-    "computing/db/sql/sql_db.md",
-    "computing/os/linux/bash/bash.md",
-    "computing/os/linux/bash/script/bash_script.md",
-    "computing/java/java_exception.md",
-    "computing/css/css_selectors.md",
-    "computing/mermaid/mermaid_pie_chart.md",
-    "computing/py/py_generator.md",
+    "computing/os/linux/linux_desktop_entry.md",
+    "computing/mermaid/mermaid_flowchart.md",
+    "computing/regex/regex.md",
+    "dump/temperature.md",
+    "bases/rating.base",
+    "computing/java/java_file_manager.md",
     "computing/mermaid/mermaid.md",
-    "computing/de/de.md",
-    "computing/os/os.md",
-    "computing/yaml/yaml.md",
-    "computing/js/jquiery",
-    "img/cs_logo.png",
-    "img/cpp_logo.png",
-    "img/cat_cat.jpg",
-    "img/c_logo.png",
+    "computing/os/linux/linux.md",
+    "computing/py/hashlib/py_hashlib.md",
+    "computing/py/py_set.md",
+    "computing/py/py_pysqlcipher3.md",
+    "computing/py/py_clipboard.md",
+    "computing/ts/ts.md",
+    "computing/py/py.md",
+    "computing/rust/rust.md",
+    "computing/js/js_objects.md",
+    "computing/pc/drawing/lifo.md",
+    "computing/pc/pc_lifo.md",
+    "computing/py/py_conditionals.md",
+    "computing/js/js.md",
+    "computing/js/js_string.md",
+    "computing/mermaid/mermaid_quadrant_chart.md",
+    "computing/ts/ts_class.md",
+    "computing/ts/ts_variable.md",
+    "computing/ts/ts_array.md",
+    "computing/java/packages",
+    "computing/java/packages/java",
+    "computing/java/packages/javax/xml",
+    "computing/java/packages/javax",
+    "computing/java/packages/java/lang",
+    "mindusting.zip",
+    "math.zip",
+    "bases/todo.base",
+    "computing/rust",
     "img/borra_eso.jpg",
-    "computing/os/linux/bash/script",
-    "Mindusting.zip",
-    "computing/xml/xpath",
-    "memorization",
-    "img/mindusting.png",
-    "computing/db/sql/img",
-    "computing",
-    "sql/main.sql",
-    "Pasted image 20250416235810.png",
-    "computing/java/data_types",
-    "computing/java/util",
-    "img/cat_cat.png",
-    "db/t5/img/img1.png",
-    "computing/db/t4/img/figura7.png"
+    "img/cat_cat.jpg",
+    "img/logic_gate_and.png",
+    "img/logic_gate_nand.png",
+    "img/logic_gate_nor.png",
+    "img/logic_gate_not.png",
+    "img/logic_gate_or.png",
+    "img/logic_gate_xnor.png",
+    "img/logic_gate_xor.png",
+    "computing/db/t4/img/figura6.png"
   ]
 }

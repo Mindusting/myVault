@@ -8,6 +8,9 @@ title: Operadores en Java
 
 # OPERADORES EN JAVA
 
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+
 ## ARITMÉTICOS
 
 | OPERADOR | NOMBRE |

@@ -6,9 +6,9 @@ tags:
 title: Vídeos en HTML5
 ---
 
-# VÍDEOS
+# VÍDEOS EN HTML
 
-> [!help] REFERENCIAS WEB
+> [!help]- REFERENCIAS WEB
 > - [W3 (video)](https://www.w3schools.com/html/html5_video.asp)
 
 Para insertar un vídeo, haremos uso de las etiquetas `video` y `source`, veremos que es posible usar solo la etiqueta `video`, pero para tener un mayor control de las especificaciones usaremos `source`.

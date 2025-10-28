@@ -1,9 +1,10 @@
 ---
 author: Mindusting
-corrected: false
+corrected: true
 tags:
   - Math
 title: Contar tanques
+rating: 1
 ---
 
 # CONTAR TANQUES
@@ -77,15 +78,15 @@ def main() -> None:
         demo_tank_id: int = tank_ids.pop(rand_index)
         demo_tank_ids.append(demo_tank_id)
 
-    # Se usa la formula para calcular el
-    # aproximado y otras dos apra caulcular
-    # los porcentages de cantidad de información
+    # Se usa la fórmula para calcular el
+    # aproximado y otras dos para calcular
+    # los porcentajes de cantidad de información
     # obtenida y margen de error.
     estimated_tanks: int = count_tanks(demo_tank_ids)
     perc_demo_tanks: float = tanks_demo * 100 / num_of_tanks
     error_perc: float = (num_of_tanks / estimated_tanks - 1) * 100
 
-    # Calculo de espaciado para el f-str.
+    # Cálculo de espaciado para el f-str.
     spacing: int = len(str(num_of_tanks))
 
     # Impresión de datos:
@@ -93,7 +94,7 @@ def main() -> None:
     # el mismo que el número de tanques.
     print(f"Número de tanques: {num_of_tanks:>{spacing}}")
     print(f"Tanques estimados: {estimated_tanks:>{spacing}.0f}")
-    print(f"Tanques avatidos: {perc_demo_tanks:>6.2f}%")
+    print(f"Tanques abatidos: {perc_demo_tanks:>6.2f}%")
     print(f"Margen de error:  {abs(error_perc):>6.2f}%")
 
 

@@ -17,6 +17,7 @@ title: Bash Script
 > 
 > YouTube:
 > - [Fazt](https://youtu.be/H4ayPYcZEfI)
+> - [Informatica Live](https://youtu.be/geyLYfZcdtQ)
 
 ![](bash_script_files.md)
 
@@ -26,7 +27,7 @@ title: Bash Script
 - [Variables](bash_script_variables.md)
 - [Operadores](bash_script_operators.md)
 - [Array](bash_script_array.md)
-- [Condicionales](bash_script_flow_control.md)
+- [Condicionales](bash_script_conditionals.md)
 - [Bucles](bash_script_loop.md)
 - [Funciones](bash_script_function.md)
 

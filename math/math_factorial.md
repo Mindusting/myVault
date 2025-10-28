@@ -8,7 +8,8 @@ title: Factorial
 
 # FACTORIAL
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
 
 Para obtener un número aproximado al resultado del factorial, podemos seguir la siguiente fórmula:
 

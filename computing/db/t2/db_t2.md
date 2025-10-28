@@ -55,7 +55,7 @@ Las relaciones cumplen con las siguientes características:
     ^reflexiva
     
     ![#center](figuras/DDBB_Tema_2_figura_3.md)
-    - ==Ternarias, cuaternarios, etc==: son de relaciones de múltiples entidades.
+    - ==Ternarias, cuaternarias, etc==: son de relaciones de múltiples entidades.
     ![#center](figuras/DDBB_Tema_2_figura_4.md)
     Las relaciones más habituales son las binarias, seguidas por las reflexivas y las superiores al grado 2 son muy escasas.
 - ==Tipos de correspondencia==: referencia al número de ocurrencias de una entidad que pueden estar relacionadas a las ocurrencias de otra identidad, esto se suele indicar al lado del rombo (*Relación*).
@@ -99,7 +99,7 @@ Para representar los atributos en un esquema de E-R se puede hacer de las siguie
 ![#center](figuras/DDBB_Tema_2_figura_11.md)
 ![#center](figuras/DDBB_Tema_2_figura_12.md)
 
-Existe un tipo de atributo especial el cual se llama "*derivado*" o "*calculad*", estos son atributos que no se guardan como tal en la **DDBB**, si no que estos son calculados a partir de otros, como puede ser por ejemplo el atributo edad, este no se almacena ya que es dependiente de la fecha de nacimiento de la persona y la fecha actual, es por ello que para obtener este atributo (*edad*), se hace un cálculo, en el que se resta a la fecha actual la fecha de nacimiento, obteniendo así la diferencia (*siendo esta la edad*).
+Existe un tipo de atributo especial el cual se llama "*derivado*" o "*calculado*", estos son atributos que no se guardan como tal en la **DDBB**, si no que estos son calculados a partir de otros datos, como puede ser por ejemplo el atributo edad, este no se almacena ya que es dependiente de la fecha de nacimiento de la persona y la fecha actual, es por ello que para obtener este atributo (*edad*), se hace un cálculo, en el que se resta a la fecha actual la fecha de nacimiento, obteniendo así la diferencia (*siendo esta la edad*).
 
 Esta clase de atributos se indican mediante un círculo u óvalo discontinuo:
 

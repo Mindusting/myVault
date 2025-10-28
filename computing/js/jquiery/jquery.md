@@ -2,7 +2,7 @@
 author: Mindusting
 corrected: false
 tags:
-  - Programming/JS/jQuery
+  - Programming/JavaScript/jQuery
 title: jQuery en JS
 ---
 
@@ -12,4 +12,4 @@ title: jQuery en JS
 > > [!todo] #TODO
 
 > [!help]- REFERENCIAS WEB
-> - [W3 Schools](https://www.w3schools.com/jquery/default.asp)
+> - [W3 Schools (jQuery)](https://www.w3schools.com/jquery/default.asp)

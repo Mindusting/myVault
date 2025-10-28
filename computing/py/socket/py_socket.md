@@ -8,7 +8,7 @@ tags:
 title: Módulo socket en Python
 ---
 
-# MÓDULO SOCKET
+# SOCKET EN PYTHON
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 > > [!todo] #TODO

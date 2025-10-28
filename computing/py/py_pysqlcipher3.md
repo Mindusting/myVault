@@ -6,6 +6,7 @@ tags:
   - Programming/Python/SQLite3
   - DataBase/SQLite3
 title: SQLite encriptado en Python
+rating: 1
 ---
 
 # MÓDULO PYSQLCIPHER3 EN PYTHON
@@ -57,7 +58,7 @@ def main() -> None:
     cx = sqlite.connect("./main.db")
     cr = cx.cursor()
 
-    cr.execute(f"PRAGMA key='{password}';")
+    cr.execute("PRAGMA key=?;", password)
     cr.execute("SELECT * FROM users;")
     
     for user in cr.fetchall():

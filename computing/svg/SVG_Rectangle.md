@@ -7,3 +7,4 @@ title: Rectangulos en SVG
 ---
 
 > [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO

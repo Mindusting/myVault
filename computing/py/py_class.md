@@ -93,7 +93,7 @@ En este ejemplo podemos ver como se declara la clase y se instancia, para ello s
 
 Una vez has aprendido lo básico sobre las clases y objetos, puedes empezar con los siguientes apartados:
 
-- [MÉTODOS 📞](class/py_method.md)
+- [MÉTODOS 📞](class/py_methods.md)
     - [CONSTRUCTOR 👷](class/Magic_Methods/py_constructor.md)
 - [ENCAPSULACIÓN 💊](class/py_encapsulation.md)
 - [HERENCIA 🧓](class/py_inheritance.md)
@@ -102,7 +102,7 @@ Una vez has aprendido lo básico sobre las clases y objetos, puedes empezar con 
 >
 > # INSTANCIAS
 >
-> Para poder comprobar si un objeto es una instancia de una clase se usa la [función](py_function.md) `isinstance`:
+> Para poder comprobar si un objeto es una instancia de una clase se usa la [función](py_func.md) `isinstance`:
 >
 > ```python
 > print(isinstance(3.14, float))

@@ -8,6 +8,12 @@ tags:
 title: Bases de datos
 ---
 
+<h1 align="center">BASES DE DATOS</h1>
+
+![#logo](../../img/ed.png)
+
+---
+
 # BASES DE DATOS
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO

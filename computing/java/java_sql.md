@@ -165,7 +165,7 @@ Para obtener el resultado de una [consulta](#DECLARACIONES) está usaremos la [c
 > 
 > Si volvemos a ejecutar el [método](java_method.md) `next` este nos devolverá el valor `false` indicándonos que ya no hay más tupla en el resultado de la consulta.
 
-Debido a que el [método](java_method.md) `next` devuelve un valor [`boolean`](data_types/java_boolean.md), este tiene una muy buena sinergia con la [sentencia `if`](java_control_flow.md#SENTENCIA%20IF) y el [bucle `while`](java_loop.md#WHILE), si queremos hacer una consulta que simplemente devuelva una [entidad](java_entity.md) o varias.
+Debido a que el [método](java_method.md) `next` devuelve un valor [`boolean`](data_types/java_boolean.md), este tiene una muy buena sinergia con la [sentencia `if`](java_condicionals.md#SENTENCIA%20IF) y el [bucle `while`](java_loop.md#WHILE), si queremos hacer una consulta que simplemente devuelva una [entidad](java_entity.md) o varias.
 
 Si quieres ver ejemplos tanto de [un registro](java_sqlite3.md#^selectById-example) como de [varios](java_sqlite3.md#^selectAll-example) los tienes en la documentación de [SQLite3 para Java](java_sqlite3.md)
 

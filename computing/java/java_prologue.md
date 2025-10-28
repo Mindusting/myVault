@@ -6,9 +6,10 @@ tags:
 title: Prólogo de Java
 ---
 
-# PRÓLOGO
+# PRÓLOGO DE JAVA
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
 
 ## RECOMENDACIONES
 

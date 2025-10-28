@@ -26,7 +26,7 @@ Para instalar GIT en Ubuntu tendremos que ejecutar el siguiente comando:
 sudo apt install git
 ```
 
-Una vez ha terminado la instalación podemos comprobar que responde correctamente, para ello veremos nos permite ver la [versión](git_version.md) que hemos instalado ejecutando el siguiente comando:
+Una vez ha terminado la instalación podemos comprobar que responde correctamente, para ello veremos nos permite ver la [versión](commands/git_version.md) que hemos instalado ejecutando el siguiente comando:
 
 ```bash
 git version

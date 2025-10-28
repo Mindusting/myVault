@@ -12,6 +12,7 @@ title: Variables en Python
 > > [!todo] #TODO
 
 > [!help]- REFERENCIAS WEB
+> - [Python doc (float)](https://docs.python.org/3/library/functions.html#float)
 > - [Indently (How to compare floats)](https://youtu.be/NQSVF9WB_ds)
 
 ```python

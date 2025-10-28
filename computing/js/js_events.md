@@ -2,7 +2,7 @@
 author: Mindusting
 corrected: false
 tags:
-  - Programming/JS/Events
+  - Programming/JavaScript/Events
 title: DOM en JS
 ---
 

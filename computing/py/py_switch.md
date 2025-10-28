@@ -8,6 +8,10 @@ title: Swith en Python
 
 # SWITCH EN PYTHON
 
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+> > - [ ] Re leer la documentación y buscar mejoras.
+
 > [!help]- REFERENCIAS WEB
 > - [El libro de Python](https://ellibrodepython.com/switch-python)
 

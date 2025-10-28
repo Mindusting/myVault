@@ -17,6 +17,7 @@ title: Diagrama de flujo en Mermaid
 > > - [ ] Documentar conexiones.
 > >     - [ ] Documentar los tipos de conexiones.
 > >     - [ ] Documentar los tipos de puntas.
+> >     - [ ] Documentar como meter texto en una conexión.
 > > - [ ] Documentar subgrafos.
 
 > [!help]- REFERENCIAS WEB
@@ -24,6 +25,21 @@ title: Diagrama de flujo en Mermaid
 
 > [!faq]- FAQ
 > - [¿Qué es un diagrama de flujo?](../de/de_flowchart.md)
+
+| TOKEM | DIRECCIÓN                                         |
+|:-----:|:------------------------------------------------- |
+| `TB`  | De arriba a abajo (*Top Bottom*)                  |
+| `TD`  | De arriba a abajo (*Top Down*) (*igual que `TB`*) |
+| `BT`  | De abajo a arriba (*Bottom Top*)                  |
+| `LR`  | De izquierda a derecha (*Left Rigth*)             |
+| `RL`  | De derecha a izquierda (*Rigth Left*)             |
+
+> [!abstract] SINTAXIS
+> flowchart ***\[direction\]***
+
+```txt
+flowchart TB
+```
 
 ## NODOS
 
@@ -49,166 +65,65 @@ flowchart TB
     l1 ~~~ l2 ~~~ l3 ~~~ l4
 ```
 
-### BORDE REDONDEADO
+## FORMAS
 
-```txt
-flowchart TB
-    node(node text)
-```
-
-```mermaid
-flowchart TB
-    node(node text)
-```
-
-### FORMA DE ESTADIO
-
-```txt
-flowchart TB
-    node([node text])
-```
-
-```mermaid
-flowchart TB
-    node([node text])
-```
-
-### FORMA DE SUBRUTINA
-
-```txt
-flowchart TB
-    node[[node text]]
-```
+| ENVOLTORIO  | FOMRA                        |
+|:-----------:|:---------------------------- |
+|   `[` `]`   | Rectánculo                   |
+|   `(` `)`   | Esquinas redondeadas         |
+|  `([` `])`  | Laterales redondos           |
+|  `[[` `]]`  | Rectanculo con doble lateral |
+|  `[(` `)]`  | Cilindro (DB)                |
+|  `((` `))`  | Círculo                      |
+| `(((` `)))` | Doble círculo                |
+|   `>` `]`   | Forma asimétrica             |
+|   `{` `}`   | Rombo                        |
+|  `{{` `}}`  | Hexágono                     |
+|  `[/` `/]`  | Paralelogramo                |
+|  `[\` `\]`  | Paralelogramo alternativo    |
+|  `[/` `\]`  | Trapezoide                   |
+|  `[\` `/]`  | Trapezoide alternativo       |
 
 ```mermaid
 flowchart TB
-    node[[node text]]
-```
+    rectangle["[]"]
+    smootRectangle("()")
+    roundEdges(["([])"])
+    doubleLateralRectangle[["[[]]"]]
+    cilindre[("[()]")]
+    circle(("(())"))
+    doubleCircle((("((()))")))
+    asimetric>"\>]"]
+    rhombus{"{}"}
+    hex{{"{{}}"}}
+    paralelogram[/"[//]"/]
+    paralelogramAlt[\"[\\\\]"\]
+    trapezoid[/"[/\\]"\]
+    trapezoidAlt[\"[\\/]"/]
 
-### CILINDRO
+    rhombus ~~~
+    hex ~~~
+    asimetric ~~~
+    cilindre
 
-```txt
-flowchart TB
-    node[(node text)]
-```
+    rectangle ~~~
+    smootRectangle ~~~
+    roundEdges ~~~
+    circle ~~~
+    doubleCircle
 
-```mermaid
-flowchart TB
-    node[(node text)]
-```
-
-### CÍRCULO
-
-```txt
-flowchart TB
-    node((node text))
-```
-
-```mermaid
-flowchart TB
-    node((node text))
-```
-
-### FROMA ASIMÉTRICA
-
-```txt
-flowchart TB
-    node>node text]
-```
-
-```mermaid
-flowchart TB
-    node>node text]
-```
-
-### ROMBO
-
-```txt
-flowchart TB
-    node{node text}
-```
-
-```mermaid
-flowchart TB
-    node{node text}
-```
-
-### HEXÁGONO
-
-```txt
-flowchart TB
-    node{{node text}}
-```
-
-```mermaid
-flowchart TB
-    node{{node text}}
-```
-
-### PARALELOGRAMO
-
-```txt
-flowchart TB
-    node[/node text/]
-```
-
-```mermaid
-flowchart TB
-    node[/node text/]
-```
-
-### PARALELOGRAMO ALTERNATIVO
-
-```txt
-flowchart TB
-    node[\node text\]
-```
-
-```mermaid
-flowchart TB
-    node[\node text\]
-```
-
-### TRAPEZOIDE
-
-```txt
-flowchart TB
-    node[/node text\]
-```
-
-```mermaid
-flowchart TB
-    node[/node text\]
-```
-
-### TRAPEZOIDE ALTERNATIVO
-
-```txt
-flowchart TB
-    node[\node text/]
-```
-
-```mermaid
-flowchart TB
-    node[\node text/]
-```
-
-### DOBLE CIRCULO
-
-```txt
-flowchart TB
-    node(((node text)))
-```
-
-```mermaid
-flowchart TB
-    node(((node text)))
+    doubleLateralRectangle ~~~
+    paralelogram ~~~
+    paralelogramAlt ~~~
+    trapezoid ~~~
+    trapezoidAlt
 ```
 
 ## CONEXIONES
 
 | TIPO               | FORMA 1 | FORMA 2 | FORMA 3  |
 |:------------------ |:-------:|:-------:|:--------:|
+| Línea invisible    |  `~~~`  | `~~~~`  | `~~~~~`  |
 | Línea normal       |  `---`  | `----`  | `-----`  |
 | Flecha normal      |  `-->`  | `--->`  | `---->`  |
 | Línea gorda        |  `===`  | `====`  | `=====`  |
@@ -218,8 +133,8 @@ flowchart TB
 
 | TIPO      | PUNTAS |
 |:--------- |:------:|
-| Triángulo | `o--o` |
-| Circulo   | `<-->` |
+| Triángulo | `<-->` |
+| Circulo   | `o--o` |
 | Equis     | `x--x` |
 
 ## SUBGRAFOS
@@ -227,4 +142,3 @@ flowchart TB
 > [!abstract] SINTAXIS
 > subgraph ***\[title\]***
 > ***\[content\]***
-> end

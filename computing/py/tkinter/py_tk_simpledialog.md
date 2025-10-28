@@ -8,7 +8,7 @@ title: Diálogos simples en TKinter
 
 # DIÁLOGOS SIMPLES EN TKINTER
 
-El [módulo](../py_module.md) [`tkinter`](py_tk.md) contiene el [submódulo](../py_module.md) `simpledialog`, este se usa para poder pedirle un [entero](../py_int.md), [real](../py_float.md) o [texto](../py_str.md) al usuario, este [módulo](../py_module.md) contiene tres [funciones](../py_function.md) ([`askinteger`](#ASK%20INTEGER), [`askfloat`](#ASK%20FLOAT) y [`askstring`](#ASK%20STRING)).
+El [módulo](../py_module.md) [`tkinter`](py_tk.md) contiene el [submódulo](../py_module.md) `simpledialog`, este se usa para poder pedirle un [entero](../py_int.md), [real](../py_float.md) o [texto](../py_str.md) al usuario, este [módulo](../py_module.md) contiene tres [funciones](../py_func.md) ([`askinteger`](#ASK%20INTEGER), [`askfloat`](#ASK%20FLOAT) y [`askstring`](#ASK%20STRING)).
 
 Para importar este [submódulo](../py_module.md) se hace de la siguiente forma:
 
@@ -21,7 +21,7 @@ from tkinter import simpledialog
 
 ## ASK INTEGER
 
-La [función](../py_function.md) `askinteger` permite preguntarle al usuario mediante una ventana popup un [entero](../py_int.md), esta requiere de dos argumentos y tiene otros tres opcionales:
+La [función](../py_func.md) `askinteger` permite preguntarle al usuario mediante una ventana popup un [entero](../py_int.md), esta requiere de dos argumentos y tiene otros tres opcionales:
 
 > [!abstract] SINTAXIS
 > askinteger(***\[title\], \[prompt\], \{\[initialvalue\], \[minvalue\], \[maxvalue\]\}***)
@@ -53,7 +53,7 @@ else:
 
 ## ASK FLOAT
 
-La [función](../py_function.md) `askfloat` permite preguntarle al usuario mediante una ventana popup un [real](../py_float.md), esta requiere de dos argumentos y tiene otros tres opcionales:
+La [función](../py_func.md) `askfloat` permite preguntarle al usuario mediante una ventana popup un [real](../py_float.md), esta requiere de dos argumentos y tiene otros tres opcionales:
 
 > [!abstract] SINTAXIS
 > askfloat(***\[title\], \[prompt\], \{\[initialvalue\], \[minvalue\], \[maxvalue\]\}***)
@@ -85,7 +85,7 @@ else:
 
 ## ASK STRING
 
-La [función](../py_function.md) `askstring` permite preguntarle al usuario mediante una ventana popup un [texto](../py_str.md), esta requiere de dos argumentos y tiene otros dos opcionales:
+La [función](../py_func.md) `askstring` permite preguntarle al usuario mediante una ventana popup un [texto](../py_str.md), esta requiere de dos argumentos y tiene otros dos opcionales:
 
 > [!abstract] SINTAXIS
 > askfloat(***\[title\], \[prompt\], \{\[initialvalue\], \[show\]\}***)

@@ -1,0 +1,20 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.ext == "md"
+        - '!file.tags.contains("excalidraw")'
+    order:
+      - file.name
+      - title
+      - rating
+      - corrected
+    sort:
+      - property: rating
+        direction: DESC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      note.title: 257
+      note.rating: 98

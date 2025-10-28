@@ -6,6 +6,10 @@ tags:
 title: Archivos BATCH
 ---
 
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+> > - [ ] Revisar todo el archivo y subdividirlo.
+
 # PRÓLOGO
 
 Hoy que tener en cuenta que los archivos `.bat` no son más que un archivo que contiene comandos de Windows, los cuales van a ser ejecutados en orden, por lo que escribiendo comandos como `cls`, `mkdir` y demás comandos de Windows, estos se ejecutarás al igual que si los ubiesemos ejecutado nosotros.

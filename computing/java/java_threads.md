@@ -6,7 +6,13 @@ tags:
 title: Hilos en Java
 ---
 
-# HILOS
+# HILOS EN JAVA
+
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+> > - [ ] Añadir una descripción.
+> > - [ ] Documentar como hacer que un hilo espere a múltiples hilos de un conjunto.
+> > - [ ] Documentar como dormir durante un tiempo un hilo.
 
 > [!help]- REFERENCIAS WEB
 > - [W3 Schools](https://www.w3schools.com/java/java_threads.asp)
@@ -17,6 +23,281 @@ title: Hilos en Java
 
 > [!faq]- FAQ
 > - [¿Qué son los hilos en programación?](../pc/pc_thread.md)
+
+## CREACIÓN DE LA CLASE HILO
+
+Para crear un **hilo** en **Java**, se puede hacer de dos formas; la primera consiste en extender la una [**clase**](java_class.md) a `Thread`, y la otra es implementando `Runnable`; las dos funcionan de la misma forma, por lo que se pueden usar indistintamente.
+
+```java
+public class MyThread extends Thread { // <- La diferencia.
+    @Override
+    public void run() {
+        // Código del hilo.
+    }
+}
+```
+
+```java
+public class MyRunnable implements Runnable { // <- La diferencia.
+    @Override
+    public void run() {
+        // Código del hilo.
+    }
+}
+```
+
+Como puedes ver ambos formas requieren de un [**método**](java_method.md) llamado `run` el cual tendremos que sobre escribir (*con el decorador `@Override`*); cuando se inicie el hilo, este ejecutará el contendido que pongamos dentro de este [**método**](java_method.md).
+
+> [!important] IMPORTANTE
+> Esta parte en la que creamos las [**clases**](java_class.md) que usaremos como *hilos* son muy parecidas, pero dependiendo de qué método elijamos, la creación del **objeto** *hilo* cambia; este punto lo veremos más adelante.
+
+## CREACIÓN DEL OBJETO HILO
+
+Dependiendo de la forma en la que hayamos creado la [**clase**](java_class.md) tendremos que crear los **objetos** de una forma distinta.
+
+Para crear un **objeto** a partir de una [**clase**](java_class.md) que extiende de `Thread`:
+
+```java
+public class MainThread {
+    public static void main(String[] args) {
+        // Se crea el objeto hilo de forma directa.
+        //                    V
+        MyThread thread = new MyThread();
+        //                            ^
+        // Si el constructor recibiera argumentos
+        // estos se pasarían a la clase Thread.
+    }
+}
+```
+
+Para crear un **objeto** a partir de una [**clase**](java_class.md) que implementa de `Runnable`:
+
+```java
+public class MainThread {
+    public static void main(String[] args) {
+        // Se crea primero el objeto runnable.
+        //                        V
+        MyRunnable runnable = new MyRunnable();
+        //                                  ^
+        // Si el contructor recibiera argumentos
+        // estos se pasarían a la clase Runnable.
+
+        // Luego se crea el objeto hilo que recibe el runnable.
+        //                    V
+        Thread thread = new Thread(runnable);
+    }
+}
+```
+
+> [!important] IMPORTANTE
+> Fíjate en el apunte del comentario en el código, se indica en donde se tienen que pasar los parámetros para el constructor; esto es importante saberlo, sobre todo para después cuando queramos por ejemplo [sincronizar hilos](#SINCRONIZACIÓN%20DE%20HILOS), o en general darle información a un *hilo* para poder realzar tareas más complejas.
+
+## EJECUCIÓN DE HILOS
+
+Hayamos [creado los *hilos*](#CREACIÓN%20DEL%20OBJETO%20HILO) de una forma u otra, el manejo de estos es igual, ya que ambos terminan convergiendo en la misma [clase](java_class.md) `Thread`; por lo que a partir de aquí la explicación se unifica.
+
+Para ejecutar un *hilo* se usa el [método](java_method.md) `start`; al ejecutar este [método](java_method.md) *Java* creará otro *hilo* (*no una [clase](java_class.md) `Thread` sino un hilo interno*) el cual se encargará de ejecutar el [método](java_method.md) `run` de este.
+
+> [!important] IMPORTANTE
+> No ejecutes el [método](java_method.md) `run` del *hilo* directamente, ya que de esta forma se estará ejecutando de forma directa en vez de a través de un nuevo *hilo*; es por esto que se debe ejecutar el [método](java_method.md) `start`, ya que de esta forma creará un *hilo* interno y será este quien de forma automática ejecutará el [método](java_method.md) `run`; así que recuerda que si llamas el [método](java_method.md) `run` no estarás usando el *hilo* correctamente.
+
+**Clase hilo:**
+
+```java
+public class MyThread extends Thread {
+    @Override
+    public void run() {
+        System.out.println("El hilo ha comenzado a ejecutarse.");
+
+        // Esto es un ejemplo didáctico; en este
+        // caso el hilo no hace nada más que contar,
+        // la idea es que nosotro aquí podríamos
+        // hacer que realice una tarea de peso,
+        // como llamar a otros métodos, acceder a
+        // archivos o bases de datos etc.
+        for (int i = 0; i < 3; i++) {
+            System.out.printf("%d\n", i);
+        }
+
+        System.out.println("El hilo ha terminado de ejecutarse.");
+    }
+}
+```
+
+**Clase con el método MAIN:**
+
+```java
+public class MainThread {
+    public static void main(String[] args) {
+        System.out.println("Inicio del main.");
+
+        System.out.println("Creación del hilo.");
+        MyThread thread = new MyThread();
+
+        System.out.println("Inicio del hilo.");
+        thread.start();
+
+        System.out.println("Fin del main.");
+    }
+}
+```
+
+**Resultado del programa:**
+
+```txt
+Inicio del main.
+Creación del hilo.
+Inicio del hilo.
+Fin del main.
+El hilo ha comenzado a ejecutarse.
+0
+1
+2
+El hilo ha terminado de ejecutarse.
+```
+
+Como se puede ver en el resultado, el *hilo* principal (*el que ejecuta el [método](java_method.md) `main`*) termina antes que el *hilo* hijo, para que luego, este último realice su tarea (*contar*), termina la ejecución del programa; aunque no esté mal de por sí (*en el sentido de que no da errores*), no se debería hacer esto así, ya que se entiende que el *hilo* principal tiene que ser el primero en iniciar y el último en terminar, para poder hacer esto último se necesaria la [sincronización de *hilos*](#SINCRONIZACIÓN%20DE%20HILOS) (*el siguiente apartado*).
+
+## SINCRONIZACIÓN DE HILOS
+
+Para sincronizar múltiples *hilos* se suele usar el [método](java_method.md) `join`; este en esencia introduce al *hilo* en un bucle infinito en que que estará chequeando si ha terminado o no el *hilo* al que pertenece el [método](java_method.md) en cuestión (*se entiende mejor con un ejemplo*), esto permite hacer que un *hilo* "*espere*" a que otro termine de ejecutarse.
+
+> [!example] Ejemplo:
+> En el siguiente ejemplo podemos ver como el *hilo* principal crea un *hilo*, lo inicia (`start`) y luego espera a que este termine de ejecutarse para continuar (`join`).
+
+**Clase con el método MAIN:**
+
+```java
+public class MainThread {
+    public static void main(String[] args) {
+        System.out.println("Inicio del main.");
+
+        System.out.println("Creación del hilo.");
+        MyThread thread = new MyThread();
+
+        System.out.println("Inicio del hilo.");
+        thread.start();
+
+        try {
+            thread.join(); // <- Espera hasta que el hilo termine.
+        } catch (Exception ex) {}
+        // Si se interrumpe el hilo, lo ignoramos.
+
+        System.out.println("Fin del main.");
+    }
+}
+```
+
+**Resultado del programa:**
+
+```txt
+Inicio del main.
+Creación del hilo.
+Inicio del hilo.
+El hilo ha comenzado a ejecutarse.
+0
+1
+2
+El hilo ha terminado de ejecutarse.
+Fin del main.
+```
+
+---
+
+En el ejemplo anterior hemos podido ver como el *hilo* principal espera a que otro termine, pero hay ocasiones en las que tendremos que hacer que un *hilo* cree múltiples *hilos* y estos se tienen que sincronizar, en este caso, algunos de los *hilos* tendrán que recibir la referencia de otros para poder sincronizarse con ellos.
+
+**Clase con el método MAIN:**
+
+```java
+public class MainThread {
+    public static void main(String[] args) {
+        System.out.println("Inicio del main.");
+
+        System.out.println("Creación de los hilos.");
+        MyThread1 thread1 = new MyThread1();
+        MyThread2 thread2 = new MyThread2(thread1);
+
+        System.out.println("Inicio de los hilos.");
+        // Iniciamos primero el segundo hilo para que se pueda
+        // ver como le espera al primer hilo; esto es por que
+        // es un ejemplo y es muy sencillo, en el mundo real
+        // no hace falta que nos iniciemos al revés.
+        thread2.start();
+        thread1.start();
+
+        try {
+            thread1.join(); // <- Esperamos a que los dos hilos
+            thread2.join(); //    terminen de ejecutarse.
+        } catch (Exception ex) {}
+
+        System.out.println("Fin del main.");
+    }
+}
+```
+
+**Clase Thread1:**
+
+```java
+public class MyThread1 extends Thread {
+    @Override
+    public void run() {
+        System.out.println("El hilo1 ha comenzado a ejecutarse.");
+
+        for (int i = 0; i < 3; i++) {
+            System.out.printf("%d\n", i);
+        }
+
+        System.out.println("El hilo1 ha terminado de ejecutarse.");
+    }
+}
+```
+
+**Clase Thread2:**
+
+```java
+public class MyThread2 extends Thread {
+
+    private Thread thread = null;
+
+    public MyThread2(Thread thread) {
+        // Guardamos el hilo al que tiene que esperar.
+        this.thread = thread;
+    }
+
+    @Override
+    public void run() {
+        System.out.println("El hilo2 ha comenzado a ejecutarse.");
+
+        try {
+            this.thread.join(); // <- Espera a que termine.
+        } catch (Exception ex) {}
+
+        System.out.println("El hilo2 ha terminado de ejecutarse.");
+    }
+}
+```
+
+**Resultado del programa:**
+
+```txt
+Inicio del main.
+Creación de los hilos.
+Inicio de los hilos.
+El hilo2 ha comenzado a ejecutarse.
+El hilo1 ha comenzado a ejecutarse.
+0
+1
+2
+El hilo1 ha terminado de ejecutarse.
+El hilo2 ha terminado de ejecutarse.
+Fin del main.
+```
+
+---
+---
+---
+---
+---
 
 ## EJEMPLO
 

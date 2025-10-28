@@ -18,7 +18,7 @@ with open("info_random.py", "w") as FILE:
     FILE.write(src)
 ```
 
-El ver el código fuente de un [módulo](../py_module.md) permite por ejemplo, ver como funciona internamente la generación de números aleatorios, he copiado el mínimo código necesario para generar [números decimales](../py_float.md) aleatorios y lo he metido en una [función](../py_function.md):
+El ver el código fuente de un [módulo](../py_module.md) permite por ejemplo, ver como funciona internamente la generación de números aleatorios, he copiado el mínimo código necesario para generar [números decimales](../py_float.md) aleatorios y lo he metido en una [función](../py_func.md):
 
 ```python
 import os
@@ -33,4 +33,4 @@ for _ in range(10):
 ```
 
 >[!info]
->Cabe resaltar que ciertas [funciones](../py_function.md) no se encuentran en el [módulo](../py_module.md) de forma directa, como puede ser este caso, a medida que indaguemos en los [módulos](../py_module.md) nos encontraremos que faltan algunas [funciones](../py_function.md), esto es debido a que parte del código está escrito en [c](../../c/c.md) o [C++](../../cpp/cpp.md), por lo que, para acceder a ese código se hace de forma distinta.
+>Cabe resaltar que ciertas [funciones](../py_func.md) no se encuentran en el [módulo](../py_module.md) de forma directa, como puede ser este caso, a medida que indaguemos en los [módulos](../py_module.md) nos encontraremos que faltan algunas [funciones](../py_func.md), esto es debido a que parte del código está escrito en [c](../../c/c.md) o [C++](../../cpp/cpp.md), por lo que, para acceder a ese código se hace de forma distinta.

@@ -11,4 +11,10 @@ title: Módulo TTK en TKinter en Python
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 > > [!todo] #TODO
 
+## WIDGETS
+
+- [Entry](py_ttk_entry.md)
+- [Label](py_ttk_label.md)
 - [ComboBox](py_ttk_combobox.md)
+- [Scrollbar](py_ttk_scrollbar.md)
+^widgets-list

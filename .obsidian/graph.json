@@ -50,7 +50,21 @@
       }
     },
     {
-      "query": "tag:#Programming/JS",
+      "query": "tag:#Programming/Node",
+      "color": {
+        "a": 1,
+        "rgb": 9166930
+      }
+    },
+    {
+      "query": "tag:#Programming/TypeScript",
+      "color": {
+        "a": 1,
+        "rgb": 3242182
+      }
+    },
+    {
+      "query": "tag:#Programming/JavaScript",
       "color": {
         "a": 1,
         "rgb": 16776960
@@ -88,6 +102,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.1916211974358544,
+  "scale": 0.0705816756704652,
   "close": true
 }

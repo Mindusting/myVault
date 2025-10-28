@@ -1,9 +1,10 @@
 ---
 author: Mindusting
-corrected: false
+corrected: true
 tags:
   - Programming/Python/Comment
 title: Comentarios en Python
+rating: 1
 ---
 
 

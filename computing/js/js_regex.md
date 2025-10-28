@@ -2,7 +2,7 @@
 author: Mindusting
 corrected: false
 tags:
-  - Programming/JS
+  - Programming/JavaScript
 title: Expresiones regulares en JS
 ---
 
@@ -14,8 +14,8 @@ title: Expresiones regulares en JS
 > > - [ ] Hacer ejemplos.
 > >     - [ ] Hacer un ejemplo para comprobar correos electrónicos.
 
-> [!help] REFERENCIAS WEB
+> [!help]- REFERENCIAS WEB
 > - [W3 Schools](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)
 
-> [!faq] FAQ
+> [!faq]- FAQ
 > - [¿Qué son las expresiones regulares?](../regex/regex.md)

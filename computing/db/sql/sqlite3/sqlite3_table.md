@@ -36,9 +36,11 @@ title: Tablas en SQLite3
 > [!faq]- FAQ
 > - [¿Qué son las tablas en SQL?](../sql_table.md)
 
+En las **tablas** es en donde se va a almacenar la información de forma estructurada, más adelante veremos como relacionarlas entre sí.
+
 ## CREAR TABLA
 
-Para crear una tabla tendremos que seguir la siguiente sintaxis:
+Para crear una **tabla** tendremos que seguir la siguiente sintaxis; esta se constitulle de la declaración de creación de la **tabla** ensí junto con sunombre, seguido de la definición de las columnas que la fan a confirmar (*esto último se ve un poco más adelante*):
 
 > [!abstract] SINTAXIS
 > CREATE TABLE ***\[table\_name\]*** ([***\[col\_def\]***](#DEFINCIÓN%20DE%20COLUMNA));
@@ -58,51 +60,34 @@ CREATE TABLE users (
 > Si ya existe una **tabla** con el mismo nombre nos dará un error.
 > Para evitarlo podemos usar la sentencia `IF NOT EXISTS`, haciendo así que solo se cree si no hay ninguna con ese nombre ya creada:
 > ```sql
+> -- Aquí se encuentra la indicación.
+> --           v           v
 > CREATE TABLE IF NOT EXISTS users (
 >     id   INTEGER PRIMARY KEY,
 >     name TEXT
 > );
 > ```
 
-### TIPOS DE DATOS
-
-> [!help]- REFERENCIAS WEB
-> - [SQLite3 DataTypes](https://www.sqlite.org/datatype3.html)
-
-#### BOOLEAN
-
-SQLite no tiene un tipo de dato concreto para guardar [booleanos](../../../pc/pc_boolean.md) como tal, se utiliza el tipo [`INTEGER`](#INTEGER), esta guardará un `0` con `FALSE` y un `1` con `TRUE`.
-
-#### INTEGER
-
-#### DECIMAL
-
-#### TEXT
-
-#### BLOB
-
-#### NUMERIC
-
-#### DATE AND TIME
-
 ### DEFINCIÓN DE COLUMNA
 
+La especificación de las **columnas** generalmente se indican a la hora de crear una **tabla** (*también puede ser al ser modificada*); esta se consitulle del nombre de la **columna** en cuestión, su [tipo de dato](sqlite3_datatypes.md), si puede ser un valor nulo, si es único o no y las restricciones de esta.
+
 > [!abstract] SINTAXIS
-> ***\[col\_name\] [\[data\_type\]](#TIPOS%20DE%20DATOS)***
+> ***\[col\_name\] [\[data\_type\]](sqlite3_datatypes.md) [\{NOT NULL\}](#NOT%20NULL) [\{UNIQUE\}](#UNIQUE) [\{CHECK\}](#CHECK)***
 
 #### NOT NULL
 
-Si queremos que una columna sea obligatoria, podemos indicar que sea de tipo ´NOT NULL´, esto nos obligará algún valor diferente de nulo (´null´), el uso que se le puede dar sería por ejemplo, si tenemos una tabla de usuarios, estos deben tener como mínimo un nombre, en ese caso sí nos sirve esta propiedad.
+El valor **nulo** (`NULL`) se usa en los campos cuando desconocemos el valor que debería ir en dicho campo; indicar que una **columna** es `NOT NULL` quiere decir que no se pueden dejar campos vacios, oseasé, hace que la **columna** sea obligatoria; el uso que se le puede dar sería por ejemplo, si tenemos una **tabla** de usuarios, estos deben tener como mínimo un *nombre*, en ese caso sí nos sirve esta propiedad.
 
 ```sql
-CREATE TABLE "users" (
-    "id"         INTEGER PRIMARY KEY,
-    "first_name" TEXT NOT NULL,
-    -- Al ser "NOT NULL" el nombre es obligatorio.
-
-    "last_name"  TEXT
+CREATE TABLE users (
+    id    INTEGER PRIMARY KEY,
+    fname TEXT NOT NULL,
+    lname TEXT
 )
 ```
+
+Si trataramos de introducir un registro sin indicar un valor nos dará un error debido a la restricción `NOT NULL`.
 
 #### UNIQUE
 
@@ -263,17 +248,12 @@ CREATE TABLE "users" (
 );
 
 CREATE TABLE "notes" (
-    "id" INTEGER PRIMARY KEY,
+    id     INTEGER PRIMARY KEY,
+    userId INTEGER
+    note   TEXT,
 
-    /*
-    La siguiente línea indica que el valor
-    que se va ha introducir en esa columna
-    va a ser un id existente en la columna
-    "id" de la tabla "users".
-    */
-
-    "id_user" INTEGER FOREIGN KEY REFERENCES "users"("id"),
-    "note" TEXT
+    FOREIGN KEY (userId)
+    REFERENCES users(id),
 );
 ```
 

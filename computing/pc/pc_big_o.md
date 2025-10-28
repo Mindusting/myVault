@@ -8,7 +8,8 @@ title: Big-O
 
 # BIG-O
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
 
 > [!help] REFERENCIAS WEB
 > - [Big O](https://www.bigocheatsheet.com)

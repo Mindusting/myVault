@@ -12,4 +12,5 @@ title: Función Zip en Python
 > > [!todo] #TODO
 
 > [!help]- REFERENCIAS WEB
+> - [Python doc (zip)](https://docs.python.org/3/library/functions.html#any)
 > - [El libro de Python](https://ellibrodepython.com/zip-python)

@@ -8,6 +8,9 @@ title: Comentarios en la programación
 
 # COMENTARIOS EN PROGRAMACIÓN
 
+> [!help]- REFERENCIAS WEB
+> - [CodeAesthetic](https://youtu.be/Bf7vDBBOBUA)
+
 > [!quote] Definición de libro
 > Un **comentario** es un fragmento de código fuente que **es ignorado** en el proceso de compilación y/o ejecución del programa.
 

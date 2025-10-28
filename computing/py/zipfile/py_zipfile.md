@@ -6,7 +6,7 @@ tags:
 title: Módulo ZipFile en Python
 ---
 
-# ZIP
+# ARCHIVOS ZIP EN PYTHON
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 > > [!todo] #TODO
@@ -34,10 +34,10 @@ Si quieres seguir una documentación más lineal, te recomiendo lo siguiente:
 
 ## ARCHIVOS VÁLIDOS
 
-Para comprobar si un archivo es válido como `.zip`, y eso no es si tiene la extensión correcta, sino al contenido del archivo es interpretable como un archivo `.zip`, podemos usar la [función](../py_function.md) `is_zipfile`, este requiere de un argumento indicando la ruta del archivo, esta devolverá un valor [booleano](../py_bool.md) indicando si es válido o no.
+Para comprobar si un archivo es válido como `.zip`, y eso no es si tiene la extensión correcta, sino al contenido del archivo es interpretable como un archivo `.zip`, podemos usar la [función](../py_func.md) `is_zipfile`, este requiere de un argumento indicando la ruta del archivo, esta devolverá un valor [booleano](../py_bool.md) indicando si es válido o no.
 
 > [!abstract] SINTAXIS
-> id_zipfile(***\[path\]***)
+> id\_zipfile(***\[path\]***)
 
 ```python
 import zipfile
@@ -47,4 +47,5 @@ print(zipfile.is_zipfile("./data.zip"))
 ```
 
 > [!note] NOTA
-> Esta [función](../py_function.md) devolverá `False` si la **ruta** indicada no existe.
+> Esta [función](../py_func.md) devolverá `False` si la **ruta** indicada no existe.
+

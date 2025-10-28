@@ -41,7 +41,7 @@ title: Java
 - [VARIABLES 💾](java_variable.md)
     - [STRING](data_types/java_string.md)
         - [FORMATE STRING](java_format_string.md)
-- [CONTROL DE FLUJO 🚦](java_control_flow.md)
+- [CONDICIONALES 🚦](java_condicionals.md)
 - [BUCLES ➰](java_loop.md)
 - [ARRAY](java_array.md)
 - [MÉTODOS 📞](java_method.md)
@@ -49,6 +49,8 @@ title: Java
     - [HERENCIA](java_inheritance.md)
     - [ID DE VERSIONES](java_serialversionuid.md)
     - [ENTIDADES](java_entity.md)
+    - [GENERICOS](java_generics.md)
+- [ENUM](java_enum.md)
 - [EXCEPCIONES ⚠️](java_exception.md)
 - [JAVADOC 📙](java_doc.md)
 - [RECOLECTOR DE BASURA 🗑](java_garbage_collector.md)
@@ -62,10 +64,9 @@ title: Java
 - [OPERADORES](java_operators.md)
 - [MODIFICADORES DE ACCESO](java_access_modifiers.md)
 - [HILOS 🧵](java_threads.md)
-- [HASHMAP 🗺️](util/java_util_hashmap.md)
-- [HASHSET](util/java_util_hashset.md)
+- [HASHMAP 🗺️](packages/java/util/java_util_hashmap.md)
+- [HASHSET](packages/java/util/java_util_hashset.md)
 - [FUNCIÓN LAMBDA](java_lambda.md)
-- [JSON](java_json.md)
 - [BASES DE DATOS 🛢](java_sql.md)
     - [SQLite3 🛢](java_sqlite3.md)
     - [MySQL 🛢](java_mysql.md)
@@ -74,4 +75,6 @@ title: Java
 
 ## PAQUETES DE JAVA
 
-- [UTILS](util/java_util.md)
+- [IO](packages/java/io/java_io.md)
+- [JSON](packages/json/java_json.md)
+- [UTILS](packages/java/util/java_util.md)

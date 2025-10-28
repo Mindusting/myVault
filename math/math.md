@@ -11,6 +11,7 @@ title: Matemáticas
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 > > [!todo] #TODO
 
+- [Sistemas numéricos](number_system/math_ns.md)
 - [Vectors](math_vectors.md)
 - [Trigonometry](trigonometry/trigonometry.md)
 - [Matrix](matrix/matrix.md)

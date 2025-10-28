@@ -2,7 +2,7 @@
 author: Mindusting
 corrected: false
 tags:
-  - Programming/JS
+  - Programming/JavaScript
 title: Cookies en Java Script
 ---
 

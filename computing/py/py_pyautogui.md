@@ -7,7 +7,7 @@ tags:
 title: Módulo PyAutoGUI en Python
 ---
 
-# CONTROL DEL TECLADO Y RATÓN
+# PYAUTOGUI EN PYTHON
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 > > [!todo] #TODO
@@ -19,79 +19,81 @@ title: Módulo PyAutoGUI en Python
 
 Este módulo nos permite controlar el tecla y el ratón, como puede ser, pulsar tecla, mover el cursor, hacer clic, tanto izquierdo como derecho, para ello, primero deberemos importar el módulo, y tenemos que tener en cuenta que este es dependiendo de otros [módulos](py_module.md) como [`tkinter`](tkinter/py_tk.md) (*Entre otros*), por lo que si queremos usar ciertas funciones necesitaremos instalar en nuestro equipo los módulos a los cuales es dependiente.
 
->[!quote] Así es como se importa el módulo `pyautogui`:
->```python
->import pyautogui as pag
->```
+> [!quote] Así es como se importa el módulo `pyautogui`:
+> ```python
+> import pyautogui as pag
+> ```
 
 ## PANTALLA
 
->[!example] Ej. de como obtener las dimensiones del monitor:
->```python
->import pyautogui as pag
->
-># Obtener las dimensiones de la pantalla principal
->screen_width, screen_height = pag.size()
->
->print(f"{screen_width = }")
->print(f"{screen_height = }")
-># SALIDA:
-># screen_width = 1920 
-># screen_height = 1080
->```
+> [!example] Ej. de como obtener las dimensiones del monitor:
+> ```python
+> import pyautogui as pag
+> 
+> # Obtener las dimensiones de la pantalla principal
+> screen_width, screen_height = pag.size()
+> 
+> print(f"{screen_width = }")
+> print(f"{screen_height = }")
+> # SALIDA:
+> # screen_width = 1920 
+> # screen_height = 1080
+> ```
 
 ## CURSOR
 
->[!example] Ej. de obtener la posición del cursor:
->```python
-># Obtener la posición x e y del cursor.
->mouse_x, mouse_y = pag.position()
->
->print(f"{mouse_x = }")
->print(f"{mouse_y = }")
-># SALIDA:
-># mouse_x = 100
-># mouse_y = 100
->```
+> [!example] Ej. de obtener la posición del cursor:
+> ```python
+> # Obtener la posición x e y del cursor.
+> mouse_x, mouse_y = pag.position()
+> 
+> print(f"{mouse_x = }")
+> print(f"{mouse_y = }")
+> # SALIDA:
+> # mouse_x = 100
+> # mouse_y = 100
+> ```
 
->[!example] Ej. de mover el cursor a una coordenada de la pantalla:
->```python
->import pyautogui as pag
->
-># Mover instantaneamente el cursor
-># a la posición indicada.
->pag.moveTo(100, 100)
->
-># Mover el cursor a la posición indicada
-># tardano medio segundo en realizar el trallecto.
->pag.moveTo(200, 200, 0.5)
->```
->Como se puede ver en este ejemplo, primero movemos el cursor a la posición `100, 100` de forma instantánea y luego movemos el cursor a la posición `200, 200` tardando medio segundo en llegar a esa posición.
+> [!example] Ej. de mover el cursor a una coordenada de la pantalla:
+> ```python
+> import pyautogui as pag
+> 
+> # Mover instantaneamente el cursor
+> # a la posición indicada.
+> pag.moveTo(100, 100)
+> 
+> # Mover el cursor a la posición indicada
+> # tardano medio segundo en realizar el trallecto.
+> pag.moveTo(200, 200, 0.5)
+> ```
+> Como se puede ver en este ejemplo, primero movemos el cursor a la posición `100, 100` de forma instantánea y luego movemos el cursor a la posición `200, 200` tardando medio segundo en llegar a esa posición.
 
->[!example] Ej. de mover el cursor respecto a su posición:
->```python
->import pyautogui as pag
->
-># Mover instantaneamente el cursor
-># a la posición indicada, relativa
-># a la posición del cursor.
->pag.move(100, 100)
->
-># Mover el cursor a la posición relativa
-># a la posición del cursor, tardando medio
-># segundo en realizar el trallecto.
->pag.move(100, 100, 0.5)
->```
->Como se puede ver en este ejemplo, primero movemos el cursor `100, 100` pixeles desde su posición relativa de forma instantánea y luego movemos el cursor `200, 200` pixeles desde su posición relativa, tardando medio segundo en realizar ese movimiento.
+> [!example] Ej. de mover el cursor respecto a su posición:
+> ```python
+> import pyautogui as pag
+> 
+> # Mover instantaneamente el cursor
+> # a la posición indicada, relativa
+> # a la posición del cursor.
+> pag.move(100, 100)
+> 
+> # Mover el cursor a la posición relativa
+> # a la posición del cursor, tardando medio
+> # segundo en realizar el trallecto.
+> pag.move(100, 100, 0.5)
+> ```
+> Como se puede ver en este ejemplo, primero movemos el cursor `100, 100` pixeles desde su posición relativa de forma instantánea y luego movemos el cursor `200, 200` pixeles desde su posición relativa, tardando medio segundo en realizar ese movimiento.
 
 > [!example] Ej. de como usar el clic:
 > ```python
-> pag.click(x=500,
->          y=500,
->          clicks=2,
->          interval=0.1,
->          button="left",
->          duration=1.0)
+> pag.click(
+>     x=500,
+>     y=500,
+>     clicks=2,
+>     interval=0.1,
+>     button="left",
+>     duration=1.0
+> )
 > ```
 > No es necesario usar los argumentos que se muestran en este ejemplo, si no indicamos ningún argumento, simplemente haremos click, pero si indicamos los siguientes argumentos podremos hacer cosas más complejas.
 > 

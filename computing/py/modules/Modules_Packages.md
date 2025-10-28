@@ -125,7 +125,7 @@ from os import (
 clear = lambda: __system("cls" if "nt" == __name else "clear")
 ```
 
-Como se puede ver en el ejemplo, desde el archivo `main.py` indicamos que queremos importar dos módulos que se encuentran en el paquete `modules`, poniendo el nombre de este, seguido de un punto y el nombre del módulo, y dentro de estos se importan las [funciones](../py_function.md) `ask_int` y `clear`, pero hay que tener una cosa en cuenta, para que Python en tienda que el directorio `modules` es un paquete se ha añadido dentro de este el archivo `__init__.py` el cual contiene el código que queremos que se ejecute cuando se hace uso de este paquete, en este ejemplo simplemente imprime un mensaje en consola para mostrar el funcionamiento de este.
+Como se puede ver en el ejemplo, desde el archivo `main.py` indicamos que queremos importar dos módulos que se encuentran en el paquete `modules`, poniendo el nombre de este, seguido de un punto y el nombre del módulo, y dentro de estos se importan las [funciones](../py_func.md) `ask_int` y `clear`, pero hay que tener una cosa en cuenta, para que Python en tienda que el directorio `modules` es un paquete se ha añadido dentro de este el archivo `__init__.py` el cual contiene el código que queremos que se ejecute cuando se hace uso de este paquete, en este ejemplo simplemente imprime un mensaje en consola para mostrar el funcionamiento de este.
 
 # ESTRUCTURA DE RUTAS DE PAQUETES
 

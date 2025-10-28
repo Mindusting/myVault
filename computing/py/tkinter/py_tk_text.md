@@ -10,3 +10,9 @@ title: Clase Text en Tkinter
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 > > [!todo] #TODO
+
+```python
+text.get("1.0", tk.END)
+text.delete("1.0", tk.END)
+text.insert("1.0", "Hola")
+```

@@ -67,7 +67,7 @@ Devuelve medido en segundos la fecha en la que se encendió en ordenador respect
 
 ### NÚMERO DE NÚCLEOS
 
-Para obtener el número de procesadores de la máquina se usa la [función](py_function.md) `cpu_count`, esta función tiene el argumento `logical`, este por defecto está establecido a `True`, en el podremos indicar con un valor [booleano](py_bool.md) si queremos que sean los lógicos o no.
+Para obtener el número de procesadores de la máquina se usa la [función](py_func.md) `cpu_count`, esta función tiene el argumento `logical`, este por defecto está establecido a `True`, en el podremos indicar con un valor [booleano](py_bool.md) si queremos que sean los lógicos o no.
 
 > [!abstract] SINTAXIS
 > cpu_count(***\[logical\]***)

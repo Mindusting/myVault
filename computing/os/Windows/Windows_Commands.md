@@ -6,4 +6,7 @@ tags:
 title: Comandos de Windows
 ---
 
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+
 - [DIR](Commands/Windows_dir.md)

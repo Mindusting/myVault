@@ -1,9 +1,8 @@
 ---
 author: Mindusting
 corrected: false
-tags:
-  - Programming
 title: Mindusting
+rating: 0.75
 ---
 
 <h1 style="text-align:center;color:#e9b;">MINDUSTING</h1>
@@ -50,24 +49,30 @@ Si quieres más información o documentación más antigua hecha en google docum
 
 - [Memorización](memorization/memo.md)
 
-### DOCUMENTACIÓN
+### INFORMÁTICA
 
 - [MarkDown](computing/md/md.md)
 - [Mermaid](computing/mermaid/mermaid.md)
-- [VIM](computing/nvim/nvim.md)
+- [LaTeX](computing/latex/latex.md)
+- [NVIM](computing/nvim/nvim.md)
+- [Algoritmos](computing/algorithms/agl.md)
 
-### PROGRAMACIÓN
+#### PROGRAMACIÓN
 
 - [Conceptos de la programación](computing/pc/pc.md)
 - [GIT 🐈‍⬛](computing/git/git.md)
 - [Binario](computing/bin/bin.md)
 - [Python 🐍](computing/py/py.md)
-- [C](computing/c/c.md)
+- [C 🦖](computing/c/c.md)
 - [C++](computing/cpp/cpp.md)
 - [C#](computing/cs/cs.md)
 - [Java ☕](computing/java/java.md)
+- [Rust 🦀](computing/rust/rust.md)
+- [Android](computing/android/android.md)
+- [Type Script](computing/ts/ts.md)
+- [Kotlin](computing/kotlin/kotlin.md)
 
-#### REFERENCIAS WEB
+##### WEB
 
 - [HTML5](computing/html/html.md)
 - [CSS3](computing/css/css.md)
@@ -76,7 +81,7 @@ Si quieres más información o documentación más antigua hecha en google docum
 - [JSON](dump/json.md)
 - [PHP](computing/php/php.md)
 
-### BASES DE DATOS
+#### BASES DE DATOS
 
 - [Bases de datos](computing/db/db.md)
 - [SQL 🛢](computing/db/sql/sql.md)
@@ -84,20 +89,30 @@ Si quieres más información o documentación más antigua hecha en google docum
     - [SQL-Server](computing/db/sql/sql_server/sql_server.md)
     - [SQLite3](computing/db/sql/sqlite3/sqlite3.md)
 
-### SISTEMAS OPERATIVOS
+#### DISEÑO
+
+- [DISEÑO DE COMPILADORES](computing/compiler/compiler.md)
+
+#### SISTEMAS
+
+- [SISTEMAS](computing/sys/sys.md)
+
+#### SISTEMAS OPERATIVOS
 
 - [OS](computing/os/os.md)
 - [BASH](computing/os/linux/bash/script/bash_script.md)
-- [BATCH](computing/os/Windows/BATCH/BATCH.md)
+    - [BASH Script](computing/os/linux/bash/script/bash_script.md)
+- [BATCH](computing/os/windows/BATCH/BATCH.md)
 - [SSH](computing/ssh/ssh.md)
 
 ### COMUNICACIÓN
 
-- [Codigo Morse internacional](dump/codigo_morse_internacional.md)
+- [Codigo Morse internacional](dump/international_morse_code.md)
 
 ### OTROS
 
 - [DNI](dump/dni.md)
+- [NIE](dump/nie.md)
 - [Matemáticas](math/math.md)
 - [Desarrollo de entornos](computing/de/de.md)
 - [QR](dump/qr.md)
@@ -109,7 +124,11 @@ Si quieres más información o documentación más antigua hecha en google docum
 - [Brainfuck](dump/brainfuck.md)
 - [Godot](computing/godot/godot.md)
 
----
+### FÍSICA
+
+- [Temperatura](dump/temperature.md)
+
+## TODO
 
 > [!todo]- #TODO
 > - [ ] Modificar el CSS para que todo el texto en el modo edición sea del mismo tamaño.
@@ -118,3 +137,4 @@ Si quieres más información o documentación más antigua hecha en google docum
 > - [ ] Revisar que la sintaxis de *MarkDown* de las notas esté bien hecha.
 >     - [ ] Revisar las anotaciones "`>[!`".
 > - [ ] Documentar el SSH.
+> ![](bases/todo.base)

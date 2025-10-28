@@ -1,8 +1,8 @@
 ---
 author: Mindusting
-corrected: false
+corrected: true
 tags:
-  - Programming/JS/File
+  - Programming/JavaScript/File
 title: Archivos de JS
 ---
 
@@ -10,7 +10,7 @@ title: Archivos de JS
 
 Para crear un archivo de JS simplemente tenemos que coger un archivo de texto y darle la extensión `.js`.
 
-Para poder vincular un archivo de JS a uno de HTML, en este último se debe crear un etiqueta de tipo *script*, entre la apertura y cierre de esta se puede poner el código del archivo JS, pero por lo general se suele poner a parte, en otro archivo , para ello, hay que indicar el atributo `src` (***source***) con el nombre del archivo JS.
+Para poder vincular un archivo de [JS](js.md) a uno de [HTML](../html/html.md), se debe crear un etiqueta de tipo *script* en el archivo [HTML](../html/html.md), entre la apertura y cierre de esta se puede poner el código del archivo [JS](js.md), pero por lo general se suele poner aparte, en otro archivo; para ello, hay que indicar el atributo `src` (***source***) con el nombre del archivo [JS](js.md).
 
 ```html
 <!DOCTYPE html>

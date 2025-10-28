@@ -9,7 +9,7 @@ title: Python BreakPoint
 
 > [!fail] ESTE APARTADO ESTÁ INCOMPLETO
 
-Para poder corregir `bugs` de nuestro programa podemos usar la [función](py_function.md) ...
+Para poder corregir `bugs` de nuestro programa podemos usar la [función](py_func.md) ...
 
 %%
 ABCDEFGHIJKLMNÑOPQRSTUVWXYZ

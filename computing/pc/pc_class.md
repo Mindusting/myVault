@@ -8,4 +8,5 @@ title: Clases y objetos en programación
 
 # CLASES EN PROGRAMACIÓN
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO

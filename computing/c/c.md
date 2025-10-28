@@ -26,9 +26,10 @@ title: EL LENGUAJE DE PROGRAMACIÓN C
 - [ARCHIVOS DE C](c_file.md)
 - [COMENTARIOS](c_comment.md)
 - [ESTRUCTURA BÁSICA](c_basic_structure.md)
-- [VARIABLES](c_variable.md)
+- [VARIABLES 💾](c_variable.md)
 - [ARRAYS](c_array.md)
 - [POINTERS](c_pointer.md)
+- [FUNCIONES](c_func.md)
 - [ESTRUCTURAS](c_struct.md)
 - [MANEJO DE ARCHIVOS](c_file_manager.md)
 

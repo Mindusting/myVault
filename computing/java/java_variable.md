@@ -20,16 +20,16 @@ En Java existe principalmente dos grandes tipos de **variables**, las [*primitiv
 De primera para poder crea una **variable** tendremos que seguir la siguiente sintaxis básica.
 
 > [!abstract] SINTAXIS BÁSICA
-> ***[\[dataType\]](#TIPOS) \[name\]\{ = \[value\]\}***;
+> ***[\[dataType\]](#TIPOS%20DE%20DATOS) \[name\]\{ = \[value\]\}***;
 
 Si estás empezando a usar **variables** 
 
 > [!abstract] SINTAXIS AVANZADA
 > ***\[accessModifier\] \[final\] [\[dataType\]](#TIPOS) \[name\]\{ = \[value\]\}***;
 
-## TIPOS
+## TIPOS DE DATOS
 
-Las variables más comunes son las siguientes:
+Los tipos de datos más comunes son las siguientes:
 
 | TIPO    | ESPACIO        | PRIM/REFE  | RANGO DE VALORES                 |
 | ------- | -------------- | ---------- | -------------------------------- |

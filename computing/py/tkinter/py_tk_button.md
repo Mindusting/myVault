@@ -11,6 +11,9 @@ title: Botones en Tkinter
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 > > [!todo] #TODO
 
+> [!abstract] SINTAXIS
+> Button(***\[master\]***, text=***\[text\]***, command=***\[func\]***)
+
 ```python
 tk.Button(
     root,

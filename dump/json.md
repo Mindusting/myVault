@@ -2,7 +2,7 @@
 author: Mindusting
 corrected: false
 tags:
-  - Programming/JS/JSON
+  - Programming/JavaScript/JSON
 title: JSON
 ---
 

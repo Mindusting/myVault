@@ -8,4 +8,5 @@ title: Bytes en la programación
 
 # BYTES
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO

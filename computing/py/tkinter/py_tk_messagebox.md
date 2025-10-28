@@ -22,7 +22,7 @@ Para importar este [módulo](../py_module.md) lo podremos hacer de la siguiente 
 from tkinter import messagebox
 ```
 
-Este [módulo](../py_module.md) contiene múltiples [funciones](../py_function.md) para mostrar los diferentes tipos de mensajes, pero todos tienen una característica en común y es que reciben los mismos argumentos:
+Este [módulo](../py_module.md) contiene múltiples [funciones](../py_func.md) para mostrar los diferentes tipos de mensajes, pero todos tienen una característica en común y es que reciben los mismos argumentos:
 
 - `title`: con este argumento indicaremos el título que queremos que tenga el mensaje *popup*.
 - `message`: con este argumento indicaremos el mensaje del *popup*.

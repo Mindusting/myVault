@@ -24,6 +24,7 @@ title: NVIM
 > YouTube:
 > - [TJ DeVrite](https://youtu.be/stqUbv-5u2s)
 > - [TJ DeVrite](https://youtu.be/m8C0Cq9Uv9o)
+> - [Informatica Live (NVim)](https://youtu.be/gZUWWhE4ADU)
 
 ```vimrc
 syntax on

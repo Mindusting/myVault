@@ -4,9 +4,10 @@ corrected: false
 tags:
   - Programming/Python/Variable/Str
 title: Strings en Python
+rating: 0.75
 ---
 
-# STRING
+# STRING EN PYTHON
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 > > [!todo] #TODO

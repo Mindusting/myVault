@@ -8,8 +8,5 @@ title: Algoritmo bobble sort.
 
 # BOBBLE SORT
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
-
-```txt
-
-```
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO

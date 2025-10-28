@@ -8,7 +8,7 @@ tags:
 title: Punteros en la programación
 ---
 
-# POINTERS
+# POINTERS EN PROGRAMACIÓN
 
 Los **punteros** en programación se entienden como una [variable](pc_variable.md) que almacena una **dirección de memoria RAM**, sencillamente eso.
 

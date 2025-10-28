@@ -1,0 +1,15 @@
+---
+author: Mindusting
+corrected: false
+tags:
+  - Programming/Kotlin
+title: Arrays en Kotlin
+---
+
+# ARRAYS EN KOTLIN
+
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+
+> [!help]- REFERENCIAS WEB
+> - [W3 Schools (Arrays)](https://www.w3schools.com/KOTLIN/kotlin_variables.php)

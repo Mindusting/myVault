@@ -20,6 +20,7 @@ title: SQL
 
 > [!help]- REFERENCIAS WEB
 > - [W3 Schools](https://www.w3schools.com/sql/default.asp)
+> - [Geeksforgeeks](https://www.geeksforgeeks.org/sql/sql-tutorial/)
 > 
 > YouTube:
 > - [Data with Baraa](https://youtu.be/SSKVgrwhzus)

@@ -107,3 +107,18 @@ print(float.fromhex("1.921fb54411744p+1"))
 # 3.1415926535
 # 3.1415926535
 ```
+
+## GLOVAL
+
+https://youtu.be/QYUbLevwgDQ
+https://youtu.be/38uGbVYICwg
+https://youtu.be/UEuXQjPUwcw
+
+---
+
+```python
+gloval
+glovals()
+
+nonlocal
+```

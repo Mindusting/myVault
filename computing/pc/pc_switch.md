@@ -7,3 +7,4 @@ title: Switch en la programación
 ---
 
 > [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO

@@ -10,7 +10,7 @@ title: YAML
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 > > [!todo] #TODO
-> > - [ ] Documentar los comentarios.
+> > - [ ] Explicar qué es y para qué sirve YAML.
 > > - [ ] Documentar las listas.
 > > - [ ] Documentar los diccionarios.
 > > - [ ] Documentar los set.

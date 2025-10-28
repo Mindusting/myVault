@@ -1,14 +1,14 @@
 ---
 author: Mindusting
-corrected: false
+corrected: true
 tags:
-  - Programming/JS/Comment
+  - Programming/JavaScript/Comment
 title: Comentarios en JS
 ---
 
 # COMENTARIOS EN JS
 
-> [!faq] FAQ
+> [!faq]- FAQ
 > - [¿Qué es un comentario?](../pc/pc_comment.md)
 
 Los comentarios en JS permiten hacer anotaciones y/o comentar un trozo del código, que consisten en hacer que una parte del código ya no se ejecute, ya que deja de considerarse parte del código.
@@ -28,7 +28,7 @@ Este es un ejemplo de un comentario de una sola línea:
 
 ## COMENTARIOS MULTI LÍNEA
 
-Para escribir un comentario de múltiples líneas se usa la *barra* (`/`) y el *asterisco* (`*`) para indicar donde comienza el comentario y donde termina.
+Para escribir un comentario de múltiples líneas se usa la *barra* (`/`) y el *asterisco* (`*`) para indicar dónde comienza el comentario y dónde termina.
 
 El inicio se hace con 
 

@@ -5,17 +5,18 @@ tags:
   - Programming/Python/Function
   - Programming/Python/Output
 title: Output por consola en Python
+rating: 1
 ---
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo] TODO
+> > [!todo] #TODO
 > > - [ ] Hay que cambiar el estado de la primera impresión, ya que está todo metido en una anotación.
 > > - [ ] Buscar apara qué sirve el argumento `file`.
 > >     Sirve para indicar donde queremos que escriba el contendido, por defecto es `stdio`, se puede sustituir por un archivo en modo escritura.
 > > - [ ] Buscar apara qué sirve el argumento `flush`.
 > >     Sirve para indicar de forma booleana si queremos que el contenido del buffer se escriba en el `file`, aunque se indique como `false`, todo lo del buffer se escribirá si este está lleno.
 
-Para poder aportar información al usuario, la forma más básica es a trabes de texto por consola, para poder hacer esto se usa la [función](py_function.md) `print` seguida de dos paréntesis, entre estos se indica que es lo que se quiere imprimir.
+Para poder aportar información al usuario, la forma más básica es a trabes de texto por consola, para poder hacer esto se usa la [función](py_func.md) `print` seguida de dos paréntesis, entre estos se indica que es lo que se quiere imprimir.
 
 %%
 SINTAXIS
@@ -45,7 +46,7 @@ age = 18
 print("Aquí al habla", name, end=", ")
 print("tengo", age, "años.")
 ```
-Otra cosa que podemos ver en este anterior ejemplo es el **argumento** `end`, este indica que es lo que queremos que ponga la [función](py_function.md) `print` al final de esta misma, por defecto tiene un *salto de línea* (`\n`), el uso de los caracteres especiales como este se verá en un apartado a posteriori, en cualquier caso, si lo que quieres es poder usar varias veces la [función](py_function.md) `print` sin que se impriman los saltos de línea, lo que puedes hacer es darle al **argumento** `end` un texto vacío (`''`).
+Otra cosa que podemos ver en este anterior ejemplo es el **argumento** `end`, este indica que es lo que queremos que ponga la [función](py_func.md) `print` al final de esta misma, por defecto tiene un *salto de línea* (`\n`), el uso de los caracteres especiales como este se verá en un apartado a posteriori, en cualquier caso, si lo que quieres es poder usar varias veces la [función](py_func.md) `print` sin que se impriman los saltos de línea, lo que puedes hacer es darle al **argumento** `end` un texto vacío (`''`).
 
 # SEPARACIÓN
 

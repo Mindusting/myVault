@@ -6,7 +6,8 @@ tags:
 title: Pitágoras
 ---
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
 
 $$
 \sqrt[]{x^2+y^2}

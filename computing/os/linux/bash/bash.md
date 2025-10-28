@@ -14,6 +14,9 @@ title: BASH en Linux
 
 > [!help]- REFERENCIAS WEB
 > - [W3 Schools](https://www.w3schools.com/bash/index.php)
+> 
+> YouTube:
+> - [Informatica Live](https://youtu.be/geyLYfZcdtQ)
 
 ## COMANDOS BÁSICOS
 
@@ -31,6 +34,7 @@ title: BASH en Linux
 - [RM](bash_rm.md)
 - [ALIAS](bash_alias.md)
 - [CHMOD](bash_chmod.md)
+- [CAL](bash_cal.md)
 
 ## COMANDOS ABANZADOS
 

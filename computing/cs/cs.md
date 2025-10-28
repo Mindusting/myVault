@@ -12,5 +12,16 @@ title: C#
 
 ---
 
+# C\#
+
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 > > [!todo] #TODO
+
+> [!help]- REFERENCIAS WEB
+> - [W3 Schools](https://www.w3schools.com/cs/index.php)
+
+## ÍNDICE
+
+- [OUTPUT](cs_output.md)
+- [VARIABLES](cs_variable.md)
+    - [STRING](cs_string.md)

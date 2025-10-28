@@ -4,16 +4,17 @@ corrected: true
 tags:
   - Programming/Python
 title: Filtro en Python
+rating: 0.5
 ---
 
 # FILTRO EN PYTHON
 
-La [función](py_function.md) `filter`, permite filtrar los elementos de un iterable en base a las condiciones que indiquemos, esta [función](py_function.md) recibe dos parámetros, siendo el primero una función que reciba un argumento que sería el elemento del iterable y que devuelva un valor [booleano](py_bool.md) indicando si debe pasar el filtro o no, y el segundo parámetro es el iterable en cuestión.
+La [función](py_func.md) `filter`, permite filtrar los elementos de un iterable en base a las condiciones que indiquemos, esta [función](py_func.md) recibe dos parámetros, siendo el primero una función que reciba un argumento que sería el elemento del iterable y que devuelva un valor [booleano](py_bool.md) indicando si debe pasar el filtro o no, y el segundo parámetro es el iterable en cuestión.
 
 > [!abstract] SINTAXIS
 > filter(***\[function\], \[iterable\]***)
 
-Esta [función](py_function.md) devuelve un objeto de tipo `filter` que en esencia es un [generador](py_generator.md) con el cual podremos obtener los elementos del iterable filtrados en base al a la [función](py_function.md) ofrecida.
+Esta [función](py_func.md) devuelve un objeto de tipo `filter` que en esencia es un [generador](py_gens.md) con el cual podremos obtener los elementos del iterable filtrados en base al a la [función](py_func.md) ofrecida.
 
 ```py
 # Creación de lista de números
@@ -37,7 +38,7 @@ print(data)
 
 ---
 
-Podríamos crear nuestro propio [generador](py_generator.md) que funciones como la [función](py_function.md) `filter`, como forma didáctica para entender qué es lo que estaría ocurriendo en el interior:
+Podríamos crear nuestro propio [generador](py_gens.md) que funciones como la [función](py_func.md) `filter`, como forma didáctica para entender qué es lo que estaría ocurriendo en el interior:
 
 ```py
 # Recreación de la función
@@ -68,7 +69,7 @@ print(data)
 ```
 
 > [!important] IMPORTANTE
-> No es recomendable usar este ejemplo en un caso real, ya que al estar escrito en Python este es más lento que la [función](py_function.md) `filter`.
+> No es recomendable usar este ejemplo en un caso real, ya que al estar escrito en Python este es más lento que la [función](py_func.md) `filter`.
 
 ---
 

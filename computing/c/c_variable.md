@@ -20,15 +20,15 @@ title: Variables en C
 
 **C** es un lenguaje de tipado fuerte, esto quiere decir que cuando declaramos una **variable**, debemos indicar el tipo de valor que va a almacenar y este no se podrá cambiar en el transcurso del programa, los tipos son los siguientes:
 
-| TYPE    | NAME        | SIZE IN BYTES |
-|:------- |:----------- |:------------- |
-| Integer | char        | 1             |
-| Integer | short       | 2             |
-| Integer | int         | 2 or 4        |
-| Integer | long        | 8             |
-| Decimal | float       | 4             |
-| Decimal | double      | 8             |
-| Decimal | long double | 16            |
+| NAME        | TYPE    | SIZE IN BYTES |
+|:----------- |:------- |:------------- |
+| char        | Integer | 1             |
+| short       | Integer | 2             |
+| int         | Integer | 2 or 4        |
+| long        | Integer | 8             |
+| float       | Decimal | 4             |
+| double      | Decimal | 8             |
+| long double | Decimal | 16            |
 
 %%
 SINTAXIS

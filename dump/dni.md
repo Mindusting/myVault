@@ -6,6 +6,7 @@ corrected: true
 tags:
   - DNI
 title: DNI
+rating: 0.75
 ---
 
 # Documento Nacional de Identidad
@@ -31,7 +32,7 @@ def dni_letter(num: int) -> str:
     return "TRWAGMYFPDXBNJZSQVHLCKE"[num % 23]
 
 
-def is_dni_valid(dni: str) -> bool:
+def valid_dni(dni: str) -> bool:
     # Debe tener una longitud de 9 caracteres.
     if len(dni) != 9:
         return False
@@ -40,6 +41,7 @@ def is_dni_valid(dni: str) -> bool:
         return False
     return True
 ```
+^dni-funcs
 
 ## REGEX DNI
 

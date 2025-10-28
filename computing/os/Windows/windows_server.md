@@ -12,6 +12,10 @@ title: Servidor Windows
 
 ---
 
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+> > - [ ] Hacer toda la documentación desde cero... En algún momento...
+
 # PRÓLOGO
 
 >[!fail] ESTE APARTADO ESTÁ INCOMPLETO

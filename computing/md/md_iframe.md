@@ -3,7 +3,7 @@ author: Mindusting
 corrected: false
 tags:
   - MarkDown
-title: Páginas incrustadas en MarkDown
+title: Páginas incrustadas en Markdown
 ---
 
 # NOTAS INCRUSTADAS

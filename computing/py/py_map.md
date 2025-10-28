@@ -1,6 +1,6 @@
 ---
 author: Mindusting
-corrected: true
+corrected: false
 tags:
   - Programming/Python/Map
 title: Map en Python
@@ -12,7 +12,10 @@ title: Map en Python
 > > [!todo] #TODO
 > > - [ ] Revisar la documentación y ver como poder mejorarla.
 
-La [clase](py_class.md) `map` para aplicar una [función](py_function.md) a todos los *elementos* de un *iterable*, guardando el resultado en un **objeto** de tipo `map`, pudiendo convertir este último en un nuevo *iterable*.
+> [!help]- REFERENCIAS WEB
+> - [Python doc (map)](https://docs.python.org/3/library/functions.html#map)
+
+La [clase](py_class.md) `map` para aplicar una [función](py_func.md) a todos los *elementos* de un *iterable*, guardando el resultado en un **objeto** de tipo `map`, pudiendo convertir este último en un nuevo *iterable*.
 
 > [!abstract] SINTAXIS
 > map(***\[function]***, ***\[iterator]***)

@@ -29,4 +29,4 @@ def distance(x: float, y: float) -> float:
     return sqrt(pow(x, 2) + pow(y, 2))
 ```
 
-En este ejemplo se puede ver como desde el archivo “main.py” se importa la [función](../py_function.md) `distance` del módulo `trigonometry` y el contenido de este módulo está en el archivo `trigonometry.py`.
+En este ejemplo se puede ver como desde el archivo “main.py” se importa la [función](../py_func.md) `distance` del módulo `trigonometry` y el contenido de este módulo está en el archivo `trigonometry.py`.

@@ -12,6 +12,10 @@ title: Windows
 
 ---
 
+> [!fail]- ESTE APARTADO ESTÁ INCOPLETO
+> > [!todo] #TODO
+> > - [ ] Hacer toda la documentación desde cero.
+
 # RENDIMIENTO DE WINDOW
 
 `<Win> + R`

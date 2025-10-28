@@ -8,7 +8,7 @@ title: Array(s) en la programación
 
 # ARRAYS
 
-> [!help] REFERENCIAS WEB
+> [!help]- REFERENCIAS WEB
 > - [¿Qué son los punteros en programación?](pc_pointer.md)
 > YouTube:
 > - [Core Dumped](https://youtu.be/xFMXIgvlgcY)

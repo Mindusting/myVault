@@ -13,7 +13,7 @@ title: Clase Cursor en SQLite3 en Python
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 > > [!todo] #TODO
 > > - [ ] Documentar que es un objeto `Cursor` y cual es su objetivo.
-> > - [x] Documentar el método `execute`.
+> > - [ ] Documentar el método `execute`.
 > > - [ ] Documentar el método `executemany`.
 > > - [ ] Documentar el método `executescript`.
 > > - [ ] Documentar el método `fetchone`.
@@ -23,9 +23,9 @@ title: Clase Cursor en SQLite3 en Python
 > [!important] IMPORTANTE
 > A lo largo de esta documentación me referiré al cursor como `cu`.
 
-## EJECUTA SQL
+## EJECUCIÓN DE SQL
 
-Para ejecutar sentencias [SQL](../../db/sql/sqlite3/sqlite3.md) con el cursor, podremos hacer uso de tres [métodos](../class/py_method.md).
+Para ejecutar sentencias [SQL](../../db/sql/sql.md) con el **cursor**, podremos hacer uso de tres [métodos](../class/py_methods.md):
 
 - [`execute`](#EXECUTE): ejecuta una sentencia una vez.
 - [`executemany`](#EXECUTEMANY): ejecuta una sentencia múltiples veces.
@@ -33,16 +33,16 @@ Para ejecutar sentencias [SQL](../../db/sql/sqlite3/sqlite3.md) con el cursor, p
 
 ### EXECUTE
 
-El [métodos](../class/py_method.md) `execute` permite ejecutar una sentencia de [SQL](../../db/sql/sqlite3/sqlite3.md) recibiendo la como argumento.
+El [métodos](../class/py_methods.md) `execute` permite ejecutar una sentencia de [SQL](../../db/sql/sql.md) recibiendo la como primer argumento, el segundo es opcional y debe ser una [**tupla**](../py_tuple.md) o una [**lista**](../py_list.md) con los valores que sustituirán las interrogaciones que contenga la sentencia [SQL](../../db/sql/sql.md)
 
 > [!abstract] SINTAXIS
-> ***\[cu\]***.execute(***\[sql\]\{***, ***\[parameters\]\}***)
+> execute(***\[sql\]\{***, ***\[parameters\]\}***)
 
 ```python
 import sqlite3
 
 cx = sqlite3.connect("./main.db")
-cu = cx.cursor()
+cr = cx.cursor()
 
 # Se crea una variable con la
 # sentencia SQL.
@@ -55,12 +55,12 @@ CREATE TABLE users(
 """
 
 # Se ejecuta la sentencia SQL.
-cu.execute(sql)
+cr.execute(sql)
 
 # Se embian los cambios a la DB.
 cx.commit()
 
-cu.close()
+cr.close()
 cx.close()
 ```
 
@@ -72,7 +72,7 @@ También tenemos la posibilidad de pasar un segundo parámetro que debe recibir 
 import sqlite3
 
 cx = sqlite3.connect("./main.db")
-cu = cx.cursor()
+cr = cx.cursor()
 
 sql: str = """
 INSERT INTO users (firstName, lastName)
@@ -82,14 +82,53 @@ VALUES (?, ?);
 # Se crea la tupla conlos parámetros
 parameters: tuple = ("Adelio", None)
 
-cu.execute(sql, parameters)
+cr.execute(sql, parameters)
 
 cx.commit()
 
-cu.close()
+cr.close()
 cx.close()
 ```
 
-### EXECUTEMANY
+### EXECUTEMAY
+
+> [!abstract] SINTAXIS
+> executemany(***\[sql\]\{***, ***\[parameters\]\}***)
 
 ### EXECUTESCRIPT
+
+Para ejecutar un script de [**SQLite3**](../../db/sql/sqlite3/sqlite3.md) con varias sentencias se usa el [método](../class/py_methods.md) `executescript`; este recibe un único argumento de tipo [string](../py_str.md) con el script en cuestión.
+
+> [!abstract] SINTAXIS
+> executescript(***\[sql\]***)
+
+```python
+import sqlite3
+
+sql = """
+CREATE TABLE users (
+    id   INTEGER PRIMARY KEY,
+    name TEXT    NOT NULL,
+    age  INTEGER
+);
+
+INSERT INTO users (name, age)
+VALUES
+    ('Adelio', 20),
+    ('Adelia', 22);
+"""
+
+cx = sqlite3.connect("main.db")
+
+cx.executescript(sql)
+
+cx.close()
+```
+
+## OBTENCIÓN DE DATOS
+
+### FETCHONE
+
+### FETCHMANY
+
+### FETCHALL

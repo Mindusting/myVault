@@ -19,7 +19,7 @@ title: Ubuntu
 
 ---
 
-[Terminal](../../Terminal_control/tc.md)
+[Terminal](../../tc/tc.md)
 [Servidor Ubuntu](ubuntu_server.md)
 [Comandos de Ubuntu](ubuntu_commands.md)
 [Sistema de archivos](ubuntu_file_system.md)

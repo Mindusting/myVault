@@ -8,6 +8,10 @@ title: Clase Tk Python
 
 # CLASE TK EN TKINTER
 
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+> > - [ ] Documentar como centrar la ventana en la pantalla.
+
 > [!important] IMPORTANTE
 > La [clase](../py_class.md) `Tk` es la encargada de crear la ventana que usaremos para mostrar información, en mucha de la documentación que podrás encontrar por internet que enseñan a usar esta [clase](../py_class.md) de forma directa, en esta documentación no se mostrará así, ya que para hacer pruebas o proyectos pequeños puede venir bien, pero si tu intención es escalarlo a un programa más complejo, el orden y claridad del código es importante, para ello haremos uso de la [herencia](../class/py_inheritance.md) entre [clases](../py_class.md), por lo que si no entiendes bien estos conceptos, te recomiendo que primero consultes al documentación de este mismo tema.
 
@@ -98,7 +102,7 @@ Al ejecutar este programa, nos tiene que aparecer una ventana pequeña y cuadrad
 
 ### BUCLE PRINCIPAL DE UNA VENTANA
 
-Cuando terminamos de crear una ventana indicando todas las cosas que queremos que aparezcan en ella, tenemos que llamar al [método](../class/py_method.md) `mainloop`, este hará que se pare la ejecución de nuestro código ya que se mantendrá actualizando la ventana, comprobando si el usuario interactúa con ella, esto ocurrirá hasta que el usuario cierre la ventana, a partir de ahí, nuestro código continuará ejecutándose.
+Cuando terminamos de crear una ventana indicando todas las cosas que queremos que aparezcan en ella, tenemos que llamar al [método](../class/py_methods.md) `mainloop`, este hará que se pare la ejecución de nuestro código ya que se mantendrá actualizando la ventana, comprobando si el usuario interactúa con ella, esto ocurrirá hasta que el usuario cierre la ventana, a partir de ahí, nuestro código continuará ejecutándose.
 
 ```python
 import tkinter as tk
@@ -127,7 +131,7 @@ if "__main__" == __name__:
 
 ## GEOMETRÍA DE LA VENTANA
 
-Para cambiar el **tamaño** y/o **posición** de la ventana se usa el [método](../class/py_method.md) `geometry`, esta recibe un argumento de tipo [`str`](../py_str.md) con las **medidas** y/o **posición** en píxeles de la ventana.
+Para cambiar el **tamaño** y/o **posición** de la ventana se usa el [método](../class/py_methods.md) `geometry`, esta recibe un argumento de tipo [`str`](../py_str.md) con las **medidas** y/o **posición** en píxeles de la ventana.
 
 Para indicar el tamaño de la ventana se hace siguiendo la siguiente sintaxis; en donde se indica el número de píxelex de ancho y alto separados por una `x`:
 
@@ -174,7 +178,7 @@ if "__main__" == __name__:
 
 ## REDIMENSIONABILIDAD
 
-La redimensionabilidad de una venta indica si esta puede cambiar de tamaño tanto en el eje `X` como en el `Y`; por ello para indicar que ejes queremos permitir que cambien de tamaño o no, lo haremos con el [método](../class/py_method.md) `resizable`; este recibe dos argumentos de tipo [bool](../py_bool.md), indicando primero el eje `X` y luego el `Y`.
+La redimensionabilidad de una venta indica si esta puede cambiar de tamaño tanto en el eje `X` como en el `Y`; por ello para indicar que ejes queremos permitir que cambien de tamaño o no, lo haremos con el [método](../class/py_methods.md) `resizable`; este recibe dos argumentos de tipo [bool](../py_bool.md), indicando primero el eje `X` y luego el `Y`.
 
 ```python
 import tkinter as tk
@@ -202,7 +206,7 @@ if "__main__" == __name__:
 
 ## TÍTULO DE LA VENTAN
 
-Para indicar el título que queremos que tenga nuestra ventana tendremos que usar el [método](../class/py_method.md) `title`; este recibe un argumento de tipo [`str`](../py_str.md) con el título en cuestión.
+Para indicar el título que queremos que tenga nuestra ventana tendremos que usar el [método](../class/py_methods.md) `title`; este recibe un argumento de tipo [`str`](../py_str.md) con el título en cuestión.
 
 ```python
 import tkinter as tk
@@ -228,13 +232,13 @@ if "__main__" == __name__:
 
 ## ICONO DE LA VENTANA
 
-Dependiendo de si queremos establecer una imagen como icono o un archivo de tipo `.ico`, tendremos que usar un [método](../class/py_method.md) distinto.
+Dependiendo de si queremos establecer una imagen como icono o un archivo de tipo `.ico`, tendremos que usar un [método](../class/py_methods.md) distinto.
 
-Para los archivo `.ico` se usa el [método](../class/py_method.md) `iconbitmap`; este recibe un argumento de tipo [`str`](../py_str.md) con la ruta de en donde se encuentra el archivo.
+Para los archivo `.ico` se usa el [método](../class/py_methods.md) `iconbitmap`; este recibe un argumento de tipo [`str`](../py_str.md) con la ruta de en donde se encuentra el archivo.
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 > #TODO
-> Para usar una imagen como icono tendremos que usar la [clase](../py_class.md) [`PhotoImage`](./py_tk_photoimage.md) y el [método](../class/py_method.md) `iconphoto`
+> Para usar una imagen como icono tendremos que usar la [clase](../py_class.md) [`PhotoImage`](./py_tk_photoimage.md) y el [método](../class/py_methods.md) `iconphoto`
 
 
 ## CONFIGURACIÓN
@@ -256,6 +260,6 @@ root.mainloop()
 > [!info] INFO
 > En vez de pasarle cada argumento mediante los argumentos connombre, se le puede pasar de forma directa un diccionario con la fonfiguración.
 
-Lista de atributos del [método](../class/py_method.md) `config`:
+Lista de atributos del [método](../class/py_methods.md) `config`:
 - `background`: Recibe un [`str`](../py_str.md) con el código hexadecimal con una almohadilla (***\#***) por delante, del color con el que se va a rellenar el fondo de la ventana.
 - `menu`: Recibe un objeto de tipo [`menu`](py_tk_menu.md).

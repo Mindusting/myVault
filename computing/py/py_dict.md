@@ -8,7 +8,12 @@ title: Diccionarios en Python
 
 # DICCIONARIOS
 
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+> > - [ ] Hacer una mejor documentación a cerca de los métodos que contiene la clase `dict`.
+
 > [!help]- REFERENCIAS WEB
+> - [Python doc (dict)](https://docs.python.org/3/library/functions.html#func-dict)
 > - [W3 (dict)](https://www.w3schools.com/python/python_dictionaries.asp)
 > - [W3 (dict methods)](https://www.w3schools.com/python/python_ref_dictionary.asp)
 
@@ -96,7 +101,7 @@ print(x)
 # {'age': 20}
 ```
 
-# MÉTODOS
+## MÉTODOS
 
 - `clear`: Bacía el diccionario.
 - `copy`: Crea una copia del diccionario.
@@ -109,3 +114,28 @@ print(x)
 - `setdefault`: Devuelve el `value` de la `key` indicada, si esta no existe crea un nuevo `item` con la `key` y el `value` indicado y devuelve el `value` indicado.
 - `update`: Añade el diccionario indicado.
 - `values`: Devuelve un objeto de tipo `dict_values`, este puede ser transformado en una lista con los `value` del diccionario.
+
+## MÉTODOS PROPIOS
+
+### CONTADOR DE VALORES
+
+```py
+def value_counter(arr: list | tuple) -> dict:
+    res = dict()
+
+    if type(arr) != type(list()):
+        arr = list(arr)
+
+    for _ in range(len(arr)):
+        key = arr.pop()
+        value = res.setdefault(key, 0)
+        res[key] = value + 1
+
+    return res
+
+
+t = (3, 2, 5, 3)
+print(value_counter(t))
+# SALIDA:
+# {3: 2, 5: 1, 2: 1}
+```

@@ -6,7 +6,7 @@ tags:
 title: Módulo TKinter en Python
 ---
 
-# TKINTER
+# TKINTER EN PYTHON
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 > > [!todo] #TODO
@@ -50,18 +50,18 @@ Una vez hayamos importado **TKinter**, podremos crear una ventana con la [clase]
 - [Tk](./py_tk_tk.md)
 - [PhotoImage](py_tk_photoimage.md)
 
-%%
+## WIDGETS
+
 [Widget](py_tk_widget.md)
 
-- [Label](ttk/py_ttk_label.md)
-- [Entry](ttk/py_ttk_entry.md)
+- [Label](py_tk_label.md)
+- [Entry](py_tk_entry.md)
 - [Button](py_tk_button.md)
 - [Frame](py_tk_frame.md)
 - [Text](py_tk_text.md)
 - [Menu](py_tk_menu.md)
-- [ComboBox](ttk/py_ttk_combobox.md)
-- [Scrollbar](ttk/py_ttk_scrollbar.md)
-%%
+- [Lista](py_tk_listbox.md)
+^widgets-list
 
 ## OTROS SUBMÓDULOS
 

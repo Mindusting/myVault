@@ -9,7 +9,7 @@ title: XSD
 # XSD
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
-> > [!todo]
+> > [!todo] #TODO
 
 > [!help]- REFERENCIAS WEB
 > - [W3 Schools](https://www.w3schools.com/xml/schema_intro.asp)

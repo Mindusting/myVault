@@ -19,3 +19,9 @@ title: Widgets en el módulo TKinter en Python
 - `place`.
 
 ## MÉTODO GRID
+
+- `column`
+- `row`
+- `columnspan`
+- `rowspan`
+- `sticky`

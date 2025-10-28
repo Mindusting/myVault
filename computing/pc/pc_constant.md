@@ -6,4 +6,5 @@ tags:
 title: Contantes en la programación
 ---
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO

@@ -10,11 +10,14 @@ title: GUI en Java
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 > > [!todo] #TODO
-> > - [ ] Documentar [Swing](swing/java_swing.md).
+> > - [ ] Documentar [Swing](packages/javax/swing/java_swing.md).
 
 > [!help]- REFERENCIAS WEB
 > - [geeksforgeeks](https://www.geeksforgeeks.org/java-jframe/)
 
+- [Swing](packages/javax/swing/java_swing.md)
+
+%%
 Para crear un entorno gráfico usamos las librerías `javax.swing` y `java.awt`, dentro de estas podemos encontrar las [clases](java_class.md) necesarias para trabajar con entornos gráficos.
 
 ```java
@@ -127,3 +130,4 @@ window.add(label);
 
 //window.getContentPane().setBackground(new Color(0xffaacc));
 ```
+%%

@@ -10,3 +10,12 @@ title: Herencia en Java
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 > > [!todo] #TODO
+
+> [!help]- REFERENCIAS WEB
+> - [W3 Schools (Herencia)](https://www.w3schools.com/java/java_inheritance.asp)
+
+```java
+class Veicle {}
+
+class Car extends Veicle {}
+```

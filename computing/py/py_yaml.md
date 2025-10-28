@@ -1,12 +1,20 @@
 ---
 author: Mindusting
-corrected: true
+corrected: false
 tags:
   - Programming/Python/YAML
 title: YAML en Python
+rating: 0.75
 ---
 
 # YAML EN PYTHON
+
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
+> > - [ ] Documentar los argumentos de la función `dump`.
+> >     - [ ] `short_keys=False`: Evita que las claves se ordenen alfabéticamente.
+> >     - [ ] `default_flow_style=False`: Usa formato multilínea legible.
+> >     - [ ] `allow_unicode=True`: Permite caracteres especiales en texto.
 
 > [!help]- REFERENCIAS WEB
 > - [Pypi](https://pypi.org/project/PyYAML/)
@@ -28,7 +36,7 @@ pip install PyYAML
 
 ## DE YAML A PYTHON
 
-Para transformar un [`str`](py_str.md) con información en formato `YAML` en un [diccionario](py_dict.md) y/o [lista](py_list.md), tendremos que hacer uso de la [función](py_function.md) `safe_load.
+Para transformar un [`str`](py_str.md) con información en formato `YAML` en un [diccionario](py_dict.md) y/o [lista](py_list.md), tendremos que hacer uso de la [función](py_func.md) `safe_load.
 
 ```python
 import yaml
@@ -74,7 +82,7 @@ print(data)
 
 ## DE PYTHON A YAML
 
-Para transformar un [diccionario](py_dict.md) y/o [lista](py_list.md) en un [`str`](py_str.md) con información en formato `YAML`, tendremos que hacer uso de la [función](py_function.md) `dump.
+Para transformar un [diccionario](py_dict.md) y/o [lista](py_list.md) en un [`str`](py_str.md) con información en formato `YAML`, tendremos que hacer uso de la [función](py_func.md) `dump.
 
 ```python
 import yaml

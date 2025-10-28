@@ -52,7 +52,7 @@ Para poder escribir el **patrón** de una [expresión regular](../regex/regex.md
 
 ## COINCIDENCIA COMPLETA
 
-Para comprobar si un texto completo coincide con el patrón se utiliza la [función](py_function.md) `fullmatch`, esta devuelve un [objeto](py_class.md) de tipo [`Match`](#CLASE%20MATCH) cuando coincide o un `None` cuando no.
+Para comprobar si un texto completo coincide con el patrón se utiliza la [función](py_func.md) `fullmatch`, esta devuelve un [objeto](py_class.md) de tipo [`Match`](#CLASE%20MATCH) cuando coincide o un `None` cuando no.
 
 > [!abstract] SINTAXIS
 > match(***\[pattern\]***, ***\[string\]***, ***[\{flags\}](#FLAGS)***)
@@ -68,7 +68,7 @@ Para comprobar si un texto completo coincide con el patrón se utiliza la [funci
 
 ## ENCONTRAR TODO
 
-La [función](py_function.md) `findall` devuelve una [lista](py_list.md) con [strings](py_str.md), siendo estos un extracto del [strings](py_str.md) original, el criterio para encontrarlo se indica en *pattern* con una [expresión regular](#REGEX).
+La [función](py_func.md) `findall` devuelve una [lista](py_list.md) con [strings](py_str.md), siendo estos un extracto del [strings](py_str.md) original, el criterio para encontrarlo se indica en *pattern* con una [expresión regular](#REGEX).
 
 - Es el inverso de [`split`](#TROCEADO).
 - Si no se encuentra ninguna coincidencia, devuelve una [lista](py_list.md) vacía.
@@ -100,7 +100,7 @@ for match in matches:
 
 ## TROCEADO
 
-La [función](py_function.md) `split` devuelve una [lista](py_list.md) con [strings](py_str.md), siendo estos un extracto del [strings](py_str.md) original, el criterio para dividirlo se indica en *pattern* con una [expresión regular](#REGEX).
+La [función](py_func.md) `split` devuelve una [lista](py_list.md) con [strings](py_str.md), siendo estos un extracto del [strings](py_str.md) original, el criterio para dividirlo se indica en *pattern* con una [expresión regular](#REGEX).
 
 - Es el inverso de [`findall`](#ENCONTRAR%20TODO).
 
@@ -146,7 +146,7 @@ for i, paragraph in enumerate(paragraphs):
 
 ## SUSTITUCIÓN
 
-La [función](py_function.md) `sub` sustituye los patrones que encuentre en el texto que le proveamos por otro que también le tendremos que proveer.
+La [función](py_func.md) `sub` sustituye los patrones que encuentre en el texto que le proveamos por otro que también le tendremos que proveer.
 
 > [!abstract] SINTAXIS
 > sub(***\[pattern\]***, ***\[repl\]***, ***\[string\]***, ***\{counts\}***, ***[\{flags\}](#FLAGS)***)

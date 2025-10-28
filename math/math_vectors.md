@@ -9,8 +9,9 @@ title: Vectores
 # VECTORES
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
 
-> [!help] REFERENCIAS WEB
+> [!help]- REFERENCIAS WEB
 > YouTube:
 > - [3Blue1Brown (Essence of linear algebra)](https://youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&si=9YzrArg_yeN4oTzZ)
 > - [El traductor de ingeniería (Vectors)](https://youtu.be/eXA4806YuqY)

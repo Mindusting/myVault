@@ -7,9 +7,10 @@ tags:
   - Programming/Python/Module
   - Programming/Python/GetPass
 title: Módulo GetPass en Python
+rating: 0.75
 ---
 
-# GETPASS
+# GETPASS EN PYTHON
 
 Para poder obtener contraseñas por parte del usuario de una forma más segura podemos usar el módulo `getpass`, este permitirá que el usuario escriba la contraseña por el terminal sin que se muestre lo que esté escribiendo.
 

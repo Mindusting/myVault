@@ -213,10 +213,10 @@ En el siguiente ejemplo podemos ver dos tablas que están relacionadas, que nos 
 
 **Departamentos:**
 
-| NumDep | NomDep           | LocDep |
-|:------:|:---------------- |:------ |
-|   1    | Recursos humanos | Bilbao |
-|   2    | Central          | Madrid |
+| NumDep | NomDep           | LocDep    |
+|:------:|:---------------- |:--------- |
+|   1    | Recursos humanos | Barcelona |
+|   2    | Central          | Madrid    |
 
 **Empleados:**
 

@@ -25,7 +25,8 @@ title: Binary
 
 El binario no es más que sistema de enumeración.
 
-> [!fail] ESTE APARTADO ESTÁ INCOMPLETO
+> [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
+> > [!todo] #TODO
 
 ## UNIDADES
 
@@ -35,7 +36,7 @@ El binario no es más que sistema de enumeración.
 | MegaByte  |  MB  | MebiByte | MiB  | Megabit  |  Mb  | Mebibit | Mib  |
 | GigaByte  |  GB  | GibiByte | GiB  | Gigabit  |  Gb  | Gibibit | Gib  |
 | TeraByte  |  TB  | TebiByte | TiB  | Terabit  |  Tb  | Tebibit | Tib  |
-| PetaByte  |  PT  | PebiByte | PiB  | Petabit  |  Pb  | Pebibit | Pib  |
+| PetaByte  |  PB  | PebiByte | PiB  | Petabit  |  Pb  | Pebibit | Pib  |
 | ExaByte   |  EB  | ExbiByte | EiB  | Exabit   |  Eb  | Exbibit | Eib  |
 | ZettaByte |  ZB  | ZebiByte | ZiB  | Zettabit |  Zb  | Zebibit | Zib  |
 | YottaByte |  YB  | YobiByte | YiB  | Yottabit |  Yb  | Yobibit | Yib  |
@@ -62,6 +63,8 @@ La puerta lógica **NOT** está compuesta por una entrada y una salida.
 
 ### OR
 
+![#logo](img/or.md)
+
 | A | B | S |
 |:-:|:-:|:-:|
 | 0 | 0 | 0 |
@@ -71,7 +74,7 @@ La puerta lógica **NOT** está compuesta por una entrada y una salida.
 
 ### XOR
 
-![](../../img/logic_gate_xor.png)
+![#logo](../../img/logic_gate_xor.png)
 
 >[!note]
 >Si el número de inputs es par, las reglas son las siguientes:

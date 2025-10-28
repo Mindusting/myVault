@@ -6,7 +6,7 @@ tags:
 title: Listas en Python
 ---
 
-# LIST
+# LISTAS EN PYTHON
 
 > [!fail]- ESTE APARTADO ESTÁ INCOMPLETO
 > > [!todo] #TODO
@@ -23,7 +23,7 @@ title: Listas en Python
 
 Para declarar una **lista** en Python se puede hacer de dos forma, de forma *literal* o a través de la [clase](py_class.md) `list`.
 
-## DECRARACIÓN LITERAL
+## DECLARACIÓN LITERAL
 
 ```python
 # Se declara la lista de forma literal.
@@ -52,6 +52,10 @@ l0: list = [0] * 3
 l1: list = list(range(3)) # [range(3)]
 l2: list = [i for i in range(3)]
 ```
+
+## AÑADIR ELEMENTOS
+
+Para añadir elementos a una **lista** se usa el [método](class/py_methods.md) `append`
 
 ## MÉTODOS
 

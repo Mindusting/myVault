@@ -15,7 +15,7 @@ title: OS
 - [Linux](./linux/linux.md)
     - [Arch](./linux/arch/arch.md)
     - [Ubuntu](linux/ubuntu/ubuntu.md)
-- [Windows](Windows/windows.md)
+- [Windows](windows/windows.md)
 
 ---
 
