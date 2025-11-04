@@ -14,6 +14,9 @@ title: Enumeradores en TypeScript
 > > - [ ] Explicar como darle los valores queramos.
 > > - [ ] Documentar los valores personalizados.
 
+> [!help]- REFERENCIAS WEB
+> - [W3 Schools (Enum)](https://www.w3schools.com/typescript/typescript_enums.php)
+
 > [!faq]- FAQ
 > - [¿Qué son los enumeradores en programación?](../pc/pc_enum.md)
 

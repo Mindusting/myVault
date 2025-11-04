@@ -120,7 +120,7 @@ Si quieres más información o documentación más antigua hecha en google docum
 - [XML](computing/xml/xml.md)
 - [YAML](computing/yaml/yaml.md)
 - [Expresiones regulares](computing/regex/regex.md)
-- [Algoritmos para ordenar datos](computing/sort/sort.md)
+- [Algoritmos para ordenar datos](computing/pc/pc_sorting_algorithm.md)
 - [Brainfuck](dump/brainfuck.md)
 - [Godot](computing/godot/godot.md)
 

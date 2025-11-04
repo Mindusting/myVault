@@ -37,6 +37,8 @@ title: Java
 - [AGRACEDIMIENTOS 🎉](java_thanks_to.md)
 - [PRÓLOGO 🧭](java_prologue.md)
 - [ARCHIVOS DE JAVA 📄](java_files.md)
+- [MÉTODO MAIN](java_main_method.md)
+- [EJECUCIÓN DE JAVA](java_javac.md)
 - [COMENTARIOS 💬](java_comments.md)
 - [VARIABLES 💾](java_variable.md)
     - [STRING](data_types/java_string.md)

@@ -27,12 +27,18 @@ El tipo de dato de una **variable** indica que es capaz de guardar la **variable
 - [INTERFACES](ts_interface.md)
 - [CLASES Y OBJETOS](ts_class.md)
 
-### TIPOS DE DATOS BÁSICOS
+### BOOLEAN
 
 - `boolean`:
     Las **variables** de tipo `boolean` son capaces de guardar un valor entre *verdadero* (*`true`*) y *falso* (*`false`*).
+
+### NUMBER
+
 - `number`:
     Las **variables** de tipo `number` son capaces de guardar tanto números ente como decimales.
+
+### STRING
+
 - `string`:
     Las **variables** de tipo `string` (*cadena*) son capaces de guardar *cadenas de caracteres* (*texto*).
 

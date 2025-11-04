@@ -12,7 +12,7 @@ title: Mermaid
 > > [!todo] #TODO
 
 > [!help]- REFERENCIAS WEB
-> - [Mermaid doc](https://mermaid.js.org/syntax/flowchart.html)
+> - [Mermaid doc](https://mermaid.js.org/intro/)
 
 ## ÍNDICE
 
@@ -26,3 +26,4 @@ title: Mermaid
 - [Diagrama kanban](mermaid_kanban.md)
 - [Diagrama de radar](mermaid_radar.md)
 - [Diagrama XY Chart](mermaid_xychart.md)
+- [Diagrama de paquete](mermaid_packet.md)

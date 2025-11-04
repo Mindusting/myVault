@@ -14,5 +14,9 @@ title: Algoritmos para ordenar conjuntos de datos.
 > > - [ ] Documentar bubble sort.
 > > - [ ] Documentar merge sort.
 
-- [Bubble sort](sort_bubble.md)
-- [Merge sort](sort_merge.md)
+> [!help]- REFERENCIAS WEB
+> YouTube:
+> - [ForrestKnight](https://youtu.be/Uym4-KhP3Lc)
+
+- [Bubble sort](pc_bubble_sort.md)
+- [Merge sort](pc_merge_sort.md)

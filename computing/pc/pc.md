@@ -55,3 +55,6 @@ Si eres un nuevo programador esta es tu documentación.
 - [BUFFER](pc_buffer.md)
 - [EPOCH](pc_epoch.md)
 - [SINGLETON](pc_singleton.md)
+- [ALGORITMOS](pc_sorting_algorithm.md)
+    - [BUBBLE SORT](pc_bubble_sort.md)
+    - [MERGE SORT](pc_merge_sort.md)
